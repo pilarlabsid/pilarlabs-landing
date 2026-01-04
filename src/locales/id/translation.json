@@ -1,0 +1,652 @@
+{
+    "navbar": {
+        "home": "Beranda",
+        "about": "Tentang",
+        "services": "Layanan",
+        "caseStudies": "Portofolio",
+        "internship": "Magang",
+        "contact": "Kontak",
+        "startProject": "Mulai Proyek"
+    },
+    "hero": {
+        "title": "Fondasi Digital yang Kokoh.",
+        "subtitle": "Dapat Berkembang. Berkelanjutan. Terstruktur.",
+        "description": "Pilar Labs membangun website yang kuat, mudah dikembangkan, dan siap mendukung bisnis Anda bertumbuh.",
+        "startProject": "Mulai Proyek",
+        "viewWork": "Lihat Portfolio"
+    },
+    "positioning": {
+        "title": "Infrastruktur, Bukan Sekadar Tampilan.",
+        "description": "Website Anda adalah <strong>Aset Digital</strong>. Kami membangun fondasi yang siap bertumbuh, bukan solusi sementara.",
+        "highlight": "Aset Digital"
+    },
+    "trustedBy": {
+        "badge": "Dipercaya Oleh",
+        "title": "Partner Perusahaan yang Berpikir Jangka Panjang",
+        "description": "Bergabung dengan bisnis yang membangun website sebagai keunggulan kompetitif.",
+        "cta": "Kisah pertumbuhan Anda dimulai dari fondasi yang kuat",
+        "ctaLink": "Mari bicara"
+    },
+    "problem": {
+        "title": "Masalah Teknis yang Menghambat Pertumbuhan",
+        "subtitle": "Tiga tantangan bisnis digital yang kami selesaikan.",
+        "items": {
+            "scale": {
+                "title": "Arsitektur yang Rapuh",
+                "description": "Setiap fitur baru berisiko error. Developer sulit memahami struktur kode."
+            },
+            "structure": {
+                "title": "Pemeliharaan yang Tidak Efisien",
+                "description": "Masalah teknis menumpuk. Perubahan kecil memakan waktu lama."
+            },
+            "direction": {
+                "title": "Teknologi Tanpa Strategi",
+                "description": "Solusi canggih tanpa selaras dengan tujuan bisnis."
+            }
+        }
+    },
+    "services": {
+        "title": "Pendekatan Terbukti, Eksekusi Terukur",
+        "subtitle": "Solusi website yang dirancang untuk kebutuhan bisnis Anda",
+        "items": {
+            "landing": {
+                "title": "Landing Page",
+                "description": "Halaman konversi tinggi untuk kampanye marketing dan peluncuran produk.",
+                "features": {
+                    "fast": "Loading Cepat",
+                    "conversion": "Optimasi Konversi",
+                    "analytics": "Analytics Terintegrasi"
+                }
+            },
+            "companyProfile": {
+                "title": "Company Profile",
+                "description": "Website perusahaan profesional untuk membangun kredibilitas bisnis.",
+                "features": {
+                    "pages": "5-10 Halaman",
+                    "cms": "Content Management",
+                    "multilang": "Multi-bahasa"
+                }
+            },
+            "ecommerce": {
+                "title": "E-commerce",
+                "description": "Toko online lengkap dengan sistem pembayaran dan manajemen produk.",
+                "features": {
+                    "catalog": "Katalog Produk",
+                    "payment": "Payment Gateway",
+                    "admin": "Dashboard Admin"
+                }
+            }
+        },
+        "learnMore": "Lihat Semua Layanan"
+    },
+    "pillars": {
+        "title": "Empat Pilar",
+        "items": {
+            "foundation": {
+                "title": "Fondasi",
+                "description": "Struktur sistem yang stabil dan andal."
+            },
+            "clarity": {
+                "title": "Kejelasan",
+                "description": "Pesan yang jelas, UX, dan arsitektur."
+            },
+            "progress": {
+                "title": "Pertumbuhan",
+                "description": "Modular, dapat berkembang, dan siap masa depan."
+            },
+            "precision": {
+                "title": "Detail",
+                "description": "Perhatian pada detail dan kualitas eksekusi."
+            }
+        }
+    },
+    "process": {
+        "title": "Metodologi Blueprint",
+        "subtitle": "Proses engineering tervalidasi untuk hasil berkualitas tinggi.",
+        "steps": {
+            "discovery": {
+                "title": "Discovery",
+                "description": "Memahami tujuan bisnis dan masalah yang Anda hadapi."
+            },
+            "strategy": {
+                "title": "Strategi",
+                "description": "Merancang arsitektur informasi dan roadmap yang jelas."
+            },
+            "design": {
+                "title": "Desain",
+                "description": "Membuat sistem visual dan user experience."
+            },
+            "development": {
+                "title": "Development",
+                "description": "Membangun sistem dengan kode yang bersih dan terstruktur."
+            },
+            "launch": {
+                "title": "Peluncuran",
+                "description": "Deployment, testing, dan quality assurance final."
+            },
+            "improvement": {
+                "title": "Peningkatan",
+                "description": "Optimisasi berkelanjutan berdasarkan data pengguna."
+            }
+        }
+    },
+    "finalCta": {
+        "title": "Dimulai dengan Benar. Bertahan Selamanya.",
+        "subtitle": "Website yang relevan 5 tahun lebih berharga daripada yang trending 5 hari.",
+        "button": "Konsultasi Gratis"
+    },
+    "footer": {
+        "tagline": "Partner Fondasi Digital untuk Perusahaan yang Visioner.",
+        "company": {
+            "title": "Perusahaan",
+            "aboutUs": "Tentang Kami",
+            "services": "Layanan",
+            "caseStudies": "Portofolio",
+            "internship": "Magang"
+        },
+        "contact": {
+            "title": "Kontak"
+        },
+        "legal": {
+            "title": "Legal",
+            "privacy": "Kebijakan Privasi",
+            "terms": "Syarat Layanan",
+            "getInTouch": "Hubungi Kami"
+        },
+        "copyright": "PT Pilar Inovasi Teknologi. Hak cipta dilindungi.",
+        "taglineBottom": "Fondasi Kuat. Bisnis Melesat."
+    },
+    "about": {
+        "pageHeader": {
+            "badge": "Tentang Pilar Labs",
+            "title": "Arsitek Digital Anda",
+            "description": "Kami fokus pada yang penting. Setiap elemen punya tujuan. Kesuksesan kami diukur dari website yang stabil, struktur yang kuat, dan bisnis yang terus bertumbuh."
+        },
+        "philosophy": {
+            "title": "Strategi. Struktur. Skalabilitas.",
+            "content": "Di Pilar Labs, kami posisi diri sebagai Digital Architect—partner yang bangun fondasi digital berkelanjutan, bukan solusi sementara."
+        },
+        "story": {
+            "title": "Cerita Kami",
+            "content": [
+                "Setelah bertahun-tahun melihat perusahaan terjebak dengan website yang rapuh dan sulit dikembangkan, kami dirikan Pilar Labs dengan satu misi: <strong>bangun fondasi digital yang benar-benar solid</strong>.",
+                "Kami tolak filosofi \"move fast and break things\". Kami lebih percaya <span>\"build strong, scale smart\"</span>—dekati setiap proyek seperti arsitek yang rancang gedung, dengan perencanaan matang dan struktur kuat.",
+                "Setiap sistem yang kami rancang dibangun dengan standar engineering tertinggi: clean code, type safety, automated testing. Ini bukan pilihan, tapi <strong>fondasi</strong> dari cara kami bekerja."
+            ]
+        },
+        "values": {
+            "title": "Nilai Inti",
+            "subtitle": "Pilar yang menopang semua yang kami bangun.",
+            "items": {
+                "structured": {
+                    "title": "Pendekatan Terstruktur",
+                    "description": "Engineering terukur, bukan tebak-tebakan."
+                },
+                "longTerm": {
+                    "title": "Fokus Jangka Panjang",
+                    "description": "Siap bertumbuh untuk 5 tahun ke depan."
+                },
+                "excellence": {
+                    "title": "Keunggulan Teknis",
+                    "description": "Kode bersih & standar terbaik."
+                }
+            }
+        },
+        "founder": {
+            "name": "Ujang",
+            "role": "Direktur & Founder",
+            "company": "PT Pilar Inovasi Teknologi",
+            "commitment": {
+                "title": "Komitmen Kami",
+                "content": [
+                    "Kami percaya setiap bisnis layak dapat <strong>infrastruktur digital kelas dunia</strong>. Tidak ada alasan untuk puas dengan solusi setengah-setengah.",
+                    "Lewat Pilar Labs, kami komit jadi <span>partner terpercaya</span> bagi perusahaan yang mau bangun fondasi digital berkelanjutan—yang siap untuk 5 tahun ke depan, bukan cuma 5 bulan."
+                ],
+                "quote": "\"Fondasi kuat memungkinkan pertumbuhan berkelanjutan. Itu bukan cuma tagline kami—itu janji kami.\"",
+                "attribution": "— Ujang, Founder Pilar Labs"
+            }
+        },
+        "stats": {
+            "uptime": "Uptime",
+            "latency": "Latensi",
+            "typeSafe": "Type Safe",
+            "scale": "Scale"
+        }
+    },
+    "servicesPage": {
+        "seo": {
+            "title": "Layanan Development - Paket & Solusi Custom"
+        },
+        "pageHeader": {
+            "badge": "Layanan Kami",
+            "title": "Paket Layanan",
+            "description": "Solusi yang transparan, terstruktur, dan dapat berkembang. Pilih paket yang sesuai dengan tahap bisnis Anda."
+        },
+        "packages": {
+            "landing": {
+                "title": "Landing Page",
+                "subtitle": "Halaman Konversi Tinggi",
+                "description": "Halaman yang fokus, cepat, dan persuasif untuk mengubah pengunjung menjadi pelanggan.",
+                "features": [
+                    "Bantuan Copywriting",
+                    "Setup A/B Testing",
+                    "Integrasi Analytics",
+                    "Waktu Loading Cepat",
+                    "Desain Mobile-First",
+                    "Integrasi Lead Magnet"
+                ],
+                "idealFor": "Peluncuran Produk, Kampanye Marketing",
+                "cta": "Luncurkan Kampanye"
+            },
+            "companyProfile": {
+                "title": "Company Profile",
+                "subtitle": "Identitas Digital Profesional",
+                "description": "Website perusahaan yang membangun kredibilitas dan kepercayaan klien potensial Anda.",
+                "features": [
+                    "5-10 Halaman Custom",
+                    "Integrasi CMS (Sanity/WordPress)",
+                    "Dukungan Multi-bahasa",
+                    "Bagian Tim & Karir",
+                    "Siap Investor Relations",
+                    "Kepatuhan Panduan Brand"
+                ],
+                "idealFor": "B2B, Agensi, Konsultan",
+                "cta": "Bangun Kehadiran"
+            },
+            "ecommerce": {
+                "title": "E-commerce Website",
+                "subtitle": "Toko Online Profesional",
+                "description": "Platform penjualan online lengkap dengan sistem pembayaran dan manajemen produk.",
+                "features": [
+                    "Katalog Produk",
+                    "Payment Gateway",
+                    "Manajemen Inventory",
+                    "Dashboard Admin",
+                    "Sistem Pengiriman",
+                    "Customer Management"
+                ],
+                "idealFor": "Toko Online, Retail, UMKM",
+                "cta": "Mulai Jualan Online"
+            },
+            "webApp": {
+                "title": "Web Application",
+                "subtitle": "Sistem Custom untuk Bisnis",
+                "description": "Aplikasi web yang dibangun sesuai kebutuhan bisnis Anda dengan kode berkualitas.",
+                "features": [
+                    "Sistem Desain Custom",
+                    "Dashboard Interaktif",
+                    "User Authentication",
+                    "Database Integration",
+                    "API Development",
+                    "Dokumentasi Teknis"
+                ],
+                "idealFor": "Startup, Tech Companies, Enterprise",
+                "cta": "Mulai Pengembangan"
+            },
+            "blog": {
+                "title": "Blog/News Portal",
+                "subtitle": "Platform Konten & Berita",
+                "description": "Website berita atau blog dengan sistem manajemen konten yang mudah digunakan.",
+                "features": [
+                    "Content Management System",
+                    "Multi-author Support",
+                    "Kategori & Tagging",
+                    "SEO Optimization",
+                    "Social Media Integration",
+                    "Newsletter System"
+                ],
+                "idealFor": "Media, Publisher, Content Creator",
+                "cta": "Bangun Portal"
+            }
+        },
+        "mostPopular": "PALING POPULER",
+        "includes": "Termasuk:",
+        "idealFor": "Ideal untuk:",
+        "custom": {
+            "title": "Butuh Solusi Khusus?",
+            "description": "Kami memahami bahwa setiap bisnis punya kebutuhan unik. Mari diskusikan solusi yang tepat untuk Anda.",
+            "cta": "Konsultasi Gratis"
+        }
+    },
+    "contactPage": {
+        "pageHeader": {
+            "badge": "Hubungi Kami",
+            "title": "Mulai Proyek Anda",
+            "description": "Siap bangun fondasi digital yang kuat? Hubungi kami untuk konsultasi gratis."
+        },
+        "getInTouch": {
+            "title": "Hubungi Kami",
+            "subtitle": "Kami balas dalam 24 jam. Langsung dari tim engineers, bukan bot."
+        },
+        "info": {
+            "email": "Email",
+            "whatsapp": "WhatsApp",
+            "office": "Kantor",
+            "location": "Jakarta Selatan, Indonesia"
+        },
+        "form": {
+            "name": "Nama",
+            "email": "Email",
+            "projectType": "Jenis Proyek",
+            "message": "Pesan",
+            "namePlaceholder": "John Doe",
+            "emailPlaceholder": "john@company.com",
+            "messagePlaceholder": "Ceritakan tentang proyek Anda dan apa yang ingin dicapai...",
+            "submit": "Kirim Pesan",
+            "sending": "Mengirim...",
+            "projectOptions": {
+                "foundation": "Landing Page",
+                "structure": "Company Profile",
+                "ecommerce": "E-commerce / Toko Online",
+                "webApp": "Web Application",
+                "blog": "Blog / Portal Berita",
+                "other": "Lainnya / Konsultasi"
+            }
+        }
+    },
+    "internship": {
+        "pageHeader": {
+            "badge": "We're Hiring",
+            "title": "Program Magang",
+            "description": "Join tim Pilar Labs dan kickstart your career sebagai developer. Dapatkan real project experience, mentorship, dan build your portfolio."
+        },
+        "positions": {
+            "title": "Posisi yang Tersedia",
+            "subtitle": "Kami mencari talent muda yang passionate untuk join tim development kami",
+            "frontend": {
+                "title": "Frontend Developer",
+                "description": "Build modern, responsive user interfaces with React, TypeScript, dan Tailwind CSS",
+                "skills": [
+                    "React",
+                    "TypeScript",
+                    "HTML/CSS",
+                    "Git"
+                ]
+            },
+            "backend": {
+                "title": "Backend Developer",
+                "description": "Develop scalable APIs dan server-side applications dengan Node.js atau Python",
+                "skills": [
+                    "Node.js/Python",
+                    "REST API",
+                    "Database",
+                    "Git"
+                ]
+            },
+            "fullstack": {
+                "title": "Full-Stack Developer",
+                "description": "Work on both frontend dan backend untuk membangun complete web applications",
+                "skills": [
+                    "React",
+                    "Node.js",
+                    "Database",
+                    "TypeScript"
+                ]
+            },
+            "uiux": {
+                "title": "UI/UX Designer",
+                "description": "Design beautiful dan user-friendly interfaces menggunakan Figma",
+                "skills": [
+                    "Figma",
+                    "Design Systems",
+                    "Prototyping",
+                    "User Research"
+                ]
+            }
+        },
+        "requirements": {
+            "title": "Requirements",
+            "items": [
+                "Mahasiswa aktif (minimal semester 3) atau fresh graduate",
+                "Passionate tentang programming dan web development",
+                "Punya basic understanding tentang posisi yang diminati",
+                "Mampu commit minimal 20 jam/minggu untuk 3-6 bulan",
+                "Self-driven dan eager to learn",
+                "Portfolio atau project sebelumnya (GitHub, Behance, dll)"
+            ]
+        },
+        "benefits": {
+            "title": "What You'll Get",
+            "subtitle": "Program magang kami dirancang untuk accelerate your learning dan career growth",
+            "mentorship": {
+                "title": "Mentorship",
+                "description": "Bimbingan langsung dari senior developers berpengalaman"
+            },
+            "projects": {
+                "title": "Real Projects",
+                "description": "Kerja di project production yang digunakan oleh real users"
+            },
+            "certificate": {
+                "title": "Certificate",
+                "description": "Sertifikat completion setelah menyelesaikan program"
+            },
+            "flexible": {
+                "title": "Flexible Hours",
+                "description": "Jadwal flexible, cocok untuk mahasiswa"
+            }
+        },
+        "process": {
+            "title": "Application Process",
+            "subtitle": "Simple dan straightforward process",
+            "apply": {
+                "title": "Apply",
+                "description": "Kirim CV dan portfolio via email atau form"
+            },
+            "review": {
+                "title": "Review",
+                "description": "Tim kami review aplikasi kamu (1-2 minggu)"
+            },
+            "interview": {
+                "title": "Interview",
+                "description": "Technical interview dan culture fit  discussion"
+            },
+            "onboarding": {
+                "title": "Onboarding",
+                "description": "Welcome aboard! Start your journey dengan kami"
+            }
+        },
+        "cta": {
+            "title": "Ready to Start Your Journey?",
+            "description": "Kirim aplikasi kamu sekarang dan join Pilar Labs sebagai intern developer",
+            "emailButton": "Apply via Email",
+            "whatsappButton": "Chat via WhatsApp",
+            "contact": "Atau hubungi kami di"
+        }
+    },
+    "caseStudies": {
+        "pageHeader": {
+            "badge": "Karya Kami",
+            "title": "Portofolio",
+            "description": "Lihat bagaimana kami membangun fondasi digital yang kuat untuk berbagai klien di berbagai industri."
+        },
+        "filters": {
+            "all": "Semua",
+            "webApp": "Web App",
+            "landingPage": "Landing Page",
+            "mobileApp": "Mobile App"
+        },
+        "labels": {
+            "client": "Klien",
+            "industry": "Industri",
+            "year": "Tahun",
+            "technologies": "Teknologi",
+            "challenge": "Tantangan",
+            "solution": "Solusi",
+            "results": "Hasil",
+            "viewProject": "Lihat Project"
+        },
+        "empty": {
+            "title": "Tidak Ada Project",
+            "description": "Belum ada project di kategori ini."
+        }
+    },
+    "privacy": {
+        "pageHeader": {
+            "badge": "Legal",
+            "title": "Kebijakan Privasi",
+            "description": "Cara kami mengumpulkan, menggunakan, dan melindungi informasi Anda."
+        },
+        "lastUpdated": "Terakhir diperbarui:",
+        "sections": {
+            "collection": {
+                "title": "1. Informasi yang Kami Kumpulkan",
+                "intro": "Kami mengumpulkan informasi yang Anda berikan langsung kepada kami, termasuk:",
+                "items": [
+                    "Nama, alamat email, dan nomor telepon",
+                    "Informasi perusahaan dan detail bisnis",
+                    "Persyaratan dan preferensi proyek",
+                    "Riwayat komunikasi dan korespondensi"
+                ]
+            },
+            "usage": {
+                "title": "2. Cara Kami Menggunakan Informasi Anda",
+                "intro": "Kami menggunakan informasi yang kami kumpulkan untuk:",
+                "items": [
+                    "Menyediakan, memelihara, dan meningkatkan layanan kami",
+                    "Memproses permintaan Anda dan berkomunikasi dengan Anda",
+                    "Mengirimkan pemberitahuan teknis dan pesan dukungan",
+                    "Merespons pertanyaan Anda dan memberikan layanan pelanggan",
+                    "Menganalisis pola penggunaan dan mengoptimalkan pengalaman pengguna"
+                ]
+            },
+            "sharing": {
+                "title": "3. Berbagi Informasi",
+                "intro": "Kami tidak menjual, memperdagangkan, atau menyewakan informasi pribadi Anda kepada pihak ketiga. Kami hanya dapat membagikan informasi Anda dalam keadaan berikut:",
+                "items": [
+                    "Dengan persetujuan eksplisit Anda",
+                    "Untuk mematuhi kewajiban hukum",
+                    "Dengan penyedia layanan tepercaya yang membantu operasi kami",
+                    "Untuk melindungi hak kami dan mencegah penipuan"
+                ]
+            },
+            "security": {
+                "title": "4. Keamanan Data",
+                "content": "Kami menerapkan langkah-langkah teknis dan organisasi yang sesuai untuk melindungi informasi pribadi Anda dari akses, perubahan, pengungkapan, atau pemusnahan yang tidak sah. Namun, tidak ada metode transmisi melalui internet yang 100% aman."
+            },
+            "rights": {
+                "title": "5. Hak Anda",
+                "intro": "Anda berhak untuk:",
+                "items": [
+                    "Mengakses dan menerima salinan data pribadi Anda",
+                    "Meminta koreksi atas informasi yang tidak akurat",
+                    "Meminta penghapusan data pribadi Anda",
+                    "Menarik persetujuan kapan saja",
+                    "Mengajukan keluhan kepada otoritas pengawas"
+                ]
+            },
+            "cookies": {
+                "title": "6. Cookie dan Pelacakan",
+                "content": "Kami menggunakan cookie dan teknologi pelacakan serupa untuk melacak aktivitas di website kami dan menyimpan informasi tertentu. Anda dapat menginstruksikan browser Anda untuk menolak semua cookie atau untuk menunjukkan kapan cookie dikirim."
+            },
+            "changes": {
+                "title": "7. Perubahan pada Kebijakan Ini",
+                "content": "Kami dapat memperbarui Kebijakan Privasi kami dari waktu ke waktu. Kami akan memberi tahu Anda tentang perubahan apa pun dengan memposting Kebijakan Privasi baru di halaman ini dan memperbarui tanggal \"Terakhir diperbarui\"."
+            },
+            "contact": {
+                "title": "Hubungi Kami",
+                "intro": "Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, silakan hubungi kami:",
+                "email": "Email:",
+                "phone": "Telepon:",
+                "address": "Alamat: Jakarta, Indonesia"
+            }
+        }
+    },
+    "terms": {
+        "pageHeader": {
+            "badge": "Legal",
+            "title": "Syarat Layanan",
+            "description": "Syarat dan ketentuan untuk menggunakan layanan kami."
+        },
+        "lastUpdated": "Terakhir diperbarui:",
+        "sections": {
+            "acceptance": {
+                "title": "1. Penerimaan Syarat",
+                "content": "Dengan mengakses dan menggunakan layanan PT Pilar Inovasi Teknologi (\"Pilar Labs\"), Anda menerima dan setuju untuk terikat oleh syarat dan ketentuan perjanjian ini. Jika Anda tidak setuju dengan syarat-syarat ini, harap jangan menggunakan layanan kami."
+            },
+            "services": {
+                "title": "2. Deskripsi Layanan",
+                "intro": "Pilar Labs menyediakan pengembangan web, konsultasi digital, dan layanan teknologi terkait. Layanan kami termasuk namun tidak terbatas pada:",
+                "items": [
+                    "Pengembangan dan desain website",
+                    "Pembuatan company profile",
+                    "Pengembangan landing page",
+                    "Redesign dan optimisasi website",
+                    "Konsultasi dan dukungan teknis"
+                ]
+            },
+            "obligations": {
+                "title": "3. Kewajiban Pengguna",
+                "intro": "Anda setuju untuk:",
+                "items": [
+                    "Memberikan informasi yang akurat dan lengkap",
+                    "Menjaga kerahasiaan kredensial akun Anda",
+                    "Menggunakan layanan kami hanya untuk tujuan yang sah",
+                    "Tidak mengganggu atau mengganggu layanan",
+                    "Mematuhi semua hukum dan peraturan yang berlaku"
+                ]
+            },
+            "payment": {
+                "title": "4. Syarat Pembayaran",
+                "intro": "Semua biaya dikutip dalam Rupiah Indonesia (IDR) kecuali ditentukan lain. Syarat pembayaran akan diuraikan dalam perjanjian proyek individual dan biasanya mencakup:",
+                "items": [
+                    "Deposit awal saat memulai proyek",
+                    "Pembayaran berbasis milestone untuk proyek yang lebih besar",
+                    "Pembayaran akhir saat proyek selesai",
+                    "Biaya tambahan untuk perubahan scope atau revisi di luar batas yang disepakati"
+                ]
+            },
+            "intellectual": {
+                "title": "5. Hak Kekayaan Intelektual",
+                "intro": "Setelah pembayaran penuh, klien menerima kepemilikan atas deliverable akhir. Namun:",
+                "items": [
+                    "Pilar Labs mempertahankan hak untuk menampilkan karya yang sudah selesai di portfolio kami",
+                    "Kode, tools, dan frameworks yang sudah ada tetap menjadi milik kami",
+                    "Komponen open-source diatur oleh lisensi masing-masing",
+                    "Kami dapat menggunakan kembali metodologi dan teknik umum"
+                ]
+            },
+            "timeline": {
+                "title": "6. Timeline Proyek",
+                "content": "Kami berusaha memenuhi tenggat waktu yang disepakati. Namun, timeline dapat terpengaruh oleh: keterlambatan feedback klien, perubahan scope, tantangan teknis, atau kejadian force majeure. Kami akan berkomunikasi dengan cepat tentang penyesuaian timeline apa pun."
+            },
+            "warranties": {
+                "title": "7. Jaminan dan Penolakan",
+                "intro": "Kami menjamin bahwa layanan kami akan dilakukan dengan keterampilan dan perawatan profesional. Namun:",
+                "items": [
+                    "Kami tidak menjamin hasil atau outcome bisnis tertentu",
+                    "Layanan dan integrasi pihak ketiga disediakan \"as is\"",
+                    "Kami tidak bertanggung jawab atas masalah yang timbul dari konten yang disediakan klien",
+                    "Kinerja website tergantung pada pilihan hosting dan infrastruktur"
+                ]
+            },
+            "liability": {
+                "title": "8. Batasan Tanggung Jawab",
+                "content": "Total tanggung jawab Pilar Labs untuk klaim apa pun yang timbul dari layanan kami tidak akan melebihi jumlah total yang dibayarkan oleh klien untuk proyek tertentu. Kami tidak bertanggung jawab atas kerusakan tidak langsung, insidental, atau konsekuensial."
+            },
+            "support": {
+                "title": "9. Dukungan dan Pemeliharaan",
+                "content": "Layanan dukungan dan pemeliharaan pasca-peluncuran tersedia di bawah perjanjian terpisah. Dukungan teknis dasar biasanya termasuk untuk periode tertentu setelah pengiriman proyek."
+            },
+            "termination": {
+                "title": "10. Pengakhiran",
+                "content": "Salah satu pihak dapat mengakhiri perjanjian dengan pemberitahuan tertulis. Setelah pengakhiran, klien bertanggung jawab atas pembayaran semua pekerjaan yang diselesaikan hingga tanggal pengakhiran."
+            },
+            "governing": {
+                "title": "11. Hukum yang Mengatur",
+                "content": "Syarat-syarat ini akan diatur oleh dan ditafsirkan sesuai dengan hukum Republik Indonesia. Setiap sengketa akan diselesaikan di pengadilan Jakarta."
+            },
+            "changes": {
+                "title": "12. Perubahan pada Syarat",
+                "content": "Kami berhak untuk memodifikasi syarat-syarat ini kapan saja. Penggunaan berkelanjutan dari layanan kami setelah perubahan merupakan penerimaan atas syarat yang dimodifikasi."
+            },
+            "contact": {
+                "title": "Hubungi Kami",
+                "intro": "Untuk pertanyaan tentang Syarat Layanan ini, silakan hubungi:",
+                "company": "PT Pilar Inovasi Teknologi",
+                "email": "Email:",
+                "phone": "Telepon:",
+                "address": "Alamat: Jakarta, Indonesia"
+            }
+        }
+    }
+}

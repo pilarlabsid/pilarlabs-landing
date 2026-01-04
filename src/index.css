@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-foundation: 248 249 250;
+    --color-calm: 13 27 42;
+    --color-structural: 100 116 139;
+    --color-precision: 14 165 233;
+    --color-cyan-muted: 152 193 217;
+  }
+
+  html.dark {
+    --color-foundation: 13 27 42;
+    --color-calm: 250 250 250;
+    --color-structural: 65 90 119;
+    --color-precision: 34 211 238;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-foundation text-calm antialiased transition-colors duration-300;
+  }
+}

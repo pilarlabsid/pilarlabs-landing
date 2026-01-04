@@ -1,0 +1,652 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "caseStudies": "Portfolio",
+        "internship": "Internship",
+        "contact": "Contact",
+        "startProject": "Start Project"
+    },
+    "hero": {
+        "title": "Strong Digital Foundation.",
+        "subtitle": "Scalable. Sustainable. Structured.",
+        "description": "Pilar Labs builds robust websites that are easy to expand and ready to support your growing business.",
+        "startProject": "Start Your Project",
+        "viewWork": "View Portfolio"
+    },
+    "positioning": {
+        "title": "Infrastructure, Not Just Interface.",
+        "description": "Your website is a <strong>Digital Asset</strong>. We build foundations ready to grow, not temporary solutions.",
+        "highlight": "Digital Asset"
+    },
+    "trustedBy": {
+        "badge": "Trusted By",
+        "title": "Partners Who Think Long-Term",
+        "description": "Join businesses building websites as a competitive advantage.",
+        "cta": "Your growth story begins with a strong foundation",
+        "ctaLink": "Let's talk"
+    },
+    "problem": {
+        "title": "Technical Debt That Slows Growth",
+        "subtitle": "Three challenges we solve for fast-growing companies.",
+        "items": {
+            "scale": {
+                "title": "Fragile Architecture",
+                "description": "Every new feature brings error risks. Developers struggle to understand the code structure."
+            },
+            "structure": {
+                "title": "Inefficient Maintenance",
+                "description": "Technical debt piles up. Small changes take too long."
+            },
+            "direction": {
+                "title": "Technology Without Strategy",
+                "description": "Sophisticated solutions not aligned with business goals."
+            }
+        }
+    },
+    "services": {
+        "title": "Proven Approach, Measured Execution",
+        "subtitle": "Website solutions designed for your business needs",
+        "items": {
+            "landing": {
+                "title": "Landing Page",
+                "description": "High-conversion pages for marketing campaigns and product launches.",
+                "features": {
+                    "fast": "Fast Loading",
+                    "conversion": "Conversion Optimized",
+                    "analytics": "Analytics Integrated"
+                }
+            },
+            "companyProfile": {
+                "title": "Company Profile",
+                "description": "Professional corporate website to build business credibility.",
+                "features": {
+                    "pages": "5-10 Pages",
+                    "cms": "Content Management",
+                    "multilang": "Multi-language"
+                }
+            },
+            "ecommerce": {
+                "title": "E-commerce",
+                "description": "Complete online store with payment system and product management.",
+                "features": {
+                    "catalog": "Product Catalog",
+                    "payment": "Payment Gateway",
+                    "admin": "Admin Dashboard"
+                }
+            }
+        },
+        "learnMore": "View All Services"
+    },
+    "pillars": {
+        "title": "The Four Pillars",
+        "items": {
+            "foundation": {
+                "title": "Foundation",
+                "description": "Stable and reliable system structure."
+            },
+            "clarity": {
+                "title": "Clarity",
+                "description": "Clear message, UX, and architecture."
+            },
+            "progress": {
+                "title": "Growth",
+                "description": "Modular, scalable, and future-ready."
+            },
+            "precision": {
+                "title": "Detail",
+                "description": "Attention to detail and execution quality."
+            }
+        }
+    },
+    "process": {
+        "title": "The Blueprint Process",
+        "subtitle": "Validated engineering process for high-quality results.",
+        "steps": {
+            "discovery": {
+                "title": "Discovery",
+                "description": "Understanding your business goals and challenges."
+            },
+            "strategy": {
+                "title": "Strategy",
+                "description": "Designing information architecture and clear roadmap."
+            },
+            "design": {
+                "title": "Design",
+                "description": "Crafting the visual system and user experience."
+            },
+            "development": {
+                "title": "Development",
+                "description": "Building the system with clean, structured code."
+            },
+            "launch": {
+                "title": "Launch",
+                "description": "Deployment, testing, and final quality assurance."
+            },
+            "improvement": {
+                "title": "Improvement",
+                "description": "Ongoing optimization based on user data."
+            }
+        }
+    },
+    "finalCta": {
+        "title": "Build Right. Build to Last.",
+        "subtitle": "A website that's relevant for 5 years is worth more than one that trends for 5 days.",
+        "button": "Free Consultation"
+    },
+    "footer": {
+        "tagline": "Digital Foundation Partner for Visionary Companies.",
+        "company": {
+            "title": "Company",
+            "aboutUs": "About Us",
+            "services": "Services",
+            "caseStudies": "Portfolio",
+            "internship": "Internship"
+        },
+        "contact": {
+            "title": "Contact"
+        },
+        "legal": {
+            "title": "Legal",
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Service",
+            "getInTouch": "Get in Touch"
+        },
+        "copyright": "PT Pilar Inovasi Teknologi. All rights reserved.",
+        "taglineBottom": "Strong Foundation. Fast Business."
+    },
+    "about": {
+        "pageHeader": {
+            "badge": "About Pilar Labs",
+            "title": "Your Digital Architect",
+            "description": "We focus on what matters. Every element has a purpose. Our success is measured by stable websites, strong structure, and businesses that keep growing."
+        },
+        "philosophy": {
+            "title": "Strategy. Structure. Scalability.",
+            "content": "At Pilar Labs, we position ourselves as Digital Architects—partners who build sustainable digital foundations, not temporary solutions."
+        },
+        "story": {
+            "title": "Our Story",
+            "content": [
+                "After years of seeing companies trapped with fragile, hard-to-develop websites, we founded Pilar Labs with one mission: <strong>to build truly solid digital foundations</strong>.",
+                "We reject the \"move fast and break things\" philosophy. We believe in <span>\"build strong, scale smart\"</span>—approaching every project like an architect designing a building, with careful planning and strong structure.",
+                "Every system we design is built with the highest engineering standards: clean code, type safety, automated testing. These aren't optional—they're the <strong>foundation</strong> of how we work."
+            ]
+        },
+        "values": {
+            "title": "Core Values",
+            "subtitle": "The pillars that hold up everything we build.",
+            "items": {
+                "structured": {
+                    "title": "Structured Approach",
+                    "description": "Precision engineering, not guesswork."
+                },
+                "longTerm": {
+                    "title": "Long-term Focus",
+                    "description": "Ready for 5 years of growth."
+                },
+                "excellence": {
+                    "title": "Technical Excellence",
+                    "description": "Clean code & best practices."
+                }
+            }
+        },
+        "founder": {
+            "name": "Ujang",
+            "role": "Director & Founder",
+            "company": "PT Pilar Inovasi Teknologi",
+            "commitment": {
+                "title": "Our Commitment",
+                "content": [
+                    "We believe that every business deserves <strong>world-class digital infrastructure</strong>. There's no reason to settle for half-measures.",
+                    "Through Pilar Labs, we are committed to being a <span>trusted partner</span> for companies who want to build sustainable digital foundations—ready for the next 5 years of growth, not just 5 months."
+                ],
+                "quote": "\"Strong foundations enable sustainable growth. That's not just our tagline—it's our promise.\"",
+                "attribution": "— Ujang, Founder Pilar Labs"
+            }
+        },
+        "stats": {
+            "uptime": "Uptime",
+            "latency": "Latency",
+            "typeSafe": "Type Safe",
+            "scale": "Scale"
+        }
+    },
+    "servicesPage": {
+        "seo": {
+            "title": "Development Services - Packages & Custom Solutions"
+        },
+        "pageHeader": {
+            "badge": "Our Services",
+            "title": "Service Packages",
+            "description": "Transparent, structured, and scalable solutions. Choose the architecture that fits your current growth stage."
+        },
+        "packages": {
+            "landing": {
+                "title": "Landing Page",
+                "subtitle": "High-Conversion Page",
+                "description": "Focused, fast, and persuasive pages designed to convert visitors into customers.",
+                "features": [
+                    "Copywriting Assistance",
+                    "A/B Testing Setup",
+                    "Analytics Integration",
+                    "Fast Loading Time",
+                    "Mobile-First Design",
+                    "Lead Magnet Integration"
+                ],
+                "idealFor": "Product Launches, Marketing Campaigns",
+                "cta": "Launch Campaign"
+            },
+            "companyProfile": {
+                "title": "Company Profile",
+                "subtitle": "Professional Digital Identity",
+                "description": "Corporate website that builds credibility and trust with potential clients.",
+                "features": [
+                    "5-10 Custom Pages",
+                    "CMS Integration (Sanity/WordPress)",
+                    "Multi-language Support",
+                    "Team & Careers Sections",
+                    "Investor Relations Ready",
+                    "Brand Guideline Compliance"
+                ],
+                "idealFor": "B2B, Agencies, Consultants",
+                "cta": "Build Presence"
+            },
+            "ecommerce": {
+                "title": "E-commerce Website",
+                "subtitle": "Professional Online Store",
+                "description": "Complete online selling platform with payment system and product management.",
+                "features": [
+                    "Product Catalog",
+                    "Payment Gateway",
+                    "Inventory Management",
+                    "Admin Dashboard",
+                    "Shipping System",
+                    "Customer Management"
+                ],
+                "idealFor": "Online Stores, Retail, SMEs",
+                "cta": "Start Selling Online"
+            },
+            "webApp": {
+                "title": "Web Application",
+                "subtitle": "Custom System for Business",
+                "description": "Web applications built to match your business needs with quality code.",
+                "features": [
+                    "Custom Design System",
+                    "Interactive Dashboard",
+                    "User Authentication",
+                    "Database Integration",
+                    "API Development",
+                    "Technical Documentation"
+                ],
+                "idealFor": "Startups, Tech Companies, Enterprise",
+                "cta": "Start Development"
+            },
+            "blog": {
+                "title": "Blog/News Portal",
+                "subtitle": "Content & News Platform",
+                "description": "News or blog website with easy-to-use content management system.",
+                "features": [
+                    "Content Management System",
+                    "Multi-author Support",
+                    "Categories & Tagging",
+                    "SEO Optimization",
+                    "Social Media Integration",
+                    "Newsletter System"
+                ],
+                "idealFor": "Media, Publishers, Content Creators",
+                "cta": "Build Portal"
+            }
+        },
+        "mostPopular": "MOST POPULAR",
+        "includes": "Includes:",
+        "idealFor": "Ideal for:",
+        "custom": {
+            "title": "Need something else?",
+            "description": "We understand that some projects defy standard categorization. Let's talk about your unique requirements.",
+            "cta": "Contact Support"
+        }
+    },
+    "contactPage": {
+        "pageHeader": {
+            "badge": "Contact Us",
+            "title": "Start Your Project",
+            "description": "Ready to build a strong digital foundation? Contact us for a free consultation."
+        },
+        "getInTouch": {
+            "title": "Get in Touch",
+            "subtitle": "We reply within 24 hours. Direct from our engineers, not bots."
+        },
+        "info": {
+            "email": "Email",
+            "whatsapp": "WhatsApp",
+            "office": "Office",
+            "location": "South Jakarta, Indonesia"
+        },
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "projectType": "Project Type",
+            "message": "Message",
+            "namePlaceholder": "John Doe",
+            "emailPlaceholder": "john@company.com",
+            "messagePlaceholder": "Tell us about your project and what you want to achieve...",
+            "submit": "Send Message",
+            "sending": "Sending...",
+            "projectOptions": {
+                "foundation": "Landing Page",
+                "structure": "Company Profile",
+                "ecommerce": "E-commerce / Online Store",
+                "webApp": "Web Application",
+                "blog": "Blog / News Portal",
+                "other": "Other / Consultation"
+            }
+        }
+    },
+    "internship": {
+        "pageHeader": {
+            "badge": "We're Hiring",
+            "title": "Internship Program",
+            "description": "Join the Pilar Labs team and kickstart your career as a developer. Gain real project experience, mentorship, and build your portfolio."
+        },
+        "positions": {
+            "title": "Available Positions",
+            "subtitle": "We're looking for passionate young talent to join our development team",
+            "frontend": {
+                "title": "Frontend Developer",
+                "description": "Build modern, responsive user interfaces with React, TypeScript, and Tailwind CSS",
+                "skills": [
+                    "React",
+                    "TypeScript",
+                    "HTML/CSS",
+                    "Git"
+                ]
+            },
+            "backend": {
+                "title": "Backend Developer",
+                "description": "Develop scalable APIs and server-side applications with Node.js or Python",
+                "skills": [
+                    "Node.js/Python",
+                    "REST API",
+                    "Database",
+                    "Git"
+                ]
+            },
+            "fullstack": {
+                "title": "Full-Stack Developer",
+                "description": "Work on both frontend and backend to build complete web applications",
+                "skills": [
+                    "React",
+                    "Node.js",
+                    "Database",
+                    "TypeScript"
+                ]
+            },
+            "uiux": {
+                "title": "UI/UX Designer",
+                "description": "Design beautiful and user-friendly interfaces using Figma",
+                "skills": [
+                    "Figma",
+                    "Design Systems",
+                    "Prototyping",
+                    "User Research"
+                ]
+            }
+        },
+        "requirements": {
+            "title": "Requirements",
+            "items": [
+                "Active student (minimum 3rd semester) or fresh graduate",
+                "Passionate about programming and web development",
+                "Basic understanding of your desired position",
+                "Able to commit at least 20 hours/week for 3-6 months",
+                "Self-driven and eager to learn",
+                "Portfolio or previous projects (GitHub, Behance, etc.)"
+            ]
+        },
+        "benefits": {
+            "title": "What You'll Get",
+            "subtitle": "Our internship program is designed to accelerate your learning and career growth",
+            "mentorship": {
+                "title": "Mentorship",
+                "description": "Direct guidance from experienced senior developers"
+            },
+            "projects": {
+                "title": "Real Projects",
+                "description": "Work on production projects used by real users"
+            },
+            "certificate": {
+                "title": "Certificate",
+                "description": "Completion certificate after finishing the program"
+            },
+            "flexible": {
+                "title": "Flexible Hours",
+                "description": "Flexible schedule, suitable for students"
+            }
+        },
+        "process": {
+            "title": "Application Process",
+            "subtitle": "Simple and straightforward process",
+            "apply": {
+                "title": "Apply",
+                "description": "Send your CV and portfolio via email or form"
+            },
+            "review": {
+                "title": "Review",
+                "description": "Our team reviews your application (1-2 weeks)"
+            },
+            "interview": {
+                "title": "Interview",
+                "description": "Technical interview and culture fit discussion"
+            },
+            "onboarding": {
+                "title": "Onboarding",
+                "description": "Welcome aboard! Start your journey with us"
+            }
+        },
+        "cta": {
+            "title": "Ready to Start Your Journey?",
+            "description": "Send your application now and join Pilar Labs as an intern developer",
+            "emailButton": "Apply via Email",
+            "whatsappButton": "Chat via WhatsApp",
+            "contact": "Or contact us at"
+        }
+    },
+    "caseStudies": {
+        "pageHeader": {
+            "badge": "Our Work",
+            "title": "Portfolio",
+            "description": "See how we build strong digital foundations for clients across various industries."
+        },
+        "filters": {
+            "all": "All",
+            "webApp": "Web App",
+            "landingPage": "Landing Page",
+            "mobileApp": "Mobile App"
+        },
+        "labels": {
+            "client": "Client",
+            "industry": "Industry",
+            "year": "Year",
+            "technologies": "Technologies",
+            "challenge": "Challenge",
+            "solution": "Solution",
+            "results": "Results",
+            "viewProject": "View Project"
+        },
+        "empty": {
+            "title": "No Projects",
+            "description": "There are no projects in this category yet."
+        }
+    },
+    "privacy": {
+        "pageHeader": {
+            "badge": "Legal",
+            "title": "Privacy Policy",
+            "description": "How we collect, use, and protect your information."
+        },
+        "lastUpdated": "Last updated:",
+        "sections": {
+            "collection": {
+                "title": "1. Information We Collect",
+                "intro": "We collect information that you provide directly to us, including:",
+                "items": [
+                    "Name, email address, and phone number",
+                    "Company information and business details",
+                    "Project requirements and preferences",
+                    "Communication history and correspondence"
+                ]
+            },
+            "usage": {
+                "title": "2. How We Use Your Information",
+                "intro": "We use the information we collect to:",
+                "items": [
+                    "Provide, maintain, and improve our services",
+                    "Process your requests and communicate with you",
+                    "Send you technical notices and support messages",
+                    "Respond to your inquiries and provide customer service",
+                    "Analyze usage patterns and optimize user experience"
+                ]
+            },
+            "sharing": {
+                "title": "3. Information Sharing",
+                "intro": "We do not sell, trade, or rent your personal information to third parties. We may share your information only in the following circumstances:",
+                "items": [
+                    "With your explicit consent",
+                    "To comply with legal obligations",
+                    "With trusted service providers who assist in our operations",
+                    "To protect our rights and prevent fraud"
+                ]
+            },
+            "security": {
+                "title": "4. Data Security",
+                "content": "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet is 100% secure."
+            },
+            "rights": {
+                "title": "5. Your Rights",
+                "intro": "You have the right to:",
+                "items": [
+                    "Access and receive a copy of your personal data",
+                    "Request correction of inaccurate information",
+                    "Request deletion of your personal data",
+                    "Withdraw consent at any time",
+                    "Lodge a complaint with a supervisory authority"
+                ]
+            },
+            "cookies": {
+                "title": "6. Cookies and Tracking",
+                "content": "We use cookies and similar tracking technologies to track activity on our website and store certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent."
+            },
+            "changes": {
+                "title": "7. Changes to This Policy",
+                "content": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the \"Last updated\" date."
+            },
+            "contact": {
+                "title": "Contact Us",
+                "intro": "If you have any questions about this Privacy Policy, please contact us:",
+                "email": "Email:",
+                "phone": "Phone:",
+                "address": "Address: Jakarta, Indonesia"
+            }
+        }
+    },
+    "terms": {
+        "pageHeader": {
+            "badge": "Legal",
+            "title": "Terms of Service",
+            "description": "Terms and conditions for using our services."
+        },
+        "lastUpdated": "Last updated:",
+        "sections": {
+            "acceptance": {
+                "title": "1. Acceptance of Terms",
+                "content": "By accessing and using the services of PT Pilar Inovasi Teknologi (\"Pilar Labs\"), you accept and agree to be bound by the terms and conditions of this agreement. If you do not agree to these terms, please do not use our services."
+            },
+            "services": {
+                "title": "2. Services Description",
+                "intro": "Pilar Labs provides web development, digital consulting, and related technology services. Our services include but are not limited to:",
+                "items": [
+                    "Website development and design",
+                    "Company profile creation",
+                    "Landing page development",
+                    "Website redesign and optimization",
+                    "Technical consultation and support"
+                ]
+            },
+            "obligations": {
+                "title": "3. User Obligations",
+                "intro": "You agree to:",
+                "items": [
+                    "Provide accurate and complete information",
+                    "Maintain the confidentiality of your account credentials",
+                    "Use our services only for lawful purposes",
+                    "Not interfere with or disrupt the services",
+                    "Comply with all applicable laws and regulations"
+                ]
+            },
+            "payment": {
+                "title": "4. Payment Terms",
+                "intro": "All fees are quoted in Indonesian Rupiah (IDR) unless otherwise specified. Payment terms will be outlined in individual project agreements and typically include:",
+                "items": [
+                    "Initial deposit upon project commencement",
+                    "Milestone-based payments for larger projects",
+                    "Final payment upon project completion",
+                    "Additional fees for scope changes or revisions beyond agreed limits"
+                ]
+            },
+            "intellectual": {
+                "title": "5. Intellectual Property",
+                "intro": "Upon full payment, clients receive ownership of the final deliverables. However:",
+                "items": [
+                    "Pilar Labs retains the right to showcase completed work in our portfolio",
+                    "Pre-existing code, tools, and frameworks remain our property",
+                    "Open-source components are governed by their respective licenses",
+                    "We may reuse general methodologies and techniques"
+                ]
+            },
+            "timeline": {
+                "title": "6. Project Timeline",
+                "content": "We strive to meet agreed-upon deadlines. However, timelines may be affected by: client feedback delays, scope changes, technical challenges, or force majeure events. We will communicate promptly about any timeline adjustments."
+            },
+            "warranties": {
+                "title": "7. Warranties and Disclaimers",
+                "intro": "We warrant that our services will be performed with professional skill and care. However:",
+                "items": [
+                    "We do not guarantee specific business results or outcomes",
+                    "Third-party services and integrations are provided \"as is\"",
+                    "We are not liable for issues arising from client-provided content",
+                    "Website performance depends on hosting and infrastructure choices"
+                ]
+            },
+            "liability": {
+                "title": "8. Limitation of Liability",
+                "content": "Pilar Labs' total liability for any claims arising from our services shall not exceed the total amount paid by the client for the specific project. We are not liable for indirect, incidental, or consequential damages."
+            },
+            "support": {
+                "title": "9. Support and Maintenance",
+                "content": "Post-launch support and maintenance services are available under separate agreements. Basic technical support is typically included for a specified period after project delivery."
+            },
+            "termination": {
+                "title": "10. Termination",
+                "content": "Either party may terminate the agreement with written notice. Upon termination, the client is responsible for payment of all work completed up to the termination date."
+            },
+            "governing": {
+                "title": "11. Governing Law",
+                "content": "These terms shall be governed by and construed in accordance with the laws of the Republic of Indonesia. Any disputes shall be resolved in the courts of Jakarta."
+            },
+            "changes": {
+                "title": "12. Changes to Terms",
+                "content": "We reserve the right to modify these terms at any time. Continued use of our services after changes constitutes acceptance of the modified terms."
+            },
+            "contact": {
+                "title": "Contact Us",
+                "intro": "For questions about these Terms of Service, please contact:",
+                "company": "PT Pilar Inovasi Teknologi",
+                "email": "Email:",
+                "phone": "Phone:",
+                "address": "Address: Jakarta, Indonesia"
+            }
+        }
+    }
+}
