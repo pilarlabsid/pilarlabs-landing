@@ -19,7 +19,7 @@ export function About() {
     return (
         <>
             <SEO
-                title={seo.title}
+                title={t('seo.about')}
                 description={seo.description}
                 keywords={seo.keywords}
             />

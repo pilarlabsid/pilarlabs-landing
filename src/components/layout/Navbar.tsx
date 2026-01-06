@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { Button } from '@/components/ui/Button'
 import { Container } from '@/components/layout/Container'
 import { Menu } from 'lucide-react'
 
@@ -123,6 +122,7 @@ export function Navbar() {
                             to="/"
                             className={`text-sm font-medium ${isActive('/') ? 'text-precision font-semibold' : 'text-calm'
                                 }`}
+                            onClick={() => setMobileMenuOpen(false)}
                         >
                             {t('navbar.home')}
                         </Link>
@@ -130,6 +130,7 @@ export function Navbar() {
                             to="/about"
                             className={`text-sm font-medium ${isActive('/about') ? 'text-precision font-semibold' : 'text-calm'
                                 }`}
+                            onClick={() => setMobileMenuOpen(false)}
                         >
                             {t('navbar.about')}
                         </Link>
@@ -137,6 +138,7 @@ export function Navbar() {
                             to="/services"
                             className={`text-sm font-medium ${isActive('/services') ? 'text-precision font-semibold' : 'text-calm'
                                 }`}
+                            onClick={() => setMobileMenuOpen(false)}
                         >
                             {t('navbar.services')}
                         </Link>
@@ -144,6 +146,7 @@ export function Navbar() {
                             to="/portfolio"
                             className={`text-sm font-medium ${isActive('/portfolio') ? 'text-precision font-semibold' : 'text-calm'
                                 }`}
+                            onClick={() => setMobileMenuOpen(false)}
                         >
                             {t('navbar.caseStudies')}
                         </Link>
@@ -151,6 +154,7 @@ export function Navbar() {
                             to="/internship"
                             className={`text-sm font-medium ${isActive('/internship') ? 'text-precision font-semibold' : 'text-calm'
                                 }`}
+                            onClick={() => setMobileMenuOpen(false)}
                         >
                             {t('navbar.internship')}
                         </Link>
@@ -158,10 +162,10 @@ export function Navbar() {
                             to="/contact"
                             className={`text-sm font-medium ${isActive('/contact') ? 'text-precision font-semibold' : 'text-calm'
                                 }`}
+                            onClick={() => setMobileMenuOpen(false)}
                         >
                             {t('navbar.contact')}
                         </Link>
-                        <Button className="w-full">{t('navbar.startProject')}</Button>
                     </Container>
                 </div>
             )}

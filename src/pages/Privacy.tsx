@@ -11,7 +11,7 @@ export function Privacy() {
     return (
         <>
             <SEO
-                title={seo.title}
+                title={t('seo.privacy')}
                 description={seo.description}
                 keywords={seo.keywords}
             />

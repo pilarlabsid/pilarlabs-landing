@@ -28,13 +28,13 @@ export const siteConfig = {
             street: 'Jakarta Selatan',
             city: 'Jakarta',
             region: 'DKI Jakarta',
-            postalCode: '12345',
+            postalCode: '12160',
             country: 'Indonesia',
         },
     },
 
     // Default OG Image
-    defaultOgImage: '/og-image.jpg',
+    defaultOgImage: '/og-image.png',
 }
 
 // Page-specific SEO configurations
@@ -43,7 +43,7 @@ export const pageSEO = {
         title: 'Bangun Fondasi Digital yang Kokoh',
         description: 'Partner digital development yang membangun fondasi web yang kuat dan scalable untuk bisnis Anda. Arsitektur modern, kode berkualitas, pertumbuhan berkelanjutan.',
         keywords: ['web development Jakarta', 'digital foundation', 'React TypeScript', 'scalable web app', 'custom development', 'software house Jakarta'],
-        ogImage: '/og-home.jpg',
+        ogImage: '/og-image.png',
     },
     about: {
         title: 'Tentang Kami - Filosofi & Tim',
@@ -57,7 +57,7 @@ export const pageSEO = {
     },
     contact: {
         title: 'Hubungi Kami - Konsultasi Gratis',
-        description: 'Hubungi tim Pilar Labs untuk konsultasi project digital Anda. Email, WhatsApp, atau form kontak. Lokasi: Jakarta, Indonesia.',
+        description: 'Hubungi tim Pilar Labs untuk konsultasi project digital Anda. Email, WhatsApp, atau form kontak. Lokasi: Jakarta Selatan, Indonesia.',
         keywords: ['contact pilar labs', 'web development consultation', 'Jakarta web developer', 'hire developer Indonesia'],
     },
     portfolio: {

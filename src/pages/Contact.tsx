@@ -45,7 +45,7 @@ export function Contact() {
     return (
         <>
             <SEO
-                title={seo.title}
+                title={t('seo.contact')}
                 description={seo.description}
                 keywords={seo.keywords}
             />

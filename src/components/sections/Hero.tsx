@@ -16,7 +16,7 @@ export function Hero() {
             <Container className="relative z-10">
                 <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                     {/* Left side - Text content */}
-                    <div className="space-y-5">
+                    <div className="space-y-5 order-2 lg:order-1">
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
@@ -46,12 +46,12 @@ export function Hero() {
                             className="flex flex-wrap gap-4"
                         >
                             <Link to="/contact">
-                                <Button size="lg" className="h-14 px-8 text-lg text-white dark:text-foundation">
-                                    {t('hero.startProject')} <ArrowRight className="ml-2 w-5 h-5" />
+                                <Button size="lg" className="h-11 px-6 text-base text-white dark:text-foundation">
+                                    {t('hero.startProject')} <ArrowRight className="ml-2 w-4 h-4" />
                                 </Button>
                             </Link>
                             <Link to="/portfolio">
-                                <Button size="lg" variant="outline" className="h-14 px-8 text-lg border-structural/30">
+                                <Button size="lg" variant="outline" className="h-11 px-6 text-base border-structural/30">
                                     {t('hero.viewWork')}
                                 </Button>
                             </Link>
@@ -63,7 +63,7 @@ export function Hero() {
                         initial={{ opacity: 0, x: 30 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
-                        className="relative"
+                        className="relative order-1 lg:order-2"
                     >
                         <div className="relative group">
                             {/* Glow effect behind diagram */}

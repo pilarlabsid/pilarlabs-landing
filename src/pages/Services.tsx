@@ -58,7 +58,7 @@ export function Services() {
     return (
         <>
             <SEO
-                title={t('servicesPage.seo.title')}
+                title={t('seo.services')}
                 description={seo.description}
                 keywords={seo.keywords}
             />

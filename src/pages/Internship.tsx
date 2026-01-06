@@ -74,7 +74,7 @@ export function Internship() {
     return (
         <>
             <SEO
-                title={seo.title}
+                title={t('seo.internship')}
                 description={seo.description}
                 keywords={seo.keywords}
             />

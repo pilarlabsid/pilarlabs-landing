@@ -27,7 +27,7 @@ export function Portfolio() {
     return (
         <>
             <SEO
-                title={seo.title}
+                title={t('seo.portfolio')}
                 description={seo.description}
                 keywords={seo.keywords}
             />

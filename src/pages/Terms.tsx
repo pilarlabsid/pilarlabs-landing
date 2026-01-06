@@ -11,7 +11,7 @@ export function Terms() {
     return (
         <>
             <SEO
-                title={seo.title}
+                title={t('seo.terms')}
                 description={seo.description}
                 keywords={seo.keywords}
             />

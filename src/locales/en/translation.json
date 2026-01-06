@@ -8,11 +8,21 @@
         "contact": "Contact",
         "startProject": "Start Project"
     },
+    "seo": {
+        "home": "Digital Foundation Partner",
+        "about": "About Us",
+        "services": "Our Services",
+        "portfolio": "Portfolio",
+        "internship": "Internship Program",
+        "contact": "Contact Us",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
+    },
     "hero": {
         "title": "Strong Digital Foundation.",
         "subtitle": "Scalable. Sustainable. Structured.",
         "description": "Pilar Labs builds robust websites that are easy to expand and ready to support your growing business.",
-        "startProject": "Start Your Project",
+        "startProject": "Start Project",
         "viewWork": "View Portfolio"
     },
     "positioning": {
@@ -547,7 +557,7 @@
                 "intro": "If you have any questions about this Privacy Policy, please contact us:",
                 "email": "Email:",
                 "phone": "Phone:",
-                "address": "Address: Jakarta, Indonesia"
+                "address": "Address: South Jakarta, Indonesia"
             }
         }
     },
@@ -645,7 +655,7 @@
                 "company": "PT Pilar Inovasi Teknologi",
                 "email": "Email:",
                 "phone": "Phone:",
-                "address": "Address: Jakarta, Indonesia"
+                "address": "Address: South Jakarta, Indonesia"
             }
         }
     }

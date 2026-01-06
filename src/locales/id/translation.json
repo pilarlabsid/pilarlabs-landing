@@ -8,6 +8,16 @@
         "contact": "Kontak",
         "startProject": "Mulai Proyek"
     },
+    "seo": {
+        "home": "Partner Fondasi Digital",
+        "about": "Tentang Kami",
+        "services": "Layanan Kami",
+        "portfolio": "Portofolio",
+        "internship": "Program Magang",
+        "contact": "Hubungi Kami",
+        "privacy": "Kebijakan Privasi",
+        "terms": "Syarat & Ketentuan"
+    },
     "hero": {
         "title": "Fondasi Digital yang Kokoh.",
         "subtitle": "Dapat Berkembang. Berkelanjutan. Terstruktur.",
@@ -547,7 +557,7 @@
                 "intro": "Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, silakan hubungi kami:",
                 "email": "Email:",
                 "phone": "Telepon:",
-                "address": "Alamat: Jakarta, Indonesia"
+                "address": "Alamat: Jakarta Selatan, Indonesia"
             }
         }
     },
@@ -645,7 +655,7 @@
                 "company": "PT Pilar Inovasi Teknologi",
                 "email": "Email:",
                 "phone": "Telepon:",
-                "address": "Alamat: Jakarta, Indonesia"
+                "address": "Alamat: Jakarta Selatan, Indonesia"
             }
         }
     }

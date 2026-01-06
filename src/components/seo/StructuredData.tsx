@@ -49,8 +49,8 @@ export function StructuredData() {
         },
         geo: {
             '@type': 'GeoCoordinates',
-            latitude: -6.2088,
-            longitude: 106.8456,
+            latitude: -6.2444,
+            longitude: 106.8066,
         },
         openingHoursSpecification: [
             {
