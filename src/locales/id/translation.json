@@ -9,7 +9,7 @@
         "startProject": "Mulai Proyek"
     },
     "seo": {
-        "home": "Partner Fondasi Digital",
+        "home": "Partner Infrastruktur Digital",
         "about": "Tentang Kami",
         "services": "Layanan Kami",
         "portfolio": "Portofolio",
@@ -19,7 +19,7 @@
         "terms": "Syarat & Ketentuan"
     },
     "hero": {
-        "title": "Fondasi Digital yang Kokoh.",
+        "title": "Infrastruktur Digital yang Kokoh.",
         "subtitle": "Dapat Berkembang. Berkelanjutan. Terstruktur.",
         "description": "Pilar Labs membangun website yang kuat, mudah dikembangkan, dan siap mendukung bisnis Anda bertumbuh.",
         "startProject": "Mulai Proyek",
@@ -146,7 +146,7 @@
         "button": "Konsultasi Gratis"
     },
     "footer": {
-        "tagline": "Partner Fondasi Digital untuk Perusahaan yang Visioner.",
+        "tagline": "Partner Infrastruktur Digital untuk Perusahaan yang Visioner.",
         "company": {
             "title": "Perusahaan",
             "aboutUs": "Tentang Kami",
@@ -174,12 +174,12 @@
         },
         "philosophy": {
             "title": "Strategi. Struktur. Skalabilitas.",
-            "content": "Di Pilar Labs, kami posisi diri sebagai Digital Architect—partner yang bangun fondasi digital berkelanjutan, bukan solusi sementara."
+            "content": "Di Pilar Labs, kami posisi diri sebagai Digital Architect—partner yang bangun infrastruktur digital berkelanjutan, bukan solusi sementara."
         },
         "story": {
             "title": "Cerita Kami",
             "content": [
-                "Setelah bertahun-tahun melihat perusahaan terjebak dengan website yang rapuh dan sulit dikembangkan, kami dirikan Pilar Labs dengan satu misi: <strong>bangun fondasi digital yang benar-benar solid</strong>.",
+                "Setelah bertahun-tahun melihat perusahaan terjebak dengan website yang rapuh dan sulit dikembangkan, kami dirikan Pilar Labs dengan satu misi: <strong>bangun infrastruktur digital yang benar-benar solid</strong>.",
                 "Kami tolak filosofi \"move fast and break things\". Kami lebih percaya <span>\"build strong, scale smart\"</span>—dekati setiap proyek seperti arsitek yang rancang gedung, dengan perencanaan matang dan struktur kuat.",
                 "Setiap sistem yang kami rancang dibangun dengan standar engineering tertinggi: clean code, type safety, automated testing. Ini bukan pilihan, tapi <strong>fondasi</strong> dari cara kami bekerja."
             ]
@@ -210,7 +210,7 @@
                 "title": "Komitmen Kami",
                 "content": [
                     "Kami percaya setiap bisnis layak dapat <strong>infrastruktur digital kelas dunia</strong>. Tidak ada alasan untuk puas dengan solusi setengah-setengah.",
-                    "Lewat Pilar Labs, kami komit jadi <span>partner terpercaya</span> bagi perusahaan yang mau bangun fondasi digital berkelanjutan—yang siap untuk 5 tahun ke depan, bukan cuma 5 bulan."
+                    "Lewat Pilar Labs, kami komit jadi <span>partner terpercaya</span> bagi perusahaan yang mau bangun infrastruktur digital berkelanjutan—yang siap untuk 5 tahun ke depan, bukan cuma 5 bulan."
                 ],
                 "quote": "\"Fondasi kuat memungkinkan pertumbuhan berkelanjutan. Itu bukan cuma tagline kami—itu janji kami.\"",
                 "attribution": "— Ujang, Founder Pilar Labs"
@@ -322,7 +322,7 @@
         "pageHeader": {
             "badge": "Hubungi Kami",
             "title": "Mulai Proyek Anda",
-            "description": "Siap bangun fondasi digital yang kuat? Hubungi kami untuk konsultasi gratis."
+            "description": "Siap bangun infrastruktur digital yang kuat? Hubungi kami untuk konsultasi gratis."
         },
         "getInTouch": {
             "title": "Hubungi Kami",
@@ -467,7 +467,7 @@
         "pageHeader": {
             "badge": "Karya Kami",
             "title": "Portofolio",
-            "description": "Lihat bagaimana kami membangun fondasi digital yang kuat untuk berbagai klien di berbagai industri."
+            "description": "Lihat bagaimana kami membangun infrastruktur digital yang kuat untuk berbagai klien di berbagai industri."
         },
         "filters": {
             "all": "Semua",

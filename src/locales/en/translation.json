@@ -9,7 +9,7 @@
         "startProject": "Start Project"
     },
     "seo": {
-        "home": "Digital Foundation Partner",
+        "home": "Digital Infrastructure Partner",
         "about": "About Us",
         "services": "Our Services",
         "portfolio": "Portfolio",
@@ -19,7 +19,7 @@
         "terms": "Terms of Service"
     },
     "hero": {
-        "title": "Strong Digital Foundation.",
+        "title": "Strong Digital Infrastructure.",
         "subtitle": "Scalable. Sustainable. Structured.",
         "description": "Pilar Labs builds robust websites that are easy to expand and ready to support your growing business.",
         "startProject": "Start Project",
@@ -146,7 +146,7 @@
         "button": "Free Consultation"
     },
     "footer": {
-        "tagline": "Digital Foundation Partner for Visionary Companies.",
+        "tagline": "Digital Infrastructure Partner for Visionary Companies.",
         "company": {
             "title": "Company",
             "aboutUs": "About Us",
@@ -174,12 +174,12 @@
         },
         "philosophy": {
             "title": "Strategy. Structure. Scalability.",
-            "content": "At Pilar Labs, we position ourselves as Digital Architects—partners who build sustainable digital foundations, not temporary solutions."
+            "content": "At Pilar Labs, we position ourselves as Digital Architects—partners who build sustainable digital infrastructures, not temporary solutions."
         },
         "story": {
             "title": "Our Story",
             "content": [
-                "After years of seeing companies trapped with fragile, hard-to-develop websites, we founded Pilar Labs with one mission: <strong>to build truly solid digital foundations</strong>.",
+                "After years of seeing companies trapped with fragile, hard-to-develop websites, we founded Pilar Labs with one mission: <strong>to build truly solid digital infrastructures</strong>.",
                 "We reject the \"move fast and break things\" philosophy. We believe in <span>\"build strong, scale smart\"</span>—approaching every project like an architect designing a building, with careful planning and strong structure.",
                 "Every system we design is built with the highest engineering standards: clean code, type safety, automated testing. These aren't optional—they're the <strong>foundation</strong> of how we work."
             ]
@@ -210,7 +210,7 @@
                 "title": "Our Commitment",
                 "content": [
                     "We believe that every business deserves <strong>world-class digital infrastructure</strong>. There's no reason to settle for half-measures.",
-                    "Through Pilar Labs, we are committed to being a <span>trusted partner</span> for companies who want to build sustainable digital foundations—ready for the next 5 years of growth, not just 5 months."
+                    "Through Pilar Labs, we are committed to being a <span>trusted partner</span> for companies who want to build sustainable digital infrastructures—ready for the next 5 years of growth, not just 5 months."
                 ],
                 "quote": "\"Strong foundations enable sustainable growth. That's not just our tagline—it's our promise.\"",
                 "attribution": "— Ujang, Founder Pilar Labs"
@@ -322,7 +322,7 @@
         "pageHeader": {
             "badge": "Contact Us",
             "title": "Start Your Project",
-            "description": "Ready to build a strong digital foundation? Contact us for a free consultation."
+            "description": "Ready to build a strong digital infrastructure? Contact us for a free consultation."
         },
         "getInTouch": {
             "title": "Get in Touch",
@@ -467,7 +467,7 @@
         "pageHeader": {
             "badge": "Our Work",
             "title": "Portfolio",
-            "description": "See how we build strong digital foundations for clients across various industries."
+            "description": "See how we build strong digital infrastructures for clients across various industries."
         },
         "filters": {
             "all": "All",

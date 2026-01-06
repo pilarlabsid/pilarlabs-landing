@@ -2,9 +2,9 @@
 export const siteConfig = {
     siteName: 'Pilar Labs',
     siteUrl: 'https://pilarlabs.id',
-    defaultTitle: 'Pilar Labs | Digital Foundation Partner',
+    defaultTitle: 'Pilar Labs | Digital Infrastructure Partner',
     titleTemplate: '%s | Pilar Labs',
-    description: 'Partner digital development yang membangun fondasi web yang kuat dan scalable untuk bisnis Anda. Arsitektur modern, kode berkualitas, pertumbuhan berkelanjutan.',
+    description: 'Partner digital development yang membangun infrastruktur web yang kuat dan scalable untuk bisnis Anda. Arsitektur modern, kode berkualitas, pertumbuhan berkelanjutan.',
     keywords: ['web development', 'digital agency', 'React development', 'TypeScript', 'scalable architecture', 'custom web application', 'Jakarta', 'Indonesia'],
     author: 'Pilar Labs',
     siteLanguage: 'id-ID',
@@ -40,14 +40,14 @@ export const siteConfig = {
 // Page-specific SEO configurations
 export const pageSEO = {
     home: {
-        title: 'Bangun Fondasi Digital yang Kokoh',
-        description: 'Partner digital development yang membangun fondasi web yang kuat dan scalable untuk bisnis Anda. Arsitektur modern, kode berkualitas, pertumbuhan berkelanjutan.',
-        keywords: ['web development Jakarta', 'digital foundation', 'React TypeScript', 'scalable web app', 'custom development', 'software house Jakarta'],
+        title: 'Bangun Infrastruktur Digital yang Kokoh',
+        description: 'Partner digital development yang membangun infrastruktur web yang kuat dan scalable untuk bisnis Anda. Arsitektur modern, kode berkualitas, pertumbuhan berkelanjutan.',
+        keywords: ['web development Jakarta', 'digital infrastructure', 'React TypeScript', 'scalable web app', 'custom development', 'software house Jakarta'],
         ogImage: '/og-image.png',
     },
     about: {
         title: 'Tentang Kami - Filosofi & Tim',
-        description: 'Kenali filosofi kami dalam membangun fondasi digital yang kokoh. Tim development berpengalaman yang fokus pada kualitas, presisi, dan pertumbuhan jangka panjang.',
+        description: 'Kenali filosofi kami dalam membangun infrastruktur digital yang kokoh. Tim development berpengalaman yang fokus pada kualitas, presisi, dan pertumbuhan jangka panjang.',
         keywords: ['about pilar labs', 'software development team', 'digital agency Jakarta', 'web development philosophy'],
     },
     services: {
