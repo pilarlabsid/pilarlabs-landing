@@ -29,32 +29,31 @@
             {
                 "text": "I need a landing page that converts visitors into customers",
                 "category": "Landing Page",
-                "response": "We'll design a high-converting page with clear CTAs"
+                "response": "Perfect! We'll build a high-converting landing page with clear CTAs →"
             },
             {
                 "text": "Build me a scalable web app for my growing business",
                 "category": "Web Application",
-                "response": "Perfect! We specialize in scalable architecture"
+                "response": "Great! We specialize in scalable architecture ready for growth →"
             },
             {
                 "text": "Create an e-commerce platform with seamless checkout",
                 "category": "E-Commerce",
-                "response": "Let's build a smooth shopping experience"
+                "response": "Excellent! We'll optimize your checkout flow for maximum sales →"
             },
             {
                 "text": "Develop a custom CRM system for my sales team",
                 "category": "Custom System",
-                "response": "We'll create a tailored solution for your team"
+                "response": "Smart choice! Custom CRM tailored to your workflow coming up →"
             },
             {
                 "text": "I want a mobile-responsive website that loads instantly",
                 "category": "Responsive Web",
-                "response": "Speed & responsiveness are our priorities"
+                "response": "Absolutely! Fast, mobile-first design is our specialty →"
             }
         ],
-        "aiResponse": "Perfect! Let's build that together",
-        "statsCounter": "Helping {{count}}+ businesses build better",
-        "startButton": "Start Project"
+        "aiResponse": "Perfect! Let's build that together →",
+        "statsCounter": "Helping {{count}}+ businesses build better"
     },
     "howWeBuild": {
         "badge": "Our Approach",

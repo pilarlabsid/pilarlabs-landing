@@ -29,32 +29,31 @@
             {
                 "text": "Saya butuh landing page yang mengubah pengunjung jadi pelanggan",
                 "category": "Landing Page",
-                "response": "Kami akan desain halaman dengan konversi tinggi"
+                "response": "Sempurna! Kami akan bangun landing page dengan konversi tinggi →"
             },
             {
                 "text": "Buatkan web app yang scalable untuk bisnis saya yang berkembang",
                 "category": "Aplikasi Web",
-                "response": "Sempurna! Kami ahli dalam arsitektur scalable"
+                "response": "Bagus! Kami ahli dalam arsitektur yang siap berkembang →"
             },
             {
                 "text": "Buat platform e-commerce dengan checkout yang lancar",
                 "category": "E-Commerce",
-                "response": "Mari kita bangun pengalaman belanja yang smooth"
+                "response": "Mantap! Kami akan optimalkan checkout untuk penjualan maksimal →"
             },
             {
                 "text": "Kembangkan sistem CRM khusus untuk tim sales saya",
                 "category": "Sistem Custom",
-                "response": "Kami akan buat solusi yang pas untuk tim Anda"
+                "response": "Pilihan tepat! CRM custom sesuai workflow Anda siap dibuat →"
             },
             {
                 "text": "Saya mau website mobile-responsive yang loading-nya cepat",
                 "category": "Web Responsif",
-                "response": "Kecepatan & responsif adalah prioritas kami"
+                "response": "Tentu! Desain mobile-first yang cepat adalah keahlian kami →"
             }
         ],
-        "aiResponse": "Sempurna! Mari kita bangun bersama",
-        "statsCounter": "Membantu {{count}}+ bisnis berkembang lebih baik",
-        "startButton": "Mulai Proyek"
+        "aiResponse": "Sempurna! Mari kita bangun bersama →",
+        "statsCounter": "Membantu {{count}}+ bisnis berkembang lebih baik"
     },
     "howWeBuild": {
         "badge": "Pendekatan Kami",

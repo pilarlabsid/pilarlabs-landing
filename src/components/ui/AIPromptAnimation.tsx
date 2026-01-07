@@ -7,17 +7,14 @@ export function AIPromptAnimation() {
     const { t } = useTranslation()
     const [currentPromptIndex, setCurrentPromptIndex] = useState(0)
     const [displayedText, setDisplayedText] = useState('')
-    const [displayedResponse, setDisplayedResponse] = useState('')
     const [isTyping, setIsTyping] = useState(true)
-    const [isResponseTyping, setIsResponseTyping] = useState(false)
     const [showResponse, setShowResponse] = useState(false)
-    const [showStartButton, setShowStartButton] = useState(false)
     const [isPaused, setIsPaused] = useState(false)
     const [clientsHelped, setClientsHelped] = useState(50)
 
     // Get prompts and categories from translation
     const prompts = t('hero.aiPrompts', { returnObjects: true }) as Array<{ text: string; category: string; response: string }>
-    const currentResponse = prompts[currentPromptIndex]?.response || ''
+    const currentResponse = prompts[currentPromptIndex].response
 
     // Realistic typing speed with variation
     const getTypingSpeed = () => {
@@ -39,10 +36,10 @@ export function AIPromptAnimation() {
                 }, getTypingSpeed())
                 return () => clearTimeout(timeout)
             } else {
-                // Finished typing, show Start button
+                // Finished typing, show response
                 const timeout = setTimeout(() => {
-                    setShowStartButton(true)
-                }, 300)
+                    setShowResponse(true)
+                }, 500)
                 return () => clearTimeout(timeout)
             }
         } else {
@@ -51,8 +48,7 @@ export function AIPromptAnimation() {
                 // Wait before deleting response
                 const timeout = setTimeout(() => {
                     setShowResponse(false)
-                    setShowStartButton(false)
-                }, 2500)
+                }, 1500)
                 return () => clearTimeout(timeout)
             } else if (displayedText.length > 0) {
                 const timeout = setTimeout(() => {
@@ -73,45 +69,15 @@ export function AIPromptAnimation() {
         if (showResponse) {
             const timeout = setTimeout(() => {
                 setIsTyping(false)
-            }, 2500)
+            }, 2000)
             return () => clearTimeout(timeout)
         }
     }, [showResponse])
 
-    // Auto-trigger response after button shows
-    useEffect(() => {
-        if (showStartButton && !showResponse) {
-            const timeout = setTimeout(() => {
-                setShowResponse(true)
-                setIsResponseTyping(true)
-                setDisplayedResponse('')
-            }, 1500) // Button visible for 1.5 seconds before response
-            return () => clearTimeout(timeout)
-        }
-    }, [showStartButton, showResponse])
-
-    // Response typing effect
-    useEffect(() => {
-        if (isResponseTyping && showResponse) {
-            if (displayedResponse.length < currentResponse.length) {
-                const timeout = setTimeout(() => {
-                    setDisplayedResponse(currentResponse.slice(0, displayedResponse.length + 1))
-                }, 30) // Fast typing for response
-                return () => clearTimeout(timeout)
-            } else {
-                // Finished typing response
-                setIsResponseTyping(false)
-            }
-        }
-    }, [displayedResponse, isResponseTyping, currentResponse, showResponse])
-
     const handleSkip = () => {
         setDisplayedText('')
-        setDisplayedResponse('')
         setShowResponse(false)
-        setShowStartButton(false)
         setIsTyping(true)
-        setIsResponseTyping(false)
         setCurrentPromptIndex((prev) => (prev + 1) % prompts.length)
     }
 
@@ -173,76 +139,34 @@ export function AIPromptAnimation() {
                     {prompts[currentPromptIndex].category}
                 </motion.div>
 
-                {/* Prompt Box - Like AI Chat Input */}
-                <div className="relative z-10 space-y-3">
-                    <div className="bg-structural/10 dark:bg-structural/20 border border-structural/20 rounded-xl p-4 min-h-[100px] flex items-center">
-                        <div className="flex-1">
-                            <p className="text-sm md:text-base text-calm leading-relaxed">
-                                {displayedText}
-                            </p>
-                            {/* Typing Indicator */}
-                            {isTyping && !showStartButton && (
-                                <div className="flex items-center gap-1 mt-2">
-                                    <motion.div
-                                        animate={{ opacity: [0.4, 1, 0.4] }}
-                                        transition={{ duration: 1.5, repeat: Infinity }}
-                                        className="w-2 h-2 rounded-full bg-precision"
-                                    />
-                                    <motion.div
-                                        animate={{ opacity: [0.4, 1, 0.4] }}
-                                        transition={{ duration: 1.5, repeat: Infinity, delay: 0.2 }}
-                                        className="w-2 h-2 rounded-full bg-precision"
-                                    />
-                                    <motion.div
-                                        animate={{ opacity: [0.4, 1, 0.4] }}
-                                        transition={{ duration: 1.5, repeat: Infinity, delay: 0.4 }}
-                                        className="w-2 h-2 rounded-full bg-precision"
-                                    />
-                                </div>
-                            )}
-                        </div>
-                    </div>
+                {/* Typing Animation */}
+                <div className="min-h-[100px] md:min-h-[80px] flex flex-col justify-center relative z-10">
+                    <p className="text-lg md:text-xl font-medium text-calm mb-2">
+                        <span className="text-precision/70">&gt;</span>{' '}
+                        <span>{displayedText}</span>
+                        {!showResponse && (
+                            <motion.span
+                                animate={{ opacity: [1, 0] }}
+                                transition={{ duration: 0.8, repeat: Infinity }}
+                                className="inline-block w-0.5 h-5 md:h-6 bg-precision ml-1 align-middle"
+                            />
+                        )}
+                    </p>
 
-                    {/* Start Button - Outside Box */}
-                    {showStartButton && (
-                        <motion.div
-                            initial={{ opacity: 0, y: -10 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            className="flex justify-end"
-                        >
-                            <div className="flex items-center gap-2 px-5 py-2.5 bg-precision text-white dark:text-foundation rounded-lg shadow-lg">
-                                <span className="text-sm font-semibold">{t('hero.startButton')}</span>
-                                <ArrowRight className="w-4 h-4" />
-                            </div>
-                        </motion.div>
-                    )}
-
-                    {/* Response Box - Below Button */}
+                    {/* Response Animation */}
                     {showResponse && (
                         <motion.div
                             initial={{ opacity: 0, y: 10 }}
                             animate={{ opacity: 1, y: 0 }}
-                            className="bg-precision/5 dark:bg-precision/10 border border-precision/20 rounded-xl p-4"
+                            className="flex items-center gap-2 text-sm text-precision"
                         >
-                            <div className="flex items-center gap-2 mb-2">
-                                <div className="w-6 h-6 rounded-full bg-precision/20 flex items-center justify-center">
-                                    <span className="text-green-500 text-xs">✓</span>
-                                </div>
-                                <span className="text-xs font-semibold text-precision">Pilar Labs</span>
-                            </div>
-                            <p className="text-sm md:text-base text-calm leading-relaxed">
-                                {displayedResponse}
-                                {isResponseTyping && (
-                                    <motion.span
-                                        animate={{ opacity: [1, 0] }}
-                                        transition={{ duration: 0.8, repeat: Infinity }}
-                                        className="inline-block w-0.5 h-4 bg-precision ml-1 align-middle"
-                                    />
-                                )}
-                            </p>
+                            <span className="text-green-500">✓</span>
+                            <span className="italic">{currentResponse}</span>
+                            <ArrowRight className="w-4 h-4 animate-pulse" />
                         </motion.div>
                     )}
                 </div>
+
             </motion.div>
 
             {/* Stats Counter - Outside main container */}
