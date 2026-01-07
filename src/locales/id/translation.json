@@ -26,33 +26,46 @@
         "viewWork": "Lihat Portfolio",
         "aiPromptLabel": "kebutuhan_klien.txt",
         "aiPrompts": [
-            "Saya butuh landing page yang mengubah pengunjung jadi pelanggan",
-            "Buatkan web app yang scalable untuk bisnis saya yang berkembang",
-            "Buat platform e-commerce dengan checkout yang lancar",
-            "Kembangkan sistem CRM khusus untuk tim sales saya",
-            "Saya mau website mobile-responsive yang loading-nya cepat"
-        ]
+            {
+                "text": "Saya butuh landing page yang mengubah pengunjung jadi pelanggan",
+                "category": "Landing Page"
+            },
+            {
+                "text": "Buatkan web app yang scalable untuk bisnis saya yang berkembang",
+                "category": "Aplikasi Web"
+            },
+            {
+                "text": "Buat platform e-commerce dengan checkout yang lancar",
+                "category": "E-Commerce"
+            },
+            {
+                "text": "Kembangkan sistem CRM khusus untuk tim sales saya",
+                "category": "Sistem Custom"
+            },
+            {
+                "text": "Saya mau website mobile-responsive yang loading-nya cepat",
+                "category": "Web Responsif"
+            }
+        ],
+        "aiResponse": "Sempurna! Mari kita bangun bersama →",
+        "statsCounter": "Membantu {{count}}+ bisnis berkembang lebih baik"
     },
     "howWeBuild": {
         "badge": "Pendekatan Kami",
-        "title": "Dibangun untuk Bertahan, Bukan Sekadar Jadi",
-        "description": "Siapa saja bisa generate kode dengan AI dalam hitungan menit. Tapi apakah bisa scale? Bisa tambah fitur tanpa rusak semua? Kami membangun sistem dengan arsitektur yang benar sejak hari pertama—agar bisnis Anda bisa berkembang tanpa terhambat technical debt.",
+        "title": "Dibangun dengan Arsitektur yang Kokoh",
+        "description": "Setiap proyek dimulai dengan perencanaan yang matang. Kami merancang sistem yang scalable, mudah dimaintain, dan siap bertumbuh bersama bisnis Anda.",
         "points": [
             {
-                "title": "Terstruktur, Bukan Berantakan",
-                "description": "Arsitektur berlapis yang rapi berarti menambah fitur baru tidak perlu menulis ulang seluruh kode"
+                "title": "Arsitektur Berlapis",
+                "description": "Pemisahan yang jelas antara client, gateway, services, dan data layer untuk fleksibilitas maksimal"
             },
             {
-                "title": "Scalable Sejak Awal",
-                "description": "Dibangun untuk menangani 100 user hari ini dan 100.000 besok—tanpa perlu rebuild mahal"
+                "title": "Scalable by Design",
+                "description": "Dibangun untuk menangani pertumbuhan sejak hari pertama, baik 100 atau 100.000 pengguna"
             },
             {
-                "title": "Kode yang Maintainable",
-                "description": "Type-safe, terdokumentasi dengan baik, dan teruji. Developer masa depan Anda (atau AI assistant) akan berterima kasih"
-            },
-            {
-                "title": "Tech Stack Future-Proof",
-                "description": "Teknologi modern dengan ekosistem yang kuat—React, TypeScript, infrastruktur cloud-native"
+                "title": "Tech Stack Modern",
+                "description": "Menggunakan teknologi terbukti seperti React, TypeScript, dan infrastruktur cloud-native"
             }
         ]
     },

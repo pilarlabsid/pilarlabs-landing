@@ -26,33 +26,46 @@
         "viewWork": "View Portfolio",
         "aiPromptLabel": "client_needs.txt",
         "aiPrompts": [
-            "I need a landing page that converts visitors into customers",
-            "Build me a scalable web app for my growing business",
-            "Create an e-commerce platform with seamless checkout",
-            "Develop a custom CRM system for my sales team",
-            "I want a mobile-responsive website that loads instantly"
-        ]
+            {
+                "text": "I need a landing page that converts visitors into customers",
+                "category": "Landing Page"
+            },
+            {
+                "text": "Build me a scalable web app for my growing business",
+                "category": "Web Application"
+            },
+            {
+                "text": "Create an e-commerce platform with seamless checkout",
+                "category": "E-Commerce"
+            },
+            {
+                "text": "Develop a custom CRM system for my sales team",
+                "category": "Custom System"
+            },
+            {
+                "text": "I want a mobile-responsive website that loads instantly",
+                "category": "Responsive Web"
+            }
+        ],
+        "aiResponse": "Perfect! Let's build that together →",
+        "statsCounter": "Helping {{count}}+ businesses build better"
     },
     "howWeBuild": {
         "badge": "Our Approach",
-        "title": "Built to Last, Not Just to Launch",
-        "description": "Anyone can generate code with AI in minutes. But can it scale? Can you add features without breaking everything? We build systems with proper architecture from day one—so your business can grow without technical debt holding you back.",
+        "title": "Built on Solid Architecture",
+        "description": "Every project starts with careful planning. We design systems that are scalable, maintainable, and ready to grow with your business.",
         "points": [
             {
-                "title": "Structured, Not Spaghetti",
-                "description": "Clean layered architecture means adding new features doesn't require rewriting the entire codebase"
+                "title": "Layered Architecture",
+                "description": "Clean separation between client, gateway, services, and data layers for maximum flexibility"
             },
             {
-                "title": "Scalable from Day One",
-                "description": "Built to handle 100 users today and 100,000 tomorrow—without expensive rewrites"
+                "title": "Scalable by Design",
+                "description": "Built to handle growth from day one, whether it's 100 or 100,000 users"
             },
             {
-                "title": "Maintainable Code",
-                "description": "Type-safe, well-documented, and tested. Your future developers (or AI assistants) will thank you"
-            },
-            {
-                "title": "Future-Proof Tech Stack",
-                "description": "Modern technologies with strong ecosystems—React, TypeScript, cloud-native infrastructure"
+                "title": "Modern Tech Stack",
+                "description": "Using proven technologies like React, TypeScript, and cloud-native infrastructure"
             }
         ]
     },
