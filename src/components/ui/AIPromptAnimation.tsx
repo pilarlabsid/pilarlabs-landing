@@ -199,7 +199,7 @@ export function AIPromptAnimation() {
                         <motion.div
                             initial={{ opacity: 0, y: 10 }}
                             animate={{ opacity: 1, y: 0 }}
-                            className="flex items-center gap-2 md:gap-3 pl-6 md:pl-7 py-2 rounded-xl bg-precision/5 border border-precision/10 w-fit md:w-auto md:pr-4"
+                            className="flex items-center gap-2 md:gap-3 pl-6 md:pl-7 py-2 rounded-xl bg-precision/5 border border-precision/10 w-auto pr-4"
                         >
                             <div className="flex gap-1">
                                 {[0, 1, 2].map((i) => (
