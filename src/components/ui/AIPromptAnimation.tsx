@@ -50,7 +50,7 @@ export function AIPromptAnimation() {
                 const timeout = setTimeout(() => {
                     setShowResponse(false)
                     setShowStartButton(false)
-                }, 2000)
+                }, 2500)
                 return () => clearTimeout(timeout)
             } else if (displayedText.length > 0) {
                 const timeout = setTimeout(() => {
@@ -80,9 +80,8 @@ export function AIPromptAnimation() {
     useEffect(() => {
         if (showStartButton && !showResponse) {
             const timeout = setTimeout(() => {
-                setShowStartButton(false)
                 setShowResponse(true)
-            }, 1200) // Button visible for 1.2 seconds
+            }, 1500) // Button visible for 1.5 seconds before response
             return () => clearTimeout(timeout)
         }
     }, [showStartButton, showResponse])
@@ -153,54 +152,51 @@ export function AIPromptAnimation() {
                     {prompts[currentPromptIndex].category}
                 </motion.div>
 
-                {/* Chat Container */}
-                <div className="space-y-3 relative z-10 min-h-[120px]">
-                    {/* Client Message */}
-                    <div className="flex justify-end">
-                        <div className="max-w-[85%] bg-precision/10 rounded-2xl rounded-tr-sm px-4 py-3">
-                            <p className="text-sm md:text-base font-medium text-calm">
-                                {displayedText}
-                                {isTyping && !showStartButton && (
-                                    <motion.span
-                                        animate={{ opacity: [1, 0] }}
-                                        transition={{ duration: 0.8, repeat: Infinity }}
-                                        className="inline-block w-0.5 h-4 bg-precision ml-1 align-middle"
-                                    />
-                                )}
-                            </p>
-                        </div>
+                {/* Prompt Box - Like AI Chat Input */}
+                <div className="relative z-10 space-y-3">
+                    <div className="bg-structural/10 dark:bg-structural/20 border border-structural/20 rounded-xl p-4">
+                        <p className="text-sm md:text-base text-calm leading-relaxed">
+                            {displayedText}
+                            {isTyping && !showStartButton && (
+                                <motion.span
+                                    animate={{ opacity: [1, 0] }}
+                                    transition={{ duration: 0.8, repeat: Infinity }}
+                                    className="inline-block w-0.5 h-4 bg-precision ml-1 align-middle"
+                                />
+                            )}
+                        </p>
+
+                        {/* Start Button - Bottom Right of Box */}
+                        {showStartButton && (
+                            <motion.div
+                                initial={{ opacity: 0, scale: 0.95 }}
+                                animate={{ opacity: 1, scale: 1 }}
+                                className="flex justify-end mt-3"
+                            >
+                                <div className="flex items-center gap-2 px-4 py-2 bg-precision text-white dark:text-foundation rounded-lg shadow-md">
+                                    <span className="text-sm font-semibold">{t('hero.startButton')}</span>
+                                    <ArrowRight className="w-4 h-4" />
+                                </div>
+                            </motion.div>
+                        )}
                     </div>
 
-                    {/* Start Button - Auto-animated */}
-                    {showStartButton && !showResponse && (
-                        <motion.div
-                            initial={{ opacity: 0, scale: 0.9 }}
-                            animate={{ opacity: 1, scale: 1 }}
-                            className="flex justify-start"
-                        >
-                            <div className="group flex items-center gap-2 px-4 py-2.5 bg-precision text-white dark:text-foundation rounded-xl shadow-lg animate-pulse">
-                                <span className="text-sm font-semibold">{t('hero.startButton')}</span>
-                                <ArrowRight className="w-4 h-4" />
-                            </div>
-                        </motion.div>
-                    )}
-
-                    {/* Response Message */}
+                    {/* Response Box - Below Button */}
                     {showResponse && (
                         <motion.div
                             initial={{ opacity: 0, y: 10 }}
                             animate={{ opacity: 1, y: 0 }}
-                            className="flex justify-start"
+                            className="bg-precision/5 dark:bg-precision/10 border border-precision/20 rounded-xl p-4"
                         >
-                            <div className="max-w-[85%] bg-structural/20 dark:bg-structural/30 rounded-2xl rounded-tl-sm px-4 py-3">
-                                <div className="flex items-center gap-2 mb-1">
-                                    <span className="text-green-500 text-sm">✓</span>
-                                    <span className="text-xs font-medium text-calm/60">Pilar Labs</span>
+                            <div className="flex items-center gap-2 mb-2">
+                                <div className="w-6 h-6 rounded-full bg-precision/20 flex items-center justify-center">
+                                    <span className="text-green-500 text-xs">✓</span>
                                 </div>
-                                <p className="text-sm md:text-base text-calm">
-                                    {currentResponse}
-                                </p>
+                                <span className="text-xs font-semibold text-precision">Pilar Labs</span>
                             </div>
+                            <p className="text-sm md:text-base text-calm leading-relaxed">
+                                {currentResponse}
+                            </p>
                         </motion.div>
                     )}
                 </div>
@@ -222,8 +218,8 @@ export function AIPromptAnimation() {
                     <motion.div
                         key={index}
                         className={`h-1 rounded-full transition-all duration-300 ${index === currentPromptIndex
-                            ? 'w-8 bg-precision'
-                            : 'w-1 bg-structural/30'
+                                ? 'w-8 bg-precision'
+                                : 'w-1 bg-structural/30'
                             }`}
                     />
                 ))}
