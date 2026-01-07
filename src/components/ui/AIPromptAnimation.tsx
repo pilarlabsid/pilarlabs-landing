@@ -219,7 +219,7 @@ export function AIPromptAnimation() {
                                     />
                                 ))}
                             </div>
-                            <span className="text-sm font-medium text-precision/80 italic">Pilar Labs crafting solution...</span>
+                            <span className="text-sm font-medium text-precision/80 italic">{t('hero.processingText')}</span>
                         </motion.div>
                     )}
 
