@@ -34,7 +34,7 @@ export const siteConfig = {
     },
 
     // Default OG Image
-    defaultOgImage: '/og-image.png',
+    defaultOgImage: '/og-image.jpg',
 }
 
 // Page-specific SEO configurations
@@ -43,7 +43,7 @@ export const pageSEO = {
         title: 'Bangun Infrastruktur Digital yang Kokoh',
         description: 'Partner digital development yang membangun infrastruktur web yang kuat dan scalable untuk bisnis Anda. Arsitektur modern, kode berkualitas, pertumbuhan berkelanjutan.',
         keywords: ['web development Jakarta', 'digital infrastructure', 'React TypeScript', 'scalable web app', 'custom development', 'software house Jakarta'],
-        ogImage: '/og-image.png',
+        ogImage: '/og-image.jpg',
     },
     about: {
         title: 'Tentang Kami - Filosofi & Tim',

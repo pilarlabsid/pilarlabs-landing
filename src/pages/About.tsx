@@ -126,6 +126,7 @@ export function About() {
                                                         src="/team/ujang.png"
                                                         alt={t('about.founder.name')}
                                                         className="w-full h-full object-cover grayscale"
+                                                        loading="lazy"
                                                     />
                                                 </div>
                                                 {/* Decorative ring */}

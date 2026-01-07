@@ -25,6 +25,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
                         src={project.coverImage}
                         alt={project.title}
                         className="absolute inset-0 w-full h-full object-cover"
+                        loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent to-foundation/90" />
                     <div className="absolute bottom-4 left-4 right-4">

@@ -57,6 +57,7 @@ export function TrustedBy() {
                                         src={client.logo}
                                         alt={client.name}
                                         className="max-w-full max-h-full object-contain grayscale group-hover:grayscale-0 transition-all duration-300 opacity-70 group-hover:opacity-100"
+                                        loading="lazy"
                                     />
                                 </div>
                                 <h3 className="text-lg font-semibold text-calm mb-1">{client.name}</h3>
