@@ -13,8 +13,8 @@ export function AIPromptAnimation() {
     const [clientsHelped, setClientsHelped] = useState(50)
 
     // Get prompts and categories from translation
-    const prompts = t('hero.aiPrompts', { returnObjects: true }) as Array<{ text: string; category: string }>
-    const response = t('hero.aiResponse')
+    const prompts = t('hero.aiPrompts', { returnObjects: true }) as Array<{ text: string; category: string; response: string }>
+    const currentResponse = prompts[currentPromptIndex]?.response || ''
 
     // Realistic typing speed with variation
     const getTypingSpeed = () => {
@@ -161,7 +161,7 @@ export function AIPromptAnimation() {
                             className="flex items-center gap-2 text-sm text-precision"
                         >
                             <span className="text-green-500">✓</span>
-                            <span className="italic">{response}</span>
+                            <span className="italic">{currentResponse}</span>
                             <ArrowRight className="w-4 h-4 animate-pulse" />
                         </motion.div>
                     )}
