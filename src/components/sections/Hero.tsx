@@ -4,7 +4,7 @@ import { Container } from '@/components/layout/Container'
 import { Button } from '@/components/ui/Button'
 import { motion } from 'framer-motion'
 import { ArrowRight } from 'lucide-react'
-import { ArchitectureDiagram } from '@/components/ui/ArchitectureDiagram'
+import { AIPromptAnimation } from '@/components/ui/AIPromptAnimation'
 
 export function Hero() {
     const { t } = useTranslation()
@@ -58,22 +58,14 @@ export function Hero() {
                         </motion.div>
                     </div>
 
-                    {/* Right side - Architecture visual */}
+                    {/* Right side - AI Prompt Animation */}
                     <motion.div
                         initial={{ opacity: 0, x: 30 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
                         className="relative order-1 lg:order-2"
                     >
-                        <div className="relative group">
-                            {/* Glow effect behind diagram */}
-                            <div className="absolute inset-0 bg-precision/10 blur-3xl rounded-full opacity-40 group-hover:opacity-60 transition-opacity duration-700" />
-
-                            {/* Interactive Architecture Diagram */}
-                            <div className="relative">
-                                <ArchitectureDiagram />
-                            </div>
-                        </div>
+                        <AIPromptAnimation />
                     </motion.div>
                 </div>
             </Container>

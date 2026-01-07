@@ -23,7 +23,15 @@
         "subtitle": "Scalable. Sustainable. Structured.",
         "description": "Pilar Labs builds robust websites that are easy to expand and ready to support your growing business.",
         "startProject": "Start Project",
-        "viewWork": "View Portfolio"
+        "viewWork": "View Portfolio",
+        "aiPromptLabel": "client_needs.txt",
+        "aiPrompts": [
+            "I need a landing page that converts visitors into customers",
+            "Build me a scalable web app for my growing business",
+            "Create an e-commerce platform with seamless checkout",
+            "Develop a custom CRM system for my sales team",
+            "I want a mobile-responsive website that loads instantly"
+        ]
     },
     "positioning": {
         "title": "Infrastructure, Not Just Interface.",
