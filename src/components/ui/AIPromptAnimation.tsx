@@ -140,8 +140,8 @@ export function AIPromptAnimation() {
                 </motion.div>
 
                 {/* Typing Animation */}
-                <div className="min-h-[80px] md:min-h-[60px] flex items-center relative z-10">
-                    <p className="text-lg md:text-xl font-medium text-calm">
+                <div className="min-h-[100px] md:min-h-[80px] flex flex-col justify-center relative z-10">
+                    <p className="text-lg md:text-xl font-medium text-calm mb-2">
                         <span className="text-precision/70">&gt;</span>{' '}
                         <span>{displayedText}</span>
                         {!showResponse && (
@@ -152,30 +152,31 @@ export function AIPromptAnimation() {
                             />
                         )}
                     </p>
+
+                    {/* Response Animation */}
+                    {showResponse && (
+                        <motion.div
+                            initial={{ opacity: 0, y: 10 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            className="flex items-center gap-2 text-sm text-precision"
+                        >
+                            <span className="text-green-500">✓</span>
+                            <span className="italic">{response}</span>
+                            <ArrowRight className="w-4 h-4 animate-pulse" />
+                        </motion.div>
+                    )}
                 </div>
 
-                {/* Response Animation */}
-                {showResponse && (
-                    <motion.div
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        className="mt-4 flex items-center gap-2 text-sm text-precision relative z-10"
-                    >
-                        <span className="text-green-500">✓</span>
-                        <span className="italic">{response}</span>
-                        <ArrowRight className="w-4 h-4 animate-pulse" />
-                    </motion.div>
-                )}
+            </motion.div>
 
-                {/* Stats Counter */}
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 1 }}
-                    className="absolute bottom-4 right-6 text-xs text-calm/40 font-mono relative z-10"
-                >
-                    {t('hero.statsCounter', { count: clientsHelped })}
-                </motion.div>
+            {/* Stats Counter - Outside main container */}
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1 }}
+                className="mt-2 text-right text-xs text-calm/40 font-mono"
+            >
+                {t('hero.statsCounter', { count: clientsHelped })}
             </motion.div>
 
             {/* Progress indicator */}
@@ -184,8 +185,8 @@ export function AIPromptAnimation() {
                     <motion.div
                         key={index}
                         className={`h-1 rounded-full transition-all duration-300 ${index === currentPromptIndex
-                                ? 'w-8 bg-precision'
-                                : 'w-1 bg-structural/30'
+                            ? 'w-8 bg-precision'
+                            : 'w-1 bg-structural/30'
                             }`}
                     />
                 ))}
