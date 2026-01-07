@@ -33,6 +33,25 @@
             "I want a mobile-responsive website that loads instantly"
         ]
     },
+    "howWeBuild": {
+        "badge": "Our Approach",
+        "title": "Built on Solid Architecture",
+        "description": "Every project starts with careful planning. We design systems that are scalable, maintainable, and ready to grow with your business.",
+        "points": [
+            {
+                "title": "Layered Architecture",
+                "description": "Clean separation between client, gateway, services, and data layers for maximum flexibility"
+            },
+            {
+                "title": "Scalable by Design",
+                "description": "Built to handle growth from day one, whether it's 100 or 100,000 users"
+            },
+            {
+                "title": "Modern Tech Stack",
+                "description": "Using proven technologies like React, TypeScript, and cloud-native infrastructure"
+            }
+        ]
+    },
     "positioning": {
         "title": "Infrastructure, Not Just Interface.",
         "description": "Your website is a <strong>Digital Asset</strong>. We build foundations ready to grow, not temporary solutions.",

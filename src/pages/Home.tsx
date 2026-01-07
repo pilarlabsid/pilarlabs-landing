@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { pageSEO } from '@/config/seo-config'
 import { Hero } from '@/components/sections/Hero'
 import { Positioning } from '@/components/sections/Positioning'
+import { HowWeBuild } from '@/components/sections/HowWeBuild'
 import { TrustedBy } from '@/components/sections/TrustedBy'
 import { Problem } from '@/components/sections/Problem'
 import { ServicesPreview } from '@/components/sections/ServicesPreview'
@@ -24,6 +25,7 @@ export function Home() {
             />
             <Hero />
             <Positioning />
+            <HowWeBuild />
             <TrustedBy />
             <Problem />
             <ServicesPreview />
