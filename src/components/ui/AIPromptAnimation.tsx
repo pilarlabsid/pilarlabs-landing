@@ -219,7 +219,7 @@ export function AIPromptAnimation() {
                                     />
                                 ))}
                             </div>
-                            <span className="text-sm font-medium text-precision/80 italic">Pilar Labs processing...</span>
+                            <span className="text-sm font-medium text-precision/80 italic">Pilar Labs crafting solution...</span>
                         </motion.div>
                     )}
 
@@ -327,8 +327,8 @@ export function AIPromptAnimation() {
                         key={index}
                         whileHover={{ scale: 1.2 }}
                         className={`h-1.5 rounded-full transition-all duration-500 ${index === currentPromptIndex
-                                ? 'w-10 bg-gradient-to-r from-precision to-precision/70 shadow-lg shadow-precision/50'
-                                : 'w-1.5 bg-structural/30 hover:bg-structural/50'
+                            ? 'w-10 bg-gradient-to-r from-precision to-precision/70 shadow-lg shadow-precision/50'
+                            : 'w-1.5 bg-structural/30 hover:bg-structural/50'
                             }`}
                     />
                 ))}
