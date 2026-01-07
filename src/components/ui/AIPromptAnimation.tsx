@@ -7,7 +7,9 @@ export function AIPromptAnimation() {
     const { t } = useTranslation()
     const [currentPromptIndex, setCurrentPromptIndex] = useState(0)
     const [displayedText, setDisplayedText] = useState('')
+    const [displayedResponse, setDisplayedResponse] = useState('')
     const [isTyping, setIsTyping] = useState(true)
+    const [isResponseTyping, setIsResponseTyping] = useState(false)
     const [showResponse, setShowResponse] = useState(false)
     const [showStartButton, setShowStartButton] = useState(false)
     const [isPaused, setIsPaused] = useState(false)
@@ -81,16 +83,35 @@ export function AIPromptAnimation() {
         if (showStartButton && !showResponse) {
             const timeout = setTimeout(() => {
                 setShowResponse(true)
+                setIsResponseTyping(true)
+                setDisplayedResponse('')
             }, 1500) // Button visible for 1.5 seconds before response
             return () => clearTimeout(timeout)
         }
     }, [showStartButton, showResponse])
 
+    // Response typing effect
+    useEffect(() => {
+        if (isResponseTyping && showResponse) {
+            if (displayedResponse.length < currentResponse.length) {
+                const timeout = setTimeout(() => {
+                    setDisplayedResponse(currentResponse.slice(0, displayedResponse.length + 1))
+                }, 30) // Fast typing for response
+                return () => clearTimeout(timeout)
+            } else {
+                // Finished typing response
+                setIsResponseTyping(false)
+            }
+        }
+    }, [displayedResponse, isResponseTyping, currentResponse, showResponse])
+
     const handleSkip = () => {
         setDisplayedText('')
+        setDisplayedResponse('')
         setShowResponse(false)
         setShowStartButton(false)
         setIsTyping(true)
+        setIsResponseTyping(false)
         setCurrentPromptIndex((prev) => (prev + 1) % prompts.length)
     }
 
@@ -210,7 +231,14 @@ export function AIPromptAnimation() {
                                 <span className="text-xs font-semibold text-precision">Pilar Labs</span>
                             </div>
                             <p className="text-sm md:text-base text-calm leading-relaxed">
-                                {currentResponse}
+                                {displayedResponse}
+                                {isResponseTyping && (
+                                    <motion.span
+                                        animate={{ opacity: [1, 0] }}
+                                        transition={{ duration: 0.8, repeat: Infinity }}
+                                        className="inline-block w-0.5 h-4 bg-precision ml-1 align-middle"
+                                    />
+                                )}
                             </p>
                         </motion.div>
                     )}
