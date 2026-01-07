@@ -29,31 +29,32 @@
             {
                 "text": "Saya butuh landing page yang mengubah pengunjung jadi pelanggan",
                 "category": "Landing Page",
-                "response": "Kami akan desain halaman dengan konversi tinggi →"
+                "response": "Kami akan desain halaman dengan konversi tinggi"
             },
             {
                 "text": "Buatkan web app yang scalable untuk bisnis saya yang berkembang",
                 "category": "Aplikasi Web",
-                "response": "Sempurna! Kami ahli dalam arsitektur scalable →"
+                "response": "Sempurna! Kami ahli dalam arsitektur scalable"
             },
             {
                 "text": "Buat platform e-commerce dengan checkout yang lancar",
                 "category": "E-Commerce",
-                "response": "Mari kita bangun pengalaman belanja yang smooth →"
+                "response": "Mari kita bangun pengalaman belanja yang smooth"
             },
             {
                 "text": "Kembangkan sistem CRM khusus untuk tim sales saya",
                 "category": "Sistem Custom",
-                "response": "Kami akan buat solusi yang pas untuk tim Anda →"
+                "response": "Kami akan buat solusi yang pas untuk tim Anda"
             },
             {
                 "text": "Saya mau website mobile-responsive yang loading-nya cepat",
                 "category": "Web Responsif",
-                "response": "Kecepatan & responsif adalah prioritas kami →"
+                "response": "Kecepatan & responsif adalah prioritas kami"
             }
         ],
-        "aiResponse": "Sempurna! Mari kita bangun bersama →",
-        "statsCounter": "Membantu {{count}}+ bisnis berkembang lebih baik"
+        "aiResponse": "Sempurna! Mari kita bangun bersama",
+        "statsCounter": "Membantu {{count}}+ bisnis berkembang lebih baik",
+        "startButton": "Mulai Proyek"
     },
     "howWeBuild": {
         "badge": "Pendekatan Kami",

@@ -9,6 +9,7 @@ export function AIPromptAnimation() {
     const [displayedText, setDisplayedText] = useState('')
     const [isTyping, setIsTyping] = useState(true)
     const [showResponse, setShowResponse] = useState(false)
+    const [showStartButton, setShowStartButton] = useState(false)
     const [isPaused, setIsPaused] = useState(false)
     const [clientsHelped, setClientsHelped] = useState(50)
 
@@ -36,10 +37,10 @@ export function AIPromptAnimation() {
                 }, getTypingSpeed())
                 return () => clearTimeout(timeout)
             } else {
-                // Finished typing, show response
+                // Finished typing, show Start button
                 const timeout = setTimeout(() => {
-                    setShowResponse(true)
-                }, 500)
+                    setShowStartButton(true)
+                }, 300)
                 return () => clearTimeout(timeout)
             }
         } else {
@@ -48,7 +49,8 @@ export function AIPromptAnimation() {
                 // Wait before deleting response
                 const timeout = setTimeout(() => {
                     setShowResponse(false)
-                }, 1500)
+                    setShowStartButton(false)
+                }, 2000)
                 return () => clearTimeout(timeout)
             } else if (displayedText.length > 0) {
                 const timeout = setTimeout(() => {
@@ -69,14 +71,20 @@ export function AIPromptAnimation() {
         if (showResponse) {
             const timeout = setTimeout(() => {
                 setIsTyping(false)
-            }, 2000)
+            }, 2500)
             return () => clearTimeout(timeout)
         }
     }, [showResponse])
 
+    const handleStartClick = () => {
+        setShowStartButton(false)
+        setShowResponse(true)
+    }
+
     const handleSkip = () => {
         setDisplayedText('')
         setShowResponse(false)
+        setShowStartButton(false)
         setIsTyping(true)
         setCurrentPromptIndex((prev) => (prev + 1) % prompts.length)
     }
@@ -139,34 +147,60 @@ export function AIPromptAnimation() {
                     {prompts[currentPromptIndex].category}
                 </motion.div>
 
-                {/* Typing Animation */}
-                <div className="min-h-[100px] md:min-h-[80px] flex flex-col justify-center relative z-10">
-                    <p className="text-lg md:text-xl font-medium text-calm mb-2">
-                        <span className="text-precision/70">&gt;</span>{' '}
-                        <span>{displayedText}</span>
-                        {!showResponse && (
-                            <motion.span
-                                animate={{ opacity: [1, 0] }}
-                                transition={{ duration: 0.8, repeat: Infinity }}
-                                className="inline-block w-0.5 h-5 md:h-6 bg-precision ml-1 align-middle"
-                            />
-                        )}
-                    </p>
+                {/* Chat Container */}
+                <div className="space-y-3 relative z-10 min-h-[120px]">
+                    {/* Client Message */}
+                    <div className="flex justify-end">
+                        <div className="max-w-[85%] bg-precision/10 rounded-2xl rounded-tr-sm px-4 py-3">
+                            <p className="text-sm md:text-base font-medium text-calm">
+                                {displayedText}
+                                {isTyping && !showStartButton && (
+                                    <motion.span
+                                        animate={{ opacity: [1, 0] }}
+                                        transition={{ duration: 0.8, repeat: Infinity }}
+                                        className="inline-block w-0.5 h-4 bg-precision ml-1 align-middle"
+                                    />
+                                )}
+                            </p>
+                        </div>
+                    </div>
 
-                    {/* Response Animation */}
+                    {/* Start Button */}
+                    {showStartButton && !showResponse && (
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0.9 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            className="flex justify-start"
+                        >
+                            <button
+                                onClick={handleStartClick}
+                                className="group flex items-center gap-2 px-4 py-2.5 bg-precision hover:bg-precision/90 text-white dark:text-foundation rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
+                            >
+                                <span className="text-sm font-semibold">{t('hero.startButton')}</span>
+                                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            </button>
+                        </motion.div>
+                    )}
+
+                    {/* Response Message */}
                     {showResponse && (
                         <motion.div
                             initial={{ opacity: 0, y: 10 }}
                             animate={{ opacity: 1, y: 0 }}
-                            className="flex items-center gap-2 text-sm text-precision"
+                            className="flex justify-start"
                         >
-                            <span className="text-green-500">✓</span>
-                            <span className="italic">{currentResponse}</span>
-                            <ArrowRight className="w-4 h-4 animate-pulse" />
+                            <div className="max-w-[85%] bg-structural/20 dark:bg-structural/30 rounded-2xl rounded-tl-sm px-4 py-3">
+                                <div className="flex items-center gap-2 mb-1">
+                                    <span className="text-green-500 text-sm">✓</span>
+                                    <span className="text-xs font-medium text-calm/60">Pilar Labs</span>
+                                </div>
+                                <p className="text-sm md:text-base text-calm">
+                                    {currentResponse}
+                                </p>
+                            </div>
                         </motion.div>
                     )}
                 </div>
-
             </motion.div>
 
             {/* Stats Counter - Outside main container */}
@@ -185,8 +219,8 @@ export function AIPromptAnimation() {
                     <motion.div
                         key={index}
                         className={`h-1 rounded-full transition-all duration-300 ${index === currentPromptIndex
-                            ? 'w-8 bg-precision'
-                            : 'w-1 bg-structural/30'
+                                ? 'w-8 bg-precision'
+                                : 'w-1 bg-structural/30'
                             }`}
                     />
                 ))}

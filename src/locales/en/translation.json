@@ -29,31 +29,32 @@
             {
                 "text": "I need a landing page that converts visitors into customers",
                 "category": "Landing Page",
-                "response": "We'll design a high-converting page with clear CTAs →"
+                "response": "We'll design a high-converting page with clear CTAs"
             },
             {
                 "text": "Build me a scalable web app for my growing business",
                 "category": "Web Application",
-                "response": "Perfect! We specialize in scalable architecture →"
+                "response": "Perfect! We specialize in scalable architecture"
             },
             {
                 "text": "Create an e-commerce platform with seamless checkout",
                 "category": "E-Commerce",
-                "response": "Let's build a smooth shopping experience →"
+                "response": "Let's build a smooth shopping experience"
             },
             {
                 "text": "Develop a custom CRM system for my sales team",
                 "category": "Custom System",
-                "response": "We'll create a tailored solution for your team →"
+                "response": "We'll create a tailored solution for your team"
             },
             {
                 "text": "I want a mobile-responsive website that loads instantly",
                 "category": "Responsive Web",
-                "response": "Speed & responsiveness are our priorities →"
+                "response": "Speed & responsiveness are our priorities"
             }
         ],
-        "aiResponse": "Perfect! Let's build that together →",
-        "statsCounter": "Helping {{count}}+ businesses build better"
+        "aiResponse": "Perfect! Let's build that together",
+        "statsCounter": "Helping {{count}}+ businesses build better",
+        "startButton": "Start Project"
     },
     "howWeBuild": {
         "badge": "Our Approach",
