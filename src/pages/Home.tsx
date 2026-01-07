@@ -25,11 +25,11 @@ export function Home() {
             />
             <Hero />
             <Positioning />
-            <HowWeBuild />
-            <TrustedBy />
             <Problem />
             <ServicesPreview />
+            <TrustedBy />
             <FourPillars />
+            <HowWeBuild />
             <ProcessTimeline />
             <FinalCTA />
         </>
