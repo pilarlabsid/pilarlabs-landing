@@ -9,7 +9,6 @@ export function AIPromptAnimation() {
     const [displayedText, setDisplayedText] = useState('')
     const [animationPhase, setAnimationPhase] = useState<'typing' | 'thinking' | 'response' | 'metrics' | 'deleting'>('typing')
     const [isPaused, setIsPaused] = useState(false)
-    const [clientsHelped, setClientsHelped] = useState(50)
 
     // Get prompts and categories from translation
     const prompts = t('hero.aiPrompts', { returnObjects: true }) as Array<{
@@ -76,7 +75,6 @@ export function AIPromptAnimation() {
                 // Finished deleting, move to next prompt
                 setCurrentPromptIndex((prev) => (prev + 1) % prompts.length)
                 setAnimationPhase('typing')
-                setClientsHelped(prev => prev + 1)
             }
         }
     }, [displayedText, animationPhase, currentPromptIndex, prompts, isPaused, currentPrompt.text])
@@ -310,28 +308,19 @@ export function AIPromptAnimation() {
                 </div>
             </motion.div>
 
-            {/* Stats Counter & Progress - Combined for mobile space saving */}
-            <div className="flex items-center justify-between mt-3 px-1">
+            {/* Progress indicator */}
+            <div className="flex items-center justify-center mt-3 px-1">
                 <div className="flex gap-1.5">
                     {prompts.map((_, index) => (
                         <motion.div
                             key={index}
                             className={`h-1 rounded-full transition-all duration-500 ${index === currentPromptIndex
-                                    ? 'w-6 md:w-8 bg-gradient-to-r from-precision to-precision/70 shadow-lg shadow-precision/50'
-                                    : 'w-1 md:w-1.5 bg-structural/30'
+                                ? 'w-6 md:w-8 bg-gradient-to-r from-precision to-precision/70 shadow-lg shadow-precision/50'
+                                : 'w-1 md:w-1.5 bg-structural/30'
                                 }`}
                         />
                     ))}
                 </div>
-
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 1 }}
-                    className="text-[10px] md:text-[11px] text-calm/40 font-mono bg-structural/10 px-2 py-0.5 rounded-full border border-structural/20"
-                >
-                    {t('hero.statsCounter', { count: clientsHelped })}
-                </motion.div>
             </div>
         </div>
     )
