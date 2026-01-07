@@ -154,32 +154,47 @@ export function AIPromptAnimation() {
 
                 {/* Prompt Box - Like AI Chat Input */}
                 <div className="relative z-10 space-y-3">
-                    <div className="bg-structural/10 dark:bg-structural/20 border border-structural/20 rounded-xl p-4">
-                        <p className="text-sm md:text-base text-calm leading-relaxed">
-                            {displayedText}
+                    <div className="bg-structural/10 dark:bg-structural/20 border border-structural/20 rounded-xl p-4 min-h-[100px] flex items-center">
+                        <div className="flex-1">
+                            <p className="text-sm md:text-base text-calm leading-relaxed">
+                                {displayedText}
+                            </p>
+                            {/* Typing Indicator */}
                             {isTyping && !showStartButton && (
-                                <motion.span
-                                    animate={{ opacity: [1, 0] }}
-                                    transition={{ duration: 0.8, repeat: Infinity }}
-                                    className="inline-block w-0.5 h-4 bg-precision ml-1 align-middle"
-                                />
-                            )}
-                        </p>
-
-                        {/* Start Button - Bottom Right of Box */}
-                        {showStartButton && (
-                            <motion.div
-                                initial={{ opacity: 0, scale: 0.95 }}
-                                animate={{ opacity: 1, scale: 1 }}
-                                className="flex justify-end mt-3"
-                            >
-                                <div className="flex items-center gap-2 px-4 py-2 bg-precision text-white dark:text-foundation rounded-lg shadow-md">
-                                    <span className="text-sm font-semibold">{t('hero.startButton')}</span>
-                                    <ArrowRight className="w-4 h-4" />
+                                <div className="flex items-center gap-1 mt-2">
+                                    <motion.div
+                                        animate={{ opacity: [0.4, 1, 0.4] }}
+                                        transition={{ duration: 1.5, repeat: Infinity }}
+                                        className="w-2 h-2 rounded-full bg-precision"
+                                    />
+                                    <motion.div
+                                        animate={{ opacity: [0.4, 1, 0.4] }}
+                                        transition={{ duration: 1.5, repeat: Infinity, delay: 0.2 }}
+                                        className="w-2 h-2 rounded-full bg-precision"
+                                    />
+                                    <motion.div
+                                        animate={{ opacity: [0.4, 1, 0.4] }}
+                                        transition={{ duration: 1.5, repeat: Infinity, delay: 0.4 }}
+                                        className="w-2 h-2 rounded-full bg-precision"
+                                    />
                                 </div>
-                            </motion.div>
-                        )}
+                            )}
+                        </div>
                     </div>
+
+                    {/* Start Button - Outside Box */}
+                    {showStartButton && (
+                        <motion.div
+                            initial={{ opacity: 0, y: -10 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            className="flex justify-end"
+                        >
+                            <div className="flex items-center gap-2 px-5 py-2.5 bg-precision text-white dark:text-foundation rounded-lg shadow-lg">
+                                <span className="text-sm font-semibold">{t('hero.startButton')}</span>
+                                <ArrowRight className="w-4 h-4" />
+                            </div>
+                        </motion.div>
+                    )}
 
                     {/* Response Box - Below Button */}
                     {showResponse && (
@@ -218,8 +233,8 @@ export function AIPromptAnimation() {
                     <motion.div
                         key={index}
                         className={`h-1 rounded-full transition-all duration-300 ${index === currentPromptIndex
-                                ? 'w-8 bg-precision'
-                                : 'w-1 bg-structural/30'
+                            ? 'w-8 bg-precision'
+                            : 'w-1 bg-structural/30'
                             }`}
                     />
                 ))}
