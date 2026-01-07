@@ -25,8 +25,13 @@
   <script>
     // Apply theme class immediately to prevent FOUC
     (function () {
-      const theme = localStorage.getItem('theme') || 'dark';
-      document.documentElement.classList.add(theme);
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme) {
+        document.documentElement.classList.add(savedTheme);
+      } else {
+        const userPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.classList.add(userPrefersDark ? 'dark' : 'light');
+      }
     })();
   </script>
 </head>

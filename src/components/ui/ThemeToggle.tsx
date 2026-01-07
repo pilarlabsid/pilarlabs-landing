@@ -3,13 +3,11 @@ import { Moon, Sun } from 'lucide-react'
 
 export function ThemeToggle() {
     const [theme, setTheme] = useState<'light' | 'dark'>(() => {
-        // Initialize theme immediately
         if (typeof window !== 'undefined') {
-            const savedTheme = localStorage.getItem('theme') as 'light' | 'dark' || 'dark'
-            // Apply immediately to prevent flash
-            document.documentElement.classList.remove('light', 'dark')
-            document.documentElement.classList.add(savedTheme)
-            return savedTheme
+            const savedTheme = localStorage.getItem('theme') as 'light' | 'dark'
+            if (savedTheme) return savedTheme
+
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
         }
         return 'dark'
     })
