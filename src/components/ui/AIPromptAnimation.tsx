@@ -129,7 +129,7 @@ export function AIPromptAnimation() {
                             />
                         </div>
                         <div className="h-3 md:h-4 w-px bg-structural/20" />
-                        <span className="text-[10px] md:text-xs font-medium text-calm/40 tracking-wider uppercase">AI Console</span>
+                        <span className="text-[10px] md:text-xs font-medium text-calm/40 tracking-wider uppercase">Pilar Labs Console</span>
                     </div>
 
                     {/* Control buttons */}
@@ -317,8 +317,8 @@ export function AIPromptAnimation() {
                         <motion.div
                             key={index}
                             className={`h-1 md:h-1.5 rounded-full transition-all duration-500 ${index === currentPromptIndex
-                                    ? 'w-6 md:w-10 bg-gradient-to-r from-precision to-precision/70 shadow-lg shadow-precision/50'
-                                    : 'w-1 md:w-1.5 bg-structural/30'
+                                ? 'w-6 md:w-10 bg-gradient-to-r from-precision to-precision/70 shadow-lg shadow-precision/50'
+                                : 'w-1 md:w-1.5 bg-structural/30'
                                 }`}
                         />
                     ))}
