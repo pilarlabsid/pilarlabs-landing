@@ -35,20 +35,24 @@
     },
     "howWeBuild": {
         "badge": "Our Approach",
-        "title": "Built on Solid Architecture",
-        "description": "Every project starts with careful planning. We design systems that are scalable, maintainable, and ready to grow with your business.",
+        "title": "Built to Last, Not Just to Launch",
+        "description": "Anyone can generate code with AI in minutes. But can it scale? Can you add features without breaking everything? We build systems with proper architecture from day one—so your business can grow without technical debt holding you back.",
         "points": [
             {
-                "title": "Layered Architecture",
-                "description": "Clean separation between client, gateway, services, and data layers for maximum flexibility"
+                "title": "Structured, Not Spaghetti",
+                "description": "Clean layered architecture means adding new features doesn't require rewriting the entire codebase"
             },
             {
-                "title": "Scalable by Design",
-                "description": "Built to handle growth from day one, whether it's 100 or 100,000 users"
+                "title": "Scalable from Day One",
+                "description": "Built to handle 100 users today and 100,000 tomorrow—without expensive rewrites"
             },
             {
-                "title": "Modern Tech Stack",
-                "description": "Using proven technologies like React, TypeScript, and cloud-native infrastructure"
+                "title": "Maintainable Code",
+                "description": "Type-safe, well-documented, and tested. Your future developers (or AI assistants) will thank you"
+            },
+            {
+                "title": "Future-Proof Tech Stack",
+                "description": "Modern technologies with strong ecosystems—React, TypeScript, cloud-native infrastructure"
             }
         ]
     },
