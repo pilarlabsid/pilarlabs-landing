@@ -483,11 +483,44 @@
             "challenge": "Tantangan",
             "solution": "Solusi",
             "results": "Hasil",
-            "viewProject": "Lihat Project"
+            "viewProject": "Lihat Project",
+            "featured": "Proyek Unggulan",
+            "all": "Semua Proyek",
+            "featuredTag": "Unggulan"
         },
         "empty": {
             "title": "Tidak Ada Project",
             "description": "Belum ada project di kategori ini."
+        },
+        "projects": {
+            "nurasaStore": {
+                "title": "Nurasa - Landing Page Jajanan Kering Premium",
+                "industry": "E-Commerce / Makanan & Minuman",
+                "description": "Landing page modern untuk brand jajanan kering premium Nusantara dengan fokus pada brand storytelling dan konversi pemesanan via WhatsApp.",
+                "challenge": "Membangun kehadiran digital dari nol dengan anggaran terbatas dan butuh peluncuran cepat untuk mulai menerima pesanan online.",
+                "solution": "Landing page satu halaman yang fokus pada cerita brand, pameran produk, dan integrasi WhatsApp untuk kemudahan pemesanan. Desain hangat & premium yang mencerminkan cerita di setiap rasa.",
+                "results": [
+                    "Diluncurkan dalam 2 minggu dari konsep hingga produksi",
+                    "Integrasi WhatsApp untuk pemesanan langsung",
+                    "Desain responsif utamakan selular",
+                    "Lencana kepercayaan untuk kredibilitas (Bahan Berkualitas, Higienis & Aman)",
+                    "Navigasi bersih dan UX gulir yang mulus"
+                ]
+            },
+            "yogiBusana": {
+                "title": "Yogi Busana - Rental Pakaian Adat Bali",
+                "industry": "Pariwisata / Layanan Budaya",
+                "description": "Website bilingual (Inggris/Indonesia) untuk layanan rental pakaian tradisional Bali, melayani wisatawan domestik dan internasional.",
+                "challenge": "Menjangkau pasar internasional dan lokal dengan komunikasi yang jelas tentang penyewaan pakaian tradisional untuk acara keagamaan dan budaya di Bali.",
+                "solution": "Website dengan dukungan multi-bahasa (EN/ID), desain bersih mencerminkan budaya Bali, dan informasi lengkap tentang layanan penyewaan. Fokus pada pengalaman pengguna bagi wisatawan yang membutuhkan pakaian adat.",
+                "results": [
+                    "Dukungan multibahasa (Inggris & Indonesia)",
+                    "Branding budaya yang autentik",
+                    "Navigasi bersih dan mudah",
+                    "Responsif selular untuk wisatawan yang aktif",
+                    "Integrasi kontak untuk pertanyaan pemesanan"
+                ]
+            }
         }
     },
     "privacy": {

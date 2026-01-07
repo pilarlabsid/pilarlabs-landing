@@ -34,12 +34,12 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
                             </span>
                             {project.featured && (
                                 <span className="px-2 py-1 text-xs font-medium bg-energy/10 text-energy rounded">
-                                    Featured
+                                    {t('caseStudies.labels.featuredTag')}
                                 </span>
                             )}
                         </div>
                         <h3 className="text-xl font-bold text-calm mb-1">
-                            {project.title}
+                            {t(project.title)}
                         </h3>
                         <p className="text-sm text-calm/60">
                             {project.client} • {project.year}
@@ -50,7 +50,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
                 {/* Content */}
                 <div className="p-6">
                     <p className="text-sm text-calm/70 mb-4 line-clamp-2">
-                        {project.description}
+                        {t(project.description)}
                     </p>
 
                     {/* Results */}
@@ -59,7 +59,10 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
                             {t('caseStudies.labels.results')}
                         </h4>
                         <ul className="space-y-1">
-                            {project.results.slice(0, 2).map((result, idx) => (
+                            {(Array.isArray(project.results)
+                                ? project.results
+                                : t(project.results, { returnObjects: true }) as string[]
+                            ).slice(0, 2).map((result, idx) => (
                                 <li key={idx} className="flex items-start text-xs text-calm/70">
                                     <span className="mr-2 text-precision">✓</span>
                                     {result}

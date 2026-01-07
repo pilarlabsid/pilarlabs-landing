@@ -483,11 +483,44 @@
             "challenge": "Challenge",
             "solution": "Solution",
             "results": "Results",
-            "viewProject": "View Project"
+            "viewProject": "View Project",
+            "featured": "Featured Projects",
+            "all": "All Projects",
+            "featuredTag": "Featured"
         },
         "empty": {
             "title": "No Projects",
             "description": "There are no projects in this category yet."
+        },
+        "projects": {
+            "nurasaStore": {
+                "title": "Nurasa - Premium Snack Landing Page",
+                "industry": "E-Commerce / Food & Beverage",
+                "description": "A modern landing page for a premium snack brand, focusing on brand storytelling and WhatsApp conversion.",
+                "challenge": "Building a digital presence from scratch with a limited budget and needing a fast launch to start receiving online orders.",
+                "solution": "A single-page landing page focusing on brand storytelling, product showcase, and WhatsApp integration for easy ordering. Warm & premium design reflecting the story in every flavor.",
+                "results": [
+                    "Launched in 2 weeks from concept to production",
+                    "WhatsApp integration for direct ordering",
+                    "Mobile-first responsive design",
+                    "Trust badges for credibility (Quality Ingredients, Hygiene & Safety)",
+                    "Clean navigation and smooth scrolling UX"
+                ]
+            },
+            "yogiBusana": {
+                "title": "Yogi Busana - Balinese Traditional Costume Rental",
+                "industry": "Tourism / Cultural Services",
+                "description": "A bilingual website (English/Indonesian) for a Balinese traditional costume rental service, serving domestic and international tourists.",
+                "challenge": "Reaching both international and local markets with clear communication regarding traditional costume rental for religious and cultural events in Bali.",
+                "solution": "A website with multi-language support (EN/ID), clean design reflecting Balinese culture, and complete information regarding rental services. Focused on user experience for tourists needing traditional attire.",
+                "results": [
+                    "Bilingual support (English & Indonesian)",
+                    "Authentic cultural branding",
+                    "Clean and easy navigation",
+                    "Mobile responsive for tourists on-the-go",
+                    "Contact integration for booking inquiries"
+                ]
+            }
         }
     },
     "privacy": {

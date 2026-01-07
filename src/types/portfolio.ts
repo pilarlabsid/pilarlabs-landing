@@ -10,7 +10,7 @@ export interface Portfolio {
     description: string
     challenge: string
     solution: string
-    results: string[]
+    results: string[] | string
     coverImage: string
     images: string[]
     technologies: string[]
