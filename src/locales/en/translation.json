@@ -29,27 +29,104 @@
             {
                 "text": "I need a landing page that converts visitors into customers",
                 "category": "Landing Page",
-                "response": "Perfect! We'll build a high-converting landing page with clear CTAs →"
+                "response": "✓ Pilar Labs will build a high-converting landing page with clear CTAs",
+                "techStack": [
+                    "React",
+                    "Tailwind CSS",
+                    "Framer Motion"
+                ],
+                "metrics": [
+                    {
+                        "icon": "trending",
+                        "text": "+40% conversion"
+                    },
+                    {
+                        "icon": "zap",
+                        "text": "<1s load time"
+                    }
+                ]
             },
             {
                 "text": "Build me a scalable web app for my growing business",
                 "category": "Web Application",
-                "response": "Great! We specialize in scalable architecture ready for growth →"
+                "response": "✓ Pilar Labs specializes in scalable architecture ready for growth",
+                "techStack": [
+                    "React",
+                    "TypeScript",
+                    "Node.js",
+                    "PostgreSQL"
+                ],
+                "metrics": [
+                    {
+                        "icon": "trending",
+                        "text": "100k+ users ready"
+                    },
+                    {
+                        "icon": "zap",
+                        "text": "99.9% uptime"
+                    }
+                ]
             },
             {
                 "text": "Create an e-commerce platform with seamless checkout",
                 "category": "E-Commerce",
-                "response": "Excellent! We'll optimize your checkout flow for maximum sales →"
+                "response": "✓ Pilar Labs will optimize your checkout flow for maximum sales",
+                "techStack": [
+                    "Next.js",
+                    "Stripe",
+                    "Tailwind CSS"
+                ],
+                "metrics": [
+                    {
+                        "icon": "trending",
+                        "text": "+60% checkout completion"
+                    },
+                    {
+                        "icon": "zap",
+                        "text": "Secure payments"
+                    }
+                ]
             },
             {
                 "text": "Develop a custom CRM system for my sales team",
                 "category": "Custom System",
-                "response": "Smart choice! Custom CRM tailored to your workflow coming up →"
+                "response": "✓ Pilar Labs will build custom CRM tailored to your workflow",
+                "techStack": [
+                    "React",
+                    "TypeScript",
+                    "Express",
+                    "MongoDB"
+                ],
+                "metrics": [
+                    {
+                        "icon": "trending",
+                        "text": "+35% team productivity"
+                    },
+                    {
+                        "icon": "zap",
+                        "text": "Real-time sync"
+                    }
+                ]
             },
             {
                 "text": "I want a mobile-responsive website that loads instantly",
                 "category": "Responsive Web",
-                "response": "Absolutely! Fast, mobile-first design is our specialty →"
+                "response": "✓ Pilar Labs delivers fast, mobile-first design as specialty",
+                "techStack": [
+                    "React",
+                    "Vite",
+                    "Tailwind CSS"
+                ],
+                "metrics": [
+                    {
+                        "icon": "zap",
+                        "text": "<0.8s load time"
+                    },
+                    {
+                        "icon": "trending",
+                        "text": "100/100 Lighthouse"
+                    }
+                ]
             }
         ],
         "aiResponse": "Perfect! Let's build that together →",

@@ -29,27 +29,104 @@
             {
                 "text": "Saya butuh landing page yang mengubah pengunjung jadi pelanggan",
                 "category": "Landing Page",
-                "response": "Sempurna! Kami akan bangun landing page dengan konversi tinggi →"
+                "response": "✓ Pilar Labs akan bangun landing page dengan konversi tinggi",
+                "techStack": [
+                    "React",
+                    "Tailwind CSS",
+                    "Framer Motion"
+                ],
+                "metrics": [
+                    {
+                        "icon": "trending",
+                        "text": "+40% konversi"
+                    },
+                    {
+                        "icon": "zap",
+                        "text": "<1 detik loading"
+                    }
+                ]
             },
             {
                 "text": "Buatkan web app yang scalable untuk bisnis saya yang berkembang",
                 "category": "Aplikasi Web",
-                "response": "Bagus! Kami ahli dalam arsitektur yang siap berkembang →"
+                "response": "✓ Pilar Labs ahli dalam arsitektur yang siap berkembang",
+                "techStack": [
+                    "React",
+                    "TypeScript",
+                    "Node.js",
+                    "PostgreSQL"
+                ],
+                "metrics": [
+                    {
+                        "icon": "trending",
+                        "text": "Siap 100rb+ user"
+                    },
+                    {
+                        "icon": "zap",
+                        "text": "99.9% uptime"
+                    }
+                ]
             },
             {
                 "text": "Buat platform e-commerce dengan checkout yang lancar",
                 "category": "E-Commerce",
-                "response": "Mantap! Kami akan optimalkan checkout untuk penjualan maksimal →"
+                "response": "✓ Pilar Labs akan optimalkan checkout untuk penjualan maksimal",
+                "techStack": [
+                    "Next.js",
+                    "Stripe",
+                    "Tailwind CSS"
+                ],
+                "metrics": [
+                    {
+                        "icon": "trending",
+                        "text": "+60% selesai checkout"
+                    },
+                    {
+                        "icon": "zap",
+                        "text": "Pembayaran aman"
+                    }
+                ]
             },
             {
                 "text": "Kembangkan sistem CRM khusus untuk tim sales saya",
                 "category": "Sistem Custom",
-                "response": "Pilihan tepat! CRM custom sesuai workflow Anda siap dibuat →"
+                "response": "✓ Pilar Labs akan buat CRM custom sesuai workflow Anda",
+                "techStack": [
+                    "React",
+                    "TypeScript",
+                    "Express",
+                    "MongoDB"
+                ],
+                "metrics": [
+                    {
+                        "icon": "trending",
+                        "text": "+35% produktivitas tim"
+                    },
+                    {
+                        "icon": "zap",
+                        "text": "Sinkronisasi real-time"
+                    }
+                ]
             },
             {
                 "text": "Saya mau website mobile-responsive yang loading-nya cepat",
                 "category": "Web Responsif",
-                "response": "Tentu! Desain mobile-first yang cepat adalah keahlian kami →"
+                "response": "✓ Pilar Labs menghadirkan desain mobile-first yang cepat",
+                "techStack": [
+                    "React",
+                    "Vite",
+                    "Tailwind CSS"
+                ],
+                "metrics": [
+                    {
+                        "icon": "zap",
+                        "text": "<0.8 detik loading"
+                    },
+                    {
+                        "icon": "trending",
+                        "text": "100/100 Lighthouse"
+                    }
+                ]
             }
         ],
         "aiResponse": "Sempurna! Mari kita bangun bersama →",
