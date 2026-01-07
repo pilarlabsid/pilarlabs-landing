@@ -53,9 +53,6 @@ export function AIPromptAnimation() {
                         <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
                         <div className="w-3 h-3 rounded-full bg-green-500/80" />
                     </div>
-                    <span className="text-xs font-mono text-calm/50">
-                        {t('hero.aiPromptLabel')}
-                    </span>
                 </div>
 
                 {/* Typing Animation */}
