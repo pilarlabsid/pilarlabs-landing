@@ -27,9 +27,9 @@
         "aiPromptLabel": "kebutuhan_klien.txt",
         "aiPrompts": [
             {
-                "text": "Saya butuh landing page yang mengubah pengunjung jadi pelanggan",
+                "text": "Saya butuh landing page yang efektif mengubah pengunjung jadi pembeli",
                 "category": "Landing Page",
-                "response": "✓ Pilar Labs akan bangun landing page dengan konversi tinggi",
+                "response": "Pilar Labs merancang landing page strategis untuk konversi maksimal",
                 "techStack": [
                     "React",
                     "Tailwind CSS",
@@ -47,9 +47,9 @@
                 ]
             },
             {
-                "text": "Buatkan web app yang scalable untuk bisnis saya yang berkembang",
+                "text": "Tolong buatkan aplikasi web scalable untuk bisnis saya",
                 "category": "Aplikasi Web",
-                "response": "✓ Pilar Labs ahli dalam arsitektur yang siap berkembang",
+                "response": "Pilar Labs membangun arsitektur scalable yang siap tumbuh bersama bisnis Anda",
                 "techStack": [
                     "React",
                     "TypeScript",
@@ -68,9 +68,9 @@
                 ]
             },
             {
-                "text": "Buat platform e-commerce dengan checkout yang lancar",
+                "text": "Saya ingin platform e-commerce dengan checkout yang mulus",
                 "category": "E-Commerce",
-                "response": "✓ Pilar Labs akan optimalkan checkout untuk penjualan maksimal",
+                "response": "Pilar Labs mengoptimalkan alur checkout untuk memaksimalkan penjualan",
                 "techStack": [
                     "Next.js",
                     "Stripe",
@@ -88,9 +88,9 @@
                 ]
             },
             {
-                "text": "Kembangkan sistem CRM khusus untuk tim sales saya",
+                "text": "Kami butuh sistem CRM khusus untuk tim sales",
                 "category": "Sistem Custom",
-                "response": "✓ Pilar Labs akan buat CRM custom sesuai workflow Anda",
+                "response": "Pilar Labs mengembangkan CRM khusus yang sesuai dengan alur kerja Anda",
                 "techStack": [
                     "React",
                     "TypeScript",
@@ -109,9 +109,9 @@
                 ]
             },
             {
-                "text": "Saya mau website mobile-responsive yang loading-nya cepat",
+                "text": "Website saya harus responsif dan loadingnya sangat cepat",
                 "category": "Web Responsif",
-                "response": "✓ Pilar Labs menghadirkan desain mobile-first yang cepat",
+                "response": "Pilar Labs menciptakan pengalaman mobile-first yang cepat dan responsif",
                 "techStack": [
                     "React",
                     "Vite",

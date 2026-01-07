@@ -129,7 +129,7 @@ export function AIPromptAnimation() {
                             />
                         </div>
                         <div className="h-4 w-px bg-structural/20" />
-                        <span className="text-xs font-medium text-calm/40 tracking-wider uppercase">AI Console</span>
+                        <span className="text-xs font-medium text-calm/40 tracking-wider uppercase">Pilar Labs Console</span>
                     </div>
 
                     {/* Control buttons */}

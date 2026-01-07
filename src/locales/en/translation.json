@@ -27,9 +27,9 @@
         "aiPromptLabel": "client_needs.txt",
         "aiPrompts": [
             {
-                "text": "I need a landing page that converts visitors into customers",
+                "text": "I need a landing page that actually converts visitors",
                 "category": "Landing Page",
-                "response": "✓ Pilar Labs will build a high-converting landing page with clear CTAs",
+                "response": "Pilar Labs designs high-converting pages with strategic calls-to-action",
                 "techStack": [
                     "React",
                     "Tailwind CSS",
@@ -47,9 +47,9 @@
                 ]
             },
             {
-                "text": "Build me a scalable web app for my growing business",
+                "text": "Build a scalable web app for my growing business",
                 "category": "Web Application",
-                "response": "✓ Pilar Labs specializes in scalable architecture ready for growth",
+                "response": "Pilar Labs engineers scalable architectures ready for your future growth",
                 "techStack": [
                     "React",
                     "TypeScript",
@@ -68,9 +68,9 @@
                 ]
             },
             {
-                "text": "Create an e-commerce platform with seamless checkout",
+                "text": "I want an e-commerce platform with a seamless checkout",
                 "category": "E-Commerce",
-                "response": "✓ Pilar Labs will optimize your checkout flow for maximum sales",
+                "response": "Pilar Labs streamlines your checkout flow to maximize sales conversion",
                 "techStack": [
                     "Next.js",
                     "Stripe",
@@ -88,9 +88,9 @@
                 ]
             },
             {
-                "text": "Develop a custom CRM system for my sales team",
+                "text": "We need a custom CRM system tailored to our sales team",
                 "category": "Custom System",
-                "response": "✓ Pilar Labs will build custom CRM tailored to your workflow",
+                "response": "Pilar Labs develops custom CRM systems perfectly matched to your workflow",
                 "techStack": [
                     "React",
                     "TypeScript",
@@ -109,9 +109,9 @@
                 ]
             },
             {
-                "text": "I want a mobile-responsive website that loads instantly",
+                "text": "Make my website mobile-responsive and super fast",
                 "category": "Responsive Web",
-                "response": "✓ Pilar Labs delivers fast, mobile-first design as specialty",
+                "response": "Pilar Labs crafts lightning-fast, mobile-first experiences for your users",
                 "techStack": [
                     "React",
                     "Vite",
