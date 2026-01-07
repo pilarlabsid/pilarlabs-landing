@@ -76,10 +76,16 @@ export function AIPromptAnimation() {
         }
     }, [showResponse])
 
-    const handleStartClick = () => {
-        setShowStartButton(false)
-        setShowResponse(true)
-    }
+    // Auto-trigger response after button shows
+    useEffect(() => {
+        if (showStartButton && !showResponse) {
+            const timeout = setTimeout(() => {
+                setShowStartButton(false)
+                setShowResponse(true)
+            }, 1200) // Button visible for 1.2 seconds
+            return () => clearTimeout(timeout)
+        }
+    }, [showStartButton, showResponse])
 
     const handleSkip = () => {
         setDisplayedText('')
@@ -165,20 +171,17 @@ export function AIPromptAnimation() {
                         </div>
                     </div>
 
-                    {/* Start Button */}
+                    {/* Start Button - Auto-animated */}
                     {showStartButton && !showResponse && (
                         <motion.div
                             initial={{ opacity: 0, scale: 0.9 }}
                             animate={{ opacity: 1, scale: 1 }}
                             className="flex justify-start"
                         >
-                            <button
-                                onClick={handleStartClick}
-                                className="group flex items-center gap-2 px-4 py-2.5 bg-precision hover:bg-precision/90 text-white dark:text-foundation rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
-                            >
+                            <div className="group flex items-center gap-2 px-4 py-2.5 bg-precision text-white dark:text-foundation rounded-xl shadow-lg animate-pulse">
                                 <span className="text-sm font-semibold">{t('hero.startButton')}</span>
-                                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                            </button>
+                                <ArrowRight className="w-4 h-4" />
+                            </div>
                         </motion.div>
                     )}
 
@@ -219,8 +222,8 @@ export function AIPromptAnimation() {
                     <motion.div
                         key={index}
                         className={`h-1 rounded-full transition-all duration-300 ${index === currentPromptIndex
-                                ? 'w-8 bg-precision'
-                                : 'w-1 bg-structural/30'
+                            ? 'w-8 bg-precision'
+                            : 'w-1 bg-structural/30'
                             }`}
                     />
                 ))}
