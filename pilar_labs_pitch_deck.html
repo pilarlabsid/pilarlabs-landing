@@ -76,44 +76,56 @@
             z-index: 10;
         }
 
-        /* GLASSMORPHIC CONTROLS BAR */
-        .controls-bar {
+        /* GLASSMORPHIC CONTROLS CONTAINER & BAR */
+        .controls-container {
             position: fixed;
-            bottom: 25px;
-            left: 50%;
-            transform: translateX(-50%);
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 70px; /* hover trigger height zone at the bottom */
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            padding-bottom: 15px;
+            z-index: 999;
+        }
+
+        .controls-bar {
             display: flex;
             align-items: center;
-            background: rgba(12, 21, 43, 0.75);
+            background: rgba(12, 21, 43, 0.85);
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
             border: 1px solid rgba(30, 46, 92, 0.8);
-            padding: 8px 16px;
+            padding: 5px 12px;
             border-radius: 30px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-            z-index: 999;
-            gap: 12px;
+            gap: 6px;
             user-select: none;
-            transition: opacity 0.3s ease;
+            opacity: 0;
+            transform: translateY(15px);
+            transition: opacity 0.2s ease, transform 0.2s ease;
+            pointer-events: none;
         }
 
-        .controls-bar.hidden {
-            opacity: 0;
-            pointer-events: none;
+        .controls-container:hover .controls-bar {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
         }
 
         .control-btn {
             background: transparent;
             border: none;
             color: #94a3b8;
-            width: 38px;
-            height: 38px;
+            width: 28px;
+            height: 28px;
             border-radius: 50%;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 16px;
+            font-size: 11px;
             transition: all 0.2s ease;
         }
 
@@ -127,10 +139,10 @@
         }
 
         .slide-indicator {
-            font-size: 14px;
+            font-size: 11px;
             font-weight: 600;
             color: #ffffff;
-            min-width: 100px;
+            min-width: 80px;
             text-align: center;
             font-family: 'Plus Jakarta Sans', sans-serif;
         }
@@ -634,18 +646,20 @@
         /* PDF / PRINT STYLESHEET */
         @media print {
             @page {
-                size: 1280px 720px;
+                size: landscape;
                 margin: 0;
             }
             html, body {
                 width: 1280px !important;
-                height: auto !important;
+                height: 720px !important;
                 overflow: visible !important;
                 background-color: #040814 !important;
                 -webkit-print-color-adjust: exact !important;
                 print-color-adjust: exact !important;
+                /* Apply print-specific zoom scaling to fit standard Letter/A4 Landscape printable width */
+                zoom: 84%;
             }
-            .controls-bar {
+            .controls-container {
                 display: none !important;
             }
             .presentation-wrapper {
@@ -672,6 +686,8 @@
                 top: auto !important;
                 left: auto !important;
                 z-index: auto !important;
+                width: 1280px !important;
+                height: 720px !important;
             }
         }
     </style>
@@ -1449,13 +1465,15 @@
 
 </div> <!-- Closing .presentation-wrapper -->
 
-<!-- GLASSMORPHIC CONTROLS BAR -->
-<div class="controls-bar">
-    <button id="prev-btn" class="control-btn" title="Slide Sebelumnya"><i class="fa-solid fa-chevron-left"></i></button>
-    <span id="slide-indicator" class="slide-indicator">Slide 1 / 21</span>
-    <button id="next-btn" class="control-btn" title="Slide Selanjutnya"><i class="fa-solid fa-chevron-right"></i></button>
-    <button id="fullscreen-btn" class="control-btn" style="margin-left: 15px;" title="Layar Penuh"><i class="fa-solid fa-expand"></i></button>
-    <button id="pdf-btn" class="control-btn" style="color: #ff6b6b;" title="Download PDF / Cetak"><i class="fa-solid fa-file-pdf"></i></button>
+<!-- GLASSMORPHIC CONTROLS CONTAINER & BAR -->
+<div class="controls-container">
+    <div class="controls-bar">
+        <button id="prev-btn" class="control-btn" title="Slide Sebelumnya"><i class="fa-solid fa-chevron-left"></i></button>
+        <span id="slide-indicator" class="slide-indicator">Slide 1 / 21</span>
+        <button id="next-btn" class="control-btn" title="Slide Selanjutnya"><i class="fa-solid fa-chevron-right"></i></button>
+        <button id="fullscreen-btn" class="control-btn" style="margin-left: 15px;" title="Layar Penuh"><i class="fa-solid fa-expand"></i></button>
+        <button id="pdf-btn" class="control-btn" style="margin-left: 8px;" title="Download PDF / Cetak"><i class="fa-solid fa-file-pdf"></i></button>
+    </div>
 </div>
 
 <!-- PRESENTATION NAVIGATION SCRIPT -->
@@ -1468,7 +1486,6 @@
         const fullscreenBtn = document.getElementById('fullscreen-btn');
         const pdfBtn = document.getElementById('pdf-btn');
         const wrapper = document.querySelector('.presentation-wrapper');
-        const controlsBar = document.querySelector('.controls-bar');
         
         let currentSlide = 0;
         const totalSlides = slides.length;
@@ -1559,18 +1576,6 @@
         // PDF / Print functionality
         pdfBtn.addEventListener('click', () => {
             window.print();
-        });
-
-        // Hide controls bar after inactivity, show on mouse movement
-        let controlsTimeout;
-        document.addEventListener('mousemove', () => {
-            controlsBar.classList.remove('hidden');
-            clearTimeout(controlsTimeout);
-            controlsTimeout = setTimeout(() => {
-                if (currentSlide !== 0) { // Don't hide controls on slide 1 (cover)
-                    controlsBar.classList.add('hidden');
-                }
-            }, 3000);
         });
 
         // Parse hash on load
