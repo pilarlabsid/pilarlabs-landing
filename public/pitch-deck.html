@@ -1,0 +1,1311 @@
+<!DOCTYPE html><html lang="id"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT Pilar Inovasi Teknologi — Pitch Deck</title>
+    <!-- Google Fonts: Plus Jakarta Sans untuk Header, Inter untuk Body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #040814;
+            display: grid;
+            gap: 45px;
+            grid-template-columns: 1fr;
+            margin: 0;
+            padding: 40px 0;
+            place-items: center;
+            font-family: 'Inter', sans-serif;
+            color: #e2e8f0;
+        }
+
+        /* DIMENSI KONTAINER PRESENTASI TETAP (1280x720) */
+        .slide-container {
+            background-color: #070d1e;
+            border: 1px solid #162447;
+            border-radius: 20px;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.6);
+            display: flex;
+            flex-direction: column;
+            width: 1280px;
+            height: 720px;
+            padding: 55px 65px;
+            position: relative;
+            overflow: hidden;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        /* BACKGROUND DECORATIONS (Aesthetic Glows & Gradients) */
+        .slide-container::before {
+            content: '';
+            position: absolute;
+            top: -150px;
+            right: -150px;
+            width: 450px;
+            height: 450px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(0, 242, 254, 0.18) 0%, transparent 70%);
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .slide-container::after {
+            content: '';
+            position: absolute;
+            bottom: -150px;
+            left: -150px;
+            width: 450px;
+            height: 450px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(0, 230, 118, 0.1) 0%, transparent 70%);
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        /* Pastikan konten berada di atas dekorasi background */
+        .slide-container > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* TIPOGRAFI & BRANDING */
+        h1, h2, h3, h4 {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        /* Gaya Judul Slide Konsisten */
+        .slide-container .slide-title {
+            font-size: 34px;
+            color: #ffffff;
+            font-weight: 800;
+            margin-bottom: 25px;
+            letter-spacing: -0.5px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            border-left: 5px solid #00f2fe;
+            padding-left: 15px;
+            line-height: 1.2;
+        }
+
+        .slide-container .slide-title span {
+            color: #00e676;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #94a3b8;
+            margin: 0 0 15px 0;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #00f2fe;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        /* Area Konten Utama */
+        .content-area {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            width: 100%;
+            justify-content: center;
+        }
+
+        /* LAYOUT GRID CONFIGURATIONS */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            width: 100%;
+            align-items: stretch;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            width: 100%;
+            align-items: stretch;
+        }
+
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            width: 100%;
+            align-items: stretch;
+        }
+
+        /* GAYA ELEMEN DESAIN */
+        .card {
+            background-color: #0c152b;
+            border: 1px solid #1e2e5c;
+            border-radius: 12px;
+            padding: 24px;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .card.interactive:hover {
+            border-color: #00f2fe;
+            box-shadow: 0 10px 20px rgba(0, 242, 254, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: 20px;
+            color: #ffffff;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .card h3 i {
+            color: #00f2fe;
+        }
+
+        /* Badge Solusi */
+        .badge-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .badge {
+            background-color: #112240;
+            border: 1px solid #233554;
+            color: #64ffda;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* List Tanpa display:flex untuk Menghindari Bug Indentasi */
+        .styled-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .styled-list li {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 12px;
+            font-size: 15px;
+            color: #cbd5e1;
+            line-height: 1.5;
+        }
+
+        .styled-list li i {
+            position: absolute;
+            left: 0;
+            top: 4px;
+            color: #00e676;
+            font-size: 16px;
+        }
+
+        .challenge-list li i {
+            color: #ff5252;
+        }
+
+        /* Image Wrapper */
+        .image-wrapper {
+            width: 100%;
+            height: 380px;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #1e2e5c;
+            background-color: #0c152b;
+        }
+
+        .image-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .image-wrapper img.contain {
+            object-fit: contain;
+            padding: 15px;
+        }
+
+        /* COVER & CENTERED LAYOUTS */
+        .centered-layout {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 100%;
+            width: 100%;
+        }
+
+        .centered-layout h1 {
+            font-size: 64px;
+            line-height: 1.1;
+            letter-spacing: -1.5px;
+            background: linear-gradient(135deg, #ffffff 40%, #00f2fe 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 15px;
+            font-weight: 800;
+        }
+
+        .centered-layout .subtitle-large {
+            font-size: 24px;
+            color: #cbd5e1;
+            font-weight: 500;
+            margin-bottom: 25px;
+        }
+
+        .centered-layout .description-hero {
+            font-size: 18px;
+            color: #94a3b8;
+            max-width: 850px;
+            margin: 30px auto 0 auto;
+            line-height: 1.6;
+        }
+
+        /* CHARTS & DATA DESIGN */
+        .chart-container {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            width: 100%;
+            background-color: #0c152b;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #1e2e5c;
+        }
+
+        .chart-bar-item {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .chart-label {
+            flex: 0 0 240px;
+            font-size: 15px;
+            color: #ffffff;
+            text-align: right;
+            font-weight: 500;
+        }
+
+        .chart-track {
+            background-color: #162447;
+            border-radius: 6px;
+            flex-grow: 1;
+            height: 32px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .chart-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #00f2fe, #00e676);
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 15px;
+            color: #040814;
+            font-weight: 700;
+            font-size: 14px;
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(0, 242, 254, 0.4);
+        }
+
+        /* HIGH-IMPACT LAYOUTS (Highlighted Numbers) */
+        .stats-layout {
+            display: grid;
+            grid-template-columns: 1.2fr 2fr;
+            gap: 40px;
+            align-items: center;
+            width: 100%;
+        }
+
+        .stats-highlight {
+            text-align: center;
+            background: linear-gradient(135deg, #0c152b, #112240);
+            border: 2px solid #00f2fe;
+            border-radius: 20px;
+            padding: 40px 20px;
+            box-shadow: 0 15px 30px rgba(0, 242, 254, 0.15);
+        }
+
+        .stats-number {
+            font-size: 80px;
+            font-weight: 800;
+            color: #00f2fe;
+            line-height: 1;
+            background: linear-gradient(135deg, #00f2fe, #00e676);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .stats-label {
+            font-size: 20px;
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        /* PROCESS & TIMELINE FLOWS */
+        .timeline-flow {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            position: relative;
+            padding: 20px 0;
+        }
+
+        .timeline-step-card {
+            background-color: #0c152b;
+            border: 1px solid #1e2e5c;
+            border-radius: 12px;
+            padding: 16px;
+            width: 18%;
+            text-align: center;
+            position: relative;
+        }
+
+        .timeline-step-card h3 {
+            font-size: 16px;
+            color: #00f2fe;
+            margin-bottom: 6px;
+        }
+
+        .timeline-step-card p {
+            font-size: 13px;
+            color: #94a3b8;
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        .timeline-arrow {
+            color: #1e2e5c;
+            font-size: 24px;
+        }
+
+        /* STYLED QUOTE */
+        .quote-box {
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .quote-box blockquote {
+            font-size: 30px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: #ffffff;
+            font-weight: 600;
+            line-height: 1.5;
+            margin: 0 0 25px 0;
+            position: relative;
+        }
+
+        .quote-box blockquote::before {
+            content: '“';
+            font-size: 100px;
+            color: rgba(0, 242, 254, 0.15);
+            position: absolute;
+            left: -40px;
+            top: -50px;
+            font-family: Georgia, serif;
+        }
+
+        .quote-box cite {
+            font-size: 18px;
+            color: #00e676;
+            font-style: normal;
+            font-weight: 600;
+        }
+
+        /* GRID SEGMENT FOR INDUSTRIES */
+        .industry-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+            width: 100%;
+        }
+
+        .industry-item {
+            background-color: #0c152b;
+            border: 1px solid #1e2e5c;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: 600;
+            color: #ffffff;
+            transition: all 0.3s ease;
+        }
+
+        .industry-item i {
+            display: block;
+            font-size: 24px;
+            color: #00f2fe;
+            margin-bottom: 10px;
+        }
+
+        .industry-item:hover {
+            border-color: #00e676;
+            background-color: #112240;
+        }
+
+        /* PORTFOLIO HOVER CARDS */
+        .portfolio-card {
+            background-color: #0c152b;
+            border: 1px solid #1e2e5c;
+            border-radius: 12px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: all 0.3s ease;
+        }
+        .portfolio-card:hover {
+            border-color: #00f2fe;
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0, 242, 254, 0.15);
+        }
+        .portfolio-image {
+            height: 140px;
+            background-color: #112240;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid #1e2e5c;
+        }
+        .portfolio-image i {
+            font-size: 48px;
+            color: #00f2fe;
+        }
+        .portfolio-info {
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* PRICING PLANS */
+        .price-card {
+            border-radius: 16px;
+            background-color: #0c152b;
+            border: 1px solid #1e2e5c;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        .price-card.featured {
+            border: 2px solid #00f2fe;
+            background: linear-gradient(180deg, #0c152b 0%, #112240 100%);
+            box-shadow: 0 10px 25px rgba(0, 242, 254, 0.15);
+        }
+        .price-header {
+            border-bottom: 1px solid #1e2e5c;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        .price-tag {
+            font-size: 26px;
+            color: #00e676;
+            font-weight: 800;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- SLIDE 1: COVER (Title_Slide) -->
+<div class="slide-container" id="slide1">
+    <div class="content-area centered-layout">
+        <h1 style="font-size: 84px; margin-bottom: 5px;">Pilar Labs</h1>
+        <div class="subtitle-large" style="color: #00f2fe;">Wujudkan Ide Hebat Anda Lewat Teknologi Masa Depan</div>
+        <div class="badge-container" style="justify-content: center; margin-bottom: 35px;">
+            <span class="badge"><i class="fa-solid fa-code"></i> Software Development</span>
+            <span class="badge"><i class="fa-solid fa-brain"></i> Artificial Intelligence</span>
+            <span class="badge"><i class="fa-solid fa-earth-americas"></i> Geographic Information System</span>
+            <span class="badge"><i class="fa-solid fa-chart-pie"></i> Data Analytics</span>
+        </div>
+        <p class="description-hero" style="font-size: 19px; color: #cbd5e1; font-weight: 500;">
+            "Kami tidak hanya membangun baris kode. Kami merancang solusi digital yang membantu organisasi Anda mendefinisikan ulang batas efisiensi, otomatisasi, dan pertumbuhan nyata."
+        </p>
+    </div>
+</div>
+
+<!-- SLIDE 2: ABOUT US (Two_Column_Tiled_Text) -->
+<div class="slide-container" id="slide2">
+    <h2 class="slide-title">Katalis Transformasi <span>Digital Anda</span></h2>
+    <div class="content-area">
+        <div class="grid-2">
+            <!-- Sisi Kiri: Profil & Visi -->
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+                <div class="card" style="flex-grow: 1;">
+                    <h3><i class="fa-solid fa-building"></i> Siapa Kami?</h3>
+                    <p style="margin: 0; font-size: 15px; line-height: 1.7;">
+                        Di bawah payung hukum <strong>PT Pilar Inovasi Teknologi</strong>, kami berkumpul sebagai tim inovator yang bersemangat menyederhanakan kompleksitas dunia digital. Kami hadir sebagai rekan tumbuh bagi korporat, startup ambisius, UMKM tangguh, hingga instansi pemerintah progresif.
+                    </p>
+                    <p style="margin-top: 12px; margin-bottom: 0; font-size: 15px; line-height: 1.7;">
+                        Menggabungkan sentuhan AI cerdas, analitik data mendalam, peta spasial (GIS), dan aplikasi kustom untuk melahirkan pertumbuhan yang berdampak nyata.
+                    </p>
+                </div>
+                <div class="card" style="border-left: 4px solid #00f2fe;">
+                    <h3><i class="fa-solid fa-eye"></i> Impian Besar Kami (Visi)</h3>
+                    <p style="margin: 0; font-size: 15px; font-style: italic; line-height: 1.6;">
+                        "Menjadi kompas dan jangkar teknologi terpercaya yang menuntun organisasi melangkah berani melampaui batas inovasi digital di panggung global."
+                    </p>
+                </div>
+            </div>
+            <!-- Sisi Kanan: Misi -->
+            <div class="card">
+                <h3><i class="fa-solid fa-bullseye"></i> Langkah Nyata Kami (Misi)</h3>
+                <ul class="styled-list" style="margin-top: 10px;">
+                    <li style="margin-bottom: 18px;"><i class="fa-solid fa-circle-check"></i> <strong>Inovasi Tanpa Kompromi:</strong> Menempa produk teknologi berstandar tinggi yang andal dan modern.</li>
+                    <li style="margin-bottom: 18px;"><i class="fa-solid fa-circle-check"></i> <strong>Akselerator Transformasi:</strong> Menuntun peralihan digital organisasi secara mulus tanpa membuat Anda bingung.</li>
+                    <li style="margin-bottom: 18px;"><i class="fa-solid fa-circle-check"></i> <strong>Keamanan Tanpa Cela:</strong> Menjamin fondasi sistem yang solid, aman dari ancaman, dan siap tumbuh sebesar apa pun skala Anda.</li>
+                    <li style="margin-bottom: 18px;"><i class="fa-solid fa-circle-check"></i> <strong>Kerja Sama Setara:</strong> Menjalankan proses kerja profesional berlandaskan keterbukaan dan rasa kepemilikan bersama.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 3: THE CHALLENGES (Styled_Bullet_Points) -->
+<div class="slide-container" id="slide3">
+    <h2 class="slide-title">Tantangan atau <span>Peluang Tersembunyi?</span></h2>
+    <div class="content-area">
+        <p class="subtitle" style="margin-bottom: 25px;">Di balik setiap hambatan operasional, ada kesempatan besar untuk memimpin pasar bila Anda bergerak cepat.</p>
+        <div class="grid-2">
+            <div class="card">
+                <h3><i class="fa-solid fa-triangle-exclamation" style="color: #ff5252;"></i> Kebocoran Waktu &amp; Biaya</h3>
+                <ul class="styled-list challenge-list">
+                    <li><i class="fa-solid fa-clock"></i> Proses kerja harian Anda masih bertumpu pada dokumen fisik dan cara manual yang melelahkan.</li>
+                    <li><i class="fa-solid fa-circle-nodes"></i> Data terkunci di berbagai folder terpisah—tidak saling menyapa atau terintegrasi.</li>
+                    <li><i class="fa-solid fa-wallet"></i> Biaya operasional terus membengkak tanpa terlihat di mana letak kebocorannya.</li>
+                    <li><i class="fa-solid fa-hourglass-half"></i> Alur kerja terlalu panjang, lambat, dan rentan terhadap kesalahan manusia.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3><i class="fa-solid fa-chart-line" style="color: #ff5252;"></i> Kebutaan Arah &amp; Kehilangan Momentum</h3>
+                <ul class="styled-list challenge-list">
+                    <li><i class="fa-solid fa-eye-slash"></i> Mengambil keputusan penting bagaikan berjalan dalam gelap karena tidak ada laporan visual real-time.</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Aset berharga di lapangan sulit dipantau secara akurat dan transparan.</li>
+                    <li><i class="fa-solid fa-robot"></i> Sadar teknologi AI dan peta spasial (GIS) luar biasa, namun bingung bagaimana mengadopsinya ke dalam operasional bisnis Anda.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 4: OUR SOLUTION (Two_Column_Tiled_Text) -->
+<div class="slide-container" id="slide4">
+    <h2 class="slide-title">Mari Sederhanakan <span>Kompleksitas Anda</span></h2>
+    <div class="content-area">
+        <div class="grid-2" style="align-items: center;">
+            <div>
+                <p class="subtitle" style="font-size: 20px;">Layanan Ujung-ke-Ujung (End-to-End) Tanpa Repot</p>
+                <p style="font-size: 16px; margin-bottom: 25px; line-height: 1.7;">
+                    Kami tidak membiarkan Anda meraba-raba di tengah jalan. Dari diskusi rancangan awal, pembuatan desain visual yang memikat, arsitektur data yang kokoh, penulisan kode, hingga sistem peluncuran cloud dan perawatan berkala—kami ada di setiap langkah perjalanan Anda.
+                </p>
+                <div class="card" style="border-left: 4px solid #00e676;">
+                    <h3 style="font-size: 18px; margin-bottom: 5px;"><i class="fa-solid fa-wand-magic-sparkles" style="color:#00e676;"></i> Lebih dari Sekadar Membangun Aplikasi</h3>
+                    <p style="margin: 0; font-size: 14px; line-height: 1.6;">Kami merajut solusi yang tidak hanya beroperasi dengan mulus, namun juga memberikan perasaan tenang bagi tim kerja dan kepuasan luar biasa bagi pengguna Anda.</p>
+                </div>
+            </div>
+            <div class="card">
+                <h3><i class="fa-solid fa-boxes-stacked"></i> Solusi Inti untuk Melompat Tinggi</h3>
+                <div class="badge-container" style="gap: 8px;">
+                    <span class="badge"><i class="fa-solid fa-globe"></i> Website Development</span>
+                    <span class="badge"><i class="fa-solid fa-laptop-code"></i> Web Application</span>
+                    <span class="badge"><i class="fa-solid fa-mobile-screen"></i> Mobile Application</span>
+                    <span class="badge"><i class="fa-solid fa-robot"></i> Artificial Intelligence</span>
+                    <span class="badge"><i class="fa-solid fa-map-location-dot"></i> Geographic Information (GIS)</span>
+                    <span class="badge"><i class="fa-solid fa-chart-simple"></i> Data Analytics</span>
+                    <span class="badge"><i class="fa-solid fa-gauge"></i> Business Dashboard</span>
+                    <span class="badge"><i class="fa-solid fa-cloud"></i> Cloud Infrastructure</span>
+                    <span class="badge"><i class="fa-solid fa-network-wired"></i> API Integration</span>
+                    <span class="badge"><i class="fa-solid fa-rocket"></i> Digital Transformation</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 5: SERVICES - SOFTWARE DEV (Image_Right_Text_Left) -->
+<div class="slide-container" id="slide5">
+    <h2 class="slide-title">Membangun Jejak <span>Digital yang Kredibel</span></h2>
+    <div class="content-area">
+        <div class="grid-2" style="align-items: center;">
+            <div style="display: flex; flex-direction: column; gap: 15px;">
+                <p class="subtitle" style="margin-bottom: 10px;">Platform handal yang memudahkan pengguna jatuh hati pada bisnis Anda.</p>
+                
+                <div class="grid-2">
+                    <div class="card">
+                        <h4 style="font-size: 16px; color: #00f2fe; margin-bottom: 12px;"><i class="fa-solid fa-gem"></i> Website Representatif</h4>
+                        <ul class="styled-list" style="font-size: 13px;">
+                            <li><i class="fa-solid fa-star"></i> Company Profile Kelas Dunia</li>
+                            <li><i class="fa-solid fa-star"></i> Portal Interaktif Perusahaan</li>
+                            <li><i class="fa-solid fa-star"></i> Landing Page Konversi Tinggi</li>
+                            <li><i class="fa-solid fa-star"></i> Hub Komunikasi Terintegrasi</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h4 style="font-size: 16px; color: #00e676; margin-bottom: 12px;"><i class="fa-solid fa-terminal"></i> Aplikasi Web Mandiri</h4>
+                        <ul class="styled-list" style="font-size: 13px;">
+                            <li><i class="fa-solid fa-star"></i> Integrasi ERP, CRM, &amp; HRIS</li>
+                            <li><i class="fa-solid fa-star"></i> Otomasi Kasir &amp; Inventory (POS)</li>
+                            <li><i class="fa-solid fa-star"></i> Sistem Keuangan &amp; Procurement</li>
+                            <li><i class="fa-solid fa-star"></i> Monitoring Kinerja Operasional</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="image-wrapper">
+                    <img class="contain" alt="Workspace and Laptop Dashboard" src="https://img.magnific.com/premium-psd/modern-workspace-with-laptop-displaying-business-analytics-dashboard_764601-55.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 6: MOBILE APPLICATION (Two_Column_Tiled_Text) -->
+<div class="slide-container" id="slide6">
+    <h2 class="slide-title">Bisnis Anda <span>dalam Satu Genggaman</span></h2>
+    <div class="content-area">
+        <div class="grid-2" style="align-items: center;">
+            <div class="card">
+                <h3><i class="fa-solid fa-mobile-button"></i> Hadir Kapan Saja di Ponsel Mereka</h3>
+                <p style="font-size: 15px; line-height: 1.7;">
+                    Pengguna modern menghabiskan sebagian besar waktunya di depan layar ponsel pintar. Kami merancang aplikasi mobile kustom yang tidak sekadar indah dilihat, namun terasa responsif, hemat baterai, dan menyenangkan untuk terus digunakan berulang kali.
+                </p>
+                <div class="badge-container" style="margin-top: 15px;">
+                    <span class="badge"><i class="fa-brands fa-android"></i> Android Native</span>
+                    <span class="badge"><i class="fa-brands fa-apple"></i> iOS Native</span>
+                    <span class="badge"><i class="fa-solid fa-layer-group"></i> Flutter Cross-Platform</span>
+                </div>
+            </div>
+            <div class="card">
+                <h3><i class="fa-solid fa-wand-magic-sparkles"></i> Layanan yang Siap Kami Bangun</h3>
+                <ul class="styled-list">
+                    <li><i class="fa-solid fa-check"></i> <strong>Aplikasi Pengguna Akhir (B2C):</strong> Menjadikan transaksi belanja dan pemesanan semudah menyentuh satu tombol.</li>
+                    <li><i class="fa-solid fa-check"></i> <strong>Aplikasi Manajemen Internal:</strong> Memudahkan koordinasi tim di lapangan secara instan kapan pun diperlukan.</li>
+                    <li><i class="fa-solid fa-check"></i> <strong>Teknologi Flutter Multi-Platform:</strong> Memangkas biaya dan waktu pengerjaan tanpa mengorbankan kualitas grafis.</li>
+                    <li><i class="fa-solid fa-check"></i> <strong>Dukungan Pemeliharaan Rutin:</strong> Memastikan aplikasi Anda selalu lolos verifikasi Play Store &amp; App Store.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 7: ARTIFICIAL INTELLIGENCE (Tiled_Text_With_Icons) -->
+<div class="slide-container" id="slide7">
+    <h2 class="slide-title">Lompati Kompetitor dengan <span>Kecerdasan Buatan (AI)</span></h2>
+    <div class="content-area">
+        <p class="subtitle" style="margin-bottom: 25px;">Biarkan mesin cerdas kami mengambil alih tugas repetitif dan memberikan Anda waktu untuk berfokus pada strategi bisnis besar.</p>
+        <div class="grid-3">
+            <div class="card interactive">
+                <h3><i class="fa-solid fa-eye"></i> Intelligent Vision</h3>
+                <p style="font-size: 14px; line-height: 1.6; margin-bottom: 15px;">Menerjemahkan data gambar &amp; video menjadi tindakan otomatis yang presisi.</p>
+                <ul class="styled-list" style="font-size: 13px; margin-top: auto;">
+                    <li><i class="fa-solid fa-bolt"></i> Deteksi Objek Real-Time</li>
+                    <li><i class="fa-solid fa-bolt"></i> Digitalisasi Berkas Fisik (OCR)</li>
+                </ul>
+            </div>
+            <div class="card interactive">
+                <h3><i class="fa-solid fa-comments"></i> NLP &amp; Agent Cerdas</h3>
+                <p style="font-size: 14px; line-height: 1.6; margin-bottom: 15px;">Berkomunikasi dengan bahasa yang natural, hangat, dan selalu aktif melayani pelanggan 24/7.</p>
+                <ul class="styled-list" style="font-size: 13px; margin-top: auto;">
+                    <li><i class="fa-solid fa-bolt"></i> Chatbot Berbasis AI Modern</li>
+                    <li><i class="fa-solid fa-bolt"></i> Integrasi Model Bahasa (LLM)</li>
+                </ul>
+            </div>
+            <div class="card interactive">
+                <h3><i class="fa-solid fa-chart-line"></i> Predict &amp; Learn</h3>
+                <p style="font-size: 14px; line-height: 1.6; margin-bottom: 15px;">Menganalisis pola masa lalu untuk memperkirakan pergerakan pasar masa depan.</p>
+                <ul class="styled-list" style="font-size: 13px; margin-top: auto;">
+                    <li><i class="fa-solid fa-bolt"></i> Prediksi Perilaku Konsumen</li>
+                    <li><i class="fa-solid fa-bolt"></i> Sistem Rekomendasi Pintar</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 8: GIS & SPATIAL INTELLIGENCE (Two_Column_Tiled_Text) -->
+<div class="slide-container" id="slide8">
+    <h2 class="slide-title">Melihat Dunia Lewat <span>Kekuatan Lokasi</span></h2>
+    <div class="content-area">
+        <div class="grid-2">
+            <div class="card">
+                <h3><i class="fa-solid fa-map-location-dot"></i> Peta Interaktif &amp; WebGIS</h3>
+                <p style="font-size: 14px; line-height: 1.6; margin-bottom: 15px;">
+                    Jangan biarkan data wilayah Anda tersimpan dalam tabel yang membosankan. Ubah menjadi peta interaktif yang menceritakan persebaran potensi dengan jelas.
+                </p>
+                <ul class="styled-list" style="font-size: 14px;">
+                    <li><i class="fa-solid fa-location-crosshairs"></i> <strong>WebGIS Custom:</strong> Aplikasi pemetaan khusus sesuai kebutuhan daerah/bisnis.</li>
+                    <li><i class="fa-solid fa-location-crosshairs"></i> <strong>Asset &amp; Site Mapping:</strong> Visualisasikan letak titik aset berharga Anda dalam satu dasbor terpadu.</li>
+                    <li><i class="fa-solid fa-location-crosshairs"></i> <strong>Dashboard Spasial:</strong> Analisis area bisnis potensial berbasis lokasi nyata.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3><i class="fa-solid fa-satellite-dish"></i> Foto Udara &amp; Penginderaan Jauh</h3>
+                <p style="font-size: 14px; line-height: 1.6; margin-bottom: 15px;">
+                    Dapatkan gambaran lahan yang akurat tanpa perlu menebak-nebak keadaan lapangan.
+                </p>
+                <ul class="styled-list" style="font-size: 14px;">
+                    <li><i class="fa-solid fa-plane"></i> <strong>Drone Mapping &amp; Orthophoto:</strong> Pengambilan citra udara beresolusi super tinggi.</li>
+                    <li><i class="fa-solid fa-plane"></i> <strong>Remote Sensing:</strong> Analisis perubahan tutupan lahan, kehutanan, dan kesehatan tanaman secara cepat.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 9: DATA ANALYTICS (Bar_Chart_For_Comparisons) -->
+<div class="slide-container" id="slide9">
+    <h2 class="slide-title">Data Anda Berharga, <span>Mari Berikan Suara!</span></h2>
+    <div class="content-area">
+        <div class="grid-2" style="align-items: center; gap: 40px;">
+            <div>
+                <p class="subtitle" style="margin-bottom: 10px;">Mengubah tumpukan data berdebu menjadi kompas penentu keputusan strategis.</p>
+                <p style="font-size: 15px; line-height: 1.7; margin-bottom: 20px;">
+                    Berhentilah menebak arah perkembangan bisnis Anda berdasarkan firasat. Dengan visualisasi yang tepat, Anda dapat melihat dengan jelas metrik mana yang terus menanjak dan area mana yang memerlukan perhatian ekstra sesegera mungkin.
+                </p>
+                <ul class="styled-list" style="font-size: 14px;">
+                    <li><i class="fa-solid fa-check"></i> <strong>Executive Dashboard:</strong> Ringkasan KPI terpenting dalam sekali pandang untuk para pemimpin.</li>
+                    <li><i class="fa-solid fa-check"></i> <strong>Data Pipeline (ETL) Otomatis:</strong> Mengalirkan dan mengkonsolidasikan data secara rapi tanpa proses manual.</li>
+                    <li><i class="fa-solid fa-check"></i> <strong>Business Intelligence (BI):</strong> Temukan anomali dan raih peluang baru sebelum kompetitor menyadarinya.</li>
+                </ul>
+            </div>
+            <div>
+                <div class="chart-container">
+                    <h3 style="font-size: 16px; margin-bottom: 15px; color: #ffffff;"><i class="fa-solid fa-chart-bar"></i> Alokasi Kebutuhan Dashboard (%)</h3>
+                    <div class="chart-bar-item">
+                        <span class="chart-label">Kemudahan Membaca Data</span>
+                        <div class="chart-track"><div class="chart-fill" style="width: 90%;">90%</div></div>
+                    </div>
+                    <div class="chart-bar-item">
+                        <span class="chart-label">Otomatisasi Laporan (BI)</span>
+                        <div class="chart-track"><div class="chart-fill" style="width: 75%;">75%</div></div>
+                    </div>
+                    <div class="chart-bar-item">
+                        <span class="chart-label">Keamanan Aliran Data</span>
+                        <div class="chart-track"><div class="chart-fill" style="width: 60%;">60%</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 10: CLOUD & DEVOPS (Tiled_Text_With_Icons) -->
+<div class="slide-container" id="slide10">
+    <h2 class="slide-title">Rumah Aman yang <span>Siap Tumbuh Kapan Saja</span></h2>
+    <div class="content-area">
+        <p class="subtitle" style="margin-bottom: 25px;">Sistem andal yang tidak pernah tidur, siap melayani jutaan pengguna tanpa takut crash.</p>
+        <div class="grid-3">
+            <div class="card">
+                <h3><i class="fa-solid fa-cloud"></i> Public Cloud Tangguh</h3>
+                <p style="font-size: 14px; line-height: 1.6; margin-bottom: 15px;">Gunakan infrastruktur berstandar global untuk performa terbaik dan jaminan data tetap utuh.</p>
+                <div class="badge-container" style="margin-top: auto;">
+                    <span class="badge">AWS</span>
+                    <span class="badge">Google Cloud</span>
+                    <span class="badge">Azure</span>
+                </div>
+            </div>
+            <div class="card">
+                <h3><i class="fa-solid fa-dharmachakra"></i> Kontainerisasi &amp; Skala</h3>
+                <p style="font-size: 14px; line-height: 1.6; margin-bottom: 15px;">Sistem Anda dirancang cerdas agar otomatis menyesuaikan kekuatan server saat lonjakan pengunjung terjadi.</p>
+                <div class="badge-container" style="margin-top: auto;">
+                    <span class="badge">Docker</span>
+                    <span class="badge">Kubernetes</span>
+                </div>
+            </div>
+            <div class="card">
+                <h3><i class="fa-solid fa-infinity"></i> CI/CD Tanpa Gangguan</h3>
+                <p style="font-size: 14px; line-height: 1.6; margin-bottom: 15px;">Pembaruan fitur terbaru meluncur mulus tanpa perlu membuat sistem mati atau menurunkan performa aplikasi.</p>
+                <div class="badge-container" style="margin-top: auto;">
+                    <span class="badge">Otomatisasi DevOps</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 11: WHY PILAR LABS (Highlighted_Numbers) -->
+<div class="slide-container" id="slide11">
+    <h2 class="slide-title">Kenapa Harus <span>Berjuang Bersama Kami?</span></h2>
+    <div class="content-area">
+        <div class="stats-layout">
+            <div class="stats-highlight">
+                <div class="stats-number">24/7</div>
+                <div class="stats-label">SLA &amp; Jaminan Pendampingan</div>
+                <p style="font-size: 13px; color: #94a3b8; margin-top: 15px; margin-bottom: 0; line-height: 1.5;">Kami sadar kegagalan sistem bukanlah sebuah pilihan. Oleh sebab itu, kami memberikan garansi pemeliharaan aktif dan pemantauan siaga demi kenyamanan tidur Anda.</p>
+            </div>
+            <div>
+                <p class="subtitle" style="margin-bottom: 15px;">Bukan sekadar hubungan jual-beli putus, kami adalah Technology Partner Anda.</p>
+                <p style="font-size: 15px; margin-bottom: 20px; line-height: 1.6;">Kami melangkah di samping Anda, memahami seluk-beluk masalah unik di lapangan, dan merumuskan teknologi yang benar-benar pas dengan karakter tim Anda.</p>
+                <div class="grid-2">
+                    <ul class="styled-list" style="font-size: 14px;">
+                        <li><i class="fa-solid fa-circle-check"></i> Solusi Dirancang Spesifik</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Pilihan Teknologi Modern</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Alur Kerja Tangkas (Agile)</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Tim Engineer Berdedikasi</li>
+                    </ul>
+                    <ul class="styled-list" style="font-size: 14px;">
+                        <li><i class="fa-solid fa-circle-check"></i> Standar Keamanan Berlapis</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Arsitektur Skala Besar</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Dokumentasi Teknis Lengkap</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Jaminan Perawatan Aktif</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 12: PORTFOLIO (Tiled_Text_With_Icons) -->
+<div class="slide-container" id="slide12">
+    <h2 class="slide-title">Kisah Sukses <span>Bersama Mitra Hebat Kami</span></h2>
+    <div class="content-area">
+        <p class="subtitle" style="margin-bottom: 25px;">Melihat langsung bukti nyata karya kolaboratif yang berhasil melampaui harapan bisnis.</p>
+        <div class="grid-3">
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                </div>
+                <div class="portfolio-info">
+                    <h3 style="font-size: 18px; margin-bottom: 8px;">WebGIS Pemantauan Lahan</h3>
+                    <p style="font-size: 13px; margin: 0; line-height: 1.5; color: #cbd5e1;">
+                        Pemetaan spasial cerdas, analisis vegetasi citra satelit, serta integrasi 12.000+ koordinat batas wilayah nasional bagi instansi kehutanan publik.
+                    </p>
+                    <div class="badge-container" style="margin-top: auto; font-size: 11px;">
+                        <span class="badge" style="padding: 4px 10px;">PostgreSQL/PostGIS</span>
+                        <span class="badge" style="padding: 4px 10px;">Leaflet</span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <div class="portfolio-info">
+                    <h3 style="font-size: 18px; margin-bottom: 8px;">Web Portal &amp; E-Commerce</h3>
+                    <p style="font-size: 13px; margin: 0; line-height: 1.5; color: #cbd5e1;">
+                        Pengembangan website korporat interaktif, custom CMS, dan platform e-commerce terintegrasi payment gateway untuk meningkatkan branding serta mengoptimalkan konversi transaksi digital 24/7.
+                    </p>
+                    <div class="badge-container" style="margin-top: auto; font-size: 11px;">
+                        <span class="badge" style="padding: 4px 10px;">React / Next.js</span>
+                        <span class="badge" style="padding: 4px 10px;">Tailwind CSS</span>
+                        <span class="badge" style="padding: 4px 10px;">Node.js</span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+                <div class="portfolio-info">
+                    <h3 style="font-size: 18px; margin-bottom: 8px;">AI Customer Agent &amp; OCR</h3>
+                    <p style="font-size: 13px; margin: 0; line-height: 1.5; color: #cbd5e1;">
+                        Otomasi digitalisasi berkas fisik dengan akurasi 98% (OCR) serta kecerdasan buatan berbasis LLM yang melayani chatbot operasional harian 24/7.
+                    </p>
+                    <div class="badge-container" style="margin-top: auto; font-size: 11px;">
+                        <span class="badge" style="padding: 4px 10px;">LangChain</span>
+                        <span class="badge" style="padding: 4px 10px;">FastAPI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 13: DEVELOPMENT PROCESS (Timeline) -->
+<div class="slide-container" id="slide13">
+    <h2 class="slide-title">Langkah Bersama <span>Menuju Garis Finish</span></h2>
+    <div class="content-area">
+        <p class="subtitle" style="margin-bottom: 20px;">Kami percaya transparansi adalah kunci rasa tenang. Berikut adalah peta jalan pengerjaan proyek Anda:</p>
+        
+        <!-- Horizontal Process Flow -->
+        <div class="timeline-flow" style="margin-bottom: 15px;">
+            <div class="timeline-step-card" style="border-top: 3px solid #00f2fe;">
+                <h3>01. Discovery</h3>
+                <p>Mendengarkan impian dan kendala Anda dengan seksama.</p>
+            </div>
+            <div class="timeline-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+            <div class="timeline-step-card" style="border-top: 3px solid #00e676;">
+                <h3>02. Analysis</h3>
+                <p>Memetakan proses bisnis nyata ke dalam fungsionalitas sistem.</p>
+            </div>
+            <div class="timeline-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+            <div class="timeline-step-card" style="border-top: 3px solid #00f2fe;">
+                <h3>03. Design</h3>
+                <p>Merancang tampilan visual interaktif sebelum penulisan kode.</p>
+            </div>
+            <div class="timeline-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+            <div class="timeline-step-card" style="border-top: 3px solid #00e676;">
+                <h3>04. Code</h3>
+                <p>Mulai merakit baris kode tangguh dengan pendekatan Agile.</p>
+            </div>
+        </div>
+
+        <div class="timeline-flow">
+            <div class="timeline-step-card" style="border-top: 3px solid #00f2fe; width: 22%;">
+                <h3>05. Testing</h3>
+                <p>Uji coba ketat untuk menjamin fungsional bebas celah.</p>
+            </div>
+            <div class="timeline-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+            <div class="timeline-step-card" style="border-top: 3px solid #00e676; width: 22%;">
+                <h3>06. Deploy</h3>
+                <p>Peluncuran aman menuju server produksi cloud utama.</p>
+            </div>
+            <div class="timeline-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+            <div class="timeline-step-card" style="border-top: 3px solid #00f2fe; width: 22%;">
+                <h3>07. Support</h3>
+                <p>Mengawal operasional harian pasca-rilis dengan siaga.</p>
+            </div>
+            <div class="timeline-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+            <div class="timeline-step-card" style="border-top: 3px solid #00e676; width: 22%;">
+                <h3>08. Evolve</h3>
+                <p>Kembangkan sistem baru sesuai pertumbuhan skala bisnis Anda.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 14: TECHNOLOGIES (Two_Column_Tiled_Text) -->
+<div class="slide-container" id="slide14">
+    <h2 class="slide-title">Mesin Teknologi di Balik <span>Karya Terbaik</span></h2>
+    <div class="content-area">
+        <div class="grid-2">
+            <!-- Left Side: Frontend & Backend -->
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+                <div class="card">
+                    <h3><i class="fa-solid fa-display"></i> Antarmuka Pengguna (Frontend &amp; Mobile)</h3>
+                    <div class="badge-container">
+                        <span class="badge">React</span>
+                        <span class="badge">Next.js</span>
+                        <span class="badge">Vue.js</span>
+                        <span class="badge">Flutter</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3><i class="fa-solid fa-server"></i> Mesin Utama (Backend Systems)</h3>
+                    <div class="badge-container">
+                        <span class="badge">Laravel (PHP)</span>
+                        <span class="badge">Node.js (JS/TS)</span>
+                        <span class="badge">Python</span>
+                        <span class="badge">Go (Golang)</span>
+                        <span class="badge">.NET Core</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Right Side: Databases, Cloud, AI -->
+            <div style="display: flex; flex-direction: column; gap: 15px;">
+                <div class="card" style="padding: 16px;">
+                    <h3 style="font-size: 18px; margin-bottom: 8px;"><i class="fa-solid fa-database"></i> Basis Data &amp; Infrastruktur Cloud</h3>
+                    <div class="badge-container" style="gap: 6px;">
+                        <span class="badge">PostgreSQL</span>
+                        <span class="badge">MySQL</span>
+                        <span class="badge">MongoDB</span>
+                        <span class="badge">Redis</span>
+                        <span class="badge">AWS / Azure / GCP</span>
+                        <span class="badge">Docker &amp; K8s</span>
+                    </div>
+                </div>
+                <div class="card" style="padding: 16px;">
+                    <h3 style="font-size: 18px; margin-bottom: 8px;"><i class="fa-solid fa-brain"></i> Kecerdasan Buatan (AI) &amp; Deep Tech</h3>
+                    <div class="badge-container" style="gap: 6px;">
+                        <span class="badge">TensorFlow</span>
+                        <span class="badge">PyTorch</span>
+                        <span class="badge">OpenCV</span>
+                        <span class="badge">OpenAI API</span>
+                        <span class="badge">LangChain</span>
+                        <span class="badge">Ollama / Local LLM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 15: INDUSTRIES WE SERVE (Tiled_Text_With_Icons) -->
+<div class="slide-container" id="slide15">
+    <h2 class="slide-title">Solusi Tanpa Batas untuk <span>Setiap Sektor</span></h2>
+    <div class="content-area">
+        <p class="subtitle" style="margin-bottom: 25px;">Keluasan teknologi kami siap diadaptasikan di berbagai sektor industri utama.</p>
+        <div class="industry-grid">
+            <div class="industry-item"><i class="fa-solid fa-building-shield"></i>Government</div>
+            <div class="industry-item"><i class="fa-solid fa-rocket"></i>Startups</div>
+            <div class="industry-item"><i class="fa-solid fa-network-wired"></i>Enterprise</div>
+            <div class="industry-item"><i class="fa-solid fa-store"></i>Retail &amp; POS</div>
+            <div class="industry-item"><i class="fa-solid fa-utensils"></i>Restaurant</div>
+            <div class="industry-item"><i class="fa-solid fa-house-medical"></i>Healthcare</div>
+            <div class="industry-item"><i class="fa-solid fa-user-graduate"></i>Education</div>
+            <div class="industry-item"><i class="fa-solid fa-piggy-bank"></i>Banking &amp; Fin</div>
+            <div class="industry-item"><i class="fa-solid fa-industry"></i>Manufacturing</div>
+            <div class="industry-item"><i class="fa-solid fa-wheat-awn"></i>Plantation</div>
+            <div class="industry-item"><i class="fa-solid fa-helmet-safety"></i>Mining &amp; Energy</div>
+            <div class="industry-item"><i class="fa-solid fa-truck-ramp-box"></i>Logistics</div>
+            <div class="industry-item"><i class="fa-solid fa-city"></i>Smart City</div>
+            <div class="industry-item"><i class="fa-solid fa-burst"></i>Disaster Mgmt</div>
+            <div class="industry-item"><i class="fa-solid fa-users-gear"></i>SaaS / B2B</div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 16: DIGITAL TRANSFORMATION JOURNEY (Timeline) -->
+<div class="slide-container" id="slide16">
+    <h2 class="slide-title">Mari Melangkah ke <span>Era Baru Bisnis Anda</span></h2>
+    <div class="content-area">
+        <p class="subtitle" style="margin-bottom: 25px;">Perjalanan transformasi digital bukanlah lompatan liar, melainkan langkah terukur yang matang.</p>
+        <div class="grid-2" style="align-items: center;">
+            <div style="display: flex; flex-direction: column; gap: 15px;">
+                <div class="card" style="border-left: 4px solid #00f2fe; padding: 18px;">
+                    <h3 style="font-size: 18px; margin-bottom: 5px;"><i class="fa-solid fa-stairs"></i> Pendekatan Evolusioner</h3>
+                    <p style="margin: 0; font-size: 14px; line-height: 1.6;">Kami merawat sistem yang sudah Anda miliki, mendigitalkan proses manual secara bertahap, lalu menaikkan efisiensinya ke level otomatis penuh.</p>
+                </div>
+                <div class="card" style="border-left: 4px solid #00e676; padding: 18px;">
+                    <h3 style="font-size: 18px; margin-bottom: 5px;"><i class="fa-solid fa-database"></i> Organisasi Cerdas Berbasis Data</h3>
+                    <p style="margin: 0; font-size: 14px; line-height: 1.6;">Menyiapkan fondasi masa depan Anda agar siap didampingi oleh asisten kecerdasan buatan dalam mengambil keputusan krusial dengan cepat.</p>
+                </div>
+            </div>
+            <div>
+                <div class="image-wrapper" style="height: 320px;">
+                    <img class="contain" alt="Digital Transformation Flowchart" src="https://media.istockphoto.com/id/2236322385/vector/business-process-automation-banner-with-artificial-intelligence-technologies-for-managing.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=Pddk5A49fzS1ZdFrFF_u1wV_KeDaJMGSO-R-2vKvwKA=">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 17: WEB DEVELOPMENT PRICELIST (Pricing Plans - Web Dedicated) -->
+<div class="slide-container" id="slide17">
+    <h2 class="slide-title">Wujudkan Website Impian <span>Mulai Hari Ini</span></h2>
+    <div class="content-area">
+        <p class="subtitle" style="margin-bottom: 25px;">Investasi bersahabat khusus masa peluncuran (launching phase) demi membantu Anda segera memiliki kredibilitas digital.</p>
+        <div class="grid-3">
+            <div class="price-card">
+                <div class="price-header">
+                    <h3 style="font-size: 18px; margin: 0; color: #ffffff;">Landing Page</h3>
+                    <p style="font-size: 12px; color: #94a3b8; margin: 4px 0 0 0;">Single-page untuk produk/event</p>
+                    <div class="price-tag">Mulai Rp 1.5 Juta</div>
+                </div>
+                <ul class="styled-list" style="font-size: 12px; display: flex; flex-direction: column; gap: 8px;">
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px;"></i> 1 Halaman Responsif Modern</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px;"></i> Desain UI/UX Kustom Menawan</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px;"></i> Integrasi WhatsApp &amp; Medsos</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px;"></i> Free Domain &amp; Hosting 1 Tahun</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px;"></i> Keamanan SSL &amp; Setup Dasar SEO</li>
+                </ul>
+            </div>
+            <div class="price-card featured">
+                <span style="position: absolute; top: -12px; right: 20px; background-color: #00f2fe; color: #040814; font-size: 10px; font-weight: 800; padding: 4px 12px; border-radius: 12px; text-transform: uppercase; letter-spacing: 0.5px;">Rekomendasi</span>
+                <div class="price-header">
+                    <h3 style="font-size: 18px; margin: 0; color: #ffffff;">Corporate Profile</h3>
+                    <p style="font-size: 12px; color: #94a3b8; margin: 4px 0 0 0;">Website profil korporat resmi</p>
+                    <div class="price-tag">Mulai Rp 3.5 Juta</div>
+                </div>
+                <ul class="styled-list" style="font-size: 12px; display: flex; flex-direction: column; gap: 8px;">
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px; color: #00f2fe;"></i> Up to 5 Halaman Utama</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px; color: #00f2fe;"></i> CMS Integrasi (Ubah isi mudah)</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px; color: #00f2fe;"></i> Desain Profesional Premium</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px; color: #00f2fe;"></i> Premium SEO &amp; Google Index</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px; color: #00f2fe;"></i> Garansi Pemeliharaan 3 Bulan</li>
+                </ul>
+            </div>
+            <div class="price-card">
+                <div class="price-header">
+                    <h3 style="font-size: 18px; margin: 0; color: #ffffff;">Portal &amp; E-Commerce</h3>
+                    <p style="font-size: 12px; color: #94a3b8; margin: 4px 0 0 0;">Website interaktif multi-fitur</p>
+                    <div class="price-tag">Mulai Rp 7.5 Juta</div>
+                </div>
+                <ul class="styled-list" style="font-size: 12px; display: flex; flex-direction: column; gap: 8px;">
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px;"></i> Fitur Transaksi &amp; E-Commerce</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px;"></i> Integrasi Payment Gateway</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px;"></i> Portal Berita / Dashboard User</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px;"></i> Proteksi Keamanan Tingkat Tinggi</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px;"></i> Garansi Pemeliharaan 6 Bulan</li>
+                </ul>
+            </div>
+        </div>
+        <p style="font-size: 12.5px; color: #94a3b8; margin-top: 20px; text-align: center; margin-bottom: 0;">
+            *Seluruh paket website kami rancang ramah terhadap pencarian Google (SEO-friendly) demi mempermudah jalan bagi prospek pelanggan menemukan bisnis Anda.
+        </p>
+    </div>
+</div>
+
+<!-- SLIDE 18: PRICELIST (Pricing Plans - Enterprise & Deep Tech) -->
+<div class="slide-container" id="slide18">
+    <h2 class="slide-title">Kustomisasi Skala <span>Enterprise &amp; Deep Tech</span></h2>
+    <div class="content-area">
+        <p class="subtitle" style="margin-bottom: 25px;">Butuh sistem yang lebih kompleks atau integrasi kecerdasan buatan? Kami siapkan skema yang sangat adil dan transparan.</p>
+        <div class="grid-3">
+            <div class="price-card">
+                <div class="price-header">
+                    <h3 style="font-size: 18px; margin: 0; color: #ffffff;">Custom Web App</h3>
+                    <p style="font-size: 12px; color: #94a3b8; margin: 4px 0 0 0;">Aplikasi operasional internal kustom</p>
+                    <div class="price-tag">Mulai Rp 9.5 Juta</div>
+                </div>
+                <ul class="styled-list" style="font-size: 12px; display: flex; flex-direction: column; gap: 8px;">
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px;"></i> Custom Dashboard &amp; Database</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px;"></i> Sistem Manajemen Pengguna</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px;"></i> UI/UX Design &amp; Prototype</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px;"></i> Basic Support Maintenance</li>
+                </ul>
+            </div>
+            <div class="price-card featured">
+                <span style="position: absolute; top: -12px; right: 20px; background-color: #00f2fe; color: #040814; font-size: 10px; font-weight: 800; padding: 4px 12px; border-radius: 12px; text-transform: uppercase; letter-spacing: 0.5px;">Paling Populer</span>
+                <div class="price-header">
+                    <h3 style="font-size: 18px; margin: 0; color: #ffffff;">Enterprise Integration</h3>
+                    <p style="font-size: 12px; color: #94a3b8; margin: 4px 0 0 0;">ERP, GIS, &amp; Big Data Systems</p>
+                    <div class="price-tag">Mulai Rp 29 Juta</div>
+                </div>
+                <ul class="styled-list" style="font-size: 12px; display: flex; flex-direction: column; gap: 8px;">
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px; color: #00f2fe;"></i> Enterprise ERP / HRIS / CRM</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px; color: #00f2fe;"></i> WebGIS &amp; Asset Mapping</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px; color: #00f2fe;"></i> Database Integration &amp; ETL</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px; color: #00f2fe;"></i> Dedicated Support SLA</li>
+                </ul>
+            </div>
+            <div class="price-card">
+                <div class="price-header">
+                    <h3 style="font-size: 18px; margin: 0; color: #ffffff;">AI &amp; Custom Deep Tech</h3>
+                    <p style="font-size: 12px; color: #94a3b8; margin: 4px 0 0 0;">Intelligent Automation &amp; Agents</p>
+                    <div class="price-tag">Mulai Rp 49 Juta</div>
+                </div>
+                <ul class="styled-list" style="font-size: 12px; display: flex; flex-direction: column; gap: 8px;">
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px;"></i> Custom LLM &amp; Chatbot AI</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px;"></i> Predictive &amp; Computer Vision</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px;"></i> High-Scale Cloud DevOps</li>
+                    <li><i class="fa-solid fa-check" style="font-size: 12px; top: 2px;"></i> 24/7 Priority Support SLA</li>
+                </ul>
+            </div>
+        </div>
+        <p style="font-size: 12.5px; color: #94a3b8; margin-top: 20px; text-align: center; margin-bottom: 0;">
+            *Kami juga dengan senang hati melayani model kerja sama berjangka seperti <strong>Dedicated Developer Team (T&amp;M)</strong> serta paket pemeliharaan rutin bulanan.
+        </p>
+    </div>
+</div>
+
+<!-- SLIDE 19: OUR VALUES (Tiled_Text_With_Icons) -->
+<div class="slide-container" id="slide19">
+    <h2 class="slide-title">Nilai yang <span>Menghidupkan Karya Kami</span></h2>
+    <div class="content-area">
+        <p class="subtitle" style="margin-bottom: 30px;">Kami tidak hanya sekadar menyelesaikan tugas; kami memegang teguh empat pilar kehormatan kerja:</p>
+        <div class="grid-4">
+            <div class="card interactive">
+                <div style="font-size: 36px; color: #00f2fe; margin-bottom: 15px;"><i class="fa-solid fa-lightbulb"></i></div>
+                <h3>Bermimpi &amp; Berinovasi</h3>
+                <p style="font-size: 13px; line-height: 1.6; margin: 0;">Mengadopsi teknologi terbaru secara bijak demi melahirkan solusi yang benar-benar solutif bagi klien kami.</p>
+            </div>
+            <div class="card interactive">
+                <div style="font-size: 36px; color: #00e676; margin-bottom: 15px;"><i class="fa-solid fa-handshake-angle"></i></div>
+                <h3>Integritas &amp; Kejujuran</h3>
+                <p style="font-size: 13px; line-height: 1.6; margin: 0;">Menjunjung tinggi transparansi tanpa biaya tersembunyi—membangun jembatan kepercayaan jangka panjang.</p>
+            </div>
+            <div class="card interactive">
+                <div style="font-size: 36px; color: #00f2fe; margin-bottom: 15px;"><i class="fa-solid fa-people-group"></i></div>
+                <h3>Saling Menghargai</h3>
+                <p style="font-size: 13px; line-height: 1.6; margin: 0;">Memosisikan diri sebagai bagian dari tim Anda untuk menyamakan frekuensi tujuan bersama.</p>
+            </div>
+            <div class="card interactive">
+                <div style="font-size: 36px; color: #00e676; margin-bottom: 15px;"><i class="fa-solid fa-award"></i></div>
+                <h3>Mengejar Kesempurnaan</h3>
+                <p style="font-size: 13px; line-height: 1.6; margin: 0;">Berkomitmen penuh menggoreskan baris kode terbaik dan uji coba tanpa cela demi kepuasan Anda.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 20: OUR COMMITMENT (Quote) -->
+<div class="slide-container" id="slide20">
+    <h2 class="slide-title">Janji Kami: <span>Teknologi yang Memberi Makna</span></h2>
+    <div class="content-area">
+        <div class="quote-box">
+            <blockquote>
+                Setiap bisnis punya keunikan dan tantangannya sendiri. Karena itu, kami tidak percaya pada solusi instan yang seragam. Kami merancang setiap teknologi sepenuh hati—dibuat kokoh, aman, dan siap tumbuh menemani setiap langkah hebat Anda.
+            </blockquote>
+            <cite>— Pilar Labs</cite>
+            
+            <div class="badge-container" style="justify-content: center; margin-top: 40px; gap: 15px;">
+                <span class="badge"><i class="fa-solid fa-circle-check"></i> Selaras dengan Jiwa Bisnis</span>
+                <span class="badge"><i class="fa-solid fa-circle-check"></i> Ramah &amp; Mudah Dipahami</span>
+                <span class="badge"><i class="fa-solid fa-circle-check"></i> Keamanan Sangat Tinggi</span>
+                <span class="badge"><i class="fa-solid fa-circle-check"></i> Siap Menampung Pertumbuhan</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 21: CONTACT / CALL TO ACTION (Q&A / Grid split) -->
+<div class="slide-container" id="slide21" style="border: 2px solid #00f2fe;">
+    <h2 class="slide-title">Mari Mulai <span>Sesuatu yang Hebat Hari Ini!</span></h2>
+    <div class="content-area">
+        <div class="grid-2" style="align-items: center;">
+            <div>
+                <h1 style="font-size: 42px; line-height: 1.2; margin-bottom: 15px; font-weight: 800;">PT Pilar Inovasi Teknologi</h1>
+                <p class="subtitle" style="font-size: 18px; margin-bottom: 25px; line-height: 1.6;">
+                    Punya ide brilian yang ingin segera diwujudkan? Atau butuh bantuan untuk memetakan transformasi teknologi bisnis Anda? Pintu kami selalu terbuka lebar untuk berdiskusi santai.
+                </p>
+                <p style="font-size: 13px; color: #475569; margin-top: 40px;">
+                    © 2026 PT Pilar Inovasi Teknologi. All Rights Reserved. Building Technology That Drives Business.
+                </p>
+            </div>
+            <div class="card" style="border-color: #00e676; padding: 30px; display: flex; flex-direction: column; gap: 15px;">
+                <h3 style="font-size: 20px; margin-bottom: 10px; color: #ffffff;"><i class="fa-solid fa-address-card"></i> Informasi Kontak</h3>
+                
+                <!-- Alamat Fisik Lengkap -->
+                <p style="font-size: 14px; color: #cbd5e1; margin: 0; display: flex; align-items: flex-start; gap: 12px; line-height: 1.4;">
+                    <i class="fa-solid fa-map-location-dot" style="color: #00f2fe; font-size: 18px; margin-top: 2px; flex-shrink: 0; width: 20px; text-align: center;"></i> 
+                    <span>Wisma Angsana, Jl. Angsana Raya, RT.6/RW.6, Pejaten Timur, Ps. Minggu, Kota Jakarta Selatan, DKI Jakarta 12510</span>
+                </p>
+                
+                <!-- Nomor Telepon -->
+                <p style="font-size: 15px; color: #cbd5e1; margin: 0; display: flex; align-items: center; gap: 12px;">
+                    <i class="fa-solid fa-phone" style="color: #00e676; font-size: 18px; flex-shrink: 0; width: 20px; text-align: center;"></i> 
+                    <span>0812-2602-7578</span>
+                </p>
+                
+                <!-- E-mail Resmi -->
+                <p style="font-size: 15px; color: #cbd5e1; margin: 0; display: flex; align-items: center; gap: 12px;">
+                    <i class="fa-solid fa-envelope" style="color: #00f2fe; font-size: 18px; flex-shrink: 0; width: 20px; text-align: center;"></i> 
+                    <span>info@pilarlabs.id</span>
+                </p>
+                
+                <!-- Website Resmi -->
+                <p style="font-size: 15px; color: #cbd5e1; margin: 0; display: flex; align-items: center; gap: 12px;">
+                    <i class="fa-solid fa-globe" style="color: #00e676; font-size: 18px; flex-shrink: 0; width: 20px; text-align: center;"></i> 
+                    <span>www.pilarlabs.id</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body></html>

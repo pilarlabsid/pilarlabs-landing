@@ -3,7 +3,20 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 // https://vitejs.dev/config/
 export default defineConfig({
-    plugins: [react()],
+    plugins: [
+        react(),
+        {
+            name: 'html-rewrite',
+            configureServer: function (server) {
+                server.middlewares.use(function (req, res, next) {
+                    if (req.url === '/pitch-deck' || req.url === '/pitch-deck/') {
+                        req.url = '/pitch-deck.html';
+                    }
+                    next();
+                });
+            }
+        }
+    ],
     resolve: {
         alias: {
             '@': path.resolve(__dirname, './src'),
