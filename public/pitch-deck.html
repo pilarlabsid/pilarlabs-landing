@@ -667,11 +667,11 @@
                 pointer-events: auto !important;
                 
                 /* Scale down 1280x720 slide to fit mobile screen width (with ~20px gap on each side via 1320 denominator) */
-                transform: scale(calc(100vw / 1320)) !important;
+                transform: scale(var(--mobile-scale)) !important;
                 transform-origin: top center !important;
                 
                 /* Adjust footprint height for scaled element to prevent overlapping */
-                margin-bottom: calc((720px * (100vw / 1320)) - 720px + 20px) !important;
+                margin-bottom: calc((720px * var(--mobile-scale)) - 720px + 20px) !important;
                 
                 top: auto !important;
                 left: auto !important;
@@ -1531,6 +1531,10 @@
 
         // Auto-scale fixed 1280x720 aspect ratio wrapper to fit viewport
         function resizePresentation() {
+            // Set mobile scale CSS variable (with 20px total horizontal padding)
+            const mobileScale = Math.min(1, (window.innerWidth - 20) / 1280);
+            document.documentElement.style.setProperty('--mobile-scale', mobileScale);
+            
             const targetWidth = 1280;
             const targetHeight = 720;
             const windowWidth = window.innerWidth;
