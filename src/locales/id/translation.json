@@ -888,6 +888,54 @@
                     "Mengurangi keluhan pelanggan terkait status pengiriman",
                     "Performa aplikasi yang ringan dan hemat baterai"
                 ]
+            },
+            "smartCityGIS": {
+                "title": "Smart City Infrastructure Map",
+                "industry": "Public Sector / Smart City",
+                "description": "Dashboard interaktif 3D untuk memetakan infrastruktur kota pintar, jaringan utilitas, dan lalu lintas secara real-time.",
+                "challenge": "Pemerintah kota kesulitan memonitor infrastruktur publik yang tersebar di wilayah yang sangat luas dan mendeteksi anomali utilitas dengan cepat.",
+                "solution": "Kami merancang WebGIS kustom berbasis React dan Mapbox yang menarik data sensor IoT kota secara live.",
+                "results": [
+                    "Waktu respons pemeliharaan utilitas 40% lebih cepat",
+                    "Visualisasi data lalu lintas real-time yang akurat",
+                    "Peningkatan transparansi informasi kota untuk publik"
+                ]
+            },
+            "hrisPortal": {
+                "title": "Enterprise HRIS Portal",
+                "industry": "Human Resources",
+                "description": "Platform manajemen sumber daya manusia terpusat yang memudahkan pelacakan kehadiran, penggajian, dan evaluasi kinerja karyawan.",
+                "challenge": "Sistem lama yang lambat dan terfragmentasi menyebabkan kesalahan hitung pada penggajian serta turunnya kepuasan karyawan.",
+                "solution": "Membangun portal web HR modern, aman, dan mudah digunakan (user-friendly) dengan integrasi otomatis ke mesin absensi perusahaan.",
+                "results": [
+                    "Proses penggajian selesai 3x lebih cepat",
+                    "Akurasi kehadiran dan klaim cuti mencapai 100%",
+                    "Meningkatkan kepuasan penggunaan software oleh karyawan"
+                ]
+            },
+            "aiSalesAnalytics": {
+                "title": "Predictive Sales Analytics",
+                "industry": "Retail & E-Commerce",
+                "description": "Sistem dasbor analitik bertenaga AI yang memprediksi tren penjualan masa depan dan mendeteksi anomali pasar.",
+                "challenge": "Perusahaan ritel kehilangan banyak profit akibat inventaris yang menumpuk dan gagal memprediksi lonjakan permintaan musiman.",
+                "solution": "Implementasi model Machine Learning prediktif yang menganalisis miliaran data transaksi historis dalam waktu singkat.",
+                "results": [
+                    "Prediksi penjualan bulanan dengan tingkat akurasi 92%",
+                    "Penurunan biaya penyimpanan stok (overstock) sebesar 25%",
+                    "Peningkatan ROI lewat deteksi otomatis anomali pasar"
+                ]
+            },
+            "healthFitnessApp": {
+                "title": "Health & Fitness Tracker",
+                "industry": "Health & Wellness",
+                "description": "Aplikasi pelacak kebugaran dan kesehatan yang terhubung langsung dengan perangkat pintar (wearables) untuk monitoring metrik vital.",
+                "challenge": "Pengguna aplikasi kesehatan sering kehilangan motivasi dan bingung membaca data kesehatan mentah dari jam tangan pintar mereka.",
+                "solution": "Kami membuat aplikasi mobile yang menerjemahkan data vital menjadi grafik ramah pengguna serta rekomendasi olahraga harian.",
+                "results": [
+                    "Retensi pengguna aktif bulanan meningkat tajam sebesar 45%",
+                    "Sinkronisasi data mulus dengan berbagai jam tangan pintar",
+                    "Antarmuka gelap yang memukau dan modern"
+                ]
             }
         }
     },

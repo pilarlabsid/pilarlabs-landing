@@ -888,6 +888,54 @@
                     "Reduced customer complaints regarding delivery status",
                     "Lightweight and battery-efficient application performance"
                 ]
+            },
+            "smartCityGIS": {
+                "title": "Smart City Infrastructure Map",
+                "industry": "Public Sector / Smart City",
+                "description": "An interactive 3D dashboard for mapping smart city infrastructure, utility networks, and real-time traffic flows.",
+                "challenge": "City authorities struggled to monitor widespread public infrastructure and quickly detect utility anomalies.",
+                "solution": "We designed a custom WebGIS built on React and Mapbox that aggregates live IoT sensor data from across the city.",
+                "results": [
+                    "40% faster response times for utility maintenance",
+                    "Accurate real-time traffic data visualization",
+                    "Enhanced public transparency for city information"
+                ]
+            },
+            "hrisPortal": {
+                "title": "Enterprise HRIS Portal",
+                "industry": "Human Resources",
+                "description": "A centralized human resources management platform that simplifies attendance tracking, payroll, and employee performance evaluation.",
+                "challenge": "Slow, fragmented legacy systems led to payroll calculation errors and decreased overall employee satisfaction.",
+                "solution": "Built a modern, secure, and highly user-friendly HR web portal with seamless integration into corporate attendance machines.",
+                "results": [
+                    "Payroll processing completed 3x faster",
+                    "100% accuracy in attendance and leave claims",
+                    "Significantly boosted software usability for employees"
+                ]
+            },
+            "aiSalesAnalytics": {
+                "title": "Predictive Sales Analytics",
+                "industry": "Retail & E-Commerce",
+                "description": "An AI-powered analytics dashboard system that predicts future sales trends and detects market anomalies.",
+                "challenge": "The retail company lost profits due to overstocked inventory and failed to anticipate seasonal demand spikes.",
+                "solution": "Implemented predictive Machine Learning models that analyze billions of historical transaction records in seconds.",
+                "results": [
+                    "Monthly sales prediction accuracy reached 92%",
+                    "25% reduction in inventory holding (overstock) costs",
+                    "Increased ROI through automated market anomaly detection"
+                ]
+            },
+            "healthFitnessApp": {
+                "title": "Health & Fitness Tracker",
+                "industry": "Health & Wellness",
+                "description": "A health and fitness tracking application that directly connects with smart wearables to monitor vital metrics.",
+                "challenge": "Health app users often lost motivation and found it difficult to interpret raw health data from their smartwatches.",
+                "solution": "We built a mobile application that translates vital data into user-friendly charts alongside daily workout recommendations.",
+                "results": [
+                    "Monthly active user retention spiked by 45%",
+                    "Seamless data synchronization with various smartwatches",
+                    "Stunning and modern dark mode interface"
+                ]
             }
         }
     },
