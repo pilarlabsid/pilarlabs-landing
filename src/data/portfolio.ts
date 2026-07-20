@@ -99,6 +99,22 @@ export const portfolioData: Portfolio[] = [
         technologies: ['HTML', 'CSS', 'JavaScript', 'i18n'],
         featured: false,
         category: 'landing-page',
-        url: 'https://yogibusana.com'
+    },
+    {
+        id: 'trackflow-logistics',
+        title: 'caseStudies.projects.mobileAppTracking.title',
+        client: 'TrackFlow Logistics',
+        industry: 'caseStudies.projects.mobileAppTracking.industry',
+        year: '2025',
+        description: 'caseStudies.projects.mobileAppTracking.description',
+        challenge: 'caseStudies.projects.mobileAppTracking.challenge',
+        solution: 'caseStudies.projects.mobileAppTracking.solution',
+        results: 'caseStudies.projects.mobileAppTracking.results',
+        coverImage: '/images/projects/mobile-app-cover.png',
+        images: [],
+        technologies: ['Flutter', 'Dart', 'Firebase', 'Google Maps API'],
+        featured: true,
+        category: 'mobile-app',
+        url: '#'
     }
 ]

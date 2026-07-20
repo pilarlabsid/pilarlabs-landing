@@ -875,6 +875,19 @@
                     "Multi-language support for international customers",
                     "Increased digital brand awareness"
                 ]
+            },
+            "mobileAppTracking": {
+                "title": "Logistics Tracking App",
+                "industry": "Logistics & Transportation",
+                "description": "Modern mobile application for real-time delivery route tracking, fleet management, and automated status updates for customers.",
+                "challenge": "Difficulty in tracking fleets in real-time and providing accurate estimated times of arrival (ETA) to customers amidst dynamic traffic.",
+                "solution": "Development of a cross-platform mobile application using Flutter, integrated directly with Google Maps API and Firebase backend system.",
+                "results": [
+                    "100% real-time delivery route visibility",
+                    "Improved ETA accuracy by up to 95%",
+                    "Reduced customer complaints regarding delivery status",
+                    "Lightweight and battery-efficient application performance"
+                ]
             }
         }
     },

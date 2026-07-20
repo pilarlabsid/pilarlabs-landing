@@ -875,6 +875,19 @@
                     "Dukungan multi-bahasa untuk pelanggan internasional",
                     "Peningkatan brand awareness secara digital"
                 ]
+            },
+            "mobileAppTracking": {
+                "title": "Aplikasi Pelacakan Logistik",
+                "industry": "Logistik & Transportasi",
+                "description": "Aplikasi mobile modern untuk pelacakan rute pengiriman real-time, manajemen armada, dan pembaruan status otomatis untuk pelanggan.",
+                "challenge": "Sulitnya melacak armada secara real-time dan memberikan estimasi kedatangan yang akurat kepada pelanggan di tengah lalu lintas yang dinamis.",
+                "solution": "Pengembangan aplikasi mobile lintas platform dengan Flutter yang terintegrasi langsung dengan Google Maps API dan sistem backend Firebase.",
+                "results": [
+                    "Visibilitas rute pengiriman 100% real-time",
+                    "Peningkatan akurasi estimasi kedatangan (ETA) hingga 95%",
+                    "Mengurangi keluhan pelanggan terkait status pengiriman",
+                    "Performa aplikasi yang ringan dan hemat baterai"
+                ]
             }
         }
     },
