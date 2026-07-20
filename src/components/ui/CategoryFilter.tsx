@@ -10,14 +10,16 @@ interface CategoryFilterProps {
 export function CategoryFilter({ activeCategory, onCategoryChange }: CategoryFilterProps) {
     const { t } = useTranslation()
 
-    const categories: ProjectCategory[] = ['all', 'web-app', 'landing-page', 'mobile-app']
+    const categories: ProjectCategory[] = ['all', 'web-app', 'landing-page', 'mobile-app', 'gis', 'ai']
 
     const getCategoryLabel = (category: ProjectCategory) => {
         const labels: Record<ProjectCategory, string> = {
             'all': 'all',
             'web-app': 'webApp',
             'landing-page': 'landingPage',
-            'mobile-app': 'mobileApp'
+            'mobile-app': 'mobileApp',
+            'gis': 'gis',
+            'ai': 'ai'
         }
         return t(`caseStudies.filters.${labels[category]}`)
     }

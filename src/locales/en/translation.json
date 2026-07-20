@@ -19,133 +19,115 @@
         "terms": "Terms of Service"
     },
     "hero": {
-        "title": "Strong Digital Infrastructure.",
-        "subtitle": "Scalable. Sustainable. Structured.",
-        "description": "Pilar Labs builds robust websites that are easy to expand and ready to support your growing business.",
+        "title": "Pilar Labs",
+        "subtitle": "Bring Your Great Ideas to Life with Future Technology",
+        "description": "\"We don't just write lines of code. We engineer digital solutions that help your business redefine the boundaries of efficiency, automation, and real growth.\"",
         "startProject": "Start Project",
-        "badge": "Infrastructure Partner",
-        "processingText": "Pilar Labs crafting solution...",
+        "badge": "Technology Partner",
+        "processingText": "Pilar Labs designing solution...",
         "viewWork": "View Portfolio",
         "aiPromptLabel": "client_needs.txt",
         "aiPrompts": [
             {
-                "text": "I need a landing page that actually converts visitors",
-                "category": "Landing Page",
-                "response": "Pilar Labs designs high-converting pages with strategic calls-to-action",
+                "text": "I need a custom web and mobile app for our business",
+                "category": "Software Dev",
+                "response": "We design custom web & mobile apps that are reliable and modern",
                 "techStack": [
                     "React",
-                    "Tailwind CSS",
-                    "Framer Motion"
+                    "Next.js",
+                    "Flutter",
+                    "Node.js"
                 ],
                 "metrics": [
                     {
                         "icon": "trending",
-                        "text": "+40% conversion"
+                        "text": "Responsive Interface"
                     },
                     {
                         "icon": "zap",
-                        "text": "<1s load time"
+                        "text": "Multi-Platform"
                     }
                 ]
             },
             {
-                "text": "Build a scalable web app for my growing business",
-                "category": "Web Application",
-                "response": "Pilar Labs engineers scalable architectures ready for your future growth",
+                "text": "Please help us implement artificial intelligence (AI) in our daily operations",
+                "category": "AI Solutions",
+                "response": "We integrate Computer Vision, NLP, & AI Agents for smart automation",
+                "techStack": [
+                    "LangChain",
+                    "FastAPI",
+                    "TensorFlow",
+                    "Ollama"
+                ],
+                "metrics": [
+                    {
+                        "icon": "trending",
+                        "text": "High Accuracy"
+                    },
+                    {
+                        "icon": "zap",
+                        "text": "24/7 Auto Execution"
+                    }
+                ]
+            },
+            {
+                "text": "How can we visualize our field assets on an interactive map?",
+                "category": "WebGIS / GIS",
+                "response": "We build custom WebGIS & unified asset mapping based on real locations",
+                "techStack": [
+                    "PostgreSQL/PostGIS",
+                    "Leaflet",
+                    "OpenLayers",
+                    "Python"
+                ],
+                "metrics": [
+                    {
+                        "icon": "trending",
+                        "text": "Spatial Visualization"
+                    },
+                    {
+                        "icon": "zap",
+                        "text": "Drone Land Analysis"
+                    }
+                ]
+            },
+            {
+                "text": "We want a real-time data dashboard to monitor key company KPIs",
+                "category": "Data Analytics",
+                "response": "We assemble Executive Dashboards & automated Data Pipelines for strategic decisions",
                 "techStack": [
                     "React",
-                    "TypeScript",
-                    "Node.js",
+                    "Tailwind CSS",
+                    "Express",
                     "PostgreSQL"
                 ],
                 "metrics": [
                     {
                         "icon": "trending",
-                        "text": "100k+ users ready"
+                        "text": "Fast Dashboard"
                     },
                     {
                         "icon": "zap",
-                        "text": "99.9% uptime"
-                    }
-                ]
-            },
-            {
-                "text": "I want an e-commerce platform with a seamless checkout",
-                "category": "E-Commerce",
-                "response": "Pilar Labs streamlines your checkout flow to maximize sales conversion",
-                "techStack": [
-                    "Next.js",
-                    "Stripe",
-                    "Tailwind CSS"
-                ],
-                "metrics": [
-                    {
-                        "icon": "trending",
-                        "text": "+60% checkout completion"
-                    },
-                    {
-                        "icon": "zap",
-                        "text": "Secure payments"
-                    }
-                ]
-            },
-            {
-                "text": "We need a custom CRM system tailored to our sales team",
-                "category": "Custom System",
-                "response": "Pilar Labs develops custom CRM systems perfectly matched to your workflow",
-                "techStack": [
-                    "React",
-                    "TypeScript",
-                    "Express",
-                    "MongoDB"
-                ],
-                "metrics": [
-                    {
-                        "icon": "trending",
-                        "text": "+35% team productivity"
-                    },
-                    {
-                        "icon": "zap",
-                        "text": "Real-time sync"
-                    }
-                ]
-            },
-            {
-                "text": "Make my website mobile-responsive and super fast",
-                "category": "Responsive Web",
-                "response": "Pilar Labs crafts lightning-fast, mobile-first experiences for your users",
-                "techStack": [
-                    "React",
-                    "Vite",
-                    "Tailwind CSS"
-                ],
-                "metrics": [
-                    {
-                        "icon": "zap",
-                        "text": "<0.8s load time"
-                    },
-                    {
-                        "icon": "trending",
-                        "text": "100/100 Lighthouse"
+                        "text": "ETL Automation"
                     }
                 ]
             }
         ],
-        "aiResponse": "Perfect! Let's build that together →",
-        "statsCounter": "Helping {{count}}+ businesses build better"
+        "aiResponse": "Perfect! Let's build together →",
+        "statsCounter": "Helping {{count}}+ businesses grow better"
     },
     "howWeBuild": {
         "badge": "Our Approach",
-        "title": "Built on Solid Architecture",
-        "description": "Every project starts with careful planning. We design systems that are scalable, maintainable, and ready to grow with your business.",
+        "title": "Built with Solid Architecture",
+        "description": "Every project begins with careful planning. We design scalable, maintainable systems that are ready to grow with your business.",
         "points": [
             {
                 "title": "Layered Architecture",
-                "description": "Clean separation between client, gateway, services, and data layers for maximum flexibility"
+                "description": "Clear separation between client, gateway, services, and data layers for maximum flexibility"
             },
             {
                 "title": "Scalable by Design",
-                "description": "Built to handle growth from day one, whether it's 100 or 100,000 users"
+                "description": "Built to handle growth from day one, whether for 100 or 100,000 users"
             },
             {
                 "title": "Modern Tech Stack",
@@ -154,123 +136,135 @@
         ]
     },
     "positioning": {
-        "title": "Infrastructure, Not Just Interface.",
-        "description": "Your website is a <strong>Digital Asset</strong>. We build foundations ready to grow, not temporary solutions.",
-        "highlight": "Digital Asset"
+        "title": "Let's Simplify Your Complexity",
+        "description": "From initial blueprint discussions, captivating visual design, robust data architecture, writing code, to cloud deployment and periodic maintenance—we are there at <strong>every step of your journey</strong>.",
+        "highlight": "every step of your journey"
     },
     "trustedBy": {
         "badge": "Trusted By",
-        "title": "Partners Who Think Long-Term",
-        "description": "Join businesses building websites as a competitive advantage.",
-        "cta": "Your growth story begins with a strong foundation",
+        "title": "Enterprise Partners Thinking Long-Term",
+        "description": "Join businesses that build websites as a competitive advantage.",
+        "cta": "Your growth story starts with a solid foundation",
         "ctaLink": "Let's talk"
     },
     "problem": {
-        "title": "Technical Debt That Slows Growth",
-        "subtitle": "Three challenges we solve for fast-growing companies.",
-        "items": {
-            "scale": {
-                "title": "Fragile Architecture",
-                "description": "Every new feature brings error risks. Developers struggle to understand the code structure."
-            },
-            "structure": {
-                "title": "Inefficient Maintenance",
-                "description": "Technical debt piles up. Small changes take too long."
-            },
-            "direction": {
-                "title": "Technology Without Strategy",
-                "description": "Sophisticated solutions not aligned with business goals."
-            }
+        "title": "Challenges or Hidden Opportunities?",
+        "subtitle": "Behind every operational bottleneck lies a huge opportunity to lead the market if you move fast.",
+        "column1": {
+            "title": "Time & Cost Leaks",
+            "items": [
+                "Your daily workflow still relies on physical documents and exhausting manual methods.",
+                "Data is locked in separate isolated folders—never talking to each other or integrated.",
+                "Operational costs continue to swell without visibility into where the leaks are.",
+                "Workflows are too long, slow, and highly prone to human error."
+            ]
+        },
+        "column2": {
+            "title": "Direction Blindness & Loss of Momentum",
+            "items": [
+                "Taking important decisions is like walking in the dark due to a lack of real-time visual reports.",
+                "Valuable field assets are difficult to monitor accurately and transparently.",
+                "Aware of the power of AI and Geographic Information Systems (GIS), but confused about how to adopt them into your business operations."
+            ]
         }
     },
     "services": {
-        "title": "Proven Approach, Measured Execution",
-        "subtitle": "Website solutions designed for your business needs",
+        "title": "Building a Credible Digital Footprint",
+        "subtitle": "End-to-End Hassle-Free Services",
         "items": {
             "landing": {
                 "title": "Landing Page",
-                "description": "High-conversion pages for marketing campaigns and product launches.",
+                "description": "High-converting pages for marketing campaigns and product launches.",
                 "features": {
-                    "fast": "Fast Loading",
-                    "conversion": "Conversion Optimized",
-                    "analytics": "Analytics Integrated"
+                    "fast": "Custom UI/UX Design",
+                    "conversion": "WhatsApp Integration",
+                    "analytics": "Free SSL & Domain"
                 }
             },
             "companyProfile": {
-                "title": "Company Profile",
-                "description": "Professional corporate website to build business credibility.",
+                "title": "Corporate Profile",
+                "description": "Official company website to build world-class business credibility.",
                 "features": {
-                    "pages": "5-10 Pages",
-                    "cms": "Content Management",
-                    "multilang": "Multi-language"
+                    "pages": "Up to 5 Main Pages",
+                    "cms": "Content Management (CMS)",
+                    "multilang": "Premium SEO & Google Index"
                 }
             },
             "ecommerce": {
-                "title": "E-commerce",
-                "description": "Complete online store with payment system and product management.",
+                "title": "Portal & E-Commerce",
+                "description": "Complete online store with automated payment systems and data integration.",
                 "features": {
-                    "catalog": "Product Catalog",
+                    "catalog": "E-Commerce Transactions",
                     "payment": "Payment Gateway",
-                    "admin": "Admin Dashboard"
+                    "admin": "Dashboard & High Security"
                 }
             }
         },
-        "learnMore": "View All Services"
+        "learnMore": "View All Services & Pricing"
     },
     "pillars": {
-        "title": "The Four Pillars",
+        "title": "Values that Bring Our Work to Life",
+        "subtitle": "We do not simply complete tasks; we hold fast to four pillars of work honor:",
         "items": {
-            "foundation": {
-                "title": "Foundation",
-                "description": "Stable and reliable system structure."
+            "innovate": {
+                "title": "Dream & Innovate",
+                "description": "Adopt the latest technology wisely to birth solutions that are genuinely useful for our clients."
             },
-            "clarity": {
-                "title": "Clarity",
-                "description": "Clear message, UX, and architecture."
+            "integrity": {
+                "title": "Integrity & Honesty",
+                "description": "Uphold high transparency with no hidden costs—building long-term bridges of trust."
             },
-            "progress": {
-                "title": "Growth",
-                "description": "Modular, scalable, and future-ready."
+            "respect": {
+                "title": "Mutual Respect",
+                "description": "Positioning ourselves as part of your team to align frequencies on shared goals."
             },
-            "precision": {
-                "title": "Detail",
-                "description": "Attention to detail and execution quality."
+            "excellence": {
+                "title": "Pursue Excellence",
+                "description": "Fully committed to writing the best lines of code and conducting flawless testing for your satisfaction."
             }
         }
     },
     "process": {
-        "title": "The Blueprint Process",
-        "subtitle": "Validated engineering process for high-quality results.",
+        "title": "Walking Together Towards the Finish Line",
+        "subtitle": "We believe transparency is the key to peace of mind. Here is your project roadmap:",
         "steps": {
             "discovery": {
-                "title": "Discovery",
-                "description": "Understanding your business goals and challenges."
+                "title": "01. Discovery",
+                "description": "Listening carefully to your dreams and bottlenecks."
             },
-            "strategy": {
-                "title": "Strategy",
-                "description": "Designing information architecture and clear roadmap."
+            "analysis": {
+                "title": "02. Analysis",
+                "description": "Mapping real business processes into system functionality."
             },
             "design": {
-                "title": "Design",
-                "description": "Crafting the visual system and user experience."
+                "title": "03. Design",
+                "description": "Designing interactive visual interfaces before code is written."
             },
-            "development": {
-                "title": "Development",
-                "description": "Building the system with clean, structured code."
+            "code": {
+                "title": "04. Code",
+                "description": "Starting to assemble robust lines of code using an Agile approach."
             },
-            "launch": {
-                "title": "Launch",
-                "description": "Deployment, testing, and final quality assurance."
+            "testing": {
+                "title": "05. Testing",
+                "description": "Rigorous testing to guarantee a bug-free execution."
             },
-            "improvement": {
-                "title": "Improvement",
-                "description": "Ongoing optimization based on user data."
+            "deploy": {
+                "title": "06. Deploy",
+                "description": "Safe launch to the primary production cloud server."
+            },
+            "support": {
+                "title": "07. Support",
+                "description": "Guarding daily post-release operations with rapid support."
+            },
+            "evolve": {
+                "title": "08. Evolve",
+                "description": "Developing new features in line with your business scale growth."
             }
         }
     },
     "finalCta": {
-        "title": "Build Right. Build to Last.",
-        "subtitle": "A website that's relevant for 5 years is worth more than one that trends for 5 days.",
+        "title": "Our Promise: Technology that Gives Meaning",
+        "subtitle": "\"Every business has its own uniqueness and challenges. Therefore, we do not believe in uniform, instant solutions. We design every technology with heart—built robust, secure, and ready to grow alongside your great steps.\"",
         "button": "Free Consultation"
     },
     "footer": {
@@ -289,44 +283,57 @@
             "title": "Legal",
             "privacy": "Privacy Policy",
             "terms": "Terms of Service",
-            "getInTouch": "Get in Touch"
+            "getInTouch": "Get in touch"
         },
         "copyright": "PT Pilar Inovasi Teknologi. All rights reserved.",
-        "taglineBottom": "Robust Infrastructure. Fast Business."
+        "taglineBottom": "Robust Infrastructure. Accelerating Business."
     },
     "about": {
         "pageHeader": {
             "badge": "About Pilar Labs",
-            "title": "Your Digital Architect",
-            "description": "We focus on what matters. Every element has a purpose. Our success is measured by stable websites, strong structure, and businesses that keep growing."
+            "title": "Your Digital Transformation Catalyst",
+            "description": "Under PT Pilar Inovasi Teknologi, we gather as a team of innovators passionate about simplifying digital complexity. We are a growth partner for corporates, ambitious startups, resilient SMEs, and progressive government agencies."
         },
         "philosophy": {
             "title": "Strategy. Structure. Scalability.",
-            "content": "At Pilar Labs, we position ourselves as Digital Architects—partners who build sustainable digital infrastructures, not temporary solutions."
+            "content": "Combining smart AI, deep data analytics, spatial mapping (GIS), and custom applications to spawn growth with real impact."
         },
         "story": {
-            "title": "Our Story",
+            "title": "Our Mission (Real Steps)",
             "content": [
-                "After years of seeing companies trapped with fragile, hard-to-develop websites, we founded Pilar Labs with one mission: <strong>to build truly solid digital infrastructures</strong>.",
-                "We reject the \"move fast and break things\" philosophy. We believe in <span>\"build strong, scale smart\"</span>—approaching every project like an architect designing a building, with careful planning and strong structure.",
-                "Every system we design is built with the highest engineering standards: clean code, type safety, automated testing. These aren't optional—they're the <strong>foundation</strong> of how we work."
+                "<strong>Inverate without Compromise:</strong> Forging high-standard technology products that are reliable and modern.",
+                "<strong>Transformation Accelerator:</strong> Guiding organization digital transitions seamlessly without causing confusion.",
+                "<strong>Flawless Security:</strong> Ensuring a solid, secure system foundation that's ready to scale with you.",
+                "<strong>Equal Partnership:</strong> Executing professional processes grounded in openness and mutual ownership."
             ]
         },
         "values": {
-            "title": "Core Values",
-            "subtitle": "The pillars that hold up everything we build.",
+            "title": "Work Honor Pillars",
+            "subtitle": "Core principles that anchor everything we build.",
             "items": {
+                "innovate": {
+                    "title": "Dream & Innovate",
+                    "description": "Adopt the latest technology wisely to birth solutions that are genuinely useful for our clients."
+                },
                 "structured": {
-                    "title": "Structured Approach",
-                    "description": "Precision engineering, not guesswork."
+                    "title": "Structured",
+                    "description": "Working with clear, measurable, and organized processes from start to finish."
                 },
                 "longTerm": {
-                    "title": "Long-term Focus",
-                    "description": "Ready for 5 years of growth."
+                    "title": "Long Term",
+                    "description": "Building solutions and partnerships that last for a long time."
+                },
+                "integrity": {
+                    "title": "Integrity & Honesty",
+                    "description": "Uphold high transparency with no hidden costs—building long-term bridges of trust."
+                },
+                "respect": {
+                    "title": "Mutual Respect",
+                    "description": "Positioning ourselves as part of your team to align frequencies on shared goals."
                 },
                 "excellence": {
-                    "title": "Technical Excellence",
-                    "description": "Clean code & best practices."
+                    "title": "Pursue Excellence",
+                    "description": "Fully committed to writing the best lines of code and conducting flawless testing for your satisfaction."
                 }
             }
         },
@@ -337,11 +344,11 @@
             "commitment": {
                 "title": "Our Commitment",
                 "content": [
-                    "We believe that every business deserves <strong>world-class digital infrastructure</strong>. There's no reason to settle for half-measures.",
-                    "Through Pilar Labs, we are committed to being a <span>trusted partner</span> for companies who want to build sustainable digital infrastructures—ready for the next 5 years of growth, not just 5 months."
+                    "We believe every business deserves <strong>world-class digital infrastructure</strong>. There is no reason to settle for half-baked solutions.",
+                    "Through Pilar Labs, we commit to being a <span>trusted partner</span> for organizations wanting to make sustainable technological leaps."
                 ],
-                "quote": "\"Robust infrastructure enables sustainable growth. That's not just our tagline—it's our promise.\"",
-                "attribution": "— Ujang, Founder Pilar Labs"
+                "quote": "\"Every business has its own uniqueness and challenges. We design every technology with heart—built robust, secure, and ready to grow alongside your great steps.\"",
+                "attribution": "— Pilar Labs"
             }
         },
         "stats": {
@@ -352,98 +359,251 @@
         }
     },
     "servicesPage": {
+        "coreServices": {
+            "title": "Services We Can Build",
+            "subtitle": "Your Digital Transformation Catalyst",
+            "software": {
+                "title": "Software Development",
+                "description": "Building a Credible Digital Footprint",
+                "items": [
+                    "Representative Websites (Company Profile, Portal)",
+                    "Independent Web Applications (ERP, CRM, POS)",
+                    "Native & Cross-Platform Mobile Apps"
+                ]
+            },
+            "ai": {
+                "title": "Artificial Intelligence",
+                "description": "Leapfrog Competitors with Artificial Intelligence (AI)",
+                "items": [
+                    "Intelligent Vision & OCR",
+                    "NLP & Smart Agents",
+                    "Predictive Analytics & Recommendation"
+                ]
+            },
+            "gis": {
+                "title": "Geographic Information System",
+                "description": "Seeing the World Through the Power of Location",
+                "items": [
+                    "Interactive Maps & Custom WebGIS",
+                    "Asset & Site Mapping",
+                    "Integrated Spatial Dashboards"
+                ]
+            },
+            "data": {
+                "title": "Data Analytics",
+                "description": "Turning dusty piles of data into a compass for strategic decisions.",
+                "items": [
+                    "Executive Dashboards & KPI",
+                    "Automated Data Pipelines (ETL)",
+                    "Business Intelligence (BI)"
+                ]
+            }
+        },
         "seo": {
             "title": "Development Services - Packages & Custom Solutions"
         },
         "pageHeader": {
             "badge": "Our Services",
-            "title": "Service Packages",
-            "description": "Transparent, structured, and scalable solutions. Choose the architecture that fits your current growth stage."
+            "title": "Service Packages & Pricing",
+            "description": "Friendly investment specifically during the launch phase to help you immediately establish digital credibility."
         },
         "packages": {
             "landing": {
                 "title": "Landing Page",
-                "subtitle": "High-Conversion Page",
-                "description": "Focused, fast, and persuasive pages designed to convert visitors into customers.",
+                "subtitle": "High-Converting Page",
+                "description": "Single-page for products, events, or marketing campaign launches with high optimization.",
+                "price": "Starts from Rp 1.5 Million",
                 "features": [
-                    "Copywriting Assistance",
-                    "A/B Testing Setup",
-                    "Analytics Integration",
-                    "Fast Loading Time",
-                    "Mobile-First Design",
-                    "Lead Magnet Integration"
+                    "1 Modern Responsive Page",
+                    "Stunning Custom UI/UX Design",
+                    "WhatsApp & Social Media Integration",
+                    "Free Domain & Hosting for 1 Year",
+                    "SSL Security & Basic SEO Setup"
                 ],
                 "idealFor": "Product Launches, Marketing Campaigns",
                 "cta": "Launch Campaign"
             },
             "companyProfile": {
-                "title": "Company Profile",
-                "subtitle": "Professional Digital Identity",
-                "description": "Corporate website that builds credibility and trust with potential clients.",
+                "title": "Corporate Profile",
+                "subtitle": "Official Corporate Profile",
+                "description": "Official corporate profile website to build long-term credibility and competitive advantage.",
+                "price": "Starts from Rp 3.5 Million",
                 "features": [
-                    "5-10 Custom Pages",
-                    "CMS Integration (Sanity/WordPress)",
-                    "Multi-language Support",
-                    "Team & Careers Sections",
-                    "Investor Relations Ready",
-                    "Brand Guideline Compliance"
+                    "Up to 5 Main Pages",
+                    "Integrated CMS (Easy content editing)",
+                    "Premium Professional Design",
+                    "Premium SEO & Google Indexing",
+                    "3-Month Active Maintenance Guarantee"
                 ],
-                "idealFor": "B2B, Agencies, Consultants",
+                "idealFor": "B2B, Corporates, Agencies, Institutions",
                 "cta": "Build Presence"
             },
             "ecommerce": {
-                "title": "E-commerce Website",
-                "subtitle": "Professional Online Store",
-                "description": "Complete online selling platform with payment system and product management.",
+                "title": "Portal & E-Commerce",
+                "subtitle": "Multi-Feature Interactive Website",
+                "description": "Professional online store complete with automated payment gateway and data integration.",
+                "price": "Starts from Rp 7.5 Million",
                 "features": [
-                    "Product Catalog",
-                    "Payment Gateway",
-                    "Inventory Management",
-                    "Admin Dashboard",
-                    "Shipping System",
-                    "Customer Management"
+                    "E-Commerce & Transaction Features",
+                    "Payment Gateway Integration",
+                    "News Portal / User Dashboard",
+                    "High-Level Security Protection",
+                    "6-Month Active Maintenance Guarantee"
                 ],
-                "idealFor": "Online Stores, Retail, SMEs",
+                "idealFor": "Online Stores, SMEs, Retail",
                 "cta": "Start Selling Online"
             },
             "webApp": {
-                "title": "Web Application",
-                "subtitle": "Custom System for Business",
-                "description": "Web applications built to match your business needs with quality code.",
+                "title": "Custom Web App",
+                "subtitle": "Custom Operational Application",
+                "description": "A web application built specifically to match the unique internal workflow of your business.",
+                "price": "Starts from Rp 9.5 Million",
                 "features": [
-                    "Custom Design System",
-                    "Interactive Dashboard",
-                    "User Authentication",
-                    "Database Integration",
-                    "API Development",
-                    "Technical Documentation"
+                    "Custom Dashboard & Database",
+                    "User Management System",
+                    "UI/UX Design & Prototype",
+                    "Basic Support & Maintenance",
+                    "Third-Party API Integration"
                 ],
-                "idealFor": "Startups, Tech Companies, Enterprise",
+                "idealFor": "Startups, Internal Operations, SMEs",
                 "cta": "Start Development"
             },
-            "blog": {
-                "title": "Blog/News Portal",
-                "subtitle": "Content & News Platform",
-                "description": "News or blog website with easy-to-use content management system.",
+            "enterprise": {
+                "title": "Enterprise Integration",
+                "subtitle": "ERP, GIS & Big Data Systems",
+                "description": "Large-scale system integration for comprehensive operational efficiency and spatial visual mapping.",
+                "price": "Starts from Rp 29 Million",
                 "features": [
-                    "Content Management System",
-                    "Multi-author Support",
-                    "Categories & Tagging",
-                    "SEO Optimization",
-                    "Social Media Integration",
-                    "Newsletter System"
+                    "Enterprise ERP / HRIS / CRM",
+                    "WebGIS & Asset Mapping",
+                    "Database Integration & ETL",
+                    "Dedicated Support SLA",
+                    "Robust Cloud Infrastructure"
                 ],
-                "idealFor": "Media, Publishers, Content Creators",
-                "cta": "Build Portal"
+                "idealFor": "Large Corporations, Government Agencies",
+                "cta": "Integrate System"
+            },
+            "aiDeepTech": {
+                "title": "AI & Custom Deep Tech",
+                "subtitle": "Intelligent Automation & Agents",
+                "description": "Smart automation solutions utilizing custom artificial intelligence for high-efficiency automation.",
+                "price": "Starts from Rp 49 Million",
+                "features": [
+                    "Custom LLM & AI Chatbots",
+                    "Predictive & Computer Vision",
+                    "High-Scale Cloud DevOps",
+                    "24/7 Priority Support SLA",
+                    "Automated Customer Service Boosting"
+                ],
+                "idealFor": "Visionary Companies, Automation Sector",
+                "cta": "Develop AI Tech"
             }
         },
-        "mostPopular": "MOST POPULAR",
-        "includes": "Includes:",
+        "mostPopular": "RECOMMENDED",
+        "includes": "Main Features:",
         "idealFor": "Ideal for:",
         "custom": {
-            "title": "Need something else?",
-            "description": "We understand that some projects defy standard categorization. Let's talk about your unique requirements.",
-            "cta": "Contact Support"
+            "title": "Need a Custom Solution?",
+            "description": "We understand that every business has unique needs. Let's discuss the right solution for you.",
+            "cta": "Free Consultation"
+        },
+        "detailedServices": {
+            "software": {
+                "title": "Building a Credible Digital Footprint",
+                "subtitle": "Reliable platforms that make users fall in love with your business.",
+                "web": {
+                    "title": "Representative Websites",
+                    "items": [
+                        "World-Class Company Profile",
+                        "Interactive Corporate Portal",
+                        "High-Converting Landing Pages",
+                        "Integrated Communication Hub"
+                    ]
+                },
+                "app": {
+                    "title": "Independent Web Applications",
+                    "items": [
+                        "ERP, CRM, & HRIS Integration",
+                        "POS & Inventory Automation",
+                        "Finance & Procurement Systems",
+                        "Operational Performance Monitoring"
+                    ]
+                }
+            },
+            "mobile": {
+                "title": "Your Business in One Grasp",
+                "subtitle": "Be Present Anytime on Their Phones",
+                "description": "Modern users spend most of their time in front of smartphone screens. We design custom mobile applications that are not only beautiful to look at, but feel responsive, battery-efficient, and fun to use repeatedly.",
+                "badges": [
+                    "Android Native",
+                    "iOS Native",
+                    "Flutter Cross-Platform"
+                ],
+                "items": [
+                    "End-User Applications (B2C): Making shopping and ordering as easy as a single touch.",
+                    "Internal Management Applications: Facilitating instant team coordination in the field whenever needed.",
+                    "Flutter Multi-Platform Technology: Cutting costs and development time without sacrificing graphical quality.",
+                    "Routine Maintenance Support: Ensuring your app always passes Play Store & App Store verification."
+                ]
+            },
+            "ai": {
+                "title": "Leapfrog Competitors with Artificial Intelligence (AI)",
+                "subtitle": "Let our smart machines take over repetitive tasks and give you time to focus on major business strategies.",
+                "vision": {
+                    "title": "Intelligent Vision",
+                    "description": "Translating image & video data into precise automated actions.",
+                    "items": [
+                        "Real-Time Object Detection",
+                        "Physical Document Digitalization (OCR)"
+                    ]
+                },
+                "nlp": {
+                    "title": "NLP & Smart Agents",
+                    "description": "Communicating with natural, warm language, always actively serving customers 24/7.",
+                    "items": [
+                        "Modern AI-Based Chatbots",
+                        "Large Language Model (LLM) Integration"
+                    ]
+                },
+                "predict": {
+                    "title": "Predict & Learn",
+                    "description": "Analyzing past patterns to estimate future market movements.",
+                    "items": [
+                        "Consumer Behavior Prediction",
+                        "Smart Recommendation Systems"
+                    ]
+                }
+            },
+            "gis": {
+                "title": "Seeing the World Through the Power of Location",
+                "webgis": {
+                    "title": "Interactive Maps & WebGIS",
+                    "description": "Don't let your regional data sit in boring tables. Turn it into interactive maps that clearly tell the story of potential distribution.",
+                    "items": [
+                        "Custom WebGIS: Specialized mapping applications tailored to regional/business needs.",
+                        "Asset & Site Mapping: Visualize the location of your valuable assets in one integrated dashboard.",
+                        "Spatial Dashboard: Analyze potential business areas based on real locations."
+                    ]
+                },
+                "drone": {
+                    "title": "Aerial Photography & Remote Sensing",
+                    "description": "Get an accurate picture of the land without having to guess field conditions.",
+                    "items": [
+                        "Drone Mapping & Orthophoto: Ultra-high resolution aerial imagery acquisition.",
+                        "Remote Sensing: Rapid analysis of land cover changes, forestry, and crop health."
+                    ]
+                }
+            },
+            "data": {
+                "title": "Your Data is Valuable, Let's Give it a Voice!",
+                "subtitle": "Turning dusty piles of data into a compass for strategic decisions.",
+                "description": "Stop guessing the direction of your business growth based on hunches. With proper visualization, you can clearly see which metrics are climbing and which areas need extra attention immediately.",
+                "items": [
+                    "Executive Dashboard: Summary of the most important KPIs at a glance for leaders.",
+                    "Automated Data Pipeline (ETL): Flowing and consolidating data neatly without manual processes.",
+                    "Business Intelligence (BI): Discover anomalies and seize new opportunities before competitors realize it."
+                ]
+            }
         }
     },
     "contactPage": {
@@ -454,7 +614,7 @@
         },
         "getInTouch": {
             "title": "Get in Touch",
-            "subtitle": "We reply within 24 hours. Direct from our engineers, not bots."
+            "subtitle": "We reply within 24 hours. Directly from the engineers, no bots."
         },
         "info": {
             "email": "Email",
@@ -486,14 +646,14 @@
         "pageHeader": {
             "badge": "We're Hiring",
             "title": "Internship Program",
-            "description": "Join the Pilar Labs team and kickstart your career as a developer. Gain real project experience, mentorship, and build your portfolio."
+            "description": "Join the Pilar Labs team and begin your professional career. Gain hands-on experience with real projects, direct mentorship from practitioners, and build a portfolio ready to compete in the industry."
         },
         "positions": {
             "title": "Available Positions",
-            "subtitle": "We're looking for passionate young talent to join our development team",
+            "subtitle": "We are opening opportunities for young talent eager to grow with our team for 3–6 months",
             "frontend": {
                 "title": "Frontend Developer",
-                "description": "Build modern, responsive user interfaces with React, TypeScript, and Tailwind CSS",
+                "description": "Build modern, responsive, and engaging user interfaces using React and TypeScript.",
                 "skills": [
                     "React",
                     "TypeScript",
@@ -503,89 +663,119 @@
             },
             "backend": {
                 "title": "Backend Developer",
-                "description": "Develop scalable APIs and server-side applications with Node.js or Python",
+                "description": "Develop reliable APIs and scalable server-side applications using Node.js or Python.",
                 "skills": [
-                    "Node.js/Python",
+                    "Node.js / Python",
                     "REST API",
-                    "Database",
+                    "Database (SQL/NoSQL)",
                     "Git"
                 ]
             },
             "fullstack": {
                 "title": "Full-Stack Developer",
-                "description": "Work on both frontend and backend to build complete web applications",
+                "description": "Handle both frontend and backend development to build complete and production-ready web applications.",
                 "skills": [
                     "React",
                     "Node.js",
-                    "Database",
-                    "TypeScript"
+                    "TypeScript",
+                    "Database"
                 ]
             },
             "uiux": {
                 "title": "UI/UX Designer",
-                "description": "Design beautiful and user-friendly interfaces using Figma",
+                "description": "Design intuitive, aesthetic, and consistent user interfaces and experiences using Figma.",
                 "skills": [
                     "Figma",
-                    "Design Systems",
+                    "Design System",
                     "Prototyping",
                     "User Research"
+                ]
+            },
+            "mobile": {
+                "title": "Mobile Developer",
+                "description": "Develop lightweight and performant cross-platform mobile applications using Flutter or React Native.",
+                "skills": [
+                    "Flutter / React Native",
+                    "Dart / JavaScript",
+                    "API Integration",
+                    "Git"
+                ]
+            },
+            "data": {
+                "title": "Data Analyst / Data Engineer",
+                "description": "Process, analyze, and visualize data to support accurate business decision-making.",
+                "skills": [
+                    "Python",
+                    "SQL",
+                    "Data Visualization",
+                    "Statistics"
+                ]
+            },
+            "devops": {
+                "title": "DevOps / Cloud Engineer",
+                "description": "Manage cloud infrastructure, CI/CD pipelines, and ensure ongoing system availability and security.",
+                "skills": [
+                    "Docker / Kubernetes",
+                    "CI/CD Pipeline",
+                    "Linux",
+                    "Cloud (AWS/GCP)"
                 ]
             }
         },
         "requirements": {
             "title": "Requirements",
             "items": [
-                "Active student (minimum 3rd semester) or fresh graduate",
-                "Passionate about programming and web development",
-                "Basic understanding of your desired position",
-                "Able to commit at least 20 hours/week for 3-6 months",
-                "Self-driven and eager to learn",
-                "Portfolio or previous projects (GitHub, Behance, etc.)"
+                "Active student (minimum 3rd semester) or fresh graduate from a relevant field",
+                "Strong interest and enthusiasm in technology and digital development",
+                "Basic understanding of the desired position",
+                "Able to commit a minimum of 20 hours per week for 3–6 months",
+                "Self-driven, proactive, and highly eager to learn",
+                "Portfolio or personal projects (GitHub, Behance, or similar)"
             ]
         },
         "benefits": {
             "title": "What You'll Get",
-            "subtitle": "Our internship program is designed to accelerate your learning and career growth",
+            "subtitle": "The Pilar Labs internship program is designed to accelerate your learning and professional career growth",
             "mentorship": {
-                "title": "Mentorship",
-                "description": "Direct guidance from experienced senior developers"
+                "title": "Direct Mentorship",
+                "description": "Intensive guidance from experienced senior developers and designers in the industry."
             },
             "projects": {
                 "title": "Real Projects",
-                "description": "Work on production projects used by real users"
+                "description": "Be directly involved in active production projects used by real clients and users."
             },
             "certificate": {
-                "title": "Certificate",
-                "description": "Completion certificate after finishing the program"
+                "title": "Official Certificate",
+                "description": "Receive a professionally recognized internship completion certificate."
             },
             "flexible": {
-                "title": "Flexible Hours",
-                "description": "Flexible schedule, suitable for students"
+                "title": "Flexible Schedule",
+                "description": "Working hours that can be adjusted to your academic schedule, perfect for active students."
             }
         },
         "process": {
             "title": "Application Process",
-            "subtitle": "Simple and straightforward process",
+            "subtitle": "A transparent, simple, and time-efficient selection process",
             "apply": {
                 "title": "Apply",
-                "description": "Send your CV and portfolio via email or form"
+                "description": "Send your CV and portfolio via our email or WhatsApp."
             },
             "review": {
-                "title": "Review",
-                "description": "Our team reviews your application (1-2 weeks)"
+                "title": "Document Review",
+                "description": "Our team will review your application within 1–2 working weeks."
             },
             "interview": {
                 "title": "Interview",
-                "description": "Technical interview and culture fit discussion"
+                "description": "A brief technical interview and work culture fit discussion."
             },
             "onboarding": {
                 "title": "Onboarding",
-                "description": "Welcome aboard! Start your journey with us"
+                "description": "Welcome aboard! Begin your learning journey with the Pilar Labs team."
             }
         },
         "cta": {
-            "title": "Ready to Start Your Journey?",
-            "description": "Send your application now and join Pilar Labs as an intern developer",
+            "title": "Ready to Start Your Career Journey?",
+            "description": "Submit your application now and become part of the Pilar Labs team as an intern developer.",
             "emailButton": "Apply via Email",
             "whatsappButton": "Chat via WhatsApp",
             "contact": "Or contact us at"
@@ -595,13 +785,15 @@
         "pageHeader": {
             "badge": "Our Work",
             "title": "Portfolio",
-            "description": "See how we build strong digital infrastructures for clients across various industries."
+            "description": "See how we build future technology solutions that provide a real impact for our partner businesses."
         },
         "filters": {
             "all": "All",
             "webApp": "Web App",
             "landingPage": "Landing Page",
-            "mobileApp": "Mobile App"
+            "mobileApp": "Mobile App",
+            "gis": "WebGIS / GIS",
+            "ai": "Artificial Intelligence"
         },
         "labels": {
             "client": "Client",
@@ -618,35 +810,70 @@
         },
         "empty": {
             "title": "No Projects",
-            "description": "There are no projects in this category yet."
+            "description": "No projects found in this category."
         },
         "projects": {
-            "nurasaStore": {
-                "title": "Nurasa - Premium Snack Landing Page",
-                "industry": "E-Commerce / Food & Beverage",
-                "description": "A modern landing page for a premium snack brand, focusing on brand storytelling and WhatsApp conversion.",
-                "challenge": "Building a digital presence from scratch with a limited budget and needing a fast launch to start receiving online orders.",
-                "solution": "A single-page landing page focusing on brand storytelling, product showcase, and WhatsApp integration for easy ordering. Warm & premium design reflecting the story in every flavor.",
+            "webgisLand": {
+                "title": "WebGIS Land Monitoring",
+                "industry": "Geographic Information System (GIS)",
+                "description": "Smart spatial mapping, satellite imagery vegetation analysis, and integration of 12,000+ national boundary coordinates for public forestry agency.",
+                "challenge": "Monitoring vast national forest boundaries and identifying vegetation changes in hard-to-reach locations.",
+                "solution": "Developed a custom WebGIS application integrated with PostgreSQL/PostGIS spatial database and Leaflet.js map visualization.",
                 "results": [
-                    "Launched in 2 weeks from concept to production",
-                    "WhatsApp integration for direct ordering",
-                    "Mobile-first responsive design",
-                    "Trust badges for credibility (Quality Ingredients, Hygiene & Safety)",
-                    "Clean navigation and smooth scrolling UX"
+                    "Real-time forestry boundary mapping",
+                    "Automated satellite imagery analysis for vegetation detection",
+                    "Precise integration of 12,000+ spatial coordinates",
+                    "Data transparency for both agency and public"
+                ]
+            },
+            "portalEcommerce": {
+                "title": "Web Portal & E-Commerce",
+                "industry": "E-Commerce",
+                "description": "Development of interactive corporate website, custom CMS, and e-commerce platform integrated with payment gateway to enhance branding and optimize digital transaction conversion 24/7.",
+                "challenge": "Unifying a professional corporate identity with a fast, secure online portal for transactions.",
+                "solution": "Built a responsive website using React / Next.js and Tailwind CSS connected to a Node.js backend and local payment gateway.",
+                "results": [
+                    "Seamless multi-functional corporate & transaction platform",
+                    "Payment gateway integration for automated billing",
+                    "Optimized assets and code for rapid page loading",
+                    "Easy-to-use custom CMS for catalog administration"
+                ]
+            },
+            "aiCustomerAgent": {
+                "title": "AI Customer Agent & OCR",
+                "industry": "Artificial Intelligence (AI)",
+                "description": "Automated physical document digitization with 98% accuracy (OCR) and conversational AI agent based on LLM serving customer queries 24/7.",
+                "challenge": "High operational overhead from manual physical document entry and massive repeat query volumes overloading customer service.",
+                "solution": "Implemented a computer-vision-based OCR pipeline and conversational AI agents powered by LangChain and FastAPI.",
+                "results": [
+                    "98% accuracy in document digitization automation",
+                    "Responsive customer service query handling 24/7",
+                    "CSR workload reduced by up to 60%",
+                    "LLM context-aligned integration based on business parameters"
+                ]
+            },
+            "nurasaStore": {
+                "title": "Nurasa Store",
+                "industry": "Retail & F&B",
+                "description": "Interactive landing page to promote Nurasa products with modern design and high performance.",
+                "challenge": "Building an engaging online presence for F&B products to reach more customers.",
+                "solution": "Landing page development using React and Vite with smooth and responsive animations.",
+                "results": [
+                    "Increased online brand visibility",
+                    "Fast and easy product information access",
+                    "Interactive and responsive user experience"
                 ]
             },
             "yogiBusana": {
-                "title": "Yogi Busana - Balinese Traditional Costume Rental",
-                "industry": "Tourism / Cultural Services",
-                "description": "A bilingual website (English/Indonesian) for a Balinese traditional costume rental service, serving domestic and international tourists.",
-                "challenge": "Reaching both international and local markets with clear communication regarding traditional costume rental for religious and cultural events in Bali.",
-                "solution": "A website with multi-language support (EN/ID), clean design reflecting Balinese culture, and complete information regarding rental services. Focused on user experience for tourists needing traditional attire.",
+                "title": "Yogi Busana",
+                "industry": "Fashion & Retail",
+                "description": "Portfolio website and product catalog for Yogi Busana clothing store with multi-language support.",
+                "challenge": "Showcasing clothing collections with appealing visuals and reaching local as well as international customers.",
+                "solution": "Creation of an SEO-optimized website with internationalization (i18n) features.",
                 "results": [
-                    "Bilingual support (English & Indonesian)",
-                    "Authentic cultural branding",
-                    "Clean and easy navigation",
-                    "Mobile responsive for tourists on-the-go",
-                    "Contact integration for booking inquiries"
+                    "Easily accessible digital product catalog",
+                    "Multi-language support for international customers",
+                    "Increased digital brand awareness"
                 ]
             }
         }
@@ -661,7 +888,7 @@
         "sections": {
             "collection": {
                 "title": "1. Information We Collect",
-                "intro": "We collect information that you provide directly to us, including:",
+                "intro": "We collect information you provide directly to us, including:",
                 "items": [
                     "Name, email address, and phone number",
                     "Company information and business details",
@@ -675,24 +902,24 @@
                 "items": [
                     "Provide, maintain, and improve our services",
                     "Process your requests and communicate with you",
-                    "Send you technical notices and support messages",
-                    "Respond to your inquiries and provide customer service",
+                    "Send technical notices and support messages",
+                    "Respond to your queries and provide customer service",
                     "Analyze usage patterns and optimize user experience"
                 ]
             },
             "sharing": {
                 "title": "3. Information Sharing",
-                "intro": "We do not sell, trade, or rent your personal information to third parties. We may share your information only in the following circumstances:",
+                "intro": "We do not sell, trade, or rent your personal information to third parties. We only share your information in the following circumstances:",
                 "items": [
                     "With your explicit consent",
                     "To comply with legal obligations",
-                    "With trusted service providers who assist in our operations",
+                    "With trusted service providers who assist our operations",
                     "To protect our rights and prevent fraud"
                 ]
             },
             "security": {
                 "title": "4. Data Security",
-                "content": "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet is 100% secure."
+                "content": "We implement appropriate technical and organizational measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet is 100% secure."
             },
             "rights": {
                 "title": "5. Your Rights",
@@ -702,7 +929,7 @@
                     "Request correction of inaccurate information",
                     "Request deletion of your personal data",
                     "Withdraw consent at any time",
-                    "Lodge a complaint with a supervisory authority"
+                    "File a complaint with a supervisory authority"
                 ]
             },
             "cookies": {
@@ -735,14 +962,14 @@
                 "content": "By accessing and using the services of PT Pilar Inovasi Teknologi (\"Pilar Labs\"), you accept and agree to be bound by the terms and conditions of this agreement. If you do not agree to these terms, please do not use our services."
             },
             "services": {
-                "title": "2. Services Description",
+                "title": "2. Description of Services",
                 "intro": "Pilar Labs provides web development, digital consulting, and related technology services. Our services include but are not limited to:",
                 "items": [
                     "Website development and design",
                     "Company profile creation",
                     "Landing page development",
                     "Website redesign and optimization",
-                    "Technical consultation and support"
+                    "Consulting and technical support"
                 ]
             },
             "obligations": {
@@ -752,25 +979,25 @@
                     "Provide accurate and complete information",
                     "Maintain the confidentiality of your account credentials",
                     "Use our services only for lawful purposes",
-                    "Not interfere with or disrupt the services",
+                    "Not disrupt or interfere with the services",
                     "Comply with all applicable laws and regulations"
                 ]
             },
             "payment": {
                 "title": "4. Payment Terms",
-                "intro": "All fees are quoted in Indonesian Rupiah (IDR) unless otherwise specified. Payment terms will be outlined in individual project agreements and typically include:",
+                "intro": "All fees are quoted in Indonesian Rupiah (IDR) unless specified otherwise. Payment terms will be outlined in individual project agreements and typically include:",
                 "items": [
-                    "Initial deposit upon project commencement",
+                    "Initial deposit upon project kickoff",
                     "Milestone-based payments for larger projects",
                     "Final payment upon project completion",
-                    "Additional fees for scope changes or revisions beyond agreed limits"
+                    "Additional fees for scope changes or revisions outside agreed limits"
                 ]
             },
             "intellectual": {
-                "title": "5. Intellectual Property",
-                "intro": "Upon full payment, clients receive ownership of the final deliverables. However:",
+                "title": "5. Intellectual Property Rights",
+                "intro": "Upon full payment, the client receives ownership of the final deliverables. However:",
                 "items": [
-                    "Pilar Labs retains the right to showcase completed work in our portfolio",
+                    "Pilar Labs retains the right to display the finished work in our portfolio",
                     "Pre-existing code, tools, and frameworks remain our property",
                     "Open-source components are governed by their respective licenses",
                     "We may reuse general methodologies and techniques"
@@ -778,29 +1005,29 @@
             },
             "timeline": {
                 "title": "6. Project Timeline",
-                "content": "We strive to meet agreed-upon deadlines. However, timelines may be affected by: client feedback delays, scope changes, technical challenges, or force majeure events. We will communicate promptly about any timeline adjustments."
+                "content": "We strive to meet agreed deadlines. However, timelines can be affected by: delayed client feedback, scope changes, technical challenges, or force majeure events. We will communicate promptly about any timeline adjustments."
             },
             "warranties": {
                 "title": "7. Warranties and Disclaimers",
                 "intro": "We warrant that our services will be performed with professional skill and care. However:",
                 "items": [
-                    "We do not guarantee specific business results or outcomes",
-                    "Third-party services and integrations are provided \"as is\"",
+                    "We do not guarantee specific business outcomes or results",
+                    "Third-party integrations and services are provided \"as is\"",
                     "We are not liable for issues arising from client-provided content",
                     "Website performance depends on hosting and infrastructure choices"
                 ]
             },
             "liability": {
                 "title": "8. Limitation of Liability",
-                "content": "Pilar Labs' total liability for any claims arising from our services shall not exceed the total amount paid by the client for the specific project. We are not liable for indirect, incidental, or consequential damages."
+                "content": "Pilar Labs' total liability for any claims arising from our services will not exceed the total amount paid by the client for the specific project. We are not liable for indirect, incidental, or consequential damages."
             },
             "support": {
                 "title": "9. Support and Maintenance",
-                "content": "Post-launch support and maintenance services are available under separate agreements. Basic technical support is typically included for a specified period after project delivery."
+                "content": "Post-launch support and maintenance services are available under separate agreements. Basic technical support is usually included for a specified period after project delivery."
             },
             "termination": {
                 "title": "10. Termination",
-                "content": "Either party may terminate the agreement with written notice. Upon termination, the client is responsible for payment of all work completed up to the termination date."
+                "content": "Either party may terminate the agreement with written notice. Upon termination, the client is responsible for payment for all work completed up to the date of termination."
             },
             "governing": {
                 "title": "11. Governing Law",

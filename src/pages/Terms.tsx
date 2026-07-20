@@ -14,6 +14,8 @@ export function Terms() {
                 title={t('seo.terms')}
                 description={seo.description}
                 keywords={seo.keywords}
+                pathname={seo.pathname}
+                noindex={seo.noindex}
             />
             <PageHeader
                 title={t('terms.pageHeader.title')}

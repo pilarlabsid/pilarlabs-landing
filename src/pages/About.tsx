@@ -22,6 +22,7 @@ export function About() {
                 title={t('seo.about')}
                 description={seo.description}
                 keywords={seo.keywords}
+                pathname={seo.pathname}
             />
             <PageHeader
                 title={t('about.pageHeader.title')}

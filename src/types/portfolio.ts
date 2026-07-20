@@ -1,5 +1,5 @@
 // Portfolio project types
-export type ProjectCategory = 'web-app' | 'landing-page' | 'mobile-app' | 'all'
+export type ProjectCategory = 'web-app' | 'landing-page' | 'mobile-app' | 'gis' | 'ai' | 'all'
 
 export interface Portfolio {
     id: string

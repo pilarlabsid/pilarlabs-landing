@@ -8,7 +8,9 @@ interface SEOProps {
     ogImage?: string
     ogType?: 'website' | 'article' | 'profile'
     canonicalUrl?: string
+    pathname?: string
     noindex?: boolean
+    structuredData?: Record<string, unknown>
 }
 
 export function SEO({
@@ -18,15 +20,18 @@ export function SEO({
     ogImage = siteConfig.defaultOgImage,
     ogType = 'website',
     canonicalUrl,
+    pathname,
     noindex = false,
+    structuredData,
 }: SEOProps) {
     // Construct full title
     const fullTitle = title
         ? `${title} | ${siteConfig.siteName}`
         : siteConfig.defaultTitle
 
-    // Construct full canonical URL
-    const canonical = canonicalUrl || siteConfig.siteUrl
+    // Construct canonical URL — prefer explicit > pathname > domain root
+    const canonical = canonicalUrl
+        || (pathname ? `${siteConfig.siteUrl}${pathname}` : siteConfig.siteUrl)
 
     // Construct full OG image URL
     const fullOgImage = ogImage.startsWith('http')
@@ -35,6 +40,58 @@ export function SEO({
 
     // Keywords string
     const keywordsString = keywords.join(', ')
+
+    // Default Organization JSON-LD (on every page)
+    const organizationSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: siteConfig.company.name,
+        legalName: siteConfig.company.legalName,
+        url: siteConfig.siteUrl,
+        logo: `${siteConfig.siteUrl}/favicon-color.png`,
+        foundingDate: siteConfig.company.foundedYear,
+        description: siteConfig.description,
+        address: {
+            '@type': 'PostalAddress',
+            streetAddress: siteConfig.company.address.street,
+            addressLocality: siteConfig.company.address.city,
+            addressRegion: siteConfig.company.address.region,
+            postalCode: siteConfig.company.address.postalCode,
+            addressCountry: 'ID',
+        },
+        contactPoint: [
+            {
+                '@type': 'ContactPoint',
+                telephone: siteConfig.social.phone,
+                contactType: 'customer service',
+                availableLanguage: ['Indonesian', 'English'],
+            },
+        ],
+        sameAs: [
+            siteConfig.social.linkedin,
+            siteConfig.social.instagram,
+        ],
+    }
+
+    // WebSite JSON-LD (for sitelinks searchbox + breadcrumbs)
+    const websiteSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: siteConfig.siteName,
+        url: siteConfig.siteUrl,
+        inLanguage: siteConfig.siteLanguage,
+        potentialAction: {
+            '@type': 'SearchAction',
+            target: {
+                '@type': 'EntryPoint',
+                urlTemplate: `${siteConfig.siteUrl}/?q={search_term_string}`,
+            },
+            'query-input': 'required name=search_term_string',
+        },
+    }
+
+    // Merge custom structured data if provided
+    const finalStructuredData = structuredData ?? organizationSchema
 
     return (
         <Helmet>
@@ -48,13 +105,16 @@ export function SEO({
             <link rel="canonical" href={canonical} />
 
             {/* Robots */}
-            {noindex && <meta name="robots" content="noindex,nofollow" />}
+            <meta name="robots" content={noindex ? 'noindex,nofollow' : 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1'} />
 
             {/* Open Graph */}
             <meta property="og:type" content={ogType} />
             <meta property="og:title" content={fullTitle} />
             <meta property="og:description" content={description} />
             <meta property="og:image" content={fullOgImage} />
+            <meta property="og:image:width" content={siteConfig.ogImageWidth} />
+            <meta property="og:image:height" content={siteConfig.ogImageHeight} />
+            <meta property="og:image:alt" content={fullTitle} />
             <meta property="og:url" content={canonical} />
             <meta property="og:site_name" content={siteConfig.siteName} />
             <meta property="og:locale" content={siteConfig.ogLanguage} />
@@ -64,11 +124,22 @@ export function SEO({
             <meta name="twitter:title" content={fullTitle} />
             <meta name="twitter:description" content={description} />
             <meta name="twitter:image" content={fullOgImage} />
+            <meta name="twitter:image:alt" content={fullTitle} />
 
-            {/* Language */}
+            {/* Language & hreflang */}
             <meta httpEquiv="content-language" content={siteConfig.siteLanguage} />
-            <link rel="alternate" hrefLang={siteConfig.siteLanguage} href={canonical} />
+            <link rel="alternate" hrefLang="id" href={canonical} />
             <link rel="alternate" hrefLang="x-default" href={siteConfig.siteUrl} />
+
+            {/* Structured Data — Organization */}
+            <script type="application/ld+json">
+                {JSON.stringify(finalStructuredData)}
+            </script>
+
+            {/* Structured Data — WebSite */}
+            <script type="application/ld+json">
+                {JSON.stringify(websiteSchema)}
+            </script>
         </Helmet>
     )
 }

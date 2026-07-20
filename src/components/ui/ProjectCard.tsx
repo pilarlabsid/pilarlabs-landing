@@ -31,7 +31,13 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
                     <div className="absolute bottom-4 left-4 right-4">
                         <div className="flex items-center gap-2 mb-2">
                             <span className="px-2 py-1 text-xs font-medium bg-precision/10 text-precision rounded">
-                                {t(`caseStudies.filters.${project.category === 'web-app' ? 'webApp' : project.category === 'landing-page' ? 'landingPage' : 'mobileApp'}`)}
+                                {t(`caseStudies.filters.${({
+                                    'web-app': 'webApp',
+                                    'landing-page': 'landingPage',
+                                    'mobile-app': 'mobileApp',
+                                    'gis': 'gis',
+                                    'ai': 'ai',
+                                } as const)[project.category] ?? 'webApp'}`)}
                             </span>
                             {project.featured && (
                                 <span className="px-2 py-1 text-xs font-medium bg-energy/10 text-energy rounded">

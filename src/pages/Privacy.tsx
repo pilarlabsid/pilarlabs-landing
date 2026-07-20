@@ -14,6 +14,8 @@ export function Privacy() {
                 title={t('seo.privacy')}
                 description={seo.description}
                 keywords={seo.keywords}
+                pathname={seo.pathname}
+                noindex={seo.noindex}
             />
             <PageHeader
                 title={t('privacy.pageHeader.title')}

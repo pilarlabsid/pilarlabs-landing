@@ -48,6 +48,7 @@ export function Contact() {
                 title={t('seo.contact')}
                 description={seo.description}
                 keywords={seo.keywords}
+                pathname={seo.pathname}
             />
             <PageHeader
                 title={t('contactPage.pageHeader.title')}

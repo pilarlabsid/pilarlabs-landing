@@ -22,6 +22,7 @@ export function Home() {
                 keywords={seo.keywords}
                 ogImage={seo.ogImage}
                 ogType="website"
+                pathname={seo.pathname}
             />
             <Hero />
             <Positioning />

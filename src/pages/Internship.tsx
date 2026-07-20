@@ -6,11 +6,11 @@ import { PageHeader } from '@/components/ui/PageHeader'
 import { Container } from '@/components/layout/Container'
 import { GlassCard } from '@/components/ui/GlassCard'
 import { Button } from '@/components/ui/Button'
-import { Code, Palette, Server, Boxes, CheckCircle, ArrowRight, Clock, Award, Users } from 'lucide-react'
+import { Code, Palette, Server, Boxes, CheckCircle, ArrowRight, Clock, Award, Users, Smartphone, BarChart2, Cloud } from 'lucide-react'
 
 export function Internship() {
     const { t } = useTranslation()
-    const seo = pageSEO.blog // Using blog key for backward compatibility
+    const seo = pageSEO.internship
 
     const positions = [
         {
@@ -37,7 +37,26 @@ export function Internship() {
             description: t('internship.positions.uiux.description'),
             skills: t('internship.positions.uiux.skills', { returnObjects: true }) as string[],
         },
+        {
+            icon: Smartphone,
+            title: t('internship.positions.mobile.title'),
+            description: t('internship.positions.mobile.description'),
+            skills: t('internship.positions.mobile.skills', { returnObjects: true }) as string[],
+        },
+        {
+            icon: BarChart2,
+            title: t('internship.positions.data.title'),
+            description: t('internship.positions.data.description'),
+            skills: t('internship.positions.data.skills', { returnObjects: true }) as string[],
+        },
+        {
+            icon: Cloud,
+            title: t('internship.positions.devops.title'),
+            description: t('internship.positions.devops.description'),
+            skills: t('internship.positions.devops.skills', { returnObjects: true }) as string[],
+        },
     ]
+
 
     const benefits = [
         {
@@ -77,6 +96,7 @@ export function Internship() {
                 title={t('seo.internship')}
                 description={seo.description}
                 keywords={seo.keywords}
+                pathname={seo.pathname}
             />
             <PageHeader
                 title={t('internship.pageHeader.title')}
@@ -93,7 +113,7 @@ export function Internship() {
                             {t('internship.positions.subtitle')}
                         </p>
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {positions.map((position, i) => (
                             <GlassCard key={i} className="hover:border-precision/30 transition-colors">
                                 <div className="w-12 h-12 rounded-full bg-precision/10 flex items-center justify-center text-precision mb-4">

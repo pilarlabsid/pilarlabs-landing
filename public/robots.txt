@@ -1,5 +1,4 @@
 User-agent: *
-Allow: /
-
-# Sitemap
+Disallow: /privacy
+Disallow: /terms
 Sitemap: https://pilarlabs.id/sitemap.xml
