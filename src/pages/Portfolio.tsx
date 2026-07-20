@@ -20,9 +20,7 @@ export function Portfolio() {
         ? portfolioData
         : portfolioData.filter(project => project.category === activeCategory)
 
-    // Separate featured projects
-    const featuredProjects = filteredProjects.filter(p => p.featured)
-    const regularProjects = filteredProjects.filter(p => !p.featured)
+
 
     return (
         <>
@@ -46,45 +44,18 @@ export function Portfolio() {
                         onCategoryChange={setActiveCategory}
                     />
 
-                    {/* Featured Projects */}
-                    {featuredProjects.length > 0 && (
-                        <div className="mb-16">
-                            <h2 className="text-sm font-semibold text-calm/60 uppercase tracking-wider mb-6">
-                                {t('caseStudies.labels.featured')}
-                            </h2>
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                                <AnimatePresence mode="wait">
-                                    {featuredProjects.map((project, index) => (
-                                        <ProjectCard
-                                            key={project.id}
-                                            project={project}
-                                            index={index}
-                                        />
-                                    ))}
-                                </AnimatePresence>
-                            </div>
-                        </div>
-                    )}
-
-                    {/* Regular Projects */}
-                    {regularProjects.length > 0 && (
-                        <div>
-                            {featuredProjects.length > 0 && (
-                                <h2 className="text-sm font-semibold text-calm/60 uppercase tracking-wider mb-6">
-                                    {t('caseStudies.labels.all')}
-                                </h2>
-                            )}
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                                <AnimatePresence mode="wait">
-                                    {regularProjects.map((project, index) => (
-                                        <ProjectCard
-                                            key={project.id}
-                                            project={project}
-                                            index={index}
-                                        />
-                                    ))}
-                                </AnimatePresence>
-                            </div>
+                    {/* Projects Grid */}
+                    {filteredProjects.length > 0 && (
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            <AnimatePresence mode="wait">
+                                {filteredProjects.map((project, index) => (
+                                    <ProjectCard
+                                        key={project.id}
+                                        project={project}
+                                        index={index}
+                                    />
+                                ))}
+                            </AnimatePresence>
                         </div>
                     )}
 
