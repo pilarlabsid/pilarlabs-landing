@@ -15,12 +15,22 @@ export function Portfolio() {
     const seo = pageSEO.portfolio
     const [activeCategory, setActiveCategory] = useState<ProjectCategory>('all')
 
-    // Filter projects based on active category
-    const filteredProjects = activeCategory === 'all'
-        ? portfolioData
-        : portfolioData.filter(project => project.category === activeCategory)
+    const displayedProjects = (() => {
+        if (activeCategory !== 'all') {
+            // When a specific category is selected, show ALL projects in that category
+            return portfolioData.filter(p => p.category === activeCategory)
+        }
 
-
+        // When "all" is selected, show only the best (featured) project per category
+        const seen = new Set<string>()
+        return portfolioData.filter(p => {
+            if (p.featured && !seen.has(p.category)) {
+                seen.add(p.category)
+                return true
+            }
+            return false
+        })
+    })()
 
     return (
         <>
@@ -45,10 +55,10 @@ export function Portfolio() {
                     />
 
                     {/* Projects Grid */}
-                    {filteredProjects.length > 0 && (
+                    {displayedProjects.length > 0 ? (
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                             <AnimatePresence mode="wait">
-                                {filteredProjects.map((project, index) => (
+                                {displayedProjects.map((project, index) => (
                                     <ProjectCard
                                         key={project.id}
                                         project={project}
@@ -57,10 +67,7 @@ export function Portfolio() {
                                 ))}
                             </AnimatePresence>
                         </div>
-                    )}
-
-                    {/* Empty State */}
-                    {filteredProjects.length === 0 && (
+                    ) : (
                         <motion.div
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}

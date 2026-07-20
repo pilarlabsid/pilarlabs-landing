@@ -71,13 +71,13 @@ export const portfolioData: Portfolio[] = [
         challenge: 'caseStudies.projects.nurasaStore.challenge',
         solution: 'caseStudies.projects.nurasaStore.solution',
         results: 'caseStudies.projects.nurasaStore.results',
-        coverImage: '/images/projects/nurasa-cover.jpg',
+        coverImage: '/images/projects/nurasa-cover.png',
         images: [
             '/images/projects/nurasa-1.jpg',
             '/images/projects/nurasa-2.jpg'
         ],
         technologies: ['React', 'Vite', 'Tailwind CSS', 'React Router'],
-        featured: false,
+        featured: true,
         category: 'landing-page',
         url: 'https://nurasa.store'
     },
@@ -91,7 +91,7 @@ export const portfolioData: Portfolio[] = [
         challenge: 'caseStudies.projects.yogiBusana.challenge',
         solution: 'caseStudies.projects.yogiBusana.solution',
         results: 'caseStudies.projects.yogiBusana.results',
-        coverImage: '/images/projects/yogibusana-cover.jpg',
+        coverImage: '/images/projects/yogibusana-cover.png',
         images: [
             '/images/projects/yogibusana-1.jpg',
             '/images/projects/yogibusana-2.jpg'
