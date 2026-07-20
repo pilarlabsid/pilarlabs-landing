@@ -11,7 +11,7 @@ export const portfolioData: Portfolio[] = [
         challenge: 'caseStudies.projects.webgisLand.challenge',
         solution: 'caseStudies.projects.webgisLand.solution',
         results: 'caseStudies.projects.webgisLand.results',
-        coverImage: '/images/projects/webgis-cover.jpg',
+        coverImage: '/images/projects/webgis-cover.png',
         images: [
             '/images/projects/webgis-1.jpg',
             '/images/projects/webgis-2.jpg'
@@ -31,7 +31,7 @@ export const portfolioData: Portfolio[] = [
         challenge: 'caseStudies.projects.portalEcommerce.challenge',
         solution: 'caseStudies.projects.portalEcommerce.solution',
         results: 'caseStudies.projects.portalEcommerce.results',
-        coverImage: '/images/projects/ecommerce-cover.jpg',
+        coverImage: '/images/projects/ecommerce-cover.png',
         images: [
             '/images/projects/ecommerce-1.jpg',
             '/images/projects/ecommerce-2.jpg'
@@ -51,7 +51,7 @@ export const portfolioData: Portfolio[] = [
         challenge: 'caseStudies.projects.aiCustomerAgent.challenge',
         solution: 'caseStudies.projects.aiCustomerAgent.solution',
         results: 'caseStudies.projects.aiCustomerAgent.results',
-        coverImage: '/images/projects/ai-cover.jpg',
+        coverImage: '/images/projects/ai-cover.png',
         images: [
             '/images/projects/ai-1.jpg',
             '/images/projects/ai-2.jpg'
