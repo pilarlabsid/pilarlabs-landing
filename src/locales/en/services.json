@@ -1,0 +1,34 @@
+{
+    "title": "Building a Credible Digital Footprint",
+    "subtitle": "End-to-End Hassle-Free Services",
+    "items": {
+        "landing": {
+            "title": "Landing Page",
+            "description": "High-converting pages for marketing campaigns and product launches.",
+            "features": {
+                "fast": "Custom UI/UX Design",
+                "conversion": "WhatsApp Integration",
+                "analytics": "Free SSL & Domain"
+            }
+        },
+        "companyProfile": {
+            "title": "Corporate Profile",
+            "description": "Official company website to build world-class business credibility.",
+            "features": {
+                "pages": "Up to 5 Main Pages",
+                "cms": "Content Management (CMS)",
+                "multilang": "Premium SEO & Google Index"
+            }
+        },
+        "ecommerce": {
+            "title": "Portal & E-Commerce",
+            "description": "Complete online store with automated payment systems and data integration.",
+            "features": {
+                "catalog": "E-Commerce Transactions",
+                "payment": "Payment Gateway",
+                "admin": "Dashboard & High Security"
+            }
+        }
+    },
+    "learnMore": "View All Services & Pricing"
+}

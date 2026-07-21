@@ -1,0 +1,21 @@
+{
+    "title": "Challenges or Hidden Opportunities?",
+    "subtitle": "Behind every operational bottleneck lies a huge opportunity to lead the market if you move fast.",
+    "column1": {
+        "title": "Time & Cost Leaks",
+        "items": [
+            "Your daily workflow still relies on physical documents and exhausting manual methods.",
+            "Data is locked in separate isolated folders—never talking to each other or integrated.",
+            "Operational costs continue to swell without visibility into where the leaks are.",
+            "Workflows are too long, slow, and highly prone to human error."
+        ]
+    },
+    "column2": {
+        "title": "Direction Blindness & Loss of Momentum",
+        "items": [
+            "Taking important decisions is like walking in the dark due to a lack of real-time visual reports.",
+            "Valuable field assets are difficult to monitor accurately and transparently.",
+            "Aware of the power of AI and Geographic Information Systems (GIS), but confused about how to adopt them into your business operations."
+        ]
+    }
+}

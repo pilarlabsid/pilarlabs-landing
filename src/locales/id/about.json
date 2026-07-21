@@ -1,0 +1,70 @@
+{
+    "pageHeader": {
+        "badge": "Tentang Pilar Labs",
+        "title": "Katalis Transformasi Digital Anda",
+        "description": "Di bawah payung hukum PT Pilar Inovasi Teknologi, kami berkumpul sebagai tim inovator yang bersemangat menyederhanakan kompleksitas dunia digital. Kami hadir sebagai rekan tumbuh bagi korporat, startup ambisius, UMKM tangguh, hingga instansi pemerintah progresif."
+    },
+    "philosophy": {
+        "title": "Strategi. Struktur. Skalabilitas.",
+        "content": "Menggabungkan sentuhan AI cerdas, analitik data mendalam, peta spasial (GIS), dan aplikasi kustom untuk melahirkan pertumbuhan yang berdampak nyata."
+    },
+    "story": {
+        "title": "Misi Kami (Langkah Nyata)",
+        "content": [
+            "<strong>Inovasi Tanpa Kompromi:</strong> Menempa produk teknologi berstandar tinggi yang andal dan modern.",
+            "<strong>Akselerator Transformasi:</strong> Menuntun peralihan digital organisasi secara mulus tanpa membuat Anda bingung.",
+            "<strong>Keamanan Tanpa Cela:</strong> Menjamin fondasi sistem yang solid, aman dari ancaman, dan siap tumbuh sebesar apa pun skala Anda.",
+            "<strong>Kerja Sama Setara:</strong> Menjalankan proses kerja profesional berlandaskan keterbukaan dan rasa kepemilikan bersama."
+        ]
+    },
+    "values": {
+        "title": "Pilar Kehormatan Kerja",
+        "subtitle": "Prinsip utama yang menopang semua yang kami bangun.",
+        "items": {
+            "innovate": {
+                "title": "Bermimpi & Berinovasi",
+                "description": "Mengadopsi teknologi terbaru secara bijak demi melahirkan solusi yang benar-benar solutif bagi klien kami."
+            },
+            "structured": {
+                "title": "Terstruktur",
+                "description": "Bekerja dengan proses yang jelas, terukur, dan rapi dari awal hingga akhir."
+            },
+            "longTerm": {
+                "title": "Jangka Panjang",
+                "description": "Membangun solusi dan hubungan kerja sama yang bertahan untuk waktu yang lama."
+            },
+            "integrity": {
+                "title": "Integritas & Kejujuran",
+                "description": "Menjunjung tinggi transparansi tanpa biaya tersembunyi—membangun jembatan kepercayaan jangka panjang."
+            },
+            "respect": {
+                "title": "Saling Menghargai",
+                "description": "Memosisikan diri sebagai bagian dari tim Anda untuk menyamakan frekuensi tujuan bersama."
+            },
+            "excellence": {
+                "title": "Mengejar Kesempurnaan",
+                "description": "Berkomitmen penuh menggoreskan baris kode terbaik dan uji coba tanpa cela demi kepuasan Anda."
+            }
+        }
+    },
+    "founder": {
+        "name": "Ujang",
+        "role": "Direktur & Founder",
+        "company": "PT Pilar Inovasi Teknologi",
+        "commitment": {
+            "title": "Komitmen Kami",
+            "content": [
+                "Kami percaya setiap bisnis layak mendapatkan <strong>infrastruktur digital kelas dunia</strong>. Tidak ada alasan untuk puas dengan solusi setengah-setengah.",
+                "Lewat Pilar Labs, kami berkomitmen menjadi <span>partner terpercaya</span> bagi organisasi yang ingin melakukan lompatan teknologi secara berkelanjutan."
+            ],
+            "quote": "\"Setiap bisnis punya keunikan dan tantangannya sendiri. Kami merancang setiap teknologi sepenuh hati—dibuat kokoh, aman, dan siap tumbuh menemani setiap langkah hebat Anda.\"",
+            "attribution": "— Pilar Labs"
+        }
+    },
+    "stats": {
+        "uptime": "Uptime",
+        "latency": "Latensi",
+        "typeSafe": "Type Safe",
+        "scale": "Scale"
+    }
+}

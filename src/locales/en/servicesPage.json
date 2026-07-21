@@ -1,0 +1,248 @@
+{
+    "coreServices": {
+        "title": "Services We Can Build",
+        "subtitle": "Your Digital Transformation Catalyst",
+        "software": {
+            "title": "Software Development",
+            "description": "Building a Credible Digital Footprint",
+            "items": [
+                "Representative Websites (Company Profile, Portal)",
+                "Independent Web Applications (ERP, CRM, POS)",
+                "Native & Cross-Platform Mobile Apps"
+            ]
+        },
+        "ai": {
+            "title": "Artificial Intelligence",
+            "description": "Leapfrog Competitors with Artificial Intelligence (AI)",
+            "items": [
+                "Intelligent Vision & OCR",
+                "NLP & Smart Agents",
+                "Predictive Analytics & Recommendation"
+            ]
+        },
+        "gis": {
+            "title": "Geographic Information System",
+            "description": "Seeing the World Through the Power of Location",
+            "items": [
+                "Interactive Maps & Custom WebGIS",
+                "Asset & Site Mapping",
+                "Integrated Spatial Dashboards"
+            ]
+        },
+        "data": {
+            "title": "Data Analytics",
+            "description": "Turning dusty piles of data into a compass for strategic decisions.",
+            "items": [
+                "Executive Dashboards & KPI",
+                "Automated Data Pipelines (ETL)",
+                "Business Intelligence (BI)"
+            ]
+        }
+    },
+    "seo": {
+        "title": "Development Services - Packages & Custom Solutions"
+    },
+    "pageHeader": {
+        "badge": "Our Services",
+        "title": "Service Packages & Pricing",
+        "description": "Friendly investment specifically during the launch phase to help you immediately establish digital credibility."
+    },
+    "packages": {
+        "landing": {
+            "title": "Landing Page",
+            "subtitle": "High-Converting Page",
+            "description": "Single-page for products, events, or marketing campaign launches with high optimization.",
+            "price": "Starts from Rp 1.5 Million",
+            "features": [
+                "1 Modern Responsive Page",
+                "Stunning Custom UI/UX Design",
+                "WhatsApp & Social Media Integration",
+                "Free Domain & Hosting for 1 Year",
+                "SSL Security & Basic SEO Setup"
+            ],
+            "idealFor": "Product Launches, Marketing Campaigns",
+            "cta": "Launch Campaign"
+        },
+        "companyProfile": {
+            "title": "Corporate Profile",
+            "subtitle": "Official Corporate Profile",
+            "description": "Official corporate profile website to build long-term credibility and competitive advantage.",
+            "price": "Starts from Rp 3.5 Million",
+            "features": [
+                "Up to 5 Main Pages",
+                "Integrated CMS (Easy content editing)",
+                "Premium Professional Design",
+                "Premium SEO & Google Indexing",
+                "3-Month Active Maintenance Guarantee"
+            ],
+            "idealFor": "B2B, Corporates, Agencies, Institutions",
+            "cta": "Build Presence"
+        },
+        "ecommerce": {
+            "title": "Portal & E-Commerce",
+            "subtitle": "Multi-Feature Interactive Website",
+            "description": "Professional online store complete with automated payment gateway and data integration.",
+            "price": "Starts from Rp 7.5 Million",
+            "features": [
+                "E-Commerce & Transaction Features",
+                "Payment Gateway Integration",
+                "News Portal / User Dashboard",
+                "High-Level Security Protection",
+                "6-Month Active Maintenance Guarantee"
+            ],
+            "idealFor": "Online Stores, SMEs, Retail",
+            "cta": "Start Selling Online"
+        },
+        "webApp": {
+            "title": "Custom Web App",
+            "subtitle": "Custom Operational Application",
+            "description": "A web application built specifically to match the unique internal workflow of your business.",
+            "price": "Starts from Rp 9.5 Million",
+            "features": [
+                "Custom Dashboard & Database",
+                "User Management System",
+                "UI/UX Design & Prototype",
+                "Basic Support & Maintenance",
+                "Third-Party API Integration"
+            ],
+            "idealFor": "Startups, Internal Operations, SMEs",
+            "cta": "Start Development"
+        },
+        "enterprise": {
+            "title": "Enterprise Integration",
+            "subtitle": "ERP, GIS & Big Data Systems",
+            "description": "Large-scale system integration for comprehensive operational efficiency and spatial visual mapping.",
+            "price": "Starts from Rp 29 Million",
+            "features": [
+                "Enterprise ERP / HRIS / CRM",
+                "WebGIS & Asset Mapping",
+                "Database Integration & ETL",
+                "Dedicated Support SLA",
+                "Robust Cloud Infrastructure"
+            ],
+            "idealFor": "Large Corporations, Government Agencies",
+            "cta": "Integrate System"
+        },
+        "aiDeepTech": {
+            "title": "AI & Custom Deep Tech",
+            "subtitle": "Intelligent Automation & Agents",
+            "description": "Smart automation solutions utilizing custom artificial intelligence for high-efficiency automation.",
+            "price": "Starts from Rp 49 Million",
+            "features": [
+                "Custom LLM & AI Chatbots",
+                "Predictive & Computer Vision",
+                "High-Scale Cloud DevOps",
+                "24/7 Priority Support SLA",
+                "Automated Customer Service Boosting"
+            ],
+            "idealFor": "Visionary Companies, Automation Sector",
+            "cta": "Develop AI Tech"
+        }
+    },
+    "mostPopular": "RECOMMENDED",
+    "includes": "Main Features:",
+    "idealFor": "Ideal for:",
+    "custom": {
+        "title": "Need a Custom Solution?",
+        "description": "We understand that every business has unique needs. Let's discuss the right solution for you.",
+        "cta": "Free Consultation"
+    },
+    "detailedServices": {
+        "software": {
+            "title": "Building a Credible Digital Footprint",
+            "subtitle": "Reliable platforms that make users fall in love with your business.",
+            "web": {
+                "title": "Representative Websites",
+                "items": [
+                    "World-Class Company Profile",
+                    "Interactive Corporate Portal",
+                    "High-Converting Landing Pages",
+                    "Integrated Communication Hub"
+                ]
+            },
+            "app": {
+                "title": "Independent Web Applications",
+                "items": [
+                    "ERP, CRM, & HRIS Integration",
+                    "POS & Inventory Automation",
+                    "Finance & Procurement Systems",
+                    "Operational Performance Monitoring"
+                ]
+            }
+        },
+        "mobile": {
+            "title": "Your Business in One Grasp",
+            "subtitle": "Be Present Anytime on Their Phones",
+            "description": "Modern users spend most of their time in front of smartphone screens. We design custom mobile applications that are not only beautiful to look at, but feel responsive, battery-efficient, and fun to use repeatedly.",
+            "badges": [
+                "Android Native",
+                "iOS Native",
+                "Flutter Cross-Platform"
+            ],
+            "items": [
+                "End-User Applications (B2C): Making shopping and ordering as easy as a single touch.",
+                "Internal Management Applications: Facilitating instant team coordination in the field whenever needed.",
+                "Flutter Multi-Platform Technology: Cutting costs and development time without sacrificing graphical quality.",
+                "Routine Maintenance Support: Ensuring your app always passes Play Store & App Store verification."
+            ]
+        },
+        "ai": {
+            "title": "Leapfrog Competitors with Artificial Intelligence (AI)",
+            "subtitle": "Let our smart machines take over repetitive tasks and give you time to focus on major business strategies.",
+            "vision": {
+                "title": "Intelligent Vision",
+                "description": "Translating image & video data into precise automated actions.",
+                "items": [
+                    "Real-Time Object Detection",
+                    "Physical Document Digitalization (OCR)"
+                ]
+            },
+            "nlp": {
+                "title": "NLP & Smart Agents",
+                "description": "Communicating with natural, warm language, always actively serving customers 24/7.",
+                "items": [
+                    "Modern AI-Based Chatbots",
+                    "Large Language Model (LLM) Integration"
+                ]
+            },
+            "predict": {
+                "title": "Predict & Learn",
+                "description": "Analyzing past patterns to estimate future market movements.",
+                "items": [
+                    "Consumer Behavior Prediction",
+                    "Smart Recommendation Systems"
+                ]
+            }
+        },
+        "gis": {
+            "title": "Seeing the World Through the Power of Location",
+            "webgis": {
+                "title": "Interactive Maps & WebGIS",
+                "description": "Don't let your regional data sit in boring tables. Turn it into interactive maps that clearly tell the story of potential distribution.",
+                "items": [
+                    "Custom WebGIS: Specialized mapping applications tailored to regional/business needs.",
+                    "Asset & Site Mapping: Visualize the location of your valuable assets in one integrated dashboard.",
+                    "Spatial Dashboard: Analyze potential business areas based on real locations."
+                ]
+            },
+            "drone": {
+                "title": "Aerial Photography & Remote Sensing",
+                "description": "Get an accurate picture of the land without having to guess field conditions.",
+                "items": [
+                    "Drone Mapping & Orthophoto: Ultra-high resolution aerial imagery acquisition.",
+                    "Remote Sensing: Rapid analysis of land cover changes, forestry, and crop health."
+                ]
+            }
+        },
+        "data": {
+            "title": "Your Data is Valuable, Let's Give it a Voice!",
+            "subtitle": "Turning dusty piles of data into a compass for strategic decisions.",
+            "description": "Stop guessing the direction of your business growth based on hunches. With proper visualization, you can clearly see which metrics are climbing and which areas need extra attention immediately.",
+            "items": [
+                "Executive Dashboard: Summary of the most important KPIs at a glance for leaders.",
+                "Automated Data Pipeline (ETL): Flowing and consolidating data neatly without manual processes.",
+                "Business Intelligence (BI): Discover anomalies and seize new opportunities before competitors realize it."
+            ]
+        }
+    }
+}

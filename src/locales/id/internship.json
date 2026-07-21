@@ -1,0 +1,139 @@
+{
+    "pageHeader": {
+        "badge": "Buka Lowongan",
+        "title": "Program Magang",
+        "description": "Bergabunglah bersama tim Pilar Labs dan mulai karier profesional Anda. Dapatkan pengalaman proyek nyata, bimbingan langsung dari praktisi, dan bangun portofolio yang siap bersaing di industri."
+    },
+    "positions": {
+        "title": "Posisi yang Tersedia",
+        "subtitle": "Kami membuka kesempatan bagi talenta muda yang bersemangat untuk berkembang bersama tim kami selama 3–6 bulan",
+        "frontend": {
+            "title": "Frontend Developer",
+            "description": "Membangun antarmuka pengguna yang modern, responsif, dan berpengalaman menggunakan React dan TypeScript.",
+            "skills": [
+                "React",
+                "TypeScript",
+                "HTML/CSS",
+                "Git"
+            ]
+        },
+        "backend": {
+            "title": "Backend Developer",
+            "description": "Mengembangkan API yang handal dan aplikasi server-side yang skalabel menggunakan Node.js atau Python.",
+            "skills": [
+                "Node.js / Python",
+                "REST API",
+                "Database (SQL/NoSQL)",
+                "Git"
+            ]
+        },
+        "fullstack": {
+            "title": "Full-Stack Developer",
+            "description": "Menangani pengembangan frontend dan backend secara menyeluruh untuk membangun aplikasi web yang lengkap dan siap pakai.",
+            "skills": [
+                "React",
+                "Node.js",
+                "TypeScript",
+                "Database"
+            ]
+        },
+        "uiux": {
+            "title": "UI/UX Designer",
+            "description": "Merancang tampilan dan pengalaman pengguna yang intuitif, estetis, serta konsisten menggunakan Figma.",
+            "skills": [
+                "Figma",
+                "Design System",
+                "Prototyping",
+                "User Research"
+            ]
+        },
+        "mobile": {
+            "title": "Mobile Developer",
+            "description": "Mengembangkan aplikasi mobile lintas platform yang ringan dan performan menggunakan Flutter atau React Native.",
+            "skills": [
+                "Flutter / React Native",
+                "Dart / JavaScript",
+                "API Integration",
+                "Git"
+            ]
+        },
+        "data": {
+            "title": "Data Analyst / Data Engineer",
+            "description": "Mengolah, menganalisis, dan memvisualisasikan data untuk mendukung pengambilan keputusan bisnis yang akurat.",
+            "skills": [
+                "Python",
+                "SQL",
+                "Data Visualization",
+                "Statistics"
+            ]
+        },
+        "devops": {
+            "title": "DevOps / Cloud Engineer",
+            "description": "Mengelola infrastruktur cloud, pipeline CI/CD, dan memastikan ketersediaan serta keamanan sistem secara berkelanjutan.",
+            "skills": [
+                "Docker / Kubernetes",
+                "CI/CD Pipeline",
+                "Linux",
+                "Cloud (AWS/GCP)"
+            ]
+        }
+    },
+    "requirements": {
+        "title": "Persyaratan",
+        "items": [
+            "Mahasiswa aktif (minimal semester 3) atau fresh graduate dari jurusan terkait",
+            "Memiliki ketertarikan dan semangat tinggi di bidang teknologi dan pengembangan digital",
+            "Memahami dasar-dasar dari posisi yang diminati",
+            "Mampu berkomitmen minimal 20 jam per minggu selama 3–6 bulan",
+            "Mandiri, proaktif, dan memiliki kemauan belajar yang tinggi",
+            "Memiliki portofolio atau project pribadi sebelumnya (GitHub, Behance, atau sejenisnya)"
+        ]
+    },
+    "benefits": {
+        "title": "Yang Akan Kamu Dapatkan",
+        "subtitle": "Program magang Pilar Labs dirancang untuk mempercepat pertumbuhan belajar dan karier profesional Anda",
+        "mentorship": {
+            "title": "Mentorship Langsung",
+            "description": "Bimbingan intensif dari developer dan desainer senior yang berpengalaman di industri."
+        },
+        "projects": {
+            "title": "Proyek Nyata",
+            "description": "Terlibat langsung dalam proyek produksi aktif yang digunakan oleh klien dan pengguna nyata."
+        },
+        "certificate": {
+            "title": "Sertifikat Resmi",
+            "description": "Mendapatkan sertifikat penyelesaian program magang yang diakui secara profesional."
+        },
+        "flexible": {
+            "title": "Jadwal Fleksibel",
+            "description": "Jam kerja yang dapat disesuaikan dengan jadwal kuliah, cocok untuk mahasiswa aktif."
+        }
+    },
+    "process": {
+        "title": "Proses Pendaftaran",
+        "subtitle": "Proses seleksi yang transparan, mudah, dan tidak memakan waktu lama",
+        "apply": {
+            "title": "Daftar",
+            "description": "Kirimkan CV dan portofolio Anda melalui email atau WhatsApp kami."
+        },
+        "review": {
+            "title": "Seleksi Berkas",
+            "description": "Tim kami akan meninjau lamaran Anda dalam 1–2 minggu kerja."
+        },
+        "interview": {
+            "title": "Wawancara",
+            "description": "Wawancara teknis singkat dan diskusi kesesuaian budaya kerja."
+        },
+        "onboarding": {
+            "title": "Onboarding",
+            "description": "Selamat bergabung! Mulai perjalanan belajar Anda bersama tim Pilar Labs."
+        }
+    },
+    "cta": {
+        "title": "Siap Memulai Perjalanan Kariermu?",
+        "description": "Kirimkan lamaran sekarang dan jadilah bagian dari tim Pilar Labs sebagai intern developer.",
+        "emailButton": "Apply via Email",
+        "whatsappButton": "Chat via WhatsApp",
+        "contact": "Atau hubungi kami di"
+    }
+}

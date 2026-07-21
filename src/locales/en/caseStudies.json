@@ -1,0 +1,158 @@
+{
+    "pageHeader": {
+        "badge": "Our Work",
+        "title": "Portfolio",
+        "description": "See how we build future technology solutions that provide a real impact for our partner businesses."
+    },
+    "filters": {
+        "all": "All",
+        "webApp": "Web App",
+        "landingPage": "Landing Page",
+        "mobileApp": "Mobile App",
+        "gis": "WebGIS / GIS",
+        "ai": "Artificial Intelligence"
+    },
+    "labels": {
+        "client": "Client",
+        "industry": "Industry",
+        "year": "Year",
+        "technologies": "Technologies",
+        "challenge": "Challenge",
+        "solution": "Solution",
+        "results": "Results",
+        "viewProject": "View Project",
+        "featured": "Featured Projects",
+        "all": "All Projects",
+        "featuredTag": "Featured"
+    },
+    "empty": {
+        "title": "No Projects",
+        "description": "No projects found in this category."
+    },
+    "projects": {
+        "webgisLand": {
+            "title": "WebGIS Land Monitoring",
+            "industry": "Geographic Information System (GIS)",
+            "description": "Smart spatial mapping, satellite imagery vegetation analysis, and integration of 12,000+ national boundary coordinates for public forestry agency.",
+            "challenge": "Monitoring vast national forest boundaries and identifying vegetation changes in hard-to-reach locations.",
+            "solution": "Developed a custom WebGIS application integrated with PostgreSQL/PostGIS spatial database and Leaflet.js map visualization.",
+            "results": [
+                "Real-time forestry boundary mapping",
+                "Automated satellite imagery analysis for vegetation detection",
+                "Precise integration of 12,000+ spatial coordinates",
+                "Data transparency for both agency and public"
+            ]
+        },
+        "portalEcommerce": {
+            "title": "Web Portal & E-Commerce",
+            "industry": "E-Commerce",
+            "description": "Development of interactive corporate website, custom CMS, and e-commerce platform integrated with payment gateway to enhance branding and optimize digital transaction conversion 24/7.",
+            "challenge": "Unifying a professional corporate identity with a fast, secure online portal for transactions.",
+            "solution": "Built a responsive website using React / Next.js and Tailwind CSS connected to a Node.js backend and local payment gateway.",
+            "results": [
+                "Seamless multi-functional corporate & transaction platform",
+                "Payment gateway integration for automated billing",
+                "Optimized assets and code for rapid page loading",
+                "Easy-to-use custom CMS for catalog administration"
+            ]
+        },
+        "aiCustomerAgent": {
+            "title": "AI Customer Agent & OCR",
+            "industry": "Artificial Intelligence (AI)",
+            "description": "Automated physical document digitization with 98% accuracy (OCR) and conversational AI agent based on LLM serving customer queries 24/7.",
+            "challenge": "High operational overhead from manual physical document entry and massive repeat query volumes overloading customer service.",
+            "solution": "Implemented a computer-vision-based OCR pipeline and conversational AI agents powered by LangChain and FastAPI.",
+            "results": [
+                "98% accuracy in document digitization automation",
+                "Responsive customer service query handling 24/7",
+                "CSR workload reduced by up to 60%",
+                "LLM context-aligned integration based on business parameters"
+            ]
+        },
+        "nurasaStore": {
+            "title": "Nurasa Store",
+            "industry": "Retail & F&B",
+            "description": "Interactive landing page to promote Nurasa products with modern design and high performance.",
+            "challenge": "Building an engaging online presence for F&B products to reach more customers.",
+            "solution": "Landing page development using React and Vite with smooth and responsive animations.",
+            "results": [
+                "Increased online brand visibility",
+                "Fast and easy product information access",
+                "Interactive and responsive user experience"
+            ]
+        },
+        "yogiBusana": {
+            "title": "Yogi Busana",
+            "industry": "Fashion & Retail",
+            "description": "Portfolio website and product catalog for Yogi Busana clothing store with multi-language support.",
+            "challenge": "Showcasing clothing collections with appealing visuals and reaching local as well as international customers.",
+            "solution": "Creation of an SEO-optimized website with internationalization (i18n) features.",
+            "results": [
+                "Easily accessible digital product catalog",
+                "Multi-language support for international customers",
+                "Increased digital brand awareness"
+            ]
+        },
+        "mobileAppTracking": {
+            "title": "Logistics Tracking App",
+            "industry": "Logistics & Transportation",
+            "description": "Modern mobile application for real-time delivery route tracking, fleet management, and automated status updates for customers.",
+            "challenge": "Difficulty in tracking fleets in real-time and providing accurate estimated times of arrival (ETA) to customers amidst dynamic traffic.",
+            "solution": "Development of a cross-platform mobile application using Flutter, integrated directly with Google Maps API and Firebase backend system.",
+            "results": [
+                "100% real-time delivery route visibility",
+                "Improved ETA accuracy by up to 95%",
+                "Reduced customer complaints regarding delivery status",
+                "Lightweight and battery-efficient application performance"
+            ]
+        },
+        "smartCityGIS": {
+            "title": "Smart City Infrastructure Map",
+            "industry": "Public Sector / Smart City",
+            "description": "An interactive 3D dashboard for mapping smart city infrastructure, utility networks, and real-time traffic flows.",
+            "challenge": "City authorities struggled to monitor widespread public infrastructure and quickly detect utility anomalies.",
+            "solution": "We designed a custom WebGIS built on React and Mapbox that aggregates live IoT sensor data from across the city.",
+            "results": [
+                "40% faster response times for utility maintenance",
+                "Accurate real-time traffic data visualization",
+                "Enhanced public transparency for city information"
+            ]
+        },
+        "hrisPortal": {
+            "title": "Enterprise HRIS Portal",
+            "industry": "Human Resources",
+            "description": "A centralized human resources management platform that simplifies attendance tracking, payroll, and employee performance evaluation.",
+            "challenge": "Slow, fragmented legacy systems led to payroll calculation errors and decreased overall employee satisfaction.",
+            "solution": "Built a modern, secure, and highly user-friendly HR web portal with seamless integration into corporate attendance machines.",
+            "results": [
+                "Payroll processing completed 3x faster",
+                "100% accuracy in attendance and leave claims",
+                "Significantly boosted software usability for employees"
+            ]
+        },
+        "aiSalesAnalytics": {
+            "title": "Predictive Sales Analytics",
+            "industry": "Retail & E-Commerce",
+            "description": "An AI-powered analytics dashboard system that predicts future sales trends and detects market anomalies.",
+            "challenge": "The retail company lost profits due to overstocked inventory and failed to anticipate seasonal demand spikes.",
+            "solution": "Implemented predictive Machine Learning models that analyze billions of historical transaction records in seconds.",
+            "results": [
+                "Monthly sales prediction accuracy reached 92%",
+                "25% reduction in inventory holding (overstock) costs",
+                "Increased ROI through automated market anomaly detection"
+            ]
+        },
+        "healthFitnessApp": {
+            "title": "Health & Fitness Tracker",
+            "industry": "Health & Wellness",
+            "description": "A health and fitness tracking application that directly connects with smart wearables to monitor vital metrics.",
+            "challenge": "Health app users often lost motivation and found it difficult to interpret raw health data from their smartwatches.",
+            "solution": "We built a mobile application that translates vital data into user-friendly charts alongside daily workout recommendations.",
+            "results": [
+                "Monthly active user retention spiked by 45%",
+                "Seamless data synchronization with various smartwatches",
+                "Stunning and modern dark mode interface"
+            ]
+        }
+    }
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import { HelmetProvider } from 'react-helmet-async'
+import { Analytics } from '@vercel/analytics/react'
 import { Navbar } from './Navbar'
 import { Footer } from './Footer'
 import { VisibleGrid } from '@/components/ui/VisibleGrid'
@@ -19,6 +20,7 @@ export function Layout({ children }: LayoutProps) {
                 </main>
                 <Footer />
             </div>
+            <Analytics />
         </HelmetProvider>
     )
 }

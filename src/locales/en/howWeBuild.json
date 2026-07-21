@@ -1,0 +1,19 @@
+{
+    "badge": "Our Approach",
+    "title": "Built with Solid Architecture",
+    "description": "Every project begins with careful planning. We design scalable, maintainable systems that are ready to grow with your business.",
+    "points": [
+        {
+            "title": "Layered Architecture",
+            "description": "Clear separation between client, gateway, services, and data layers for maximum flexibility"
+        },
+        {
+            "title": "Scalable by Design",
+            "description": "Built to handle growth from day one, whether for 100 or 100,000 users"
+        },
+        {
+            "title": "Modern Tech Stack",
+            "description": "Using proven technologies like React, TypeScript, and cloud-native infrastructure"
+        }
+    ]
+}

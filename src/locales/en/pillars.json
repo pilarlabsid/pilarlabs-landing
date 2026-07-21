@@ -1,0 +1,22 @@
+{
+    "title": "Values that Bring Our Work to Life",
+    "subtitle": "We do not simply complete tasks; we hold fast to four pillars of work honor:",
+    "items": {
+        "innovate": {
+            "title": "Dream & Innovate",
+            "description": "Adopt the latest technology wisely to birth solutions that are genuinely useful for our clients."
+        },
+        "integrity": {
+            "title": "Integrity & Honesty",
+            "description": "Uphold high transparency with no hidden costs—building long-term bridges of trust."
+        },
+        "respect": {
+            "title": "Mutual Respect",
+            "description": "Positioning ourselves as part of your team to align frequencies on shared goals."
+        },
+        "excellence": {
+            "title": "Pursue Excellence",
+            "description": "Fully committed to writing the best lines of code and conducting flawless testing for your satisfaction."
+        }
+    }
+}

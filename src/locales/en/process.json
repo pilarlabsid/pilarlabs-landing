@@ -1,0 +1,38 @@
+{
+    "title": "Walking Together Towards the Finish Line",
+    "subtitle": "We believe transparency is the key to peace of mind. Here is your project roadmap:",
+    "steps": {
+        "discovery": {
+            "title": "01. Discovery",
+            "description": "Listening carefully to your dreams and bottlenecks."
+        },
+        "analysis": {
+            "title": "02. Analysis",
+            "description": "Mapping real business processes into system functionality."
+        },
+        "design": {
+            "title": "03. Design",
+            "description": "Designing interactive visual interfaces before code is written."
+        },
+        "code": {
+            "title": "04. Code",
+            "description": "Starting to assemble robust lines of code using an Agile approach."
+        },
+        "testing": {
+            "title": "05. Testing",
+            "description": "Rigorous testing to guarantee a bug-free execution."
+        },
+        "deploy": {
+            "title": "06. Deploy",
+            "description": "Safe launch to the primary production cloud server."
+        },
+        "support": {
+            "title": "07. Support",
+            "description": "Guarding daily post-release operations with rapid support."
+        },
+        "evolve": {
+            "title": "08. Evolve",
+            "description": "Developing new features in line with your business scale growth."
+        }
+    }
+}

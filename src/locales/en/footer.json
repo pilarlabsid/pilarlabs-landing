@@ -1,0 +1,21 @@
+{
+    "tagline": "Digital Infrastructure Partner for Visionary Companies.",
+    "company": {
+        "title": "Company",
+        "aboutUs": "About Us",
+        "services": "Services",
+        "caseStudies": "Portfolio",
+        "internship": "Internship"
+    },
+    "contact": {
+        "title": "Contact"
+    },
+    "legal": {
+        "title": "Legal",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "getInTouch": "Get in touch"
+    },
+    "copyright": "PT Pilar Inovasi Teknologi. All rights reserved.",
+    "taglineBottom": "Robust Infrastructure. Accelerating Business."
+}

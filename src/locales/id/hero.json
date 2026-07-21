@@ -1,0 +1,98 @@
+{
+    "title": "Pilar Labs",
+    "subtitle": "Wujudkan Ide Hebat Anda Lewat Teknologi Masa Depan",
+    "description": "\"Kami tidak hanya membangun baris kode. Kami merancang solusi digital yang membantu bisnis Anda mendefinisikan ulang batas efisiensi, otomatisasi, dan pertumbuhan nyata.\"",
+    "startProject": "Mulai Proyek",
+    "badge": "Technology Partner",
+    "processingText": "Pilar Labs merancang solusi...",
+    "viewWork": "Lihat Portofolio",
+    "aiPromptLabel": "kebutuhan_klien.txt",
+    "aiPrompts": [
+        {
+            "text": "Saya butuh aplikasi web dan mobile kustom untuk bisnis kami",
+            "category": "Software Dev",
+            "response": "Kami merancang aplikasi web & mobile kustom yang andal dan modern",
+            "techStack": [
+                "React",
+                "Next.js",
+                "Flutter",
+                "Node.js"
+            ],
+            "metrics": [
+                {
+                    "icon": "trending",
+                    "text": "Antarmuka Responsif"
+                },
+                {
+                    "icon": "zap",
+                    "text": "Multi-Platform"
+                }
+            ]
+        },
+        {
+            "text": "Tolong bantu kami menerapkan kecerdasan buatan (AI) di operasional harian",
+            "category": "AI Solutions",
+            "response": "Kami mengintegrasikan Computer Vision, NLP, & AI Agent untuk otomatisasi cerdas",
+            "techStack": [
+                "LangChain",
+                "FastAPI",
+                "TensorFlow",
+                "Ollama"
+            ],
+            "metrics": [
+                {
+                    "icon": "trending",
+                    "text": "Akurasi Tinggi"
+                },
+                {
+                    "icon": "zap",
+                    "text": "Kerja 24/7 Otomatis"
+                }
+            ]
+        },
+        {
+            "text": "Bagaimana cara memvisualisasikan aset lapangan kami pada peta interaktif?",
+            "category": "WebGIS / GIS",
+            "response": "Kami membangun WebGIS custom & pemetaan aset terpadu berbasis lokasi nyata",
+            "techStack": [
+                "PostgreSQL/PostGIS",
+                "Leaflet",
+                "OpenLayers",
+                "Python"
+            ],
+            "metrics": [
+                {
+                    "icon": "trending",
+                    "text": "Visualisasi Spasial"
+                },
+                {
+                    "icon": "zap",
+                    "text": "Analisis Lahan Drone"
+                }
+            ]
+        },
+        {
+            "text": "Kami ingin dasbor data real-time untuk memantau KPI utama perusahaan",
+            "category": "Data Analytics",
+            "response": "Kami merakit Executive Dashboard & Data Pipeline otomatis untuk keputusan strategis",
+            "techStack": [
+                "React",
+                "Tailwind CSS",
+                "Express",
+                "PostgreSQL"
+            ],
+            "metrics": [
+                {
+                    "icon": "trending",
+                    "text": "Dashboard Cepat"
+                },
+                {
+                    "icon": "zap",
+                    "text": "Otomatisasi ETL"
+                }
+            ]
+        }
+    ],
+    "aiResponse": "Sempurna! Mari kita bangun bersama →",
+    "statsCounter": "Membantu {{count}}+ bisnis berkembang lebih baik"
+}

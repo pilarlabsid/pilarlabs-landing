@@ -1,0 +1,22 @@
+{
+    "title": "Nilai yang Menghidupkan Karya Kami",
+    "subtitle": "Kami tidak hanya sekadar menyelesaikan tugas; kami memegang teguh empat pilar kehormatan kerja:",
+    "items": {
+        "innovate": {
+            "title": "Bermimpi & Berinovasi",
+            "description": "Mengadopsi teknologi terbaru secara bijak demi melahirkan solusi yang benar-benar solutif bagi klien kami."
+        },
+        "integrity": {
+            "title": "Integritas & Kejujuran",
+            "description": "Menjunjung tinggi transparansi tanpa biaya tersembunyi—membangun jembatan kepercayaan jangka panjang."
+        },
+        "respect": {
+            "title": "Saling Menghargai",
+            "description": "Memosisikan diri sebagai bagian dari tim Anda untuk menyamakan frekuensi tujuan bersama."
+        },
+        "excellence": {
+            "title": "Mengejar Kesempurnaan",
+            "description": "Berkomitmen penuh menggoreskan baris kode terbaik dan uji coba tanpa cela demi kepuasan Anda."
+        }
+    }
+}

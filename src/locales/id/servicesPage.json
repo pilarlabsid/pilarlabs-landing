@@ -1,0 +1,248 @@
+{
+    "coreServices": {
+        "title": "Layanan yang Siap Kami Bangun",
+        "subtitle": "Katalis Transformasi Digital Anda",
+        "software": {
+            "title": "Software Development",
+            "description": "Membangun Jejak Digital yang Kredibel",
+            "items": [
+                "Website Representatif (Company Profile, Portal)",
+                "Aplikasi Web Mandiri (ERP, CRM, POS)",
+                "Aplikasi Mobile Native & Cross-Platform"
+            ]
+        },
+        "ai": {
+            "title": "Artificial Intelligence",
+            "description": "Lompati Kompetitor dengan Kecerdasan Buatan (AI)",
+            "items": [
+                "Intelligent Vision & OCR",
+                "NLP & Agent Cerdas",
+                "Predictive Analytics & Recommendation"
+            ]
+        },
+        "gis": {
+            "title": "Geographic Information System",
+            "description": "Melihat Dunia Lewat Kekuatan Lokasi",
+            "items": [
+                "Peta Interaktif & WebGIS Custom",
+                "Asset & Site Mapping",
+                "Dashboard Spasial Terpadu"
+            ]
+        },
+        "data": {
+            "title": "Data Analytics",
+            "description": "Mengubah tumpukan data berdebu menjadi kompas penentu keputusan strategis.",
+            "items": [
+                "Executive Dashboard & KPI",
+                "Data Pipeline (ETL) Otomatis",
+                "Business Intelligence (BI)"
+            ]
+        }
+    },
+    "seo": {
+        "title": "Layanan Development - Paket & Solusi Custom"
+    },
+    "pageHeader": {
+        "badge": "Layanan Kami",
+        "title": "Paket Layanan & Harga",
+        "description": "Investasi bersahabat khusus masa peluncuran (launching phase) demi membantu Anda segera memiliki kredibilitas digital."
+    },
+    "packages": {
+        "landing": {
+            "title": "Landing Page",
+            "subtitle": "Halaman Konversi Tinggi",
+            "description": "Single-page untuk produk, event, atau peluncuran kampanye pemasaran dengan optimasi tinggi.",
+            "price": "Mulai Rp 1.5 Juta",
+            "features": [
+                "1 Halaman Responsif Modern",
+                "Desain UI/UX Kustom Menawan",
+                "Integrasi WhatsApp & Medsos",
+                "Free Domain & Hosting 1 Tahun",
+                "Keamanan SSL & Setup Dasar SEO"
+            ],
+            "idealFor": "Peluncuran Produk, Kampanye Marketing",
+            "cta": "Luncurkan Kampanye"
+        },
+        "companyProfile": {
+            "title": "Corporate Profile",
+            "subtitle": "Profil Korporat Resmi",
+            "description": "Website profil korporat resmi untuk membangun kredibilitas dan keunggulan kompetitif jangka panjang.",
+            "price": "Mulai Rp 3.5 Juta",
+            "features": [
+                "Up to 5 Halaman Utama",
+                "CMS Integrasi (Ubah isi mudah)",
+                "Desain Profesional Premium",
+                "Premium SEO & Google Index",
+                "Garansi Pemeliharaan 3 Bulan"
+            ],
+            "idealFor": "B2B, Korporat, Agensi, Instansi",
+            "cta": "Bangun Kehadiran"
+        },
+        "ecommerce": {
+            "title": "Portal & E-Commerce",
+            "subtitle": "Website Interaktif Multi-fitur",
+            "description": "Toko online profesional lengkap dengan sistem pembayaran otomatis dan integrasi data.",
+            "price": "Mulai Rp 7.5 Juta",
+            "features": [
+                "Fitur Transaksi & E-Commerce",
+                "Integrasi Payment Gateway",
+                "Portal Berita / Dashboard User",
+                "Proteksi Keamanan Tingkat Tinggi",
+                "Garansi Pemeliharaan 6 Bulan"
+            ],
+            "idealFor": "Toko Online, UMKM, Retail",
+            "cta": "Mulai Jualan Online"
+        },
+        "webApp": {
+            "title": "Custom Web App",
+            "subtitle": "Aplikasi Operasional Kustom",
+            "description": "Aplikasi web yang dibangun khusus sesuai dengan alur kerja internal unik bisnis Anda.",
+            "price": "Mulai Rp 9.5 Juta",
+            "features": [
+                "Custom Dashboard & Database",
+                "Sistem Manajemen Pengguna",
+                "UI/UX Design & Prototype",
+                "Basic Support Maintenance",
+                "Integrasi API Pihak Ketiga"
+            ],
+            "idealFor": "Startup, Operasional Internal, UMKM",
+            "cta": "Mulai Pengembangan"
+        },
+        "enterprise": {
+            "title": "Enterprise Integration",
+            "subtitle": "ERP, GIS & Big Data Systems",
+            "description": "Integrasi sistem berskala besar untuk efisiensi operasional menyeluruh dan visualisasi wilayah spasial.",
+            "price": "Mulai Rp 29 Juta",
+            "features": [
+                "Enterprise ERP / HRIS / CRM",
+                "WebGIS & Asset Mapping",
+                "Database Integration & ETL",
+                "Dedicated Support SLA",
+                "Infrastruktur Cloud Tangguh"
+            ],
+            "idealFor": "Korporasi Besar, Instansi Pemerintah",
+            "cta": "Integrasikan Sistem"
+        },
+        "aiDeepTech": {
+            "title": "AI & Custom Deep Tech",
+            "subtitle": "Intelligent Automation & Agents",
+            "description": "Solusi otomatisasi cerdas menggunakan kecerdasan buatan kustom untuk efisiensi otomatisasi tingkat tinggi.",
+            "price": "Mulai Rp 49 Juta",
+            "features": [
+                "Custom LLM & Chatbot AI",
+                "Predictive & Computer Vision",
+                "High-Scale Cloud DevOps",
+                "24/7 Priority Support SLA",
+                "Peningkatan Kinerja CS otomatis"
+            ],
+            "idealFor": "Perusahaan Visioner, Sektor Otomasi",
+            "cta": "Kembangkan Teknologi AI"
+        }
+    },
+    "mostPopular": "REKOMENDASI",
+    "includes": "Fitur Utama:",
+    "idealFor": "Ideal untuk:",
+    "custom": {
+        "title": "Butuh Solusi Khusus?",
+        "description": "Kami memahami bahwa setiap bisnis punya kebutuhan unik. Mari diskusikan solusi yang tepat untuk Anda.",
+        "cta": "Konsultasi Gratis"
+    },
+    "detailedServices": {
+        "software": {
+            "title": "Membangun Jejak Digital yang Kredibel",
+            "subtitle": "Platform handal yang memudahkan pengguna jatuh hati pada bisnis Anda.",
+            "web": {
+                "title": "Website Representatif",
+                "items": [
+                    "Company Profile Kelas Dunia",
+                    "Portal Interaktif Perusahaan",
+                    "Landing Page Konversi Tinggi",
+                    "Hub Komunikasi Terintegrasi"
+                ]
+            },
+            "app": {
+                "title": "Aplikasi Web Mandiri",
+                "items": [
+                    "Integrasi ERP, CRM, & HRIS",
+                    "Otomasi Kasir & Inventory (POS)",
+                    "Sistem Keuangan & Procurement",
+                    "Monitoring Kinerja Operasional"
+                ]
+            }
+        },
+        "mobile": {
+            "title": "Bisnis Anda dalam Satu Genggaman",
+            "subtitle": "Hadir Kapan Saja di Ponsel Mereka",
+            "description": "Pengguna modern menghabiskan sebagian besar waktunya di depan layar ponsel pintar. Kami merancang aplikasi mobile kustom yang tidak sekadar indah dilihat, namun terasa responsif, hemat baterai, dan menyenangkan untuk terus digunakan berulang kali.",
+            "badges": [
+                "Android Native",
+                "iOS Native",
+                "Flutter Cross-Platform"
+            ],
+            "items": [
+                "Aplikasi Pengguna Akhir (B2C): Menjadikan transaksi belanja dan pemesanan semudah menyentuh satu tombol.",
+                "Aplikasi Manajemen Internal: Memudahkan koordinasi tim di lapangan secara instan kapan pun diperlukan.",
+                "Teknologi Flutter Multi-Platform: Memangkas biaya dan waktu pengerjaan tanpa mengorbankan kualitas grafis.",
+                "Dukungan Pemeliharaan Rutin: Memastikan aplikasi Anda selalu lolos verifikasi Play Store & App Store."
+            ]
+        },
+        "ai": {
+            "title": "Lompati Kompetitor dengan Kecerdasan Buatan (AI)",
+            "subtitle": "Biarkan mesin cerdas kami mengambil alih tugas repetitif dan memberikan Anda waktu untuk berfokus pada strategi bisnis besar.",
+            "vision": {
+                "title": "Intelligent Vision",
+                "description": "Menerjemahkan data gambar & video menjadi tindakan otomatis yang presisi.",
+                "items": [
+                    "Deteksi Objek Real-Time",
+                    "Digitalisasi Berkas Fisik (OCR)"
+                ]
+            },
+            "nlp": {
+                "title": "NLP & Agent Cerdas",
+                "description": "Berkomunikasi dengan bahasa yang natural, hangat, dan selalu aktif melayani pelanggan 24/7.",
+                "items": [
+                    "Chatbot Berbasis AI Modern",
+                    "Integrasi Model Bahasa (LLM)"
+                ]
+            },
+            "predict": {
+                "title": "Predict & Learn",
+                "description": "Menganalisis pola masa lalu untuk memperkirakan pergerakan pasar masa depan.",
+                "items": [
+                    "Prediksi Perilaku Konsumen",
+                    "Sistem Rekomendasi Pintar"
+                ]
+            }
+        },
+        "gis": {
+            "title": "Melihat Dunia Lewat Kekuatan Lokasi",
+            "webgis": {
+                "title": "Peta Interaktif & WebGIS",
+                "description": "Jangan biarkan data wilayah Anda tersimpan dalam tabel yang membosankan. Ubah menjadi peta interaktif yang menceritakan persebaran potensi dengan jelas.",
+                "items": [
+                    "WebGIS Custom: Aplikasi pemetaan khusus sesuai kebutuhan daerah/bisnis.",
+                    "Asset & Site Mapping: Visualisasikan letak titik aset berharga Anda dalam satu dasbor terpadu.",
+                    "Dashboard Spasial: Analisis area bisnis potensial berbasis lokasi nyata."
+                ]
+            },
+            "drone": {
+                "title": "Foto Udara & Penginderaan Jauh",
+                "description": "Dapatkan gambaran lahan yang akurat tanpa perlu menebak-nebak keadaan lapangan.",
+                "items": [
+                    "Drone Mapping & Orthophoto: Pengambilan citra udara beresolusi super tinggi.",
+                    "Remote Sensing: Analisis perubahan tutupan lahan, kehutanan, dan kesehatan tanaman secara cepat."
+                ]
+            }
+        },
+        "data": {
+            "title": "Data Anda Berharga, Mari Berikan Suara!",
+            "subtitle": "Mengubah tumpukan data berdebu menjadi kompas penentu keputusan strategis.",
+            "description": "Berhentilah menebak arah perkembangan bisnis Anda berdasarkan firasat. Dengan visualisasi yang tepat, Anda dapat melihat dengan jelas metrik mana yang terus menanjak dan area mana yang memerlukan perhatian ekstra sesegera mungkin.",
+            "items": [
+                "Executive Dashboard: Ringkasan KPI terpenting dalam sekali pandang untuk para pemimpin.",
+                "Data Pipeline (ETL) Otomatis: Mengalirkan dan mengkonsolidasikan data secara rapi tanpa proses manual.",
+                "Business Intelligence (BI): Temukan anomali dan raih peluang baru sebelum kompetitor menyadarinya."
+            ]
+        }
+    }
+}

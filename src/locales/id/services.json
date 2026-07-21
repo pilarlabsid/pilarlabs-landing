@@ -1,0 +1,34 @@
+{
+    "title": "Membangun Jejak Digital yang Kredibel",
+    "subtitle": "Layanan Ujung-ke-Ujung (End-to-End) Tanpa Repot",
+    "items": {
+        "landing": {
+            "title": "Landing Page",
+            "description": "Halaman konversi tinggi untuk kampanye marketing dan peluncuran produk.",
+            "features": {
+                "fast": "Desain UI/UX Kustom",
+                "conversion": "Integrasi WhatsApp",
+                "analytics": "SSL & Domain Gratis"
+            }
+        },
+        "companyProfile": {
+            "title": "Corporate Profile",
+            "description": "Website resmi perusahaan untuk membangun kredibilitas bisnis kelas dunia.",
+            "features": {
+                "pages": "Up to 5 Halaman Utama",
+                "cms": "Content Management (CMS)",
+                "multilang": "Premium SEO & Google Index"
+            }
+        },
+        "ecommerce": {
+            "title": "Portal & E-Commerce",
+            "description": "Toko online lengkap dengan sistem pembayaran otomatis dan integrasi data.",
+            "features": {
+                "catalog": "Transaksi E-Commerce",
+                "payment": "Payment Gateway",
+                "admin": "Dashboard & Keamanan Tinggi"
+            }
+        }
+    },
+    "learnMore": "Lihat Semua Layanan & Harga"
+}

@@ -1,0 +1,71 @@
+{
+    "pageHeader": {
+        "badge": "Legal",
+        "title": "Privacy Policy",
+        "description": "How we collect, use, and protect your information."
+    },
+    "lastUpdated": "Last updated:",
+    "sections": {
+        "collection": {
+            "title": "1. Information We Collect",
+            "intro": "We collect information you provide directly to us, including:",
+            "items": [
+                "Name, email address, and phone number",
+                "Company information and business details",
+                "Project requirements and preferences",
+                "Communication history and correspondence"
+            ]
+        },
+        "usage": {
+            "title": "2. How We Use Your Information",
+            "intro": "We use the information we collect to:",
+            "items": [
+                "Provide, maintain, and improve our services",
+                "Process your requests and communicate with you",
+                "Send technical notices and support messages",
+                "Respond to your queries and provide customer service",
+                "Analyze usage patterns and optimize user experience"
+            ]
+        },
+        "sharing": {
+            "title": "3. Information Sharing",
+            "intro": "We do not sell, trade, or rent your personal information to third parties. We only share your information in the following circumstances:",
+            "items": [
+                "With your explicit consent",
+                "To comply with legal obligations",
+                "With trusted service providers who assist our operations",
+                "To protect our rights and prevent fraud"
+            ]
+        },
+        "security": {
+            "title": "4. Data Security",
+            "content": "We implement appropriate technical and organizational measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet is 100% secure."
+        },
+        "rights": {
+            "title": "5. Your Rights",
+            "intro": "You have the right to:",
+            "items": [
+                "Access and receive a copy of your personal data",
+                "Request correction of inaccurate information",
+                "Request deletion of your personal data",
+                "Withdraw consent at any time",
+                "File a complaint with a supervisory authority"
+            ]
+        },
+        "cookies": {
+            "title": "6. Cookies and Tracking",
+            "content": "We use cookies and similar tracking technologies to track activity on our website and store certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent."
+        },
+        "changes": {
+            "title": "7. Changes to This Policy",
+            "content": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the \"Last updated\" date."
+        },
+        "contact": {
+            "title": "Contact Us",
+            "intro": "If you have any questions about this Privacy Policy, please contact us:",
+            "email": "Email:",
+            "phone": "Phone:",
+            "address": "Address: South Jakarta, Indonesia"
+        }
+    }
+}

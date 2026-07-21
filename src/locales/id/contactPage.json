@@ -1,0 +1,36 @@
+{
+    "pageHeader": {
+        "badge": "Hubungi Kami",
+        "title": "Mulai Proyek Anda",
+        "description": "Siap bangun infrastruktur digital yang kuat? Hubungi kami untuk konsultasi gratis."
+    },
+    "getInTouch": {
+        "title": "Hubungi Kami",
+        "subtitle": "Kami balas dalam 24 jam. Langsung dari tim engineers, bukan bot."
+    },
+    "info": {
+        "email": "Email",
+        "whatsapp": "WhatsApp",
+        "office": "Kantor",
+        "location": "Jakarta Selatan, Indonesia"
+    },
+    "form": {
+        "name": "Nama",
+        "email": "Email",
+        "projectType": "Jenis Proyek",
+        "message": "Pesan",
+        "namePlaceholder": "John Doe",
+        "emailPlaceholder": "john@company.com",
+        "messagePlaceholder": "Ceritakan tentang proyek Anda dan apa yang ingin dicapai...",
+        "submit": "Kirim Pesan",
+        "sending": "Mengirim...",
+        "projectOptions": {
+            "foundation": "Landing Page",
+            "structure": "Company Profile",
+            "ecommerce": "E-commerce / Toko Online",
+            "webApp": "Web Application",
+            "blog": "Blog / Portal Berita",
+            "other": "Lainnya / Konsultasi"
+        }
+    }
+}

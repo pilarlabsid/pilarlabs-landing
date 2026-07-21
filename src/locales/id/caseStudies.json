@@ -1,0 +1,158 @@
+{
+    "pageHeader": {
+        "badge": "Karya Kami",
+        "title": "Portofolio",
+        "description": "Lihat bagaimana kami membangun solusi teknologi masa depan yang memberikan dampak nyata bagi bisnis mitra kami."
+    },
+    "filters": {
+        "all": "Semua",
+        "webApp": "Web App",
+        "landingPage": "Landing Page",
+        "mobileApp": "Mobile App",
+        "gis": "WebGIS / GIS",
+        "ai": "Artificial Intelligence"
+    },
+    "labels": {
+        "client": "Klien",
+        "industry": "Industri",
+        "year": "Tahun",
+        "technologies": "Teknologi",
+        "challenge": "Tantangan",
+        "solution": "Solusi",
+        "results": "Hasil",
+        "viewProject": "Lihat Project",
+        "featured": "Proyek Unggulan",
+        "all": "Semua Proyek",
+        "featuredTag": "Unggulan"
+    },
+    "empty": {
+        "title": "Tidak Ada Project",
+        "description": "Belum ada project di kategori ini."
+    },
+    "projects": {
+        "webgisLand": {
+            "title": "WebGIS Pemantauan Lahan",
+            "industry": "Geographic Information System (GIS)",
+            "description": "Pemetaan spasial cerdas, analisis vegetasi citra satelit, serta integrasi 12.000+ koordinat batas wilayah nasional bagi instansi kehutanan publik.",
+            "challenge": "Memantau batas hutan nasional dan mengidentifikasi perubahan vegetasi di lahan luas yang sulit dijangkau secara fisik.",
+            "solution": "Aplikasi WebGIS kustom terintegrasi dengan basis data PostgreSQL/PostGIS dan Leaflet.js untuk visualisasi citra satelit and data batas wilayah.",
+            "results": [
+                "Pemetaan real-time batas wilayah kehutanan",
+                "Analisis citra satelit otomatis untuk deteksi vegetasi",
+                "Integrasi 12.000+ koordinat batas wilayah secara presisi",
+                "Transparansi data bagi instansi dan publik"
+            ]
+        },
+        "portalEcommerce": {
+            "title": "Web Portal & E-Commerce",
+            "industry": "E-Commerce",
+            "description": "Pengembangan website korporat interaktif, custom CMS, dan platform e-commerce terintegrasi payment gateway untuk meningkatkan branding serta mengoptimalkan konversi transaksi digital 24/7.",
+            "challenge": "Menyatukan identitas korporasi yang profesional dengan portal e-commerce berkecepatan tinggi yang aman untuk transaksi.",
+            "solution": "Pembangunan website responsif berbasis React / Next.js dan Tailwind CSS, terhubung ke Node.js backend dan payment gateway lokal.",
+            "results": [
+                "Platform multi-fungsi yang lancar dan cepat",
+                "Integrasi payment gateway untuk transaksi otomatis",
+                "Optimasi aset gambar & kode untuk loading cepat",
+                "CMS kustom yang mudah digunakan untuk kelola katalog"
+            ]
+        },
+        "aiCustomerAgent": {
+            "title": "AI Customer Agent & OCR",
+            "industry": "Artificial Intelligence (AI)",
+            "description": "Otomasi digitalisasi berkas fisik dengan akurasi 98% (OCR) serta kecerdasan buatan berbasis LLM yang melayani chatbot operasional harian 24/7.",
+            "challenge": "Tingginya volume dokumen fisik manual yang memakan waktu input serta melesatnya pertanyaan pelanggan yang membebani tim CS.",
+            "solution": "Menggunakan pipeline OCR berbasis visi komputer dan agen kecerdasan buatan percakapan berbasis LangChain dan FastAPI.",
+            "results": [
+                "Akurasi digitalisasi dokumen fisik mencapai 98%",
+                "Pelayanan pelanggan 24/7 otomatis yang responsif",
+                "Mengurangi beban kerja layanan pelanggan hingga 60%",
+                "Integrasi model bahasa (LLM) dengan basis pengetahuan internal bisnis"
+            ]
+        },
+        "nurasaStore": {
+            "title": "Nurasa Store",
+            "industry": "Retail & F&B",
+            "description": "Landing page interaktif untuk mempromosikan produk Nurasa dengan desain modern dan performa tinggi.",
+            "challenge": "Membangun kehadiran online yang menarik untuk produk F&B agar dapat menjangkau lebih banyak pelanggan.",
+            "solution": "Pengembangan landing page menggunakan React dan Vite dengan animasi halus dan responsif.",
+            "results": [
+                "Peningkatan visibilitas brand secara online",
+                "Akses informasi produk yang cepat dan mudah",
+                "Pengalaman pengguna yang interaktif dan responsif"
+            ]
+        },
+        "yogiBusana": {
+            "title": "Yogi Busana",
+            "industry": "Fashion & Retail",
+            "description": "Website portofolio dan katalog produk untuk toko pakaian Yogi Busana dengan dukungan multi-bahasa.",
+            "challenge": "Menampilkan koleksi pakaian dengan visual yang menarik dan menjangkau pelanggan lokal maupun internasional.",
+            "solution": "Pembuatan website yang dioptimalkan untuk SEO dengan fitur internasionalisasi (i18n).",
+            "results": [
+                "Katalog produk digital yang mudah diakses",
+                "Dukungan multi-bahasa untuk pelanggan internasional",
+                "Peningkatan brand awareness secara digital"
+            ]
+        },
+        "mobileAppTracking": {
+            "title": "Aplikasi Pelacakan Logistik",
+            "industry": "Logistik & Transportasi",
+            "description": "Aplikasi mobile modern untuk pelacakan rute pengiriman real-time, manajemen armada, dan pembaruan status otomatis untuk pelanggan.",
+            "challenge": "Sulitnya melacak armada secara real-time dan memberikan estimasi kedatangan yang akurat kepada pelanggan di tengah lalu lintas yang dinamis.",
+            "solution": "Pengembangan aplikasi mobile lintas platform dengan Flutter yang terintegrasi langsung dengan Google Maps API dan sistem backend Firebase.",
+            "results": [
+                "Visibilitas rute pengiriman 100% real-time",
+                "Peningkatan akurasi estimasi kedatangan (ETA) hingga 95%",
+                "Mengurangi keluhan pelanggan terkait status pengiriman",
+                "Performa aplikasi yang ringan dan hemat baterai"
+            ]
+        },
+        "smartCityGIS": {
+            "title": "Smart City Infrastructure Map",
+            "industry": "Public Sector / Smart City",
+            "description": "Dashboard interaktif 3D untuk memetakan infrastruktur kota pintar, jaringan utilitas, dan lalu lintas secara real-time.",
+            "challenge": "Pemerintah kota kesulitan memonitor infrastruktur publik yang tersebar di wilayah yang sangat luas dan mendeteksi anomali utilitas dengan cepat.",
+            "solution": "Kami merancang WebGIS kustom berbasis React dan Mapbox yang menarik data sensor IoT kota secara live.",
+            "results": [
+                "Waktu respons pemeliharaan utilitas 40% lebih cepat",
+                "Visualisasi data lalu lintas real-time yang akurat",
+                "Peningkatan transparansi informasi kota untuk publik"
+            ]
+        },
+        "hrisPortal": {
+            "title": "Enterprise HRIS Portal",
+            "industry": "Human Resources",
+            "description": "Platform manajemen sumber daya manusia terpusat yang memudahkan pelacakan kehadiran, penggajian, dan evaluasi kinerja karyawan.",
+            "challenge": "Sistem lama yang lambat dan terfragmentasi menyebabkan kesalahan hitung pada penggajian serta turunnya kepuasan karyawan.",
+            "solution": "Membangun portal web HR modern, aman, dan mudah digunakan (user-friendly) dengan integrasi otomatis ke mesin absensi perusahaan.",
+            "results": [
+                "Proses penggajian selesai 3x lebih cepat",
+                "Akurasi kehadiran dan klaim cuti mencapai 100%",
+                "Meningkatkan kepuasan penggunaan software oleh karyawan"
+            ]
+        },
+        "aiSalesAnalytics": {
+            "title": "Predictive Sales Analytics",
+            "industry": "Retail & E-Commerce",
+            "description": "Sistem dasbor analitik bertenaga AI yang memprediksi tren penjualan masa depan dan mendeteksi anomali pasar.",
+            "challenge": "Perusahaan ritel kehilangan banyak profit akibat inventaris yang menumpuk dan gagal memprediksi lonjakan permintaan musiman.",
+            "solution": "Implementasi model Machine Learning prediktif yang menganalisis miliaran data transaksi historis dalam waktu singkat.",
+            "results": [
+                "Prediksi penjualan bulanan dengan tingkat akurasi 92%",
+                "Penurunan biaya penyimpanan stok (overstock) sebesar 25%",
+                "Peningkatan ROI lewat deteksi otomatis anomali pasar"
+            ]
+        },
+        "healthFitnessApp": {
+            "title": "Health & Fitness Tracker",
+            "industry": "Health & Wellness",
+            "description": "Aplikasi pelacak kebugaran dan kesehatan yang terhubung langsung dengan perangkat pintar (wearables) untuk monitoring metrik vital.",
+            "challenge": "Pengguna aplikasi kesehatan sering kehilangan motivasi dan bingung membaca data kesehatan mentah dari jam tangan pintar mereka.",
+            "solution": "Kami membuat aplikasi mobile yang menerjemahkan data vital menjadi grafik ramah pengguna serta rekomendasi olahraga harian.",
+            "results": [
+                "Retensi pengguna aktif bulanan meningkat tajam sebesar 45%",
+                "Sinkronisasi data mulus dengan berbagai jam tangan pintar",
+                "Antarmuka gelap yang memukau dan modern"
+            ]
+        }
+    }
+}

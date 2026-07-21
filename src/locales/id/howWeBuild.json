@@ -1,0 +1,19 @@
+{
+    "badge": "Pendekatan Kami",
+    "title": "Dibangun dengan Arsitektur yang Kokoh",
+    "description": "Setiap proyek dimulai dengan perencanaan yang matang. Kami merancang sistem yang scalable, mudah dimaintain, dan siap bertumbuh bersama bisnis Anda.",
+    "points": [
+        {
+            "title": "Arsitektur Berlapis",
+            "description": "Pemisahan yang jelas antara client, gateway, services, dan data layer untuk fleksibilitas maksimal"
+        },
+        {
+            "title": "Scalable by Design",
+            "description": "Dibangun untuk menangani pertumbuhan sejak hari pertama, baik 100 atau 100.000 pengguna"
+        },
+        {
+            "title": "Tech Stack Modern",
+            "description": "Menggunakan teknologi terbukti seperti React, TypeScript, dan infrastruktur cloud-native"
+        }
+    ]
+}

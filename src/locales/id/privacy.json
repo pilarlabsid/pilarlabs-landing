@@ -1,0 +1,71 @@
+{
+    "pageHeader": {
+        "badge": "Legal",
+        "title": "Kebijakan Privasi",
+        "description": "Cara kami mengumpulkan, menggunakan, dan melindungi informasi Anda."
+    },
+    "lastUpdated": "Terakhir diperbarui:",
+    "sections": {
+        "collection": {
+            "title": "1. Informasi yang Kami Kumpulkan",
+            "intro": "Kami mengumpulkan informasi yang Anda berikan langsung kepada kami, termasuk:",
+            "items": [
+                "Nama, alamat email, dan nomor telepon",
+                "Informasi perusahaan dan detail bisnis",
+                "Persyaratan dan preferensi proyek",
+                "Riwayat komunikasi dan korespondensi"
+            ]
+        },
+        "usage": {
+            "title": "2. Cara Kami Menggunakan Informasi Anda",
+            "intro": "Kami menggunakan informasi yang kami kumpulkan untuk:",
+            "items": [
+                "Menyediakan, memelihara, dan meningkatkan layanan kami",
+                "Memproses permintaan Anda dan berkomunikasi dengan Anda",
+                "Mengirimkan pemberitahuan teknis dan pesan dukungan",
+                "Merespons pertanyaan Anda dan memberikan layanan pelanggan",
+                "Menganalisis pola penggunaan dan mengoptimalkan pengalaman pengguna"
+            ]
+        },
+        "sharing": {
+            "title": "3. Berbagi Informasi",
+            "intro": "Kami tidak menjual, memperdagangkan, atau menyewakan informasi pribadi Anda kepada pihak ketiga. Kami hanya dapat membagikan informasi Anda dalam keadaan berikut:",
+            "items": [
+                "Dengan persetujuan eksplisit Anda",
+                "Untuk mematuhi kewajiban hukum",
+                "Dengan penyedia layanan tepercaya yang membantu operasi kami",
+                "Untuk proteger hak kami dan mencegah penipuan"
+            ]
+        },
+        "security": {
+            "title": "4. Keamanan Data",
+            "content": "Kami menerapkan langkah-langkah teknis dan organisasi yang sesuai untuk melindungi informasi pribadi Anda dari akses, perubahan, pengungkapan, atau pemusnahan yang tidak sah. Namun, tidak ada metode transmisi melalui internet yang 100% aman."
+        },
+        "rights": {
+            "title": "5. Hak Anda",
+            "intro": "Anda berhak untuk:",
+            "items": [
+                "Mengakses dan menerima salinan data pribadi Anda",
+                "Meminta koreksi atas informasi yang tidak akurat",
+                "Meminta penghapusan data pribadi Anda",
+                "Menarik persetujuan kapan saja",
+                "Mengajukan keluhan kepada otoritas pengawas"
+            ]
+        },
+        "cookies": {
+            "title": "6. Cookie dan Pelacakan",
+            "content": "Kami menggunakan cookie dan teknologi pelacakan serupa untuk melacak aktivitas di website kami dan menyimpan informasi tertentu. Anda dapat menginstruksikan browser Anda untuk menolak semua cookie atau untuk menunjukkan kapan cookie dikirim."
+        },
+        "changes": {
+            "title": "7. Perubahan pada Kebijakan Ini",
+            "content": "Kami dapat memperbarui Kebijakan Privasi kami dari waktu ke waktu. Kami akan memberi tahu Anda tentang perubahan apa pun dengan memposting Kebijakan Privasi baru di halaman ini dan memperbarui tanggal \"Terakhir diperbarui\"."
+        },
+        "contact": {
+            "title": "Hubungi Kami",
+            "intro": "Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, silakan hubungi kami:",
+            "email": "Email:",
+            "phone": "Telepon:",
+            "address": "Alamat: Jakarta Selatan, Indonesia"
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "pageHeader": {
+        "badge": "About Pilar Labs",
+        "title": "Your Digital Transformation Catalyst",
+        "description": "Under PT Pilar Inovasi Teknologi, we gather as a team of innovators passionate about simplifying digital complexity. We are a growth partner for corporates, ambitious startups, resilient SMEs, and progressive government agencies."
+    },
+    "philosophy": {
+        "title": "Strategy. Structure. Scalability.",
+        "content": "Combining smart AI, deep data analytics, spatial mapping (GIS), and custom applications to spawn growth with real impact."
+    },
+    "story": {
+        "title": "Our Mission (Real Steps)",
+        "content": [
+            "<strong>Inverate without Compromise:</strong> Forging high-standard technology products that are reliable and modern.",
+            "<strong>Transformation Accelerator:</strong> Guiding organization digital transitions seamlessly without causing confusion.",
+            "<strong>Flawless Security:</strong> Ensuring a solid, secure system foundation that's ready to scale with you.",
+            "<strong>Equal Partnership:</strong> Executing professional processes grounded in openness and mutual ownership."
+        ]
+    },
+    "values": {
+        "title": "Work Honor Pillars",
+        "subtitle": "Core principles that anchor everything we build.",
+        "items": {
+            "innovate": {
+                "title": "Dream & Innovate",
+                "description": "Adopt the latest technology wisely to birth solutions that are genuinely useful for our clients."
+            },
+            "structured": {
+                "title": "Structured",
+                "description": "Working with clear, measurable, and organized processes from start to finish."
+            },
+            "longTerm": {
+                "title": "Long Term",
+                "description": "Building solutions and partnerships that last for a long time."
+            },
+            "integrity": {
+                "title": "Integrity & Honesty",
+                "description": "Uphold high transparency with no hidden costs—building long-term bridges of trust."
+            },
+            "respect": {
+                "title": "Mutual Respect",
+                "description": "Positioning ourselves as part of your team to align frequencies on shared goals."
+            },
+            "excellence": {
+                "title": "Pursue Excellence",
+                "description": "Fully committed to writing the best lines of code and conducting flawless testing for your satisfaction."
+            }
+        }
+    },
+    "founder": {
+        "name": "Ujang",
+        "role": "Director & Founder",
+        "company": "PT Pilar Inovasi Teknologi",
+        "commitment": {
+            "title": "Our Commitment",
+            "content": [
+                "We believe every business deserves <strong>world-class digital infrastructure</strong>. There is no reason to settle for half-baked solutions.",
+                "Through Pilar Labs, we commit to being a <span>trusted partner</span> for organizations wanting to make sustainable technological leaps."
+            ],
+            "quote": "\"Every business has its own uniqueness and challenges. We design every technology with heart—built robust, secure, and ready to grow alongside your great steps.\"",
+            "attribution": "— Pilar Labs"
+        }
+    },
+    "stats": {
+        "uptime": "Uptime",
+        "latency": "Latency",
+        "typeSafe": "Type Safe",
+        "scale": "Scale"
+    }
+}

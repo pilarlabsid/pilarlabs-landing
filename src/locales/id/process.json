@@ -1,0 +1,38 @@
+{
+    "title": "Langkah Bersama Menuju Garis Finish",
+    "subtitle": "Kami percaya transparansi adalah kunci rasa tenang. Berikut adalah peta jalan pengerjaan proyek Anda:",
+    "steps": {
+        "discovery": {
+            "title": "01. Discovery",
+            "description": "Mendengarkan impian dan kendala Anda dengan seksama."
+        },
+        "analysis": {
+            "title": "02. Analysis",
+            "description": "Memetakan proses bisnis nyata ke dalam fungsionalitas sistem."
+        },
+        "design": {
+            "title": "03. Design",
+            "description": "Merancang tampilan visual interaktif sebelum penulisan kode."
+        },
+        "code": {
+            "title": "04. Code",
+            "description": "Mulai merakit baris kode tangguh dengan pendekatan Agile."
+        },
+        "testing": {
+            "title": "05. Testing",
+            "description": "Uji coba ketat untuk menjamin fungsional bebas celah."
+        },
+        "deploy": {
+            "title": "06. Deploy",
+            "description": "Peluncuran aman menuju server produksi cloud utama."
+        },
+        "support": {
+            "title": "07. Support",
+            "description": "Mengawal operasional harian pasca-rilis dengan siaga."
+        },
+        "evolve": {
+            "title": "08. Evolve",
+            "description": "Kembangkan sistem baru sesuai pertumbuhan skala bisnis Anda."
+        }
+    }
+}

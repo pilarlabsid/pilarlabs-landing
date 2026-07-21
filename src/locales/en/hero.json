@@ -1,0 +1,98 @@
+{
+    "title": "Pilar Labs",
+    "subtitle": "Bring Your Great Ideas to Life with Future Technology",
+    "description": "\"We don't just write lines of code. We engineer digital solutions that help your business redefine the boundaries of efficiency, automation, and real growth.\"",
+    "startProject": "Start Project",
+    "badge": "Technology Partner",
+    "processingText": "Pilar Labs designing solution...",
+    "viewWork": "View Portfolio",
+    "aiPromptLabel": "client_needs.txt",
+    "aiPrompts": [
+        {
+            "text": "I need a custom web and mobile app for our business",
+            "category": "Software Dev",
+            "response": "We design custom web & mobile apps that are reliable and modern",
+            "techStack": [
+                "React",
+                "Next.js",
+                "Flutter",
+                "Node.js"
+            ],
+            "metrics": [
+                {
+                    "icon": "trending",
+                    "text": "Responsive Interface"
+                },
+                {
+                    "icon": "zap",
+                    "text": "Multi-Platform"
+                }
+            ]
+        },
+        {
+            "text": "Please help us implement artificial intelligence (AI) in our daily operations",
+            "category": "AI Solutions",
+            "response": "We integrate Computer Vision, NLP, & AI Agents for smart automation",
+            "techStack": [
+                "LangChain",
+                "FastAPI",
+                "TensorFlow",
+                "Ollama"
+            ],
+            "metrics": [
+                {
+                    "icon": "trending",
+                    "text": "High Accuracy"
+                },
+                {
+                    "icon": "zap",
+                    "text": "24/7 Auto Execution"
+                }
+            ]
+        },
+        {
+            "text": "How can we visualize our field assets on an interactive map?",
+            "category": "WebGIS / GIS",
+            "response": "We build custom WebGIS & unified asset mapping based on real locations",
+            "techStack": [
+                "PostgreSQL/PostGIS",
+                "Leaflet",
+                "OpenLayers",
+                "Python"
+            ],
+            "metrics": [
+                {
+                    "icon": "trending",
+                    "text": "Spatial Visualization"
+                },
+                {
+                    "icon": "zap",
+                    "text": "Drone Land Analysis"
+                }
+            ]
+        },
+        {
+            "text": "We want a real-time data dashboard to monitor key company KPIs",
+            "category": "Data Analytics",
+            "response": "We assemble Executive Dashboards & automated Data Pipelines for strategic decisions",
+            "techStack": [
+                "React",
+                "Tailwind CSS",
+                "Express",
+                "PostgreSQL"
+            ],
+            "metrics": [
+                {
+                    "icon": "trending",
+                    "text": "Fast Dashboard"
+                },
+                {
+                    "icon": "zap",
+                    "text": "ETL Automation"
+                }
+            ]
+        }
+    ],
+    "aiResponse": "Perfect! Let's build together →",
+    "statsCounter": "Helping {{count}}+ businesses grow better"
+}

@@ -1,0 +1,98 @@
+{
+    "pageHeader": {
+        "badge": "Legal",
+        "title": "Terms of Service",
+        "description": "Terms and conditions for using our services."
+    },
+    "lastUpdated": "Last updated:",
+    "sections": {
+        "acceptance": {
+            "title": "1. Acceptance of Terms",
+            "content": "By accessing and using the services of PT Pilar Inovasi Teknologi (\"Pilar Labs\"), you accept and agree to be bound by the terms and conditions of this agreement. If you do not agree to these terms, please do not use our services."
+        },
+        "services": {
+            "title": "2. Description of Services",
+            "intro": "Pilar Labs provides web development, digital consulting, and related technology services. Our services include but are not limited to:",
+            "items": [
+                "Website development and design",
+                "Company profile creation",
+                "Landing page development",
+                "Website redesign and optimization",
+                "Consulting and technical support"
+            ]
+        },
+        "obligations": {
+            "title": "3. User Obligations",
+            "intro": "You agree to:",
+            "items": [
+                "Provide accurate and complete information",
+                "Maintain the confidentiality of your account credentials",
+                "Use our services only for lawful purposes",
+                "Not disrupt or interfere with the services",
+                "Comply with all applicable laws and regulations"
+            ]
+        },
+        "payment": {
+            "title": "4. Payment Terms",
+            "intro": "All fees are quoted in Indonesian Rupiah (IDR) unless specified otherwise. Payment terms will be outlined in individual project agreements and typically include:",
+            "items": [
+                "Initial deposit upon project kickoff",
+                "Milestone-based payments for larger projects",
+                "Final payment upon project completion",
+                "Additional fees for scope changes or revisions outside agreed limits"
+            ]
+        },
+        "intellectual": {
+            "title": "5. Intellectual Property Rights",
+            "intro": "Upon full payment, the client receives ownership of the final deliverables. However:",
+            "items": [
+                "Pilar Labs retains the right to display the finished work in our portfolio",
+                "Pre-existing code, tools, and frameworks remain our property",
+                "Open-source components are governed by their respective licenses",
+                "We may reuse general methodologies and techniques"
+            ]
+        },
+        "timeline": {
+            "title": "6. Project Timeline",
+            "content": "We strive to meet agreed deadlines. However, timelines can be affected by: delayed client feedback, scope changes, technical challenges, or force majeure events. We will communicate promptly about any timeline adjustments."
+        },
+        "warranties": {
+            "title": "7. Warranties and Disclaimers",
+            "intro": "We warrant that our services will be performed with professional skill and care. However:",
+            "items": [
+                "We do not guarantee specific business outcomes or results",
+                "Third-party integrations and services are provided \"as is\"",
+                "We are not liable for issues arising from client-provided content",
+                "Website performance depends on hosting and infrastructure choices"
+            ]
+        },
+        "liability": {
+            "title": "8. Limitation of Liability",
+            "content": "Pilar Labs' total liability for any claims arising from our services will not exceed the total amount paid by the client for the specific project. We are not liable for indirect, incidental, or consequential damages."
+        },
+        "support": {
+            "title": "9. Support and Maintenance",
+            "content": "Post-launch support and maintenance services are available under separate agreements. Basic technical support is usually included for a specified period after project delivery."
+        },
+        "termination": {
+            "title": "10. Termination",
+            "content": "Either party may terminate the agreement with written notice. Upon termination, the client is responsible for payment for all work completed up to the date of termination."
+        },
+        "governing": {
+            "title": "11. Governing Law",
+            "content": "These terms shall be governed by and construed in accordance with the laws of the Republic of Indonesia. Any disputes shall be resolved in the courts of Jakarta."
+        },
+        "changes": {
+            "title": "12. Changes to Terms",
+            "content": "We reserve the right to modify these terms at any time. Continued use of our services after changes constitutes acceptance of the modified terms."
+        },
+        "contact": {
+            "title": "Contact Us",
+            "intro": "For questions about these Terms of Service, please contact:",
+            "company": "PT Pilar Inovasi Teknologi",
+            "email": "Email:",
+            "phone": "Phone:",
+            "address": "Address: South Jakarta, Indonesia"
+        }
+    }
+}

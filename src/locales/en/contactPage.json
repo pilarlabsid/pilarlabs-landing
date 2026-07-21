@@ -1,0 +1,36 @@
+{
+    "pageHeader": {
+        "badge": "Contact Us",
+        "title": "Start Your Project",
+        "description": "Ready to build a strong digital infrastructure? Contact us for a free consultation."
+    },
+    "getInTouch": {
+        "title": "Get in Touch",
+        "subtitle": "We reply within 24 hours. Directly from the engineers, no bots."
+    },
+    "info": {
+        "email": "Email",
+        "whatsapp": "WhatsApp",
+        "office": "Office",
+        "location": "South Jakarta, Indonesia"
+    },
+    "form": {
+        "name": "Name",
+        "email": "Email",
+        "projectType": "Project Type",
+        "message": "Message",
+        "namePlaceholder": "John Doe",
+        "emailPlaceholder": "john@company.com",
+        "messagePlaceholder": "Tell us about your project and what you want to achieve...",
+        "submit": "Send Message",
+        "sending": "Sending...",
+        "projectOptions": {
+            "foundation": "Landing Page",
+            "structure": "Company Profile",
+            "ecommerce": "E-commerce / Online Store",
+            "webApp": "Web Application",
+            "blog": "Blog / News Portal",
+            "other": "Other / Consultation"
+        }
+    }
+}

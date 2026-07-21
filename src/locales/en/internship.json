@@ -1,0 +1,139 @@
+{
+    "pageHeader": {
+        "badge": "We're Hiring",
+        "title": "Internship Program",
+        "description": "Join the Pilar Labs team and begin your professional career. Gain hands-on experience with real projects, direct mentorship from practitioners, and build a portfolio ready to compete in the industry."
+    },
+    "positions": {
+        "title": "Available Positions",
+        "subtitle": "We are opening opportunities for young talent eager to grow with our team for 3–6 months",
+        "frontend": {
+            "title": "Frontend Developer",
+            "description": "Build modern, responsive, and engaging user interfaces using React and TypeScript.",
+            "skills": [
+                "React",
+                "TypeScript",
+                "HTML/CSS",
+                "Git"
+            ]
+        },
+        "backend": {
+            "title": "Backend Developer",
+            "description": "Develop reliable APIs and scalable server-side applications using Node.js or Python.",
+            "skills": [
+                "Node.js / Python",
+                "REST API",
+                "Database (SQL/NoSQL)",
+                "Git"
+            ]
+        },
+        "fullstack": {
+            "title": "Full-Stack Developer",
+            "description": "Handle both frontend and backend development to build complete and production-ready web applications.",
+            "skills": [
+                "React",
+                "Node.js",
+                "TypeScript",
+                "Database"
+            ]
+        },
+        "uiux": {
+            "title": "UI/UX Designer",
+            "description": "Design intuitive, aesthetic, and consistent user interfaces and experiences using Figma.",
+            "skills": [
+                "Figma",
+                "Design System",
+                "Prototyping",
+                "User Research"
+            ]
+        },
+        "mobile": {
+            "title": "Mobile Developer",
+            "description": "Develop lightweight and performant cross-platform mobile applications using Flutter or React Native.",
+            "skills": [
+                "Flutter / React Native",
+                "Dart / JavaScript",
+                "API Integration",
+                "Git"
+            ]
+        },
+        "data": {
+            "title": "Data Analyst / Data Engineer",
+            "description": "Process, analyze, and visualize data to support accurate business decision-making.",
+            "skills": [
+                "Python",
+                "SQL",
+                "Data Visualization",
+                "Statistics"
+            ]
+        },
+        "devops": {
+            "title": "DevOps / Cloud Engineer",
+            "description": "Manage cloud infrastructure, CI/CD pipelines, and ensure ongoing system availability and security.",
+            "skills": [
+                "Docker / Kubernetes",
+                "CI/CD Pipeline",
+                "Linux",
+                "Cloud (AWS/GCP)"
+            ]
+        }
+    },
+    "requirements": {
+        "title": "Requirements",
+        "items": [
+            "Active student (minimum 3rd semester) or fresh graduate from a relevant field",
+            "Strong interest and enthusiasm in technology and digital development",
+            "Basic understanding of the desired position",
+            "Able to commit a minimum of 20 hours per week for 3–6 months",
+            "Self-driven, proactive, and highly eager to learn",
+            "Portfolio or personal projects (GitHub, Behance, or similar)"
+        ]
+    },
+    "benefits": {
+        "title": "What You'll Get",
+        "subtitle": "The Pilar Labs internship program is designed to accelerate your learning and professional career growth",
+        "mentorship": {
+            "title": "Direct Mentorship",
+            "description": "Intensive guidance from experienced senior developers and designers in the industry."
+        },
+        "projects": {
+            "title": "Real Projects",
+            "description": "Be directly involved in active production projects used by real clients and users."
+        },
+        "certificate": {
+            "title": "Official Certificate",
+            "description": "Receive a professionally recognized internship completion certificate."
+        },
+        "flexible": {
+            "title": "Flexible Schedule",
+            "description": "Working hours that can be adjusted to your academic schedule, perfect for active students."
+        }
+    },
+    "process": {
+        "title": "Application Process",
+        "subtitle": "A transparent, simple, and time-efficient selection process",
+        "apply": {
+            "title": "Apply",
+            "description": "Send your CV and portfolio via our email or WhatsApp."
+        },
+        "review": {
+            "title": "Document Review",
+            "description": "Our team will review your application within 1–2 working weeks."
+        },
+        "interview": {
+            "title": "Interview",
+            "description": "A brief technical interview and work culture fit discussion."
+        },
+        "onboarding": {
+            "title": "Onboarding",
+            "description": "Welcome aboard! Begin your learning journey with the Pilar Labs team."
+        }
+    },
+    "cta": {
+        "title": "Ready to Start Your Career Journey?",
+        "description": "Submit your application now and become part of the Pilar Labs team as an intern developer.",
+        "emailButton": "Apply via Email",
+        "whatsappButton": "Chat via WhatsApp",
+        "contact": "Or contact us at"
+    }
+}

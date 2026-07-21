@@ -1,0 +1,98 @@
+{
+    "pageHeader": {
+        "badge": "Legal",
+        "title": "Syarat Layanan",
+        "description": "Syarat dan ketentuan untuk menggunakan layanan kami."
+    },
+    "lastUpdated": "Terakhir diperbarui:",
+    "sections": {
+        "acceptance": {
+            "title": "1. Penerimaan Syarat",
+            "content": "Dengan mengakses dan menggunakan layanan PT Pilar Inovasi Teknologi (\"Pilar Labs\"), Anda menerima dan setuju untuk terikat oleh syarat dan ketentuan perjanjian ini. Jika Anda tidak setuju dengan syarat-syarat ini, harap jangan menggunakan layanan kami."
+        },
+        "services": {
+            "title": "2. Deskripsi Layanan",
+            "intro": "Pilar Labs menyediakan pengembangan web, konsultasi digital, dan layanan teknologi terkait. Layanan kami termasuk namun tidak terbatas pada:",
+            "items": [
+                "Pengembangan dan desain website",
+                "Pembuatan company profile",
+                "Pengembangan landing page",
+                "Redesign dan optimisasi website",
+                "Konsultasi dan dukungan teknis"
+            ]
+        },
+        "obligations": {
+            "title": "3. Kewajiban Pengguna",
+            "intro": "Anda setuju untuk:",
+            "items": [
+                "Memberikan informasi yang akurat dan lengkap",
+                "Menjaga kerahasiaan kredensial akun Anda",
+                "Menggunakan layanan kami hanya untuk tujuan yang sah",
+                "Tidak mengganggu atau mengganggu layanan",
+                "Mematuhi semua hukum dan peraturan yang berlaku"
+            ]
+        },
+        "payment": {
+            "title": "4. Syarat Pembayaran",
+            "intro": "Semua biaya dikutip dalam Rupiah Indonesia (IDR) kecuali ditentukan lain. Syarat pembayaran akan diuraikan dalam perjanjian proyek individual dan biasanya mencakup:",
+            "items": [
+                "Deposit awal saat memulai proyek",
+                "Pembayaran berbasis milestone untuk proyek yang lebih besar",
+                "Pembayaran akhir saat proyek selesai",
+                "Biaya tambahan untuk perubahan scope atau revisi di luar batas yang disepakati"
+            ]
+        },
+        "intellectual": {
+            "title": "5. Hak Kekayaan Intelektual",
+            "intro": "Setelah pembayaran penuh, klien menerima kepemilikan atas deliverable akhir. Namun:",
+            "items": [
+                "Pilar Labs mempertahankan hak untuk menampilkan karya yang sudah selesai di portfolio kami",
+                "Kode, tools, dan frameworks yang sudah ada tetap menjadi milik kami",
+                "Komponen open-source diatur oleh lisensi masing-masing",
+                "Kami dapat menggunakan kembali metodologi dan teknik umum"
+            ]
+        },
+        "timeline": {
+            "title": "6. Timeline Proyek",
+            "content": "Kami berusaha memenuhi tenggat waktu yang disepakati. Namun, timeline dapat terpengaruh oleh: keterlambatan feedback klien, perubahan scope, tantangan teknis, atau kejadian force majeure. Kami akan berkomunikasi dengan cepat tentang penyesuaian timeline apa pun."
+        },
+        "warranties": {
+            "title": "7. Jaminan dan Penolakan",
+            "intro": "Kami menjamin bahwa layanan kami akan dilakukan dengan keterampilan dan perawatan profesional. Namun:",
+            "items": [
+                "Kami tidak menjamin hasil atau outcome bisnis tertentu",
+                "Layanan dan integrasi pihak ketiga disediakan \"as is\"",
+                "Kami tidak bertanggung jawab atas masalah yang timbul dari konten yang disediakan klien",
+                "Kinerja website tergantung pada pilihan hosting dan infrastruktur"
+            ]
+        },
+        "liability": {
+            "title": "8. Batasan Tanggung Jawab",
+            "content": "Total tanggung jawab Pilar Labs untuk klaim apa pun yang timbul dari layanan kami tidak akan melebihi jumlah total yang dibayarkan oleh klien untuk proyek tertentu. Kami tidak bertanggung jawab atas kerusakan tidak langsung, insidental, atau konsekuensial."
+        },
+        "support": {
+            "title": "9. Dukungan dan Pemeliharaan",
+            "content": "Layanan dukungan dan pemeliharaan pasca-peluncuran tersedia di bawah perjanjian terpisah. Dukungan teknis dasar biasanya termasuk untuk periode tertentu setelah pengiriman proyek."
+        },
+        "termination": {
+            "title": "10. Pengakhiran",
+            "content": "Salah satu pihak dapat mengakhiri perjanjian dengan pemberitahuan tertulis. Setelah pengakhiran, klien bertanggung jawab atas pembayaran semua pekerjaan yang diselesaikan hingga tanggal pengakhiran."
+        },
+        "governing": {
+            "title": "11. Hukum yang Mengatur",
+            "content": "Syarat-syarat ini akan diatur oleh dan ditafsirkan sesuai dengan hukum Republik Indonesia. Setiap sengketa akan diselesaikan di pengadilan Jakarta."
+        },
+        "changes": {
+            "title": "12. Perubahan pada Syarat",
+            "content": "Kami berhak untuk memodifikasi syarat-syarat ini kapan saja. Penggunaan berkelanjutan dari layanan kami setelah perubahan merupakan penerimaan atas syarat yang dimodifikasi."
+        },
+        "contact": {
+            "title": "Hubungi Kami",
+            "intro": "Untuk pertanyaan tentang Syarat Layanan ini, silakan hubungi:",
+            "company": "PT Pilar Inovasi Teknologi",
+            "email": "Email:",
+            "phone": "Telepon:",
+            "address": "Alamat: Jakarta Selatan, Indonesia"
+        }
+    }
+}
