@@ -127,7 +127,7 @@ export function Services() {
                         </div>
                         <div className="relative">
                             <div className="absolute inset-0 bg-precision/20 blur-[100px] rounded-full" />
-                            <img src="/images/services/software-dev.png" alt="Software Dashboard" className="relative rounded-2xl border border-structural/20 shadow-2xl object-cover h-[400px] w-full" />
+                            <img src="/images/services/software-dev.png" alt="Pembuatan Custom Web Application dan Dashboard Bisnis oleh Pilar Labs Jakarta" className="relative rounded-2xl border border-structural/20 shadow-2xl object-cover h-[400px] w-full" />
                         </div>
                     </div>
                 </Container>
@@ -139,7 +139,7 @@ export function Services() {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                         <div className="order-2 lg:order-1 relative hidden lg:block">
                              <div className="absolute inset-0 bg-accent/20 blur-[100px] rounded-full" />
-                             <img src="/images/services/mobile-app.png" alt="Mobile App UI" className="relative rounded-2xl border border-structural/20 shadow-2xl object-cover h-[400px] w-full" />
+                             <img src="/images/services/mobile-app.png" alt="Jasa Pembuatan Aplikasi Mobile iOS dan Android Berkualitas oleh Pilar Labs" className="relative rounded-2xl border border-structural/20 shadow-2xl object-cover h-[400px] w-full" />
                         </div>
                         <div className="order-1 lg:order-2">
                             <div className="flex items-center gap-3 mb-6">

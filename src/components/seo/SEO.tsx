@@ -90,6 +90,44 @@ export function SEO({
         },
     }
 
+    // LocalBusiness Schema
+    const localBusinessSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'LocalBusiness',
+        '@id': `${siteConfig.siteUrl}/#localbusiness`,
+        name: siteConfig.company.name,
+        image: `${siteConfig.siteUrl}${siteConfig.defaultOgImage}`,
+        url: siteConfig.siteUrl,
+        telephone: siteConfig.social.phone,
+        email: siteConfig.social.email,
+        priceRange: '$$',
+        address: {
+            '@type': 'PostalAddress',
+            streetAddress: siteConfig.company.address.street,
+            addressLocality: siteConfig.company.address.city,
+            addressRegion: siteConfig.company.address.region,
+            postalCode: siteConfig.company.address.postalCode,
+            addressCountry: 'ID',
+        },
+        geo: {
+            '@type': 'GeoCoordinates',
+            latitude: -6.2607,
+            longitude: 106.8106,
+        },
+        openingHoursSpecification: [
+            {
+                '@type': 'OpeningHoursSpecification',
+                dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+                opens: '09:00',
+                closes: '18:00',
+            },
+        ],
+        sameAs: [
+            siteConfig.social.linkedin,
+            siteConfig.social.instagram,
+        ],
+    }
+
     // Merge custom structured data if provided
     const finalStructuredData = structuredData ?? organizationSchema
 
@@ -134,6 +172,11 @@ export function SEO({
             {/* Structured Data — Organization */}
             <script type="application/ld+json">
                 {JSON.stringify(finalStructuredData)}
+            </script>
+
+            {/* Structured Data — LocalBusiness */}
+            <script type="application/ld+json">
+                {JSON.stringify(localBusinessSchema)}
             </script>
 
             {/* Structured Data — WebSite */}
