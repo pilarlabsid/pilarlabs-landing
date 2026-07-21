@@ -5,15 +5,17 @@ import { pageSEO } from '@/config/seo-config'
 import { PageHeader } from '@/components/ui/PageHeader'
 import { Container } from '@/components/layout/Container'
 import { ProjectCard } from '@/components/ui/ProjectCard'
+import { ProjectModal } from '@/components/ui/ProjectModal'
 import { CategoryFilter } from '@/components/ui/CategoryFilter'
 import { portfolioData } from '@/data/portfolio'
-import { ProjectCategory } from '@/types/portfolio'
+import { ProjectCategory, Portfolio as PortfolioType } from '@/types/portfolio'
 import { motion, AnimatePresence } from 'framer-motion'
 
 export function Portfolio() {
     const { t } = useTranslation()
     const seo = pageSEO.portfolio
     const [activeCategory, setActiveCategory] = useState<ProjectCategory>('all')
+    const [selectedProject, setSelectedProject] = useState<PortfolioType | null>(null)
 
     const displayedProjects = (() => {
         if (activeCategory !== 'all') {
@@ -63,6 +65,7 @@ export function Portfolio() {
                                         key={project.id}
                                         project={project}
                                         index={index}
+                                        onClick={setSelectedProject}
                                     />
                                 ))}
                             </AnimatePresence>
@@ -83,6 +86,12 @@ export function Portfolio() {
                     )}
                 </Container>
             </section>
+
+            {/* Project Details Modal */}
+            <ProjectModal
+                project={selectedProject}
+                onClose={() => setSelectedProject(null)}
+            />
         </>
     )
 }

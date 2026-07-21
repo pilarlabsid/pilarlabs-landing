@@ -5,9 +5,10 @@ import { useTranslation } from 'react-i18next'
 interface ProjectCardProps {
     project: Portfolio
     index: number
+    onClick: (project: Portfolio) => void
 }
 
-export function ProjectCard({ project, index }: ProjectCardProps) {
+export function ProjectCard({ project, index, onClick }: ProjectCardProps) {
     const { t } = useTranslation()
 
     return (
@@ -15,16 +16,22 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, delay: index * 0.1 }}
-            className="group relative"
+            className="group relative cursor-pointer"
+            onClick={() => onClick(project)}
+            id={`portfolio-card-${project.id}`}
+            role="button"
+            tabIndex={0}
+            aria-label={`Lihat detail proyek: ${t(project.title)}`}
+            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') onClick(project) }}
         >
-            <div className="relative overflow-hidden rounded-2xl bg-foundation border border-structural/10 hover:border-precision/30 transition-all duration-300">
+            <div className="relative overflow-hidden rounded-2xl bg-foundation border border-structural/10 hover:border-precision/30 transition-all duration-300 hover:shadow-xl hover:shadow-precision/10 hover:-translate-y-1">
                 {/* Cover Image */}
                 <div className="relative h-64 overflow-hidden bg-structural/5">
                     {/* Actual cover image */}
                     <img
                         src={project.coverImage}
                         alt={project.title}
-                        className="absolute inset-0 w-full h-full object-cover"
+                        className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                         loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-transparent to-foundation/90" />
@@ -99,7 +106,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
                 </div>
 
                 {/* Hover Overlay */}
-                <div className="absolute inset-0 bg-precision/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+                <div className="absolute inset-0 bg-precision/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-2xl" />
             </div>
         </motion.div>
     )

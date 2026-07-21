@@ -127,7 +127,7 @@ export function Services() {
                         </div>
                         <div className="relative">
                             <div className="absolute inset-0 bg-precision/20 blur-[100px] rounded-full" />
-                            <img src="https://img.magnific.com/premium-psd/modern-workspace-with-laptop-displaying-business-analytics-dashboard_764601-55.jpg" alt="Software Dashboard" className="relative rounded-2xl border border-structural/20 shadow-2xl object-cover h-[400px] w-full" />
+                            <img src="/images/services/software-dev.png" alt="Software Dashboard" className="relative rounded-2xl border border-structural/20 shadow-2xl object-cover h-[400px] w-full" />
                         </div>
                     </div>
                 </Container>
@@ -137,9 +137,9 @@ export function Services() {
             <section className="py-24 bg-structural/5 border-b border-structural/10">
                 <Container>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                        <div className="order-2 lg:order-1 relative h-full min-h-[400px] hidden lg:block">
+                        <div className="order-2 lg:order-1 relative hidden lg:block">
                              <div className="absolute inset-0 bg-accent/20 blur-[100px] rounded-full" />
-                             <img src="/images/projects/yogibusana-cover.jpg" alt="Mobile App" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-3xl border-4 border-foundation shadow-2xl w-[250px] object-cover" />
+                             <img src="/images/services/mobile-app.png" alt="Mobile App UI" className="relative rounded-2xl border border-structural/20 shadow-2xl object-cover h-[400px] w-full" />
                         </div>
                         <div className="order-1 lg:order-2">
                             <div className="flex items-center gap-3 mb-6">
