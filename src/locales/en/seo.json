@@ -1,10 +1,42 @@
 {
-    "home": "Digital Infrastructure Partner",
-    "about": "About Us",
-    "services": "Our Services",
-    "portfolio": "Portfolio",
-    "internship": "Internship Program",
-    "contact": "Contact Us",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service"
+    "home": {
+        "title": "PT Pilar Inovasi Teknologi – Realize Great Ideas Through Technology",
+        "description": "Pilar Labs (PT Pilar Inovasi Teknologi) doesn't just build code. We design digital solutions to redefine the boundaries of efficiency, automation, and real growth for your business.",
+        "keywords": ["software development jakarta", "artificial intelligence indonesia", "geographic information system", "data analytics", "pt pilar inovasi teknologi", "enterprise digital solutions"]
+    },
+    "about": {
+        "title": "Your Digital Transformation Catalyst – About Pilar Labs",
+        "description": "Serving as a trusted technology compass and anchor, guiding organizations to boldly step beyond the limits of digital innovation on the global stage.",
+        "keywords": ["digital transformation catalyst", "technology innovators", "corporate growth partner", "ambitious startups", "resilient smes", "government agencies", "pt pilar inovasi teknologi"]
+    },
+    "services": {
+        "title": "Pilar Labs Services – Software Dev, AI, GIS & Data Analytics",
+        "description": "Pilar Labs IT Services: Software Development, Artificial Intelligence (AI), Geographic Information System (GIS), and Data Analytics for impactful real-world growth.",
+        "keywords": ["software development services", "artificial intelligence integration", "webgis development", "data analytics services", "digital transformation accelerator", "system security", "technology innovation"]
+    },
+    "portfolio": {
+        "title": "Innovation Portfolio – Digital Projects by PT Pilar Inovasi Teknologi",
+        "description": "Explore Pilar Labs' technology innovation portfolio. Combining smart AI touches, in-depth data analytics, spatial maps (GIS), and custom applications.",
+        "keywords": ["pilar labs portfolio", "artificial intelligence projects", "webgis systems", "custom applications examples", "business operational solutions"]
+    },
+    "internship": {
+        "title": "Technology Innovator Internship Program – PT Pilar Inovasi Teknologi",
+        "description": "Open internship opportunities with the innovator team at Pilar Labs. Get directly involved in Software Development, AI, GIS, and Data Analytics projects.",
+        "keywords": ["it internship jakarta", "software development internship", "data analytics internship", "artificial intelligence internship", "gis internship openings"]
+    },
+    "contact": {
+        "title": "Contact Us – Start Your Digital Transformation with Pilar Labs",
+        "description": "Contact PT Pilar Inovasi Teknologi to design digital solutions that help your business lead the market. We are here as your growth partner.",
+        "keywords": ["contact pilar labs", "digital transformation consultation", "order software development", "ai services indonesia", "contact pt pilar inovasi teknologi"]
+    },
+    "privacy": {
+        "title": "Privacy Policy – PT Pilar Inovasi Teknologi",
+        "description": "PT Pilar Inovasi Teknologi's privacy policy regarding the collection, use, and protection of personal data in all our digital solutions.",
+        "keywords": ["privacy policy", "data protection", "system security"]
+    },
+    "terms": {
+        "title": "Terms of Service – PT Pilar Inovasi Teknologi",
+        "description": "Terms and conditions of use for PT Pilar Inovasi Teknologi services, including commitments to equal partnerships based on transparency.",
+        "keywords": ["pilar labs terms and conditions", "terms of service", "equal partnership"]
+    }
 }

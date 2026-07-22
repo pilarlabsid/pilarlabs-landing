@@ -1,21 +1,18 @@
-
 import { useTranslation } from 'react-i18next'
 import { SEO } from '@/components/seo/SEO'
-import { pageSEO } from '@/config/seo-config'
 import { Container } from '@/components/layout/Container'
 import { PageHeader } from '@/components/ui/PageHeader'
 
 export function Terms() {
-    const { t } = useTranslation()
-    const seo = pageSEO.terms
+    const { t } = useTranslation(['terms', 'seo'])
     return (
         <>
             <SEO
-                title={t('seo.terms')}
-                description={seo.description}
-                keywords={seo.keywords}
-                pathname={seo.pathname}
-                noindex={seo.noindex}
+                title={t('terms.title', { ns: 'seo' })}
+                description={t('terms.description', { ns: 'seo' })}
+                keywords={t('terms.keywords', { ns: 'seo', returnObjects: true }) as string[]}
+                pathname="/terms"
+                noindex={true}
             />
             <PageHeader
                 title={t('terms.pageHeader.title')}

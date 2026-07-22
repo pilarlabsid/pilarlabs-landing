@@ -183,6 +183,44 @@ export function SEO({
             <script type="application/ld+json">
                 {JSON.stringify(websiteSchema)}
             </script>
+
+            {/* Structured Data — Sitelinks / Navigation */}
+            <script type="application/ld+json">
+                {JSON.stringify({
+                    '@context': 'https://schema.org',
+                    '@type': 'ItemList',
+                    'itemListElement': [
+                        {
+                            '@type': 'SiteNavigationElement',
+                            'position': 1,
+                            'name': 'Layanan (Services)',
+                            'description': 'Layanan web development, AI, dan WebGIS dari Pilar Labs.',
+                            'url': `${siteConfig.siteUrl}/services`
+                        },
+                        {
+                            '@type': 'SiteNavigationElement',
+                            'position': 2,
+                            'name': 'Portofolio',
+                            'description': 'Lihat hasil karya dan proyek digital dari Pilar Labs.',
+                            'url': `${siteConfig.siteUrl}/portfolio`
+                        },
+                        {
+                            '@type': 'SiteNavigationElement',
+                            'position': 3,
+                            'name': 'Internship Program',
+                            'description': 'Program magang untuk mahasiswa dan fresh graduate IT.',
+                            'url': `${siteConfig.siteUrl}/internship`
+                        },
+                        {
+                            '@type': 'SiteNavigationElement',
+                            'position': 4,
+                            'name': 'About Us',
+                            'description': 'Pelajari visi, misi, dan tim di balik Pilar Labs.',
+                            'url': `${siteConfig.siteUrl}/about`
+                        }
+                    ]
+                })}
+            </script>
         </Helmet>
     )
 }

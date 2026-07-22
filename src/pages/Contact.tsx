@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { SEO } from '@/components/seo/SEO'
-import { pageSEO } from '@/config/seo-config'
 import { Container } from '@/components/layout/Container'
 import { PageHeader } from '@/components/ui/PageHeader'
 import { Button } from '@/components/ui/Button'
@@ -9,8 +8,7 @@ import { GlassCard } from '@/components/ui/GlassCard'
 import { Mail, Phone, MapPin, Send } from 'lucide-react'
 
 export function Contact() {
-    const { t } = useTranslation()
-    const seo = pageSEO.contact
+    const { t } = useTranslation(['contactPage', 'seo'])
     const [isSubmitting, setIsSubmitting] = useState(false)
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -45,10 +43,10 @@ export function Contact() {
     return (
         <>
             <SEO
-                title={t('seo.contact')}
-                description={seo.description}
-                keywords={seo.keywords}
-                pathname={seo.pathname}
+                title={t('contact.title', { ns: 'seo' })}
+                description={t('contact.description', { ns: 'seo' })}
+                keywords={t('contact.keywords', { ns: 'seo', returnObjects: true }) as string[]}
+                pathname="/contact"
             />
             <PageHeader
                 title={t('contactPage.pageHeader.title')}

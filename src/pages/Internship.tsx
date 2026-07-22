@@ -1,7 +1,6 @@
 
 import { useTranslation } from 'react-i18next'
 import { SEO } from '@/components/seo/SEO'
-import { pageSEO } from '@/config/seo-config'
 import { PageHeader } from '@/components/ui/PageHeader'
 import { Container } from '@/components/layout/Container'
 import { GlassCard } from '@/components/ui/GlassCard'
@@ -9,8 +8,7 @@ import { Button } from '@/components/ui/Button'
 import { Code, Palette, Server, Boxes, CheckCircle, ArrowRight, Clock, Award, Users, Smartphone, BarChart2, Cloud } from 'lucide-react'
 
 export function Internship() {
-    const { t } = useTranslation()
-    const seo = pageSEO.internship
+    const { t } = useTranslation(['internship', 'seo'])
 
     const positions = [
         {
@@ -93,10 +91,10 @@ export function Internship() {
     return (
         <>
             <SEO
-                title={t('seo.internship')}
-                description={seo.description}
-                keywords={seo.keywords}
-                pathname={seo.pathname}
+                title={t('internship.title', { ns: 'seo' })}
+                description={t('internship.description', { ns: 'seo' })}
+                keywords={t('internship.keywords', { ns: 'seo', returnObjects: true }) as string[]}
+                pathname="/internship"
             />
             <PageHeader
                 title={t('internship.pageHeader.title')}

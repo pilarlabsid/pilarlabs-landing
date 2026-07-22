@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next'
 import { SEO } from '@/components/seo/SEO'
-import { pageSEO } from '@/config/seo-config'
 import { Container } from '@/components/layout/Container'
 import { PageHeader } from '@/components/ui/PageHeader'
 import { GlassCard } from '@/components/ui/GlassCard'
@@ -8,8 +7,7 @@ import { motion } from 'framer-motion'
 import { ShieldCheck, TrendingUp, Award } from 'lucide-react'
 
 export function About() {
-    const { t } = useTranslation()
-    const seo = pageSEO.about
+    const { t } = useTranslation(['about', 'seo'])
     const values = [
         { icon: ShieldCheck, key: 'structured' },
         { icon: TrendingUp, key: 'longTerm' },
@@ -19,10 +17,10 @@ export function About() {
     return (
         <>
             <SEO
-                title={t('seo.about')}
-                description={seo.description}
-                keywords={seo.keywords}
-                pathname={seo.pathname}
+                title={t('about.title', { ns: 'seo' })}
+                description={t('about.description', { ns: 'seo' })}
+                keywords={t('about.keywords', { ns: 'seo', returnObjects: true }) as string[]}
+                pathname="/about"
             />
             <PageHeader
                 title={t('about.pageHeader.title')}

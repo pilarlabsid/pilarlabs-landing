@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { SEO } from '@/components/seo/SEO'
-import { pageSEO } from '@/config/seo-config'
 import { PageHeader } from '@/components/ui/PageHeader'
 import { Container } from '@/components/layout/Container'
 import { ProjectCard } from '@/components/ui/ProjectCard'
@@ -12,8 +11,7 @@ import { ProjectCategory, Portfolio as PortfolioType } from '@/types/portfolio'
 import { motion, AnimatePresence } from 'framer-motion'
 
 export function Portfolio() {
-    const { t } = useTranslation()
-    const seo = pageSEO.portfolio
+    const { t } = useTranslation(['portfolio', 'seo'])
     const [activeCategory, setActiveCategory] = useState<ProjectCategory>('all')
     const [selectedProject, setSelectedProject] = useState<PortfolioType | null>(null)
 
@@ -37,10 +35,10 @@ export function Portfolio() {
     return (
         <>
             <SEO
-                title={t('seo.portfolio')}
-                description={seo.description}
-                keywords={seo.keywords}
-                pathname={seo.pathname}
+                title={t('portfolio.title', { ns: 'seo' })}
+                description={t('portfolio.description', { ns: 'seo' })}
+                keywords={t('portfolio.keywords', { ns: 'seo', returnObjects: true }) as string[]}
+                pathname="/portfolio"
             />
             <PageHeader
                 title={t('caseStudies.pageHeader.title')}

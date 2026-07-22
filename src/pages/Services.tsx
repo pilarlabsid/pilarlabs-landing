@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next'
 import { SEO } from '@/components/seo/SEO'
-import { pageSEO } from '@/config/seo-config'
 import { Container } from '@/components/layout/Container'
 import { PageHeader } from '@/components/ui/PageHeader'
 import { GlassCard } from '@/components/ui/GlassCard'
@@ -8,8 +7,7 @@ import { Button } from '@/components/ui/Button'
 import { Check, ArrowRight, Code, Brain, LineChart, Laptop, Smartphone, Eye, MessageSquare, BarChart, Map, Plane, Database, Activity } from 'lucide-react'
 
 export function Services() {
-    const { t } = useTranslation()
-    const seo = pageSEO.services
+    const { t } = useTranslation(['servicesPage', 'seo'])
 
     const webDevPackages = [
         {
@@ -68,10 +66,10 @@ export function Services() {
     return (
         <>
             <SEO
-                title={t('seo.services')}
-                description={seo.description}
-                keywords={seo.keywords}
-                pathname={seo.pathname}
+                title={t('services.title', { ns: 'seo' })}
+                description={t('services.description', { ns: 'seo' })}
+                keywords={t('services.keywords', { ns: 'seo', returnObjects: true }) as string[]}
+                pathname="/services"
             />
             <PageHeader
                 title={t('servicesPage.pageHeader.title')}

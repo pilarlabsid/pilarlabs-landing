@@ -1,21 +1,18 @@
-
 import { useTranslation } from 'react-i18next'
 import { SEO } from '@/components/seo/SEO'
-import { pageSEO } from '@/config/seo-config'
 import { Container } from '@/components/layout/Container'
 import { PageHeader } from '@/components/ui/PageHeader'
 
 export function Privacy() {
-    const { t } = useTranslation()
-    const seo = pageSEO.privacy
+    const { t } = useTranslation(['privacy', 'seo'])
     return (
         <>
             <SEO
-                title={t('seo.privacy')}
-                description={seo.description}
-                keywords={seo.keywords}
-                pathname={seo.pathname}
-                noindex={seo.noindex}
+                title={t('privacy.title', { ns: 'seo' })}
+                description={t('privacy.description', { ns: 'seo' })}
+                keywords={t('privacy.keywords', { ns: 'seo', returnObjects: true }) as string[]}
+                pathname="/privacy"
+                noindex={true}
             />
             <PageHeader
                 title={t('privacy.pageHeader.title')}

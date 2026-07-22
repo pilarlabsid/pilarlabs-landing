@@ -1,6 +1,5 @@
 import { SEO } from '@/components/seo/SEO'
 import { useTranslation } from 'react-i18next'
-import { pageSEO } from '@/config/seo-config'
 import { Hero } from '@/components/sections/Hero'
 import { Positioning } from '@/components/sections/Positioning'
 import { HowWeBuild } from '@/components/sections/HowWeBuild'
@@ -12,17 +11,16 @@ import { ProcessTimeline } from '@/components/sections/ProcessTimeline'
 import { FinalCTA } from '@/components/sections/FinalCTA'
 
 export function Home() {
-    const { t } = useTranslation()
-    const seo = pageSEO.home
+    const { t } = useTranslation('seo')
+
     return (
         <>
             <SEO
-                title={t('seo.home')}
-                description={seo.description}
-                keywords={seo.keywords}
-                ogImage={seo.ogImage}
+                title={t('home.title')}
+                description={t('home.description')}
+                keywords={t('home.keywords', { returnObjects: true }) as string[]}
                 ogType="website"
-                pathname={seo.pathname}
+                pathname="/"
             />
             <Hero />
             <Positioning />
