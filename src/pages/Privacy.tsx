@@ -4,13 +4,13 @@ import { Container } from '@/components/layout/Container'
 import { PageHeader } from '@/components/ui/PageHeader'
 
 export function Privacy() {
-    const { t } = useTranslation(['privacy', 'seo'])
+    const { t } = useTranslation()
     return (
         <>
             <SEO
-                title={t('privacy.title', { ns: 'seo' })}
-                description={t('privacy.description', { ns: 'seo' })}
-                keywords={t('privacy.keywords', { ns: 'seo', returnObjects: true }) as string[]}
+                title={t('seo.privacy.title')}
+                description={t('seo.privacy.description')}
+                keywords={t('seo.privacy.keywords', { returnObjects: true }) as string[]}
                 pathname="/privacy"
                 noindex={true}
             />

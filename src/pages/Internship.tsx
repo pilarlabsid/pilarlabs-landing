@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/Button'
 import { Code, Palette, Server, Boxes, CheckCircle, ArrowRight, Clock, Award, Users, Smartphone, BarChart2, Cloud } from 'lucide-react'
 
 export function Internship() {
-    const { t } = useTranslation(['internship', 'seo'])
+    const { t } = useTranslation()
 
     const positions = [
         {
@@ -91,9 +91,9 @@ export function Internship() {
     return (
         <>
             <SEO
-                title={t('internship.title', { ns: 'seo' })}
-                description={t('internship.description', { ns: 'seo' })}
-                keywords={t('internship.keywords', { ns: 'seo', returnObjects: true }) as string[]}
+                title={t('seo.internship.title')}
+                description={t('seo.internship.description')}
+                keywords={t('seo.internship.keywords', { returnObjects: true }) as string[]}
                 pathname="/internship"
             />
             <PageHeader

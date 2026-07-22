@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/Button'
 import { Check, ArrowRight, Code, Brain, LineChart, Laptop, Smartphone, Eye, MessageSquare, BarChart, Map, Plane, Database, Activity } from 'lucide-react'
 
 export function Services() {
-    const { t } = useTranslation(['servicesPage', 'seo'])
+    const { t } = useTranslation()
 
     const webDevPackages = [
         {
@@ -66,9 +66,9 @@ export function Services() {
     return (
         <>
             <SEO
-                title={t('services.title', { ns: 'seo' })}
-                description={t('services.description', { ns: 'seo' })}
-                keywords={t('services.keywords', { ns: 'seo', returnObjects: true }) as string[]}
+                title={t('seo.services.title')}
+                description={t('seo.services.description')}
+                keywords={t('seo.services.keywords', { returnObjects: true }) as string[]}
                 pathname="/services"
             />
             <PageHeader

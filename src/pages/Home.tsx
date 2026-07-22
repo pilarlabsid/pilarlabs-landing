@@ -11,14 +11,14 @@ import { ProcessTimeline } from '@/components/sections/ProcessTimeline'
 import { FinalCTA } from '@/components/sections/FinalCTA'
 
 export function Home() {
-    const { t } = useTranslation('seo')
+    const { t } = useTranslation()
 
     return (
         <>
             <SEO
-                title={t('home.title')}
-                description={t('home.description')}
-                keywords={t('home.keywords', { returnObjects: true }) as string[]}
+                title={t('seo.home.title')}
+                description={t('seo.home.description')}
+                keywords={t('seo.home.keywords', { returnObjects: true }) as string[]}
                 ogType="website"
                 pathname="/"
             />

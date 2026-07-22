@@ -11,7 +11,7 @@ import { ProjectCategory, Portfolio as PortfolioType } from '@/types/portfolio'
 import { motion, AnimatePresence } from 'framer-motion'
 
 export function Portfolio() {
-    const { t } = useTranslation(['portfolio', 'seo'])
+    const { t } = useTranslation()
     const [activeCategory, setActiveCategory] = useState<ProjectCategory>('all')
     const [selectedProject, setSelectedProject] = useState<PortfolioType | null>(null)
 
@@ -35,9 +35,9 @@ export function Portfolio() {
     return (
         <>
             <SEO
-                title={t('portfolio.title', { ns: 'seo' })}
-                description={t('portfolio.description', { ns: 'seo' })}
-                keywords={t('portfolio.keywords', { ns: 'seo', returnObjects: true }) as string[]}
+                title={t('seo.portfolio.title')}
+                description={t('seo.portfolio.description')}
+                keywords={t('seo.portfolio.keywords', { returnObjects: true }) as string[]}
                 pathname="/portfolio"
             />
             <PageHeader

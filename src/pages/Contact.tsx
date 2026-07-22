@@ -8,7 +8,7 @@ import { GlassCard } from '@/components/ui/GlassCard'
 import { Mail, Phone, MapPin, Send } from 'lucide-react'
 
 export function Contact() {
-    const { t } = useTranslation(['contactPage', 'seo'])
+    const { t } = useTranslation()
     const [isSubmitting, setIsSubmitting] = useState(false)
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -43,9 +43,9 @@ export function Contact() {
     return (
         <>
             <SEO
-                title={t('contact.title', { ns: 'seo' })}
-                description={t('contact.description', { ns: 'seo' })}
-                keywords={t('contact.keywords', { ns: 'seo', returnObjects: true }) as string[]}
+                title={t('seo.contact.title')}
+                description={t('seo.contact.description')}
+                keywords={t('seo.contact.keywords', { returnObjects: true }) as string[]}
                 pathname="/contact"
             />
             <PageHeader

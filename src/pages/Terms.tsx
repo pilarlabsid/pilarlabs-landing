@@ -4,13 +4,13 @@ import { Container } from '@/components/layout/Container'
 import { PageHeader } from '@/components/ui/PageHeader'
 
 export function Terms() {
-    const { t } = useTranslation(['terms', 'seo'])
+    const { t } = useTranslation()
     return (
         <>
             <SEO
-                title={t('terms.title', { ns: 'seo' })}
-                description={t('terms.description', { ns: 'seo' })}
-                keywords={t('terms.keywords', { ns: 'seo', returnObjects: true }) as string[]}
+                title={t('seo.terms.title')}
+                description={t('seo.terms.description')}
+                keywords={t('seo.terms.keywords', { returnObjects: true }) as string[]}
                 pathname="/terms"
                 noindex={true}
             />

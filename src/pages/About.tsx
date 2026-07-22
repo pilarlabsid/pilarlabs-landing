@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 import { ShieldCheck, TrendingUp, Award } from 'lucide-react'
 
 export function About() {
-    const { t } = useTranslation(['about', 'seo'])
+    const { t } = useTranslation()
     const values = [
         { icon: ShieldCheck, key: 'structured' },
         { icon: TrendingUp, key: 'longTerm' },
@@ -17,9 +17,9 @@ export function About() {
     return (
         <>
             <SEO
-                title={t('about.title', { ns: 'seo' })}
-                description={t('about.description', { ns: 'seo' })}
-                keywords={t('about.keywords', { ns: 'seo', returnObjects: true }) as string[]}
+                title={t('seo.about.title')}
+                description={t('seo.about.description')}
+                keywords={t('seo.about.keywords', { returnObjects: true }) as string[]}
                 pathname="/about"
             />
             <PageHeader
