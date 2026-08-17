@@ -26,8 +26,10 @@ export default defineConfig({
         rollupOptions: {
             output: {
                 manualChunks: {
-                    'vendor-react': ['react', 'react-dom', 'react-router-dom'],
-                    'vendor-utils': ['framer-motion', 'lucide-react', 'i18next', 'react-i18next'],
+                    'vendor-react': ['react', 'react-dom', 'react-router-dom', 'react-helmet-async'],
+                    'vendor-motion': ['framer-motion'],
+                    'vendor-icons': ['lucide-react'],
+                    'vendor-i18n': ['i18next', 'react-i18next'],
                 },
             },
         },
