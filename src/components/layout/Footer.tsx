@@ -18,7 +18,7 @@ export function Footer() {
                         </p>
                         <div className="flex gap-3 pt-2">
                             <a
-                                href="https://linkedin.com"
+                                href="https://www.linkedin.com/in/ujangsprr/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-9 h-9 rounded-full bg-structural/10 hover:bg-precision/20 flex items-center justify-center text-calm hover:text-precision transition-colors"
@@ -27,7 +27,7 @@ export function Footer() {
                                 <Linkedin className="w-4 h-4" />
                             </a>
                             <a
-                                href="https://instagram.com"
+                                href="https://instagram.com/pilarlabs"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-9 h-9 rounded-full bg-structural/10 hover:bg-precision/20 flex items-center justify-center text-calm hover:text-precision transition-colors"

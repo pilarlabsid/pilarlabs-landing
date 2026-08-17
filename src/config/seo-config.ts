@@ -4,7 +4,7 @@ export const siteConfig = {
     siteUrl: 'https://pilarlabs.id',
     defaultTitle: 'Pilar Labs | Jasa Web Development & Digital Agency Jakarta',
     titleTemplate: '%s | Pilar Labs',
-    description: 'Pilar Labs – jasa web development profesional di Jakarta. Kami membangun website, aplikasi web, dan sistem digital yang cepat, aman, dan scalable untuk bisnis Anda.',
+    description: 'Pilar Labs – Jasa web development & software house profesional di Jakarta. Kami membangun sistem digital cepat, aman, dan scalable untuk bisnis Anda.',
     keywords: [
         'jasa web development Jakarta',
         'software house Indonesia',

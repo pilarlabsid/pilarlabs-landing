@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 import { Container } from '@/components/layout/Container'
 import { Button } from '@/components/ui/Button'
 import { ArrowRight } from 'lucide-react'
@@ -17,9 +18,11 @@ export function FinalCTA() {
                     {t('finalCta.subtitle')}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <Button size="lg" className="h-14 px-8 text-lg" onClick={() => window.location.href = '/contact'}>
-                        {t('finalCta.button')} <ArrowRight className="ml-2 w-5 h-5" />
-                    </Button>
+                    <Link to="/contact">
+                        <Button size="lg" className="h-14 px-8 text-lg">
+                            {t('finalCta.button')} <ArrowRight className="ml-2 w-5 h-5" />
+                        </Button>
+                    </Link>
                 </div>
             </Container>
         </section>
