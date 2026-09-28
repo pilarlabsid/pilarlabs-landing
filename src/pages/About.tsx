@@ -110,35 +110,19 @@ export function About() {
                             <GlassCard className="p-8 md:p-12">
                                 <h2 className="text-2xl md:text-4xl font-bold text-calm mb-8 text-center">{t('about.founder.commitment.title')}</h2>
 
-                                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-                                    {/* Founder Photo - Left Column */}
-                                    <div className="flex flex-col items-center text-center">
-                                        <a
-                                            href="https://www.linkedin.com/in/ujangsprr/"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="block"
-                                        >
-                                            <div className="relative mb-4 group cursor-pointer">
-                                                <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-precision/20 shadow-lg">
-                                                    <img
-                                                        src="/team/ujang.png"
-                                                        alt={t('about.founder.name')}
-                                                        className="w-full h-full object-cover grayscale"
-                                                        loading="lazy"
-                                                    />
-                                                </div>
-                                                {/* Decorative ring */}
-                                                <div className="absolute inset-0 rounded-full border-2 border-precision/30 animate-pulse" />
-                                            </div>
+                                <div className="mb-8">
+                                    {/* Founder Info - Visually hidden for SEO */}
+                                    <div className="sr-only">
+                                        <a href="https://www.linkedin.com/in/ujangsprr/" target="_blank" rel="noopener noreferrer">
+                                            <img src="/team/ujang.png" alt={t('about.founder.name')} />
                                         </a>
-                                        <h3 className="text-xl font-bold text-calm mb-1">{t('about.founder.name')}</h3>
-                                        <p className="text-sm text-precision font-medium mb-1">{t('about.founder.role')}</p>
-                                        <p className="text-xs text-calm/60 mb-2">{t('about.founder.company')}</p>
+                                        <h3>{t('about.founder.name')}</h3>
+                                        <p>{t('about.founder.role')}</p>
+                                        <p>{t('about.founder.company')}</p>
                                     </div>
 
-                                    {/* Content - Right Column (2 columns span) */}
-                                    <div className="md:col-span-2">
+                                    {/* Content - Full width */}
+                                    <div>
                                         <div className="space-y-4 text-calm/80 text-base leading-relaxed">
                                             {(t('about.founder.commitment.content', { returnObjects: true }) as string[]).map((paragraph, i) => (
                                                 <p key={i} dangerouslySetInnerHTML={{ __html: paragraph }} />
@@ -147,8 +131,11 @@ export function About() {
 
                                         {/* Quote - moved here */}
                                         <div className="pt-6 mt-6 border-t border-structural/10">
-                                            <p className="text-calm/70 italic text-lg">
-                                                {t('about.founder.commitment.quote')}
+                                            <p className="text-calm/70 italic text-lg mb-2">
+                                                "{t('about.founder.commitment.quote')}"
+                                            </p>
+                                            <p className="text-precision font-medium text-sm">
+                                                — Founder Pilar Labs
                                             </p>
                                         </div>
                                     </div>

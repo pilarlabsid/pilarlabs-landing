@@ -2,19 +2,19 @@
     "pageHeader": {
         "badge": "Tentang Pilar Labs",
         "title": "Katalis Transformasi Digital Anda",
-        "description": "Di bawah payung hukum PT Pilar Inovasi Teknologi, kami berkumpul sebagai tim inovator yang bersemangat menyederhanakan kompleksitas dunia digital. Kami hadir sebagai rekan tumbuh bagi korporat, startup ambisius, UMKM tangguh, hingga instansi pemerintah progresif."
+        "description": "Sebagai bagian dari PT Pilar Inovasi Teknologi, kami adalah tim inovator yang bersemangat menyederhanakan kompleksitas digital. Kami hadir sebagai mitra pertumbuhan bagi korporat, startup, UMKM, hingga instansi pemerintah."
     },
     "philosophy": {
         "title": "Strategi. Struktur. Skalabilitas.",
-        "content": "Menggabungkan sentuhan AI cerdas, analitik data mendalam, peta spasial (GIS), dan aplikasi kustom untuk melahirkan pertumbuhan yang berdampak nyata."
+        "content": "Menggabungkan teknologi AI, analitik data, pemetaan spasial (GIS), dan aplikasi kustom untuk mendorong pertumbuhan yang berdampak nyata."
     },
     "story": {
         "title": "Misi Kami (Langkah Nyata)",
         "content": [
-            "<strong>Inovasi Tanpa Kompromi:</strong> Menempa produk teknologi berstandar tinggi yang andal dan modern.",
-            "<strong>Akselerator Transformasi:</strong> Menuntun peralihan digital organisasi secara mulus tanpa membuat Anda bingung.",
-            "<strong>Keamanan Tanpa Cela:</strong> Menjamin fondasi sistem yang solid, aman dari ancaman, dan siap tumbuh sebesar apa pun skala Anda.",
-            "<strong>Kerja Sama Setara:</strong> Menjalankan proses kerja profesional berlandaskan keterbukaan dan rasa kepemilikan bersama."
+            "<strong>Inovasi Tanpa Kompromi:</strong> Mengembangkan produk teknologi modern, andal, dan berstandar tinggi.",
+            "<strong>Akselerator Transformasi:</strong> Mendampingi transisi digital organisasi secara mulus dan terarah.",
+            "<strong>Keamanan Tanpa Cela:</strong> Membangun fondasi sistem yang solid, aman, dan siap berskala bersama bisnis Anda.",
+            "<strong>Kerja Sama Setara:</strong> Menjalankan proses kerja yang profesional dengan mengedepankan transparansi."
         ]
     },
     "values": {
@@ -23,27 +23,27 @@
         "items": {
             "innovate": {
                 "title": "Bermimpi & Berinovasi",
-                "description": "Mengadopsi teknologi terbaru secara bijak demi melahirkan solusi yang benar-benar solutif bagi klien kami."
+                "description": "Mengadopsi teknologi mutakhir secara bijak untuk menghadirkan solusi tepat guna."
             },
             "structured": {
                 "title": "Terstruktur",
-                "description": "Bekerja dengan proses yang jelas, terukur, dan rapi dari awal hingga akhir."
+                "description": "Menerapkan proses kerja yang sistematis, terukur, dan rapi."
             },
             "longTerm": {
                 "title": "Jangka Panjang",
-                "description": "Membangun solusi dan hubungan kerja sama yang bertahan untuk waktu yang lama."
+                "description": "Membangun solusi serta hubungan kemitraan yang berkelanjutan."
             },
             "integrity": {
                 "title": "Integritas & Kejujuran",
-                "description": "Menjunjung tinggi transparansi tanpa biaya tersembunyi—membangun jembatan kepercayaan jangka panjang."
+                "description": "Menjunjung tinggi transparansi tanpa biaya tersembunyi demi membangun kepercayaan jangka panjang."
             },
             "respect": {
                 "title": "Saling Menghargai",
-                "description": "Memosisikan diri sebagai bagian dari tim Anda untuk menyamakan frekuensi tujuan bersama."
+                "description": "Hadir sebagai perpanjangan dari tim Anda untuk bersinergi mencapai tujuan bersama."
             },
             "excellence": {
                 "title": "Mengejar Kesempurnaan",
-                "description": "Berkomitmen penuh menggoreskan baris kode terbaik dan uji coba tanpa cela demi kepuasan Anda."
+                "description": "Berkomitmen memberikan kualitas kode terbaik dan pengujian yang menyeluruh."
             }
         }
     },
@@ -54,10 +54,10 @@
         "commitment": {
             "title": "Komitmen Kami",
             "content": [
-                "Kami percaya setiap bisnis layak mendapatkan <strong>infrastruktur digital kelas dunia</strong>. Tidak ada alasan untuk puas dengan solusi setengah-setengah.",
-                "Lewat Pilar Labs, kami berkomitmen menjadi <span>partner terpercaya</span> bagi organisasi yang ingin melakukan lompatan teknologi secara berkelanjutan."
+                "Kami percaya setiap bisnis berhak memiliki <strong>infrastruktur digital kelas dunia</strong>. Tidak ada ruang untuk solusi yang setengah matang.",
+                "Pilar Labs berkomitmen menjadi <span>mitra tepercaya</span> bagi organisasi yang siap melakukan lompatan teknologi."
             ],
-            "quote": "\"Setiap bisnis punya keunikan dan tantangannya sendiri. Kami merancang setiap teknologi sepenuh hati—dibuat kokoh, aman, dan siap tumbuh menemani setiap langkah hebat Anda.\"",
+            "quote": "Setiap bisnis memiliki keunikan dan tantangan tersendiri. Kami merancang teknologi dengan sepenuh hati—andal, aman, dan siap menemani perjalanan pertumbuhan Anda.",
             "attribution": "— Pilar Labs"
         }
     },

@@ -2,19 +2,19 @@
     "pageHeader": {
         "badge": "About Pilar Labs",
         "title": "Your Digital Transformation Catalyst",
-        "description": "Under PT Pilar Inovasi Teknologi, we gather as a team of innovators passionate about simplifying digital complexity. We are a growth partner for corporates, ambitious startups, resilient SMEs, and progressive government agencies."
+        "description": "As part of PT Pilar Inovasi Teknologi, we are a team of innovators passionate about simplifying digital complexity. We are a growth partner for corporates, startups, SMEs, and government agencies."
     },
     "philosophy": {
         "title": "Strategy. Structure. Scalability.",
-        "content": "Combining smart AI, deep data analytics, spatial mapping (GIS), and custom applications to spawn growth with real impact."
+        "content": "Combining AI, data analytics, spatial mapping (GIS), and custom applications to drive impactful growth."
     },
     "story": {
         "title": "Our Mission (Real Steps)",
         "content": [
-            "<strong>Inverate without Compromise:</strong> Forging high-standard technology products that are reliable and modern.",
-            "<strong>Transformation Accelerator:</strong> Guiding organization digital transitions seamlessly without causing confusion.",
-            "<strong>Flawless Security:</strong> Ensuring a solid, secure system foundation that's ready to scale with you.",
-            "<strong>Equal Partnership:</strong> Executing professional processes grounded in openness and mutual ownership."
+            "<strong>Uncompromising Innovation:</strong> Developing modern, reliable, and high-standard technology products.",
+            "<strong>Transformation Accelerator:</strong> Guiding your organization's digital transition seamlessly and effectively.",
+            "<strong>Flawless Security:</strong> Building a solid, secure foundation ready to scale alongside your business.",
+            "<strong>Equal Partnership:</strong> Executing professional processes that prioritize transparency."
         ]
     },
     "values": {
@@ -23,27 +23,27 @@
         "items": {
             "innovate": {
                 "title": "Dream & Innovate",
-                "description": "Adopt the latest technology wisely to birth solutions that are genuinely useful for our clients."
+                "description": "Adopting cutting-edge technology wisely to deliver effective solutions."
             },
             "structured": {
                 "title": "Structured",
-                "description": "Working with clear, measurable, and organized processes from start to finish."
+                "description": "Implementing systematic, measurable, and organized workflows."
             },
             "longTerm": {
                 "title": "Long Term",
-                "description": "Building solutions and partnerships that last for a long time."
+                "description": "Building sustainable solutions and long-lasting partnerships."
             },
             "integrity": {
                 "title": "Integrity & Honesty",
-                "description": "Uphold high transparency with no hidden costs—building long-term bridges of trust."
+                "description": "Upholding transparency with no hidden costs to build long-term trust."
             },
             "respect": {
                 "title": "Mutual Respect",
-                "description": "Positioning ourselves as part of your team to align frequencies on shared goals."
+                "description": "Acting as an extension of your team to synergize towards shared goals."
             },
             "excellence": {
                 "title": "Pursue Excellence",
-                "description": "Fully committed to writing the best lines of code and conducting flawless testing for your satisfaction."
+                "description": "Committing to the highest code quality and comprehensive testing."
             }
         }
     },
@@ -54,10 +54,10 @@
         "commitment": {
             "title": "Our Commitment",
             "content": [
-                "We believe every business deserves <strong>world-class digital infrastructure</strong>. There is no reason to settle for half-baked solutions.",
-                "Through Pilar Labs, we commit to being a <span>trusted partner</span> for organizations wanting to make sustainable technological leaps."
+                "We believe every business deserves <strong>world-class digital infrastructure</strong>. There is no room for half-baked solutions.",
+                "Pilar Labs is committed to being a <span>trusted partner</span> for organizations ready to make technological leaps."
             ],
-            "quote": "\"Every business has its own uniqueness and challenges. We design every technology with heart—built robust, secure, and ready to grow alongside your great steps.\"",
+            "quote": "Every business has its own uniqueness and challenges. We design technology with heart—reliable, secure, and ready to support your growth journey.",
             "attribution": "— Pilar Labs"
         }
     },
